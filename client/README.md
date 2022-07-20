@@ -3,13 +3,19 @@
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
-
+```
+$ npm i
+```
+or
 ```
 $ yarn
 ```
 
 ### Local Development
-
+```
+$ npm start
+```
+or
 ```
 $ yarn start
 ```
@@ -17,7 +23,10 @@ $ yarn start
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
-
+```
+$ npm build
+```
+or
 ```
 $ yarn build
 ```
