@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Orcfax docs',
+  title: 'Orcfax',
   tagline: 'Trustworthy Cardano Oracle',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Orcfax Docs',
+        title: 'Orcfax',
         logo: {
           alt: 'Orcfax Logo',
           src: 'img/orcfax.png',
