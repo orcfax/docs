@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt update
 sudo apt install -y nginx openssl
-sudo apt groupinstall "Development Tools"
 
 sudo mkdir -p /opt/orcfax
 sudo chmod -R 777 /opt/orcfax
@@ -24,7 +23,6 @@ sudo apt-get install -y nginx openssl
 sudo apt-get update
 sudo apt-get install -y nginx openssl nodejs npm python3 python3-pip
 
-git pull origin master
 
 ./deploy.sh
 # sudo apt install build-essential checkinstall libssl-dev

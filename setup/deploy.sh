@@ -4,6 +4,7 @@ sudo apt install -y nodejs npm
 cd ..
 cd client
 npm i
+npm run build
 cd ..
 cd setup/
 
