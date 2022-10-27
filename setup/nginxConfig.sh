@@ -28,7 +28,7 @@ sudo apt-get install -y nginx openssl nodejs npm python3 python3-pip
 # sudo apt install build-essential checkinstall libssl-dev
 # curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
 
-sudo apt install python3-devel
+sudo apt install python3
 
 # Install necessities
 sudo pip3 install wheel
