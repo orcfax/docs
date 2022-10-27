@@ -37,6 +37,6 @@ sudo pip3 install uwsgi
 
 uwsgi --ini an.ini -d /opt/orcfax/uwsgi.log
 
-sudo cp default /etc/nginx/sites-available/default
-sudo ln -fs /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo cp docs.orcfax.link /etc/nginx/sites-available/docs.orcfax.link
+sudo ln -fs /etc/nginx/sites-available/docs.orcfax.link /etc/nginx/sites-enabled/docs.orcfax.link
 sudo systemctl restart nginx
