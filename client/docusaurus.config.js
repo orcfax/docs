@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Orcfax',
+        title: 'Docs',
         // href: '/docs',
         logo: {
           alt: 'Orcfax Logo',
@@ -66,14 +66,18 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://orcfax.link/about',
             position: 'left',
-            label: 'Docs',
+            label: 'About',
+          },
+          {
+            href: 'https://orcfax.link/tag/blog/',
+            position: 'left',
+            label: 'Blog',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/orcfax',
+            href: 'https://github.com/orcfax/docs/',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,30 +85,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/orcfax',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/orcfax',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Orcfax.`,
       },
       prism: {
