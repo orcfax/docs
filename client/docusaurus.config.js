@@ -67,20 +67,14 @@ const config = {
         items: [
           {
             href: 'https://orcfax.link/about',
-            position: 'left',
+            position: 'right',
             label: 'About',
           },
           {
             href: 'https://orcfax.link/tag/blog/',
-            position: 'left',
-            label: 'Blog',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/orcfax/docs/',
-            label: 'GitHub',
             position: 'right',
-          },
+            label: 'Blog',
+          }
         ],
       },
       footer: {
