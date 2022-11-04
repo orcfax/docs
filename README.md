@@ -24,7 +24,7 @@ Welcome to the Orcfax documentation github repo!
 
 <ol>
   <li>Clone the repo with <code>git clone https://github.com/orcfax/docs.git</code></li>
-  <li>Change the current directory to the cloned repo with: <code>cd docs</code></li>
+  <li>Change the current directory to the cloned repo: <code>cd docs/client/</code></li>
   <li>Download dependencies with <code>npm i</code></li>
   <li>Make changes...</li>
   <li>Push changes to github</li>
@@ -34,7 +34,7 @@ Welcome to the Orcfax documentation github repo!
 
 ## 2. How to configure the site locally
 
-In the cloned repo with the installed dependencies, do the following:
+In the `/client` directory of the cloned repo (with installed dependencies), do the following:
 <ol>
   <li>Run the code with:<code>npm start</code></li>
   <li>Client runs on <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>.</li>
