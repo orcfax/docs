@@ -66,13 +66,13 @@ const config = {
         },
         items: [
           {
-            href: 'https://orcfax.link/about',
-            position: 'right',
+            to: 'https://orcfax.link/about',
+            position: 'left',
             label: 'About',
           },
           {
-            href: 'https://orcfax.link/tag/blog/',
-            position: 'right',
+            to: 'https://orcfax.link/tag/blog/',
+            position: 'left',
             label: 'Blog',
           }
         ],

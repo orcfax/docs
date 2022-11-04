@@ -6,7 +6,7 @@ slug: /
 
 # Introducing Orcfax
 
-Orcfax is an [oracle service](concepts#what-is-an-oracle) on the [Cardano](https://cardano.org/) blockchain.
+Orcfax is an [oracle service](faq#what-is-an-oracle) on the [Cardano](https://cardano.org/) blockchain.
 
 ## Getting Started
 
@@ -18,3 +18,4 @@ Using Orcfax's unique auditing and archiving features, you can [verify data](ver
 
 Read our [FAQ](FAQ) to answer questions you may have about oracles in general.
 
+Learn [why Orcfax](orcfax) is the blockchain industry's most comprehensive answer to the [oracle problem](faq#what-is-the-oracle-problem).
