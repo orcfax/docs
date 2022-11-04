@@ -80,7 +80,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Orcfax.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Orcfax LLC`,
       },
       prism: {
         theme: lightCodeTheme,
