@@ -12,7 +12,9 @@ Frequently Asked Questions:
 * [What is the oracle problem?](#what-is-the-oracle-problem)
 
 ## What is an oracle?
-Oracles like [Orcfax](https://orcfax.link), [Chainlink](https://chain.link), [Charli3](https://charli3.io), etc. are the technical component in blockchain architectures that deliver information about the real-world to on-chain smart contracts. The name is derived from people in the ancient world who delivered messages and knowledge from the gods to the mortals.
+Oracles like [Orcfax](https://orcfax.link), [Chainlink](https://chain.link), [Charli3](https://charli3.io), etc. are the technical component in blockchain architectures that deliver information about the real-world to on-chain smart contracts.
+
+The name is derived from people in the ancient world who delivered messages and knowledge from the gods to the mortals.
 
 ![The oracle at Delphi](/img/oracle-of-delphi-bw.png)
 
@@ -36,7 +38,9 @@ For example:
 * The words spoken in a political speech and authenticated via blockchain notarization may trigger policy changes or protests.
 
 ## What is the oracle problem?
-Introducing false data about real-world events into smart contracts via an oracle feed is a potentially lucrative attack vector for bad actors as it can be used to trigger financial payouts from smart contract scripts. Unfortunately, there are significant challenges to preventing a so-called “man-in-the-middle” attack and proving that external real-world data introduced to smart contracts can be trusted to be authentic and accurate. Collectively, the blockchain industry refers to these challenges as “The Oracle Problem.”
+Introducing false data about real-world events into smart contracts via an oracle feed is a potentially lucrative attack vector for bad actors as it can be used to trigger financial payouts from smart contract scripts. Unfortunately, there are significant challenges to preventing a so-called “man-in-the-middle” attack and proving that external real-world data introduced to smart contracts can be trusted to be authentic and accurate.
+
+Collectively, the blockchain industry refers to these challenges as **“The Oracle Problem.”**
 
 First-generation oracle providers each claim to have solved the oracle problem in their own way but what is not talked about enough is that most of these are still permissioned, black boxes. That is to say, they rely on off-chain deals to authorize and pay for access to their data which is usually sourced from a single trusted provider.
 
@@ -45,3 +49,5 @@ Smart contract developers or users of their dApps are not able to audit the prov
 To be fair, most leading oracle platforms are now beginning to implement some form of decentralized oracle pools as another technique to address the oracle problem. In its purest form, a decentralized oracle pool uses distributed networking and computation nodes to validate the authenticity and accuracy of source data before it is published on-chain.
 
 Unfortunately, most current implementations do not go this far. Instead they often receive data from a single, black box provider. They then use an oracle pool to arrive at a consensus about the uniformity of that data and not necessarily about its authenticity or accuracy. Unfortunately, a decentralized pool of oracle nodes is irrelevant if it is bottlenecked by a single upstream provider. To truly solve the oracle problem, multiple data sources should be collected and validated.
+
+The [Orcfax oracle service](orcfax) addresses this problem and solves a number of related oracle problems.

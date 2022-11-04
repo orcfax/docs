@@ -4,4 +4,4 @@ sidebar_position: 3
 slug: /orcfax
 ---
 
-# Why Orcfax?
+# The Orcfax solution
