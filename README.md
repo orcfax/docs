@@ -29,6 +29,9 @@ Welcome to the Orcfax documentation github repo!
   <li>Make changes...</li>
   <li>Push changes to github</li>
   <li>SSH into server and pull changes</li>
+  <ul>
+    <li>You will need to create a personal access token to apply changes to the repo</li>
+  </ul>
   <li>Run <code>./nginxConfig</code> in the setup folder to apply the changes!</li>
 </ol>
 
