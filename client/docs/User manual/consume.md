@@ -9,7 +9,8 @@ slug: /consume
 ** Please note: ** 
 * functionality is currently limited to our closed Testnet.
 * [Contact us](mailto:info@orcfax.link) to get Testnet access for your Cardano dApp.
-* Mainnet data feeds will be permissionless and triggered from your anonymous request to our public API.
+* Cardano Mainnet data feeds will be permissionless and triggered from your anonymous request to our OpenAPI at data.orcfax.link
+* all Orcfax feeds are [COOP](coop) compliant
 
 ## Available feeds
 
