@@ -35,7 +35,26 @@ Otherwise the Consumer will submit the applicable fee in $FACT token. This is us
 
 The Consumer can reference this signed transaction and the fact statement in the Datum in their own script and submit both transactions together in the same block. This gives the fact statement user access to this data on-chain one block before anyone else can read it as a published Reference Input. This creates a possible business advantage and incentive to be the first to pay for a new fact statement.
 
-Orcfax will also arrange for a number of sponsored data feeds where funds are held in escrow to pay for the publication fee for a given fact statement type, making this data available as CIP-31 Referendce Inputs to on-chain smart contracts and scripts.
+Orcfax is also arranging for a number of sponsored data feeds where funds are held in escrow to pay the fee for the regular publication a given fact statement type, making this data available as a free CIP-31 Reference Input to on-chain smart contracts and scripts.
+
+### Reference data
+Orcfax produces a concise fact statement record to bundle into the limited space of a Cardano transaction Datum. It also creates a more detailed fact statement Claim record which contains all the provenance audit log information needed to investigate and verify the claim made in the fact statement. Orcfax formats these claims in compliance with the schema.org ontology used by professional fact checking services.
+
+A checksum hash of the entire claim record is included in the on-chain fact statement datum so that this full record is inextricably linked to an on-chain transaction allowing for downstream verification. Orcfax stores these audit trail packages permantly on the Arweave decentralized storage network.
+
+Users of Orcfax data that want to indepedently verify its authentictiy and accuracy can consult their own Cardano full nodes or trusted blockchain explorer. They can search for specific UTXO transaction and read the fact statement content provided in its datum directly from their copy of the blockchain. This transaction will include a security token issued under the minting policy ID of the publisher. When these tokens and the publisher's public policy ID match it proves that this datum was provided from this source.
+
+In fact, the entire fact statement claim record is formated in compliance with schema.org linked data ontologies to improve search indexing, provide machine-readable data for AI services, and integrate with existing, independent fact-checking services. Considered collectively, all the data that has been published by Orcfax provides a valuable knowledgebase for future historical reference and re-use. 
+
+The fact statement ID can be used to resolve to the full Orcfax documentation package on Arweave for a given fact statement. This record can be read from an independent Arweave node or block explorer for additional security guarantees. The hash of this claim record on Arweave will correspond to the same checksum hash stored in the concise on-chain version of the same fact statement.
+
+Orcfax hosts a convenient block explorer at https://fact.page to research and display the contents and context of all the transaction data that has ever been published via the Orcfax oracle service. 
+
+
+
+
+
+
 
 
 
