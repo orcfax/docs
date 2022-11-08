@@ -9,7 +9,7 @@ const config = {
   title: 'Orcfax',
   tagline: 'Trustworthy Cardano Oracle',
   url: 'https://orcfax.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
