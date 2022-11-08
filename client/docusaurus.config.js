@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Orcfax',
   tagline: 'Trustworthy Cardano Oracle',
-  url: 'https://docs.orcfax.link',
-  baseUrl: '/',
+  url: 'https://orcfax.github.io',
+  baseUrl: '/docs/',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
