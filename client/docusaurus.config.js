@@ -10,7 +10,8 @@ const config = {
   tagline: 'Trustworthy Cardano Oracle',
   url: 'https://docs.orcfax.link',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   
@@ -27,7 +28,15 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // whether to index blog pages
+        indexBlog: false,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -37,11 +46,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
