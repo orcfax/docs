@@ -48,7 +48,7 @@ In fact, the entire fact statement claim record is formated in compliance with s
 
 The fact statement ID can be used to resolve to the full Orcfax documentation package on Arweave for a given fact statement. This record can be read from an independent Arweave node or block explorer for additional security guarantees. The hash of this claim record on Arweave will correspond to the same checksum hash stored in the concise on-chain version of the same fact statement.
 
-Orcfax hosts a convenient block explorer at https://fact.page to research and display the contents and context of all the transaction data that has ever been published via the Orcfax oracle service. 
+Orcfax hosts a convenient block explorer at [Fact.Page](https://fact.page) to research and display the contents and context of all the transaction data that has ever been published via the Orcfax oracle service. 
 
 
 
