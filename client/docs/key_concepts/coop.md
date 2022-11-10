@@ -1,6 +1,6 @@
 ---
 id: coop
-sidebar_position: 6
+sidebar_position: 2
 slug: coop
 ---
 
