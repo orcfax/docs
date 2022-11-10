@@ -8,8 +8,6 @@ slug: /
 
 Orcfax is an [oracle service](faq#what-is-an-oracle) that publishes facts about real world events to the [Cardano](https://cardano.org/) blockchain.
 
-*we're testing updates again***
-
 ## Getting Started
 
 Learn how your Cardano smart contracts and scripts can [consume data](consume) from Orcfax.
