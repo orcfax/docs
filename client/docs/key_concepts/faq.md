@@ -51,4 +51,4 @@ To be fair, most leading oracle platforms are now beginning to implement some fo
 
 Unfortunately, most current implementations do not go this far. Instead they often receive data from a single, black box provider. They then use an oracle pool to arrive at a consensus about the uniformity of that data and not necessarily about its authenticity or accuracy. Unfortunately, a decentralized pool of oracle nodes is irrelevant if it is bottlenecked by a single upstream provider. To truly solve the oracle problem, multiple data sources should be collected and validated.
 
-The [Orcfax oracle service](orcfax) addresses this problem and solves a number of related oracle problems.
+The [Orcfax oracle service](overview) addresses this problem and solves a number of related oracle problems.
