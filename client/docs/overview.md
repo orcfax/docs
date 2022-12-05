@@ -11,7 +11,7 @@ slug: /overview
 ### Data collection
 The Orcfax oracle service collects data about real world events from various primary sources using a network of decentralized nodes. 
 
-Nodes are run indepedently and permissionlessly by anyone that is able to install the free software and commit a small amount of $FACT tokens as their stake. $FACT is the native token used within the Orcfax network to pay for data publication and to reward oracle pool participants.
+Nodes are run independently and permissionlessly by anyone that is able to install the free software and commit a small amount of $FACT tokens as their stake. $FACT is the native token used within the Orcfax network to pay for data publication and to reward oracle pool participants.
 
 Wherever possible, Orcfax collects raw data from at least three independent sources to triangulate and average the information. For example, to determine the price of ADA to U.S. dollars, Orcfax nodes will query APIs at Kraken, Binance, and CoinGecko.
 
@@ -42,9 +42,9 @@ Orcfax produces a concise fact statement record to bundle into the limited space
 
 A checksum hash of the entire claim record is included in the on-chain fact statement datum so that this full record is inextricably linked to an on-chain transaction allowing for downstream verification. Orcfax stores these audit trail packages permantly on the Arweave decentralized storage network.
 
-Users of Orcfax data that want to indepedently verify its authentictiy and accuracy can consult their own Cardano full nodes or trusted blockchain explorer. They can search for specific UTXO transaction and read the fact statement content provided in its datum directly from their copy of the blockchain. This transaction will include a security token issued under the minting policy ID of the publisher. When these tokens and the publisher's public policy ID match it proves that this datum was provided from this source.
+Users of Orcfax data that want to independently verify its authentictiy and accuracy can consult their own Cardano full nodes or trusted blockchain explorer. They can search for specific UTXO transaction and read the fact statement content provided in its datum directly from their copy of the blockchain. This transaction will include a security token issued under the minting policy ID of the publisher. When these tokens and the publisher's public policy ID match it proves that this datum was provided from this source.
 
-In fact, the entire fact statement claim record is formated in compliance with schema.org linked data ontologies to improve search indexing, provide machine-readable data for AI services, and integrate with existing, independent fact-checking services. Considered collectively, all the data that has been published by Orcfax provides a valuable knowledgebase for future historical reference and re-use. 
+In fact, the entire fact statement claim record is formated in compliance with schema.org linked data ontologies to improve search indexing, provide machine-readable data for AI services, and integrate with existing, independent fact-checking services. Considered collectively, all the data that has been published by Orcfax provides a valuable knowledgebase for future historical reference and re-use. Over time, the exponential growth in quantiy and utility of this archive will further underpin the valuation of the $FACT token.
 
 The fact statement ID can be used to resolve to the full Orcfax documentation package on Arweave for a given fact statement. This record can be read from an independent Arweave node or block explorer for additional security guarantees. The hash of this claim record on Arweave will correspond to the same checksum hash stored in the concise on-chain version of the same fact statement.
 
