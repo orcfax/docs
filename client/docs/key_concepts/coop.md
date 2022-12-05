@@ -1,7 +1,7 @@
 ---
 id: coop
 sidebar_position: 2
-slug: coop
+slug: /coop
 ---
 
 # Cardano Open Oracle Protocol
