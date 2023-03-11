@@ -67,10 +67,10 @@ const config = {
     ({
       navbar: {
         /* title: 'Docs', */
-        href: 'https://orcfax.io',
         logo: {
           alt: 'Orcfax Logo',
           src: 'img/orcfax-logo-text.png',
+          href: 'https://orcfax.io', 
         },
         items: [
           {
