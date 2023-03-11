@@ -66,22 +66,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Docs',
-        // href: '/docs',
+        /* title: 'Docs', */
+        href: 'https://orcfax.io',
         logo: {
           alt: 'Orcfax Logo',
-          src: 'img/orcfax.png',
+          src: 'img/orcfax-logo-text.png',
         },
         items: [
           {
-            to: 'https://orcfax.link/about',
-            position: 'left',
+            to: 'https://orcfax.io#about',
+            position: 'right',
             label: 'About',
           },
           {
-            to: 'https://orcfax.link/tag/blog/',
-            position: 'left',
-            label: 'Blog',
+            to: 'https://orcfax.io#contact',
+            position: 'right',
+            label: 'Contact',
           }
         ],
       },

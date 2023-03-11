@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3695C6;
+  --ifm-color-primary: #64a19d;
   --ifm-color-primary-dark: #C7D59F;
   --ifm-color-primary-darker: grey;
   --ifm-color-primary-darkest: grey;
@@ -20,12 +20,12 @@
 
 
 .navbar{
-  background-color:  #3695C6;
+  background-color:  #64a19d;
   --ifm-navbar-link-hover-color: #FFFFFF;
 }
 
 .footer{
-  background-color: #3695C6;
+  background-color: #64a19d;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
