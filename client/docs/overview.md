@@ -6,7 +6,7 @@ slug: /overview
 
 # Solution overview
 
-![Orcfax concept diagram](/img/orcfax-concept-diagram-nov-2022.png)
+![Orcfax concept diagram](/img/orcfax-concept-diagram-label-march-2023.png)
 
 ### Data collection
 The Orcfax oracle service collects data about real world events from various primary sources using a network of decentralized nodes. 
