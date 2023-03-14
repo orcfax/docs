@@ -11,7 +11,7 @@ slug: /overview
 ### Data collection
 The Orcfax oracle service collects data about real world events from various primary sources using a network of decentralized nodes. 
 
-Nodes are run independently and permissionlessly by anyone that is able to install the free software and commit a small amount of $FACT tokens as their stake. $FACT is the native token used within the Orcfax network to pay for data publication and to reward oracle pool participants.
+Nodes are run independently and permissionlessly by anyone that is able to install the free software and commit a small amount of Orcfax tokens as their stake. $FACT is the name of this Cardano native token that is used within the Orcfax network to pay for data publication and to reward oracle pool participants.
 
 Wherever possible, Orcfax collects raw data from at least three independent sources to triangulate and average the information. For example, to determine the price of ADA to U.S. dollars, Orcfax nodes will query APIs at Kraken, Binance, and CoinGecko.
 

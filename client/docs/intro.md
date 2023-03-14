@@ -23,7 +23,7 @@ Read our [FAQ](FAQ) to answer questions you may have about oracles in general.
 Find out more about the [Cardano Open Oracle Protocol](coop) (COOP) that is implemented by the Orcfax service.
 
 
-![Orcfax concept diagram](/img/orcfax-concept-diagram-nov-2022.png)
+![Orcfax concept diagram](/img/orcfax-concept-diagram-march-2023.png)
 
 ## Research-driven and standard compliant
 Orcfax is the most comprehensive solution to the [oracle problem](faq#what-is-the-oracle-problem) because it is designed to be a standards-compliant recordkeeping system that integrates on-chain publication with decentralized data collection, validation, and archiving. 
