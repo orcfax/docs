@@ -14,7 +14,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 1. **What are the Orcfax ISPO Pool Details?**
 
 | Pool Name | Orcfax Stake Pool |
-| ----------- | ----------- |
+| :----------- | :----------- |
 | Pool Ticker | FAX |
 | Pool ID | pool10s6zdzdnncnfc200wnlp9endaeud76v424zdnurx9askwshm02x |
 | Owner | Orcfax Ltd. (British Virgin Islands) |
@@ -27,7 +27,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 &nbsp;
 
 2. **Where can I find the Rewards Calculator?** 
-    
+
     Delegators can find our Rewards Calculator [here](https://rewards.orcfax.io/)
 
 &nbsp;
