@@ -5,6 +5,3 @@ slug: /oracle-basics
 ---
 
 # Oracle basics
-
-FAQ1
-FAQ2

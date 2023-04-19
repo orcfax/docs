@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /FAX-ISPO
 ---
 
-# The Orcfax Intial Stake Pool Offering (FAX ISPO)
+# FAX ISPO
 
 
 The following answers deal exlusively with questions regarding the Orcfax Initial Stake Pool offering, which was initiated in Epoch 400.
