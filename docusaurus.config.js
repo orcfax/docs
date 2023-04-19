@@ -9,16 +9,23 @@ const config = {
   title: 'Orcfax',
   tagline: 'Trustworthy Cardano Oracle',
   url: 'https://orcfax.github.io',
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'orcfax', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+
+  // Usually your repo name.
+  projectName: 'docs',
+
+  // This needs to be explicit as a config field or environment variable for projects not
+  // ending .github.io.
+  deploymentBranch: 'd2mightysaurus',
+
   trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -70,7 +77,7 @@ const config = {
         logo: {
           alt: 'Orcfax Logo',
           src: 'img/orcfax-logo-text.png',
-          href: 'https://orcfax.io', 
+          href: 'https://orcfax.io',
         },
         items: [
           {
