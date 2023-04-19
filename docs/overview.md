@@ -50,8 +50,6 @@ The fact statement ID can be used to resolve to the full Orcfax documentation pa
 
 Orcfax hosts a convenient block explorer at [Fact.Page](https://fact.page) to research and display the contents and context of all the transaction data that has ever been published via the Orcfax oracle service. 
 
-**THIS IS JUST A TEST**
-
 
 
 
