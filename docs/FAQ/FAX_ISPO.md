@@ -42,7 +42,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 
     Delegators will unlock loyalty bonus tiers based on their longest consecutive delegation. This is captured with am opening snapshot for each epoch. 
     
-        For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to another pool in epoch 404. At this point, the delegator has successfully delegated 4 epochs with Orcfax. Now suppose that same delegator returns in epoch 410 and delegates an additional 2 epochs before leaving again. The longest continuous staking period is 4 epochs, so they are not eligible for a loyalty bonus since the first loyalty tier requires 5 (or more) consecutive epochs.
+    <sub>For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to another pool in epoch 404. At this point, the delegator has successfully delegated 4 epochs with Orcfax. Now suppose that same delegator returns in epoch 410 and delegates an additional 2 epochs before leaving again. The longest continuous staking period is 4 epochs, so they are not eligible for a loyalty bonus since the first loyalty tier requires 5 (or more) consecutive epochs.</sub>
 
 &nbsp;
 
