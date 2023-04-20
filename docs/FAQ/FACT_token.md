@@ -8,7 +8,7 @@ slug: /FAX-TOKEN
 
 ## 1. Where can I find the Orcfax tokenomics?
 
-You can find the tokenomics in our ISPO [Prospectus](). Our CEO Peter also participated in a [Twitterspace](https://twitter.com/i/status/1647964885009965061) with Xerberus.io where the Orcfax Tokenomics were discussed in more detail.
+You can find the tokenomics in our ISPO [Prospectus](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf). Our CEO Peter also participated in a [Twitterspace](https://twitter.com/i/status/1647964885009965061) with Xerberus.io where the Orcfax Tokenomics were discussed in more detail.
 
 ## 2. Is $FACT a utility token?
 
