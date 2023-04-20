@@ -11,7 +11,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 
 &nbsp;
 
-1. **What are the Orcfax ISPO Pool Details?**
+## 1. What are the Orcfax ISPO Pool Details?
 
 | Pool Name | Orcfax Stake Pool |
 | :----------- | :----------- |
@@ -26,19 +26,19 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 
 &nbsp;
 
-2. **Where can I find the Rewards Calculator?** 
+## 2. Where can I find the Rewards Calculator?
 
     Delegators can find our Rewards Calculator [here](https://rewards.orcfax.io/)
 
 &nbsp;
 
-3. **What is the “Early Supporter” Bonus?**
+## 3. What is the “Early Supporter” Bonus?
 
     The “Early Supporter” bonus is a reference to the tiered loyalty bonuses outlined in our ISPO Prospectus (pg.2). Delegators are incentivized to join earlier in order to maximize their $FACT returns with the maximum bonus capped at 50%.
 
 &nbsp;
 
-4. **Are loyalty bonuses calculated by counting epochs delegated *consecutively* or *cumulatively*?**
+## 4. Are loyalty bonuses calculated by counting epochs delegated *consecutively* or *cumulatively*?
 
     Delegators will unlock loyalty bonus tiers based on their longest consecutive delegation. This is captured with am opening snapshot for each epoch. 
     
@@ -46,13 +46,13 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 
 &nbsp;
 
-5. **How will reward distribution work?**
+## 5. How will reward distribution work?
     
     100M $FACT will be made available to delegators through a partnership with [TosiDrop](https://www.tosidrop.io/) within a 6 month vesting period.
 
 &nbsp;
 
-6. **When will my rewards be available on TosiDrop?**
+## 6. When will my rewards be available on TosiDrop?
     
     Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After that, disbursements will be released every 6 epochs per our vesting schedule [^2] until we reach the end of the vesting period.
 
@@ -69,7 +69,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 
 &nbsp;
 
-7. **What will happen to the Orcfax Pool after the ISPO and all 100M $FACT have been distributed? Can we continue to delegate and support the project?**
+## 7. What will happen to the Orcfax Pool after the ISPO and all 100M $FACT have been distributed? Can we continue to delegate and support the project?
 
     No. We are not planning to continue the Orcfax stake pool after we complete our ISPO. Delegators will need to move their stake to another SPO at that time. Orcfax is an oracle project, not a SPO, we will stick to our core business which is reporting authentic facts. While we appreciate this unique opportunity to raise project funds, we also respect and appreciate the Cardano SPO community and understand that our Orcfax ISPO is temporarily taking away business from them.
 
