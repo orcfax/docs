@@ -1,7 +1,7 @@
 ---
 id: FACT_TOKEN
 sidebar_position: 4
-slug: /FAX-TOKEN
+slug: /fact-token
 ---
 
 # $FACT token

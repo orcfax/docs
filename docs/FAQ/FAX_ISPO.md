@@ -1,7 +1,7 @@
 ---
 id: FAX_ISPO
 sidebar_position: 3
-slug: /FAX-ISPO
+slug: /fax-ispo
 ---
 
 # FAX ISPO
