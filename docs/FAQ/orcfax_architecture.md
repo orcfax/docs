@@ -22,7 +22,7 @@ There are many other differences on top of that, especially on how we source and
 
 We haven't started yet but we will open our testnet to participants in Q2. The goal is to keep hardware requirements and technical know-how to a minimum in order to ensure widespread implementation and a larger network of Orcfax nodes. Our team is currently developing a strategy for deploying our Orcfax data collection and validation nodes as certified binaries which will make install and updates more efficient.
 
-We also have plans for a “plug-and-play” preload and hardware package which we ho[e to release in 2024. These devices would come with upgradeable Orcfax node software pre-installed.
+We also have plans for a “plug-and-play” preload and hardware package which we hope to release in 2024. These devices would come with upgradeable Orcfax node software pre-installed.
 
 For those interested in this next exciting step for Orcfax and the Cardano community, please stay tuned here. We will give plenty of notice about our Incentivized Testnet here in Discord and will open a channel for participants when at launch.
 
