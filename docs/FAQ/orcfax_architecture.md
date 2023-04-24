@@ -12,6 +12,8 @@ How will data be gathered and published for the free Mainnet price feeds coming 
 
 ![Orcfax federated architecture](/img/OrcfaxFederatedMainnetFeeds-ComponentDiagram-v1.jpg)
 
+The above is a working draft document. The Orcfax team is sharing it here because our team practices a radically open software development philosophy. Over the next 12 months we are going to launch the world's most sophisticated and decentralized fact publication and archiving system. We want to model both software engineering and open source software best practices to ensure we're building sound civil infrastructure. We believe that this means having an open dialogue around requirements, design, features, priorities, etc. Because more eyeballs mean safer, better code— because not all designs work out. in fact, we anticipate that this diagram will go through several iterations before it accurately reflects the complex reality of the Orcfax system, and that's a good thing. What's needed on the journey between here and there is an open and transparent change management system which ensures all revisions are traceable and auditable.
+
 ## 2. What advantages does Orcfax have over competition?
 
 We believe that Orcfax offers several advantages over other oracle solutions. For one, the Cardano Open Oracle Protocol, which we developed with the help of [mlabs](https://mlabs.city/), is an elegant solution to oracle publication on Cardano and promotes a financial sustainability model. 
