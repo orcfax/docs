@@ -5,4 +5,3 @@ slug: /topic1
 ---
 
 # Topic 1
-

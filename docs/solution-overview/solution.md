@@ -1,10 +1,10 @@
 ---
-id: overview
+id: solution
 sidebar_position: 1
-slug: /overview
+slug: /solution
 ---
 
-# Solution overview
+# The Orcfax oracle solution
 
 ![Orcfax concept diagram](/img/orcfax-concept-diagram-label-march-2023.png)
 
