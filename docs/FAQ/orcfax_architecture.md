@@ -44,7 +44,17 @@ The Orcfax team will continue to actively engage in Cardano community governance
 
 With that said, the decentralization of a project, its community, and technology stack-- especially one as sophisticated as the Orcfax oracle platform-- is not a simple feat and nearly impossible to do correctly from day one. Therefore, we are on a path of gradual decentralization. We will continue to participate in Cardano community discussions about governance to develop our long-game roadmap and milestones towards 100% decentralized, autonomous governance. The likeliest and earliest time for that to happen is by year three, with five years being our maximum threshold deadline for this switch.
 
-## 7. How long has this project been in development?
+## 7. Can I contribute code?
+
+Absolutely! Our team comes from an open source development background so we’ll be implementing good software engineering practices, including facilitating PRs, code reviews. build pipelines, etc.
+
+In the short term, we will rely on the Cardano community to help us identify key areas where Orcfax can create new Adapters for different feed types. This will also be a great way to leverage community contributions in the form of PRs. We are cautiously implementing a loosely coupled architecture with Adapters as first class primitives and will then provide transparent documentation on how to design and develop new feed type adapters in order to enable new oracle driven use cases on Cardano.
+
+We will leverage Git for this process as this revolutionary decentralized technology gives us the ability to accomplished everything outlined above; it provides a method for software development and transparent documentation while also giving our active community base a clear processes for asking critical question, contributing new insights, and submitting PRs to help kick the ball up the field.
+
+In the long term, the Orcfax whitepaper (*coming soon*) lays out the Orcfax goal for a transition to [DAO](https://docs.orcfax.io/orcfax-architecture#6-will-orcfax-be-governed-by-a-dao) governance. A big DAO responsibility will be assigning maintenance and development contracts to any qualified parties. Because we, at every step, have baked in good software maintenance and deployment practices from day one, this transition towards a DAO, its division of labour, and scaling strategy have the best chance of success.
+
+## 8. How long has this project been in development?
 
 We have been working on the Orcfax solution since Fall of 2021.
 
