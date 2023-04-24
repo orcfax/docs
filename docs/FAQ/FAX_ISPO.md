@@ -5,6 +5,7 @@ slug: /fax-ispo
 ---
 
 # FAX ISPO
+**WARNING! _The ISPO is closed to new delegators and additional ada [^1]. This has been done in accordance with our ISPO strategy and more information regarding this development can be found [here](https://discord.com/channels/918870284331802674/1082742450268942386/1098331279637876806)._**
 
 The following answers deal exclusively with questions regarding the Orcfax Initial Stake Pool offering, which was initiated in Epoch 400.
 
@@ -19,7 +20,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 | Token ticker | $FACT |
 | Reward formula | 1 $FACT for every 10 ADA staked (plus loyalty bonuses per epoch) |
 | Distribution | $FACT tokens earned during the Orcfax ISPO will become available to delegators via Tosidrop.io within a 6 month vesting period. |
-| Start & Duration | The ISPO began with Cardano epoch 400 and will run until the 100 million allocated $FACT tokens have been distributed [^1]. | 
+| Start & Duration | The ISPO began with Cardano epoch 400 and will run until the 100 million allocated $FACT tokens have been distributed [^2]. | 
 
 ## 2. Where can I find the Rewards Calculator?
 
@@ -41,7 +42,7 @@ For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to
 
 ## 6. When will my rewards be available on TosiDrop?
     
-Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After that, disbursements will be released every 6 epochs per our vesting schedule [^2] until we reach the end of the vesting period.
+Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After that, disbursements will be released every 6 epochs per our vesting schedule [^3] until we reach the end of the vesting period.
 
 **Disbursement schedule**:
 
@@ -58,6 +59,19 @@ Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After
 
 We are not planning to continue the Orcfax stake pool after the allocated 100M $FACT has been distributed. Once the ISPO has completed, delegators will need to move their stake to another SPO at that time. Orcfax is an oracle project, not a SPO, we will stick to our core business which is reporting authentic facts. While we appreciate this unique opportunity to raise project funds, we also respect and appreciate the Cardano SPO community and understand that our Orcfax ISPO is temporarily taking away business from them.
 
-[^1]: *For more information regarding our ISPO, please Check out our [Prospectus](https://orcfax.io/#ispo).*
+## 8. When will the ISPO end?
 
-[^2]: Rewards will be paid over a 6 month vesting period (5 days per epoch x 6 epochs = 1 month).
+For delegators who were captured in the epoch [405 snapshot](https://docs.google.com/spreadsheets/d/1872yx1Ly75D17m7nsR_tXsb0tx7FmywkSEEZtmqD2As/edit?usp=sharing) [^4], we are predicting the formal end of the ISPO to occur in epoch 413/414. However this may change as wallets, while not permitted to join, may still leave which will extend this process.
+
+## 9. I missed the ISPO. How can I support Orcfax?
+
+We are so thankful for your willingness to support the Orcfax project and everything we’re setting off to accomplish here on Cardano! While we are no longer accepting new delegators for $FACT rewards in our ISPO, we encourage community members to stay connected to the project through our [Discord](http://dsc.gg/orcfax), [Twitter](https://twitter.com/orcfax), and website in order to stay informed of future opportunities to participate!
+
+
+[^1]: While the pool is not technically saturated, new delegators or additional ada has been restricted, so neither will recieve $FACT rewards.
+
+[^2]: *For more information regarding our ISPO, please Check out our [Prospectus](https://orcfax.io/#ispo).*
+
+[^3]: Rewards will be paid over a 6 month vesting period (5 days per epoch x 6 epochs = 1 month).
+
+[^4] This final active snapshot will be the one used by our team going forward. Delegators can find their Stake Address and Active stake.
