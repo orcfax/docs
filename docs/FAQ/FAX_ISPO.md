@@ -40,7 +40,11 @@ For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to
     
 100M $FACT will be made available to delegators through a partnership with [TosiDrop](https://www.tosidrop.io/) within a 6 month vesting period.
 
-## 6. When will my rewards be available on TosiDrop?
+## 6. Will there be a KYC requirement for reward collection?
+
+No. There will not be a KYC requirement.
+
+## 7. When will my rewards be available on TosiDrop?
     
 Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After that, disbursements will be released every 6 epochs per our vesting schedule [^3] until we reach the end of the vesting period.
 
@@ -55,15 +59,15 @@ Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After
 | 5th | 461 | 2024-01-15 |
 | 6th | 467 | 2024-02-14 |
 
-## 7. What happens to the Orcfax Pool after the ISPO?
+## 8. What happens to the Orcfax Pool after the ISPO?
 
 We are not planning to continue the Orcfax stake pool after the allocated 100M $FACT has been distributed. Once the ISPO has completed, delegators will need to move their stake to another SPO at that time. Orcfax is an oracle project, not a SPO, we will stick to our core business which is reporting authentic facts. While we appreciate this unique opportunity to raise project funds, we also respect and appreciate the Cardano SPO community and understand that our Orcfax ISPO is temporarily taking away business from them.
 
-## 8. When will the ISPO end?
+## 9. When will the ISPO end?
 
 For delegators who were captured in the epoch [405 snapshot](https://docs.google.com/spreadsheets/d/1872yx1Ly75D17m7nsR_tXsb0tx7FmywkSEEZtmqD2As/edit?usp=sharing) [^4], we are predicting the formal end of the ISPO to occur in epoch 413/414. However this may change as wallets, while not permitted to join, may still leave which will extend this process.
 
-## 9. I missed the ISPO. How can I support Orcfax?
+## 10. I missed the ISPO. How can I support Orcfax?
 
 We are so thankful for your willingness to support the Orcfax project and everything we’re setting off to accomplish here on Cardano! While we are no longer accepting new delegators for $FACT rewards in our ISPO, we encourage community members to stay connected to the project through our [Discord](http://dsc.gg/orcfax), [Twitter](https://twitter.com/orcfax), and website in order to stay informed of future opportunities to participate!
 
