@@ -7,7 +7,7 @@ slug: /oracle-basics
 # Oracle basics
 
 ## 1. What is an oracle?
-Oracles like [Orcfax](https://orcfax.link), [Chainlink](https://chain.link), [Charli3](https://charli3.io), etc. are the technical component in blockchain architectures that deliver information about the real-world to on-chain smart contracts.
+Oracles like [Orcfax](https://orcfax.io/), [Chainlink](https://chain.link), [Charli3](https://charli3.io), etc. are the technical component in blockchain architectures that deliver information about the real-world to on-chain smart contracts.
 
 The name is derived from people in the ancient world who delivered messages and knowledge from the gods to the mortals.
 
@@ -45,4 +45,4 @@ To be fair, most leading oracle platforms are now beginning to implement some fo
 
 Unfortunately, most current implementations do not go this far. Instead they often receive data from a single, black box provider. They then use an oracle pool to arrive at a consensus about the uniformity of that data and not necessarily about its authenticity or accuracy. Unfortunately, a decentralized pool of oracle nodes is irrelevant if it is bottlenecked by a single upstream provider. To truly solve the oracle problem, multiple data sources should be collected and validated.
 
-The [Orcfax oracle service](overview) addresses this problem and solves a number of related oracle problems.
+The [Orcfax oracle service](solution) addresses this problem and solves a number of related oracle problems.
