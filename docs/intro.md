@@ -18,7 +18,7 @@ Using Orcfax's unique auditing and archiving features, you can [verify data](ver
 
 See the [Solution overview](solution) for a high-level explanation of the Orcfax oracle service.
 
-Read our [FAQ](orcfax-architecture) sections to answer questions you may have about oracles in general.
+Read our [FAQ](oracle-basics) sections to answer questions you may have about oracles in general.
 
 Find out more about the [Cardano Open Oracle Protocol](coop) (COOP) that is implemented by the Orcfax service.
 
