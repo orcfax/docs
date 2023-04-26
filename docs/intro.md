@@ -16,9 +16,9 @@ Using Orcfax's unique auditing and archiving features, you can [verify data](ver
 
 ## Learn more
 
-See the [Solution overview](overview) for a high-level explanation of the Orcfax oracle service.
+See the [Solution overview](solution) for a high-level explanation of the Orcfax oracle service.
 
-Read our [FAQ](FAQ) to answer questions you may have about oracles in general.
+Read our [FAQ](orcfax-architecture) sections to answer questions you may have about oracles in general.
 
 Find out more about the [Cardano Open Oracle Protocol](coop) (COOP) that is implemented by the Orcfax service.
 
@@ -26,7 +26,7 @@ Find out more about the [Cardano Open Oracle Protocol](coop) (COOP) that is impl
 ![Orcfax concept diagram](/img/orcfax-concept-diagram-march-2023.png)
 
 ## Research-driven and standard compliant
-Orcfax is the most comprehensive solution to the [oracle problem](faq#what-is-the-oracle-problem) because it is designed to be a standards-compliant recordkeeping system that integrates on-chain publication with decentralized data collection, validation, and archiving. 
+Orcfax is the most comprehensive solution to the [oracle problem](https://docs.orcfax.io/oracle-basics#3-what-is-the-oracle-problem) because it is designed to be a standards-compliant recordkeeping system that integrates on-chain publication with decentralized data collection, validation, and archiving. 
 
 Orcfax's sytem requirements were derived from an extensive analysis of blockchain, IT, and legal standards. These are managed in a comprehensive requirements knowledgebase. We also reviewed existing oracle services and completed a comparative analysis of how facts are proven to be authentic and accurate in disciplines such as law, historiograpy, and philosophy. 
 
