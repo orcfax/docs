@@ -65,7 +65,15 @@ We are not planning to continue the Orcfax stake pool after the allocated 100M $
 
 ## 9. When will the ISPO end?
 
-For delegators who were captured in the epoch [405 snapshot](https://docs.google.com/spreadsheets/d/1872yx1Ly75D17m7nsR_tXsb0tx7FmywkSEEZtmqD2As/edit?usp=sharing) [^4], we are predicting the formal end of the ISPO to occur in epoch 413/414. However this may change as wallets, while not permitted to join, may still leave which will extend this process.
+For delegators who were captured in the epoch [405 snapshot](https://docs.google.com/spreadsheets/d/1872yx1Ly75D17m7nsR_tXsb0tx7FmywkSEEZtmqD2As/edit?usp=sharing) [^4], we are predicting the formal end of the ISPO to occur in epoch 412-414. However this may change as wallets, while not permitted to join, may still leave which will extend this process.
+
+## 10. How will ISPO duration affect bonuses?
+
+The ISPO was initiated in epoch 400 and we estimate that all tokens will be distributed by epochs 412-414. This means that the total ISPO duration will be between 13-15 epochs and that the maximum bonus for delegators will be 20%.
+
+## 11. Will loyalty bonuses be modified to reflect the duration?
+
+No. The loyalty bonuses will not change from what was proposed in our [Prospectus](https://orcfax.io/#ispo). Therefore, given the reduced total duration, the 20% bonus for staking 10 or more consecutive epochs will be the maximum attainable bonus for delegators.
 
 ## 10. I missed the ISPO. How can I support Orcfax?
 
