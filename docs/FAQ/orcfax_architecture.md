@@ -40,19 +40,25 @@ The exact amount of $FACT that a node operator is required to stake has not been
 
 In the same way that we aim to improve adoption by lowering the staking threshold for potential node operators, we are also working to keep the technical requirements as light as possible. With that said, we have not released official minimum specs yet. We will make sure our community has plenty of notice on how to participate as node operators in our Incentivized Testnet, so stay tuned.
 
-## 7. Is there an optimal number of nodes?
+## 7. How can the community nominate new data feeds?
+
+we are developing this process with the aim to make feed nomination as simple as possible for our community members, because we believe that its critical that the cardano community actively participate in expanding the use cases of the Orcfax technology. One of our during this development is ease of use. 
+
+Community members will be able to submit code PRs that implement new data feed types which are COOP compliant and Orcfax compatible. More in depth documentation, including instructions, will be provided to our community as our incentivized testnet progresses.
+
+## 8. Is there an optimal number of nodes?
 
 The bare minimum number of nodes for the Orcfax decentralized validator pool is 5. However, our goal is to have thousands of nodes across the globe. Keeping the technical specs and staking requirements to run a node as lean as possible will be key for this.
 
-## 8. Which projects has Orcfax partnered with?
+## 9. Which projects has Orcfax partnered with?
 
 We are working closely with the technical and managerial teams of several projects to integrate our Orcfax feeds with exciting and innovative products. Keep an eye on our socials for more formal announcements soon.
 
-## 9. Where can I find the Orcfax team page?
+## 10. Where can I find the Orcfax team page?
 
 At any one time, the core Orcfax team includes 5-10 staff and contractors. We believe a truly decentralized and permissionless project shouldn't be evaluated based on a very long team list. We've seen enough of that without it being a true indicator of project quality/status. The running code and its open-source codebase, along with its immutable features should be what is getting evaluated. For now, our founder and Peter Van Garderen is the human face behind Orcfax. He has the proven professional qualifications to achieve our project objectives. This includes making Peter obsolete and ensuring Orcfax runs as a fully autonomous network governed by a fully Decentralized Autonomous Organization.
 
-## 10. Will Orcfax be governed by a DAO?
+## 11. Will Orcfax be governed by a DAO?
 
 The Orcfax team is committed to radical decentralization and has structured the project accordingly, with the explicit intention of ensuring a 100% hand-off of governance and all aspects of the project to a DAO. 
 
@@ -60,7 +66,7 @@ The Orcfax team will continue to actively engage in Cardano community governance
 
 With that said, the decentralization of a project, its community, and technology stack-- especially one as sophisticated as the Orcfax oracle platform-- is not a simple feat and nearly impossible to do correctly from day one. Therefore, we are on a path of gradual decentralization. We will continue to participate in Cardano community discussions about governance to develop our long-game roadmap and milestones towards 100% decentralized, autonomous governance. The likeliest and earliest time for that to happen is by year three, with five years being our maximum threshold deadline for this switch.
 
-## 11. Can I contribute code?
+## 12. Can I contribute code?
 
 Absolutely! Our team comes from an open source development background so we’ll be implementing good software engineering practices, including facilitating PRs, code reviews. build pipelines, etc.
 
@@ -70,7 +76,7 @@ We will leverage Git for this process as this revolutionary decentralized techno
 
 In the long term, the Orcfax whitepaper (*coming soon*) lays out the Orcfax goal for a transition to [DAO](https://docs.orcfax.io/orcfax-architecture#6-will-orcfax-be-governed-by-a-dao) governance. A big DAO responsibility will be assigning maintenance and development contracts to any qualified parties. Because we, at every step, have baked in good software maintenance and deployment practices from day one, this transition towards a DAO, its division of labour, and scaling strategy have the best chance of success.
 
-## 12. How long has this project been in development?
+## 13. How long has this project been in development?
 
 We have been working on the Orcfax solution since Fall of 2021.
 
