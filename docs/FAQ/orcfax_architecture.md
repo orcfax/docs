@@ -42,7 +42,7 @@ In the same way that we aim to improve adoption by lowering the staking threshol
 
 ## 7. How can the community nominate new data feeds?
 
-we are developing this process with the aim to make feed nomination as simple as possible for our community members, because we believe that its critical that the cardano community actively participate in expanding the use cases of the Orcfax technology. One of our during this development is ease of use. 
+we are developing this process with the aim to make feed nomination as simple as possible for our community members, because we believe that its critical that the cardano community actively participate in expanding the use cases of the Orcfax technology. One of our priorities during this development is ease of use. 
 
 Community members will be able to submit code PRs that implement new data feed types which are COOP compliant and Orcfax compatible. More in depth documentation, including instructions, will be provided to our community as our incentivized testnet progresses.
 
