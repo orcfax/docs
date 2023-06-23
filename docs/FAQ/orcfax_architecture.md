@@ -10,7 +10,7 @@ slug: /orcfax-architecture
 
 How will data be gathered and published for the free Mainnet price feeds coming in Q2 2023?
 
-[![](https://github.com/orcfax/docs/raw/main/static/img/OrcfaxFederatedMainnetFeeds-ComponentDiagram-v1.jpg)](https://github.com/orcfax/docs/raw/main/static/img/OrcfaxFederatedMainnetFeeds-ComponentDiagram-v1.jpg)
+[![](/img/OrcfaxFederatedMainnetFeeds-ComponentDiagram-v1.jpg)](/img/OrcfaxFederatedMainnetFeeds-ComponentDiagram-v1.jpg)
 
 The above is a working draft document. The Orcfax team is sharing it here because our team practices a radically open software development philosophy. Over the next 12 months we are going to launch the world's most sophisticated and decentralized fact publication and archiving system. We want to model both software engineering and open source software best practices to ensure we're building sound civil infrastructure. We believe that this means having an open dialogue around requirements, design, features, priorities, etc. Because more eyeballs mean safer, better code— because not all designs work out. in fact, we anticipate that this diagram will go through several iterations before it accurately reflects the complex reality of the Orcfax system, and that's a good thing. What's needed on the journey between here and there is an open and transparent change management system which ensures all revisions are traceable and auditable.
 
@@ -82,3 +82,4 @@ We have been working on the Orcfax solution since Fall of 2021.
 
 
 [^1]: Additional information can be found in our project [Overview](https://docs.orcfax.io/overview). Please also check our [Prospectus](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf) To see how we are separating ourselves from other oracle solutions.
+

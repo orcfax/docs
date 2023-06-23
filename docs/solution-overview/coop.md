@@ -29,4 +29,5 @@ The main design goals for the Cardano Open Oracle Protocol (COOP) are to leverag
 
 ## COOP + Orcfax
 
-[Orcfax](Orcfax) has integrated the Cardano Open Oracle Protcol (COOP) with its unique data collection, validation, and archiving processes to create the most comprehensive solution to the oracle problem in the blockchain industry.
+[Orcfax](https://orcfax.io) has integrated the Cardano Open Oracle Protcol (COOP) with its unique data collection, validation, and archiving processes to create the most comprehensive solution to the oracle problem in the blockchain industry.
+
