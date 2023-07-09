@@ -81,4 +81,4 @@ In the long term, the Orcfax whitepaper (*coming soon*) lays out the Orcfax goal
 We have been working on the Orcfax solution since Fall of 2021.
 
 
-[^1]: Additional information can be found in our project [Overview](https://docs.orcfax.io/overview). Please also check our [Prospectus](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf) To see how we are separating ourselves from other oracle solutions.
+[^1]: Additional information can be found in project [Solution](https://docs.orcfax.io/solution). Please also check our [Prospectus](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf) To see how we are separating ourselves from other oracle solutions.
