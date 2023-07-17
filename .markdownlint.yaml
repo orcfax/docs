@@ -1,0 +1,6 @@
+
+---
+default: true
+
+# Exceptions, example given, MD045
+# MD045: false # allow image with no tag
