@@ -10,7 +10,7 @@ slug: /fact-token
 
 You can find the tokenomics in our ISPO [Prospectus](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf). Our CEO Peter also participated in a [Twitterspace](https://twitter.com/i/status/1647964885009965061) with Xerberus.io where the Orcfax Tokenomics were discussed in more detail.
 
-We are also in the final stages of the Orcfax whitepaper which will more thoroughly document project tokenomics. 
+We are also in the final stages of the Orcfax whitepaper which will more thoroughly document project tokenomics.
 
 ## 2. Will there be a Public/Private sale?
 

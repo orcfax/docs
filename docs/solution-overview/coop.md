@@ -6,18 +6,18 @@ slug: /coop
 
 # Cardano Open Oracle Protocol
 
-The Orcfax oracle service uses Cardano Open Oracle Protocol (COOP) to publish and format its data feeds. 
+The Orcfax oracle service uses Cardano Open Oracle Protocol (COOP) to publish and format its data feeds.
 
 COOP is a set of technical guidelines that specifies a process and format for the publication and consumption of off-chain data by smart contracts on the Cardano blockchain.
 
-COOP is free and open-source and can be implemented by other service providers to implement their own oracle solution. The reference implementation code and documentation are available at [OpenOracle.Link](http://openoracle.link) 
+COOP is free and open-source and can be implemented by other service providers to implement their own oracle solution. The reference implementation code and documentation are available at [OpenOracle.Link](http://openoracle.link)
 
-COOP was developed by the Orcfax project in consultation with the Cardano development experts at [MLabs](https://mlabs.city). 
+COOP was developed by the Orcfax project in consultation with the Cardano development experts at [MLabs](https://mlabs.city).
 
 ![logo for Cardano Open Oracle Protocol](/img/coop-logo-nov-2022.png)
 
 ## Objective
-The primary goal of the COOP is to define a protocol for consuming authentiacted data that takes advantage of the [CIP-31 Reference Input](https://cips.cardano.org/cips/cip31/) feature introduced in the Cardano Vasil hard fork in September 2022. 
+The primary goal of the COOP is to define a protocol for consuming authentiacted data that takes advantage of the [CIP-31 Reference Input](https://cips.cardano.org/cips/cip31/) feature introduced in the Cardano Vasil hard fork in September 2022.
 
 This enhancement allows a datum written to a single Cardano eUTXO to be read by multiple consumers without competing with each other for exclusive access to transaction output.
 

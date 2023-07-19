@@ -20,7 +20,7 @@ The following answers deal exclusively with questions regarding the Orcfax Initi
 | Token ticker | $FACT |
 | Reward formula | 1 $FACT for every 10 ADA staked (plus loyalty bonuses per epoch) |
 | Distribution | $FACT tokens earned during the Orcfax ISPO will become available to delegators via Tosidrop.io within a 6 month vesting period. |
-| Start & Duration | The ISPO began with Cardano epoch 400 and will run until the 100 million allocated $FACT tokens have been distributed [^2]. | 
+| Start & Duration | The ISPO began with Cardano epoch 400 and will run until the 100 million allocated $FACT tokens have been distributed [^2]. |
 
 ## 2. Where can I find the Rewards Calculator?
 
@@ -32,12 +32,12 @@ The “Early Supporter” bonus is a reference to the tiered loyalty bonuses out
 
 ## 4. How are loyalty bonuses calculated?
 
-Delegators will unlock loyalty bonus tiers based on their longest consecutive delegation. This is captured with am opening snapshot for each epoch. 
-    
+Delegators will unlock loyalty bonus tiers based on their longest consecutive delegation. This is captured with am opening snapshot for each epoch.
+
 For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to another pool in epoch 404. At this point, the delegator has successfully delegated 4 epochs with Orcfax. Now suppose that same delegator returns in epoch 410 and delegates an additional 2 epochs before leaving again. The longest continuous staking period is 4 epochs, so they are not eligible for a loyalty bonus since the first loyalty tier requires 5 (or more) consecutive epochs.
 
 ## 5. How will reward distribution work?
-    
+
 100M $FACT will be made available to delegators through a partnership with [TosiDrop](https://www.tosidrop.io/) within a 6 month vesting period.
 
 ## 6. Will there be a KYC requirement for reward collection?
@@ -45,7 +45,7 @@ For Example: Suppose a Delegator stakes 1000 ADA in epoch 400, then delegates to
 No. There will not be a KYC requirement.
 
 ## 7. When will my rewards be available on TosiDrop?
-    
+
 Epoch 437 is the first epoch where you will find your rewards in Tosidrop. After that, disbursements will be released every 6 epochs per our vesting schedule [^3] until we reach the end of the vesting period.
 
 **Disbursement schedule**:

@@ -5,4 +5,3 @@ slug: /topicb
 ---
 
 # Topic B
-
