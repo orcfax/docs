@@ -76,7 +76,7 @@ const config = {
         /* title: 'Docs', */
         logo: {
           alt: 'Orcfax Logo',
-          src: 'img/orcfax-logo-text.png',
+          src: 'img/orcfax-logo-horizontal.png',
           href: 'https://orcfax.io',
         },
         items: [
