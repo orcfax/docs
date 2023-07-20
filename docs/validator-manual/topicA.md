@@ -1,7 +1,7 @@
 ---
-id: topica
+id: validate
 sidebar_position: 1
-slug: /topica
+slug: /validate
 ---
 
-# Topic A
+# Validate
