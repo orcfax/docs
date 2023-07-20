@@ -8,6 +8,6 @@ slug: /roadmap
 
 ## Phase 1: Federated Mainnet Feeds
 
-## Phase 2: Incentivized Testnet
+## Phase 2: Incentivized Validator Testnet
 
 ## Phase 3: Decentralized Mainnet Feeds

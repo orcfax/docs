@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /consume
 ---
 
-# Consume data
+# Consume fact statement
 
 ** Please note: **
 * functionality is currently limited to our closed Testnet.
