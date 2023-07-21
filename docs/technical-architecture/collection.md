@@ -10,13 +10,15 @@ Data collection is another critical breakthrough that Orcfax has introduced. The
 Orcfax oracle service collects data about real world events from various primary
 sources using a network of nodes. These nodes are run independently and
 permissionlessly by anyone that is able to install our open source software and
-commit a small amount of $FACT tokens as stake.<br><br>
+commit a small amount of $FACT tokens as stake.<br/>
+<br/>
 These Orcfax nodes are initiated through executables made available through the
 Orcfax GitHub repo, which will be transitioned to a fully decentralized Git repo
 at a later date. These executables will ensure and enforce that every node is
 operating the exact same software. Additional safeguards have also been
 implemented to prevent tampering with this software in order to mitigate the
-risks associated with man in the middle attacks.<br><br>
+risks associated with man in the middle attacks.<br/>
+<br/>
 Orcfax executables are fully open sourced and are visible online along with our
 pipeline in order to facilitate user review. We believe that our community
 should be able to review a release and follow it down to the command level to
@@ -28,18 +30,21 @@ signed executable. For now, these will be developed by the project, which is
 currently Orcfax Ltd. as the corporate entity. However, handing over the
 governance of the network, along with long-term maintenance and development, and
 transitioning to a decentralized autonomous organization is a long-term priority
-of Orcfax and is reflected in our roadmap.<br><br>
+of Orcfax and is reflected in our roadmap.<br/>
+<br/>
 First and foremost, at the very front end of collecting data, Orcfax nodes will
 triangulate their data collection. What that means is that Orcfax doesn’t rely
 on any one or two single sources. Our system requires a minimum of three
 separate independent data sources for the same data which can be queried by our
-network of decentralized oracle pool nodes.<br><br>
+network of decentralized oracle pool nodes.<br/>
+<br/>
 Example
 If the target data was the outcome or score of a football match between
 Manchester United and Chelsea, Orcfax nodes could hit a sports website and
 scrape the results, do the same for a second, and for the third. At the end, the
 node has received information regarding the target from three independent
-sources.<br><br>
+sources.<br/>
+<br/>
 Triangulation of data is a scientific principle that Orcfax has adopted as a
 method for developing comprehensive understandings of the phenomena which it
 report on; it is a system requirement that each Orcfax feed utilizes a minimum
