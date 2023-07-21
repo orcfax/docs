@@ -1,10 +1,10 @@
 ---
 id: FACT_TOKEN
-sidebar_position: 4
+sidebar_position: 30
 slug: /fact-token
 ---
 
-# $FACT token
+# [ARCHIVED] FACT token
 
 ## 1. Where can I find the Orcfax tokenomics?
 We are in the final stages of the Orcfax whitepaper which will more thoroughly document project tokenomics.
