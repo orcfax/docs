@@ -6,7 +6,9 @@ slug: /
 
 # Introduction
 Orcfax is a decentralized [oracle service](oracle-basics) that publishes facts
-about real world events to the [Cardano](https://cardano.org/) blockchain.
+about real world events to the [Cardano](https://cardano.org/) blockchain in its
+[eUTXO native](cardano) format using the [Cardano Open Oracle Protcol](coop)
+(COOP).
 
 ![Orcfax concept diagram](/img/2023-07-20--Oracle-concept-diagram.png)
 
