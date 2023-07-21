@@ -95,7 +95,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Orcfax LLC`,
+        copyright: `Copyright © ${new Date().getFullYear()} Orcfax Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,
