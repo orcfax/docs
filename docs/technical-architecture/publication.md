@@ -7,7 +7,8 @@ slug: /publication
 # Fact statement publication
 Example of an Orcfax $FACT statement with all provenance information captured
 for future auditability.<br/>
-```{
+```
+{
   "@context": "https://schema.org",
   "type": "Claim",
   "description": "The price of 1 ADA at 2023-07-19 16:38:42.364056 is 0.31068563
@@ -46,4 +47,5 @@ for future auditability.<br/>
   "creator": "Orcfax Validator Node: v0.0.0",
   "identifier": "9168fc06-5de0-4970-b77d-491821284514",
   "license": "https://creativecommons.org/licenses/by/4.0/"
-}```
+}
+```

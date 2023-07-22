@@ -6,7 +6,8 @@ slug: /reference
 
 # Fact statement reference
 An exacmple $FACT datum derived from the Orcfax ADA/USD price feed<br/>
-```{
+```
+{
   "@context": "https://schema.org/",
   "type": "PropertyValue",
   "name": "ADA/USD",
@@ -29,4 +30,5 @@ An exacmple $FACT datum derived from the Orcfax ADA/USD price feed<br/>
     "value": "orcfax:036b901d-b25b-400d-bd44-674af4ed96cf"
   },
   "_:SecurityToken": "32R43243223432432"
-}```
+}
+```
