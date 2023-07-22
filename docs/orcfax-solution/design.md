@@ -4,5 +4,6 @@ sidebar_position: 3
 slug: /design
 ---
 
-Data triangulation
-Decentralized validation
+## Data triangulation
+
+## Decentralized validation
