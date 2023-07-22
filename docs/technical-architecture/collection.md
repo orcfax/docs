@@ -5,6 +5,7 @@ slug: /collection
 ---
 
 # Data collection
+<br/>
 Data collection is another critical breakthrough that Orcfax has introduced. The
 Orcfax oracle service collects data about real world events from various primary
 sources using a network of nodes. These nodes are run independently and
