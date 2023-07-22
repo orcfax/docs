@@ -5,6 +5,7 @@ slug: /archiving
 ---
 
 # Fact statement archiving
+<br/>
 A major value add of the Orcfax system is its capture and archiving of the
 entire workflow. From Collection, Normalization, Calculation, to Validation and
 the publication event, the entire process generates audit logs that are bundled
