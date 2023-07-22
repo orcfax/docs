@@ -45,24 +45,6 @@ scrape the results, do the same for a second, and for the third. At the end, the
 node has received information regarding the target from three independent
 sources.<br/>
 <br/>
-Grounding this examnple, nodes executing their Collection function will recieve
-at least three API rsponses similar to the below example.<br/>
-<br/>
-```
-{
-  "@context": "https://schema.org",
-  "type": "Message",
-  "name": "ADA-USD",
-  "sender": "api-1",
-  "identifier": "",
-  "dateReceived": "Wed, 19 Jul 2023 16:38:41 GMT",
-  "messageAttachment": {
-    "encoding": "application/json;base64",
-    "text": ""
-  }
-}
-```
-<br/>
 These API responses will allow nodes to triangulate the target data;
 triangulation of data is a scientific principle that Orcfax has adopted as a
 method for developing comprehensive understandings of the phenomena which it
