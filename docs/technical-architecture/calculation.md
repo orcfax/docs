@@ -5,6 +5,7 @@ slug: /Data calculation
 ---
 
 # Data calculation
+<br/>
 The process of triangulation, introduced in the Collection phase, and the
 process of normalization enables the critical step of Calculation.<br/>
 <br/>
@@ -40,5 +41,6 @@ target values. In the case of feed types such as currency pairs (e.g. ADA/USD),
 nodes will derive the mean from their data source outputs in order to mitigate
 the effects of slippage. If variances above a set threshold are detected between
 the reports (ie one of the sources reports something different) there's a
-problem. At that point the process ends and the data doesn’t get to the point of publication.<br/>
+problem. At that point the process ends and the data doesn’t get to the point of
+publication.<br/>
 <br/>
