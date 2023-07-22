@@ -5,7 +5,9 @@ slug: /Data validation
 ---
 
 # Data validation
-At launch, the Orcfax Federated Network of nodes on mainnet will consist of five independent participants within our sidechain blockchain of validator nodes.
+<br/>
+At launch, the Orcfax Federated Network of nodes on mainnet will consist of five
+independent participants within our sidechain blockchain of validator nodes.
 However, we believe that the success of our incentivized testnet will result in
 the rapid adoption of our system by additional participants. Even if node
 operators did not participate in our testnet, adoption on mainnet will be aided
@@ -25,4 +27,6 @@ practice is that each participant will have the exact same technical
 specifications, capabilities, and code; each will be capable of executing all
 Orcfax processes (e.g. Collection, Validation, Publishing, etc). Importantly,
 staking more than the  required $FACT will also not affect a node’s chances of
-being delegated the responsibility for submitting transactions or increase their proportional share of pool rewards. These decisions have been made in effort to positively affect mass-adoption.<br/>
+being delegated the responsibility for submitting transactions or increase their
+proportional share of pool rewards. These decisions have been made in effort to
+positively affect mass-adoption.<br/>
