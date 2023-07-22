@@ -51,7 +51,9 @@ from the beginning has structured the project accordingly, with the explicit
 intention of ensuring a 100% hand-off of governance and all aspects of the
 project to a DAO when possible.<br/>
 <br/>
-The Orcfax team will continue to actively engage in Cardano community governance dialogues and model good project behavior in our progression towards full decentralization. Our team shares the personal and professional philosophy that,
+The Orcfax team will continue to actively engage in Cardano community governance
+dialogues and model good project behavior in our progression towards full
+decentralization. Our team shares the personal and professional philosophy that,
 in the end, our primary objective in this movement is to decentralize power. The
 Orcfax oracle is just one piece of necessary plumbing infrastructure to
 facilitate that progression.<br/>
