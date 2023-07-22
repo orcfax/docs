@@ -5,7 +5,6 @@ slug: /collection
 ---
 
 # Data collection
-
 Data collection is another critical breakthrough that Orcfax has introduced. The
 Orcfax oracle service collects data about real world events from various primary
 sources using a network of nodes. These nodes are run independently and
@@ -45,6 +44,24 @@ scrape the results, do the same for a second, and for the third. At the end, the
 node has received information regarding the target from three independent
 sources.<br/>
 <br/>
+Grounding this example, nodes executing their Collection function will receive
+at least three API responses similar to the below example.
+
+```
+{
+  "@context": "https://schema.org",
+  "type": "Message",
+  "name": "ADA-USD",
+  "sender": "api-name",
+  "identifier": "",
+  "dateReceived": "Wed, 19 Jul 2023 16:38:41 GMT",
+  "messageAttachment": {
+    "encoding": "application/json;base64",
+    "text": ""
+  }
+}
+```
+
 These API responses will allow nodes to triangulate the target data;
 triangulation of data is a scientific principle that Orcfax has adopted as a
 method for developing comprehensive understandings of the phenomena which it
