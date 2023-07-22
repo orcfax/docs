@@ -5,9 +5,11 @@ slug: /publication
 ---
 
 # Fact statement publication
+<br/>
 If Orcfax can vouch for the accuracy and authenticity of the data being queried,
 (through the Collection, Normalization, and Calculation processes) then one of
-the independent Orcfax nodes will be randomly delegated the responsibility for submitting the unsigned transaction to the consumer. The consumer will then
+the independent Orcfax nodes will be randomly delegated the responsibility for
+submitting the unsigned transaction to the consumer. The consumer will then
 publish the validated data on-chain as a reference input within their
 transaction, granting them premium first-block access to that data.<br/>
 <br/>
@@ -17,7 +19,9 @@ on-chain. And this is made possible by having each node technically equivalent
 and capable of executing all processes leading up to and including the task of
 publishing the data on-chain should the task be delegated to them.<br/>
 <br/>
-The data points published by the Orcfax oracle are rich in context and therefore referred to as "fact statements" to reflect their semantic maturity as formally structured declarations about real world events and entities.<br/>
+The data points published by the Orcfax oracle are rich in context and therefore
+referred to as "fact statements" to reflect their semantic maturity as formally
+structured declarations about real world events and entities.<br/>
 <br/>
 The Orcfax oracle nodes create a fact statement record that is formatted in
 compliance with the Cardano Open Oracle Protocol. This includes markup in
