@@ -5,11 +5,16 @@ slug: /problem-statement
 ---
 
 # Problem statement
+
 **TLDR; can my dApp trust this real-world data to be authentic and accurate?**
 
-Introducing false data about real-world events into blockchain smart contracts
-via an oracle feed is a potentially lucrative attack vector for bad actors as it
-can be used to trigger financial payouts from smart contract scripts.
+The trillion dollar DeFi industry is critically dependent on real-world data
+provided by oracles. However, oracle engineering is still in an early stage.
+There are still many opportunities to introduce false data about real-world
+events into oracle data collection, validation and publication pipelines.
+
+This is a very lucrative attack vector for bad actors as introducing false
+oracle data can trigger large financial payouts from smart contract scripts.
 Unfortunately, there are significant challenges to preventing a so-called
 “man-in-the-middle” attack and proving that external real-world data introduced
 to smart contracts can be trusted to be authentic and accurate.
@@ -17,18 +22,11 @@ to smart contracts can be trusted to be authentic and accurate.
 Collectively, the blockchain industry refers to these challenges as “The Oracle
 Problem.”
 
-Orcfax provides a comprehensive [solution](solution-overview) to this problem.
+**Orcfax provides a comprehensive [solution](solution-overview) to the oracle
+problem.**
 
-Most leading oracle platforms are beginning to implement some form of
-decentralized oracle pools as another technique to address the oracle problem.
-In its purest form, a decentralized oracle pool uses distributed networking and
-computation nodes to validate the authenticity and accuracy of source data
-before it is published on-chain.
-
-Unfortunately, most current implementations do not go this far. Instead they
-often receive data from a single, black box provider. They then use an oracle
-pool to arrive at a consensus about the uniformity of that data and not
-necessarily about its authenticity or accuracy.
-
-**TLDR; a decentralized pool of oracle nodes is irrelevant if it is
-bottlenecked by a single upstream provider.**
+The oracle problem is not just limited to providing data feeds for DeFi. Society
+at large is experiencing a "[trust crisis](https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6)" and needs better solutions for
+validating statements of fact about the real world. Orcfax is intentionally
+designed to provide decentralized, "trustless" fact validation and reference
+services beyond just DeFi applications.
