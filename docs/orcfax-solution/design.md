@@ -1,9 +1,15 @@
 ---
-id: Design
-sidebar_position: 3
+id: Design principles
+sidebar_position: 2
 slug: /design
 ---
 
-## Data triangulation
+## Triangulate source data
 
-## Decentralized validation
+## Decentralize data validation
+
+## Maximize eUTXO capabilities
+
+## Standardize oracle data formats
+
+## Archive audit logs
