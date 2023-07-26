@@ -20,11 +20,11 @@ Orcfax data is made available to on-chain smart contracts in Cardano's
 
 ## Getting Started
 
-We've got the docs you need to get your Cardano dApps, smart contracts, and
-scripts [consuming data](consume) from Orcfax oracle feeds.
+1. **[Consume Orcfax data](consume)**: We've got the docs you need to get your
+Cardano dApps, smart contracts, and scripts consuming data from Orcfax oracle feeds.
 
-Using Orcfax's unique auditing and archiving features, you can
-[verify data](verify) published by our oracle service.
+2. **[Verify Orcfax data](verify)**: Using our unique auditing and archiving
+features, you can verify the authenticity and accuracy of every fact statement published by Orcfax, including its source data and validation history.
 
 ## Learn more
 
@@ -33,10 +33,6 @@ overview of the Orcfax solution and its primary components.
 
 Learn more about the [tokenomics](scorecard) and utility of the Orcfax
 service's native FACT token.
-
-We have role-specific manuals for fact statement [Consumers](consume), data
-[Validators](validate), as well as [Developers](develop) working on Orcfax
-technology.
 
 Read our [FAQ](oracle-basics) sections to answer any further questions you may
 have about Orcfax or oracles in general.
