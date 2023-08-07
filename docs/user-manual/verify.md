@@ -4,4 +4,4 @@ sidebar_position: 2
 slug: /verify
 ---
 
-# Verify fact statement
+# Verify fact statements
