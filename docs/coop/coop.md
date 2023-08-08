@@ -1,6 +1,6 @@
 ---
 id: coop
-sidebar_position: 4
+sidebar_position: 1
 slug: /coop
 ---
 
@@ -13,8 +13,8 @@ COOP is a set of technical guidelines that specifies a process and format for
 the publication and consumption of off-chain data by smart contracts on the
 Cardano blockchain.
 
-COOP is free and open-source and can be implemented by other service providers
-to implement their own oracle solution.
+COOP is free and open-source and can be implemented by other projects to
+architect their own Cardano oracle feeds.
 
 ## Objective
 The primary goal of the COOP is to define a protocol for consuming authenticated
@@ -36,10 +36,3 @@ amongst stakeholders.
 available for reference by downstream dApp scripts.
 * Security – minimize the risk of exposure for the cryptographic keys used in
 verifying the authenticity of COOP datums.
-
-## COOP + Orcfax
-
-The Orcfax oracle service has integrated the Cardano Open Oracle Protcol (COOP)
-with its unique data collection, validation, and archiving processes to create
-the most comprehensive solution to the [oracle problem](oracle-problem) in the
-blockchain industry.
