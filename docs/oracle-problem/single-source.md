@@ -18,6 +18,8 @@ often receive data from a single, black box provider. They then use an oracle
 pool to arrive at a consensus about the *uniformity* of that data and not
 necessarily about its *authenticity* or *accuracy*.
 
-To address this shortfall found in many other oracle services, **Orcfax enforces
-a strict source-data triangulation policy for all its oracle feeds *before* that
-data is sent to the decenralized oracle pool for validation.**
+## Orcfax: triangulated source-data
+To address this shortfall found in many other oracle services, Orcfax enforces
+a strict **[source-data triangulation](design#1-triangulate-source-data)**
+policy for all its oracle feeds *before* that data is sent to a decenralized
+oracle pool for validation.

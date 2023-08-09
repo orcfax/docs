@@ -22,11 +22,13 @@ to smart contracts can be trusted to be authentic and accurate.
 Collectively, the blockchain industry refers to these challenges as “The Oracle
 Problem.”
 
-**Orcfax provides a comprehensive [solution](solution-overview) to the oracle
-problem.**
+## Orcfax: a comprehensive [solution](solution-overview)
 
 The oracle problem is not just limited to providing data feeds for DeFi. Society
-at large is experiencing a "[trust crisis](https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6)" and needs better solutions for
-validating statements of fact about the real world. Orcfax is intentionally
-designed to provide decentralized, "trustless" fact validation and reference
-services beyond just DeFi applications.
+at large is experiencing a "**[trust crisis](https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6)**" and needs better solutions
+for validating statements of fact about the real world. Orcfax is intentionally
+designed to leverage the distributed consensus breakthroughs achieved with
+blockchain technology to provide decentralized, "trustless"
+fact validation and reference services that will have many applications beyond
+DeFi applications. Orcfax is particulary interested in on-demand, real-world
+fact validation to counter the threat of AI-generated falsehoods.
