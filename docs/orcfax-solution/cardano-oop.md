@@ -6,7 +6,7 @@ slug: /cardano-oop
 
 # Cardano Open Oracle Protocol
 
-The Orcfax team has developed the [Open Oracle Protocol](coop) as as Cardano
+The Orcfax team has developed the [Cardano Open Oracle Protocol](coop) as a
 [Catalyst funded](https://cardano.ideascale.com/c/idea/62613) research project
 that maximizes the eUTXO model and design principles to demonstrate a
 cost-senstive, post-Vasil native method to publish secure, signed, datums

@@ -1,7 +1,7 @@
 ---
 id: eUTXO native
 sidebar_position: 2
-slug: /eUXTO
+slug: /eUTXO
 ---
 
 The Cardano open oracle protocol (COOP) was designed to take advantage of the
