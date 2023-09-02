@@ -19,7 +19,7 @@ transparency and project accountability on when FACT tokens are moved and used.
 
 Short descriptions of each FACT token allocation is provided below.
 
-![FACT tokenomics table](/img/2023-08-30--FACT-tokenomics-table.png)
+![FACT tokenomics table](/img/2023-09-02--FACT-tokenomics-table.png)
 
 ## Validator rewards
 A full 50% of our token supply is reserved to reward our validator node
