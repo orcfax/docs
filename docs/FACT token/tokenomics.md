@@ -43,13 +43,21 @@ for the first ISPO drops is September 2023. 10% of the FACT token supply is
 allocated to ISPO participants.
 
 ## Launchpad & LP Bootstrapping
-Orcfax used the Wingriders Launchpad to introduce the FACT token to the open
-market and make it available for circulation. This launchpad supports a
-decentralized and non-custodial method for initial price discovery.
+Orcfax is using the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
+to introduce the FACT token to the open market and make it available for
+circulation. This launchpad supports a decentralized and non-custodial method
+for initial price discovery.
 
 86,000,000 (8.6%) FACT is allocated as collateral for ADA contributed by
 Launchpad participants. 24,000,000 (2.4%) is allocated for bootstrapping the
 first liquidity pool on the Wingriders DEX which will follow the launchpad.
+
+The 86 million Launchpad FACT tokens have no cliff and/or vesting restrictions.
+They can be claimed in full as soon as the launchpad closes.
+
+The 24 million FACT tokens used to bootstrap the Liquidity Pool will have a
+cliff date of 6 months after the Launchpad closes (12 months from the start of
+the ISPO) and a one month vesting period.
 
 ## Yield Farming APY
 20,000,000 (2%) FACT tokens are used to enhance the appeal of our liquidity
