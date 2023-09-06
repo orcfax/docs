@@ -5,11 +5,12 @@ slug: /tokenomics
 ---
 
 # FACT Tokenomics
-The FACT token has a fixed supply of 1 billion tokens.
+The FACT [utility token](utility-token) has a fixed supply of 1 billion tokens.
 
 ![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
-The FACT token minting policy ID is: *[coming soon]*
+The FACT token minting policy ID is:
+[a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51](https://pool.pm/asset1kuwfd0esf9xcxurp2x4f9w65lvz4tkfw5epugq)
 
 The following list of ADA Handle wallets correspond to the allocations in the
 FACT tokenomics pie chart above. Using these ADA handles allows for public
