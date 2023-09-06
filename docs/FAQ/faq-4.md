@@ -5,3 +5,5 @@ slug: /what-is-the-real-world
 ---
 
 # What is the real world?
+
+![Facts lead to truths](/img/2023-09-05--Orcfax--The-Nature-Of-Facts.png)
