@@ -77,18 +77,18 @@ const config = {
         logo: {
           alt: 'Orcfax Logo',
           src: 'img/orcfax-logo-horizontal.png',
-          href: 'https://orcfax.io',
+          href: '/',
         },
         items: [
           {
-            to: 'https://orcfax.io#about',
+            to: 'https://orcfax.io',
             position: 'right',
-            label: 'About',
+            label: 'Home',
           },
           {
-            to: 'https://orcfax.io#contact',
+            to: 'https://explorer.orcfax.io',
             position: 'right',
-            label: 'Contact',
+            label: 'Explorer',
           }
         ],
       },
