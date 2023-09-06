@@ -63,11 +63,11 @@ the ISPO) and a one month vesting period.
 ## Yield Farming APY
 20,000,000 (2%) FACT tokens are used to enhance the appeal of our liquidity
 pool(s) by offering substantial Yield Farming Rewards to our liquidity
-roviders.
+providers.
 
 ## Promotional airdrops
 This allocation is used to raise awareness about Orcfax by giving away FACT
-through various public relations campaigns
+through various public relations campaigns.
 
 ## Ecosystem
 This allocation is for future partnerships, marketing campaigns and
