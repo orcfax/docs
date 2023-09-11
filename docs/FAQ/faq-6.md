@@ -5,7 +5,6 @@ slug: /The-orcfax-ispo
 ---
 
 # The Orcfax ISPO
-
 The Orcfax oracle project launched its Initial Stake Pool Offering (ISPO) in the
 Cardano blockchain’s 400th epoch. An ISPO is a fund-raising mechanism that is
 popular within the Cardano blockchain community. The basic principle is that ADA
@@ -20,19 +19,16 @@ in epoch 424. To conclude this phase, Orcfax published both an ISPO
 [dashboard](https://public.tableau.com/app/profile/christian.koch3382/viz/OrcfaxISPO--Vis/OrcfaxISPOBreakdown) breaking down the ISPO.
 
 # How will reward distribution work?
-
 100M $FACT will be made available to delegators through a partnership with
 TosiDrop within a 6 month vesting period. Participants ill be able to claim 1/6
 of their rewards each month.
 
 # How can I calculate my rewards?
-
 Participants can use the Orcfax Rewards [Calculator](https://rewards.orcfax.io/)
 to check the rewards earned by participating in the ISPO. Simply enter the stake
 address.
 
 # When will my rewards be available on TosiDrop?
-
 | Drop | Epoch | Date |
 |     :---:    |     :---:     |     :---:      |
 | 1st drop     | epoch 437     | 2023-09-17     |
