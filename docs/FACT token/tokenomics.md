@@ -70,9 +70,10 @@ This allocation is used to raise awareness about Orcfax by giving away FACT
 through various public relations campaigns.
 
 ## Ecosystem
-This allocation is for future partnerships, marketing campaigns and
-developer grants. It will also be used to fund research and to develop tools
-and services that contribute to health and growth of the Orcfax ecosystem.
+This allocation is for future partnerships, (centralized) exchange
+liquidity, marketing campaigns and developer grants. It will also be used to
+fund research and to develop tools and services that contribute to the health
+and growth of the Orcfax ecosystem.
 
 ## Foundation
 This allocation will be used to launch the Orcfax DAO and seed a treasury for
