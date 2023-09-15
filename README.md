@@ -1,6 +1,6 @@
-# Orcfax Docs
+# Arkly Docs
 
-Orcfax Docs repository.
+Arkly Docs repository.
 
 ## Pre-commit
 
