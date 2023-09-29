@@ -12,8 +12,11 @@ blockchain transaction. This data point becomes an input to Cardano smart contra
 Cardano serializes its transaction data to the very concise CBOR format. Your smart contract will want to find the right CBOR tag...or, you can just
 run a PyCardano script that reads the on-chain CBOR datum and returns human and machine-readable JSON as prettified output.
 
-We've created a PyCardano demo script for you to try out and hopefully strike up ideas of how you might use decentralized, validated oracle feeds in your Cardano dApps and smart contracts.
-
+We've created a
+[PyCardano](https://github.com/orcfax/datum-demo/blob/main/read_datum.py)
+demo script for you to try out and hopefully strike up ideas of how you
+might use decentralized, validated oracle feeds in your Cardano dApps and
+smart contracts.
 
 The open-source code in [this repo](https://github.com/orcfax/datum-demo)
 contains a demonstration Python script read_datum.py that will read an
