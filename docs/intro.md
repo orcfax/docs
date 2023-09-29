@@ -4,14 +4,15 @@ sidebar_position: 1
 slug: /
 ---
 
-Orcfax is a decentralized **[oracle](what-is-an-oracle)** service that publishes
-data about **[real world](what-is-the-real-world)** events to the
+Orcfax is a decentralized **[oracle](oracle-basics#what-is-an-oracle)** service that publishes
+data about **[real world](/oracle-basics#what-is-the-real-world)** events to the
 **[Cardano](https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc)**
 blockchain.
 
 Orcfax data is made available to on-chain
-**[smart contracts](what-is-a-smart-contract)** in Cardano's **[eUTXO](eUTXO)**
-native format using the **[Cardano Open Oracle Protcol](coop)** (COOP).
+**[smart contracts](oracle-basics#what-is-a-smart-contract)** in Cardano's
+**[eUTXO](eUTXO)** native format using the
+**[Cardano Open Oracle Protcol](coop)** (COOP).
 
 
 ## Getting Started
@@ -30,11 +31,11 @@ published by Orcfax, including its source data and validation history.
 The **[Solution Overview](solution-overview)** section provides a high level
 description the Orcfax technical architecture and its primary components.
 
-Learn more about the **[tokenomics](tokenomics)** and utility of the Orcfax
-service's native FACT token.
+Learn more about the **[tokenomics](tokenomics)** and
+**[utility](utility-token)** of the Orcfax service's native FACT token.
 
-Read our **[FAQ](what-is-an-oracle)** sections to answer any further questions you may
-have about Orcfax or oracles in general.
+Read our **[FAQ](oracle-basics)** sections to answer any further questions you
+may have about Orcfax or oracles in general.
 
 You can also join our **[Discord](https://dsc.gg/orcfax)** to engage directly
 with Orcfax team members.
