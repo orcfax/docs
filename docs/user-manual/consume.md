@@ -39,7 +39,7 @@ the requirements of your own dApp.
 
 It is made freely available under an open-source Apache v2.0 license so that
 you can test, integrate, and extend your own solutions using the on-chain,
-[trustless](verify) fact statement feeds provided by the Orcfax oracle service.
+authenticated fact statement feeds provided by the Orcfax oracle service.
 
 *demo script output:*
 ```
