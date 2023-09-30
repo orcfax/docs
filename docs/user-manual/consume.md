@@ -38,9 +38,8 @@ It's very easy to customize the configuration options of this script to match
 the requirements of your own dApp.
 
 It is made freely available under an open-source Apache v2.0 license so that
-you are free to test, integrate, and extend your own solutions using the
-on-chain, [trustless](verify) fact statement feeds provided by the Orcfax oracle
-service.
+you can test, integrate, and extend your own solutions using the on-chain,
+[trustless](verify) fact statement feeds provided by the Orcfax oracle service.
 
 *demo script output:*
 ```
