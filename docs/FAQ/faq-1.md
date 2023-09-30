@@ -58,14 +58,39 @@ contract.
 notarization may trigger policy changes or protests.
 
 ## What is the oracle problem?
+The blockchain industry refers to the "oracle problem" to refer to the various
+issues related to ensuring that on-chain smart contracts can trust real world
+data inputs to be authentic and accurate.
 
-The oracle problem is used to refer to the issues and trust required around
-validating the authenticity and accuracy of [real world](what-is-the-real-world)
-data that is reported to trustless blockchain
-[smart contracts](what-is-a-smart-contract).
+The trillion dollar DeFi industry is critically dependent on real-world data
+provided by oracles. However, oracle engineering is still in an early stage.
+There are still many opportunities to introduce false data about real-world
+events into oracle data collection, validation and publication pipelines.
 
-There is an introductory section in our docs that delves into the
-[oracle problem](problem-statement) a litte further.
+This is a very lucrative attack vector for bad actors as introducing false
+oracle data can trigger large financial payouts from smart contract scripts.
+Unfortunately, there are significant challenges to preventing a so-called
+“man-in-the-middle” attack and proving that external real-world data introduced
+to smart contracts can be trusted to be authentic and accurate.
+
+Most oracle providers provide little to no traceability on how their
+published, on-chain data is collected and validated to be authentic and
+accurate. Their users simply see a single magic data point appear on chain. The
+context of creation and use is provided by the on-chain transaction, not the
+oracle datum itself.
+
+Most leading oracle platforms are beginning to implement some form of
+decentralized oracle pools as another technique to address the oracle problem.
+In its purest form, a decentralized oracle pool uses distributed networking and
+computation nodes to achieve consensus on the authenticity and accuracy of
+source data before it is published on-chain.
+
+Unfortunately, most current implementations do not go this far. Instead they
+often receive data from a single, black box provider. They then use an oracle
+pool to arrive at a consensus about the *uniformity* of that data and not
+necessarily about its *authenticity* or *accuracy*.
+
+**Orcfax is a second-generation oracle that directly tackles
 
 ## What is the real world?
 ![What is the real world?](/img/2023-09-28--Orcfax-What-Is-The-Real-World.jpg)
