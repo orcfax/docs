@@ -4,8 +4,8 @@ sidebar_position: 1
 slug: /
 ---
 
-Orcfax is a decentralized **[oracle](oracle-basics#what-is-an-oracle)** service that publishes
-data about real world events to the
+Orcfax is a decentralized **[oracle](oracle-basics#what-is-an-oracle)** service
+that publishes data about real world events to the
 **[Cardano](https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc)**
 blockchain.
 
