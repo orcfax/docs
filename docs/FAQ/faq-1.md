@@ -95,7 +95,17 @@ Orcfax was intentionally designed as a
 layers of the oracle problem in a more comprehensive way.
 
 ## What is the real world?
-![What is the real world?](/img/2023-09-28--Orcfax-What-Is-The-Real-World.jpg)
+As a research-driven project, Orcfax adopts symbol grounding from cognitive
+science along with space-time perspective from physics to first define the
+components of the real world and then map these to the applicable standards that
+best describe them.
+
+Space-time is a conceptual model at the root of the Theory of Relativity that
+combines three dimensions of space with one dimension of time. Anything that
+happens within this four-dimensional grid is called an event. Reporting on
+events is what oracles do.
+
+![What is the real world?](/img/2023-09-30--Orcfax-What-Is-The-Real-World.jpg)
 
 ## What is a fact?
 A fact is something that is known to have happened or to exist, especially
