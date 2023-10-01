@@ -1,16 +1,22 @@
 ---
 id: tokenomics
-sidebar_position: 2
+sidebar_position: 1
 slug: /tokenomics
 ---
 
 # FACT Tokenomics
 The FACT [utility token](utility-token) has a fixed supply of 1 billion tokens.
 
-![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
+The FACT token minting policy ID is
+[a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51](https://pool.pm/asset1kuwfd0esf9xcxurp2x4f9w65lvz4tkfw5epugq).
 
-The FACT token minting policy ID is:
-[a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51](https://pool.pm/asset1kuwfd0esf9xcxurp2x4f9w65lvz4tkfw5epugq)
+The FACT token is tradeable on
+[Cardano DEX markets](https://www.taptools.io/charts/token?pairID=026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570.2b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604). It is listed
+on coin tracking sites like
+[CoinGecko](https://www.coingecko.com/en/coins/orcfax) and
+[CoinMarketCap](https://coinmarketcap.com/currencies/orcfax/)
+
+![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
 The following list of ADA Handle wallets correspond to the allocations in the
 FACT tokenomics pie chart above. Using these ADA handles allows for public
@@ -39,12 +45,13 @@ blockchain community. The basic principle is that ADA delegators forego their
 ADA staking rewards each epoch in return for a proportionate share of the
 project token.
 
-Orcfax successfully ran a fully-subscribed ISPO in March 2023. The cliff date
-for the first ISPO drops is September 2023. 10% of the FACT token supply is
-allocated to ISPO participants.
+Orcfax successfully ran a
+[fully-subscribed ISPO](https://github.com/orcfax/orcfax.github.io/blob/main/assets/Orcfax--ISPO-Reflection--July7-2023.pdf)
+in March 2023. The cliff date for the first ISPO drops is September 2023. 10% of
+the FACT token supply is allocated to ISPO participants.
 
 ## Launchpad & LP Bootstrapping
-Orcfax is using the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
+Orcfax used the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
 to introduce the FACT token to the open market and make it available for
 circulation. This launchpad supports a decentralized and non-custodial method
 for initial price discovery.
