@@ -86,17 +86,18 @@ computation nodes to achieve consensus on the authenticity and accuracy of
 source data before it is published on-chain.
 
 Unfortunately, most current implementations do not go this far. Instead they
-often receive data from a single, black box provider. They then use an oracle
-pool to arrive at a consensus about the *uniformity* of that data and not
+often receive data from a single, black box provider. They then might use an
+oracle pool to arrive at a consensus about the *uniformity* of that data and not
 necessarily about its *authenticity* or *accuracy*.
 
-**Orcfax is a second-generation oracle that directly tackles
+Orcfax was intentionally designed as a
+[second-generation oracle](solution-overview) service that addresses multiple
+layers of the oracle problem in a more comprehensive way.
 
 ## What is the real world?
 ![What is the real world?](/img/2023-09-28--Orcfax-What-Is-The-Real-World.jpg)
 
 ## What is a fact?
-
 A fact is something that is known to have happened or to exist, especially
 something for which proof exists, or about which there is information.
 (Cambridge Dictionary, 2021)
