@@ -18,9 +18,10 @@ on coin tracking sites like
 
 ![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
-The following list of ADA Handle wallets correspond to the allocations in the
-FACT tokenomics pie chart above. Using these ADA handles allows for public
-transparency and project accountability on when FACT tokens are moved and used.
+The following list of [ADA Handle](https://mint.handle.me/) wallets correspond
+to the allocations in the FACT tokenomics pie chart above. Using these ADA
+handles allows for public transparency and project accountability on when FACT
+tokens are moved and used.
 
 ![FACT ADA handle wallets](/img/2023-09-01--ADAhandle-FACT-wallets.png)
 
