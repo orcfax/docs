@@ -13,12 +13,16 @@ an audit log package on the decentralized [Arweave](https://arweave.org) storage
 network. This package contains provenance and contextual information about
 how the fact statement datum was collected, validated, and published.
 
-This allows users to **"trust but verify"** any dApp or smart contract that uses
-Orcfax data inputs.
+This allows users to **trust but verify** any dApp or smart contract that uses
+Orcfax data inputs. Depending on which side of the Web3 coin you are looking at,
+this makes Orcfax a very **trustworthy** **trustless** data provider.
 
 The Orcfax project provides a convenient [Explorer](https://explorer.orcfax.io)
 to search all the audit packages for its published Mainnet datum. They are
-marked up as Schema.org JSON-LD for machine-readable re-use.
+marked up as [Schema.org](https://schema.org/Claim)
+[JSON-LD](https://json-ld.org/) for machine-readable re-use and
+[IETF Bagit](https://datatracker.ietf.org/doc/html/rfc8493) for digital
+repository interoperability.
 
 ![Orcfax Explorer sample](/img/orcfax-explorer-sample.png)
 

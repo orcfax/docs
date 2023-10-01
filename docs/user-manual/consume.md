@@ -38,8 +38,9 @@ It's very easy to customize the configuration options of this script to match
 the requirements of your own dApp.
 
 It is made freely available under an open-source Apache v2.0 license so that
-you can test, integrate, and extend your own solutions using the on-chain,
-authenticated fact statement feeds provided by the Orcfax oracle service.
+you can test, integrate, and extend your own solutions using the world's most
+[trustworthy/trustless](verify) authenticated fact statement feeds, provided on
+the world's most decentralized and stable L1 blockchain network.
 
 *demo script output:*
 ```
