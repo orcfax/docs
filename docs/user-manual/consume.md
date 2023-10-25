@@ -5,18 +5,111 @@ slug: /consume
 ---
 
 # Consume fact statements
+
 A fact statement is a datum that the Orcfax network publishes to a Cardano
-blockchain transaction. This data point becomes an input to Cardano smart
+blockchain transaction. This This datum can then be used as an input to Cardano smart
 contracts and dApps.
 
-All fact statements are structured as [JSON-LD](https://json-ld.org/) files
+## UTxO model
+
+A single fact statement is associated with a single [UTxO][utxo-1]. Each UTxO
+has a [reference input][reference-1] encoded as an [inline datum][datum-1].
+
+Reference inputs are published using a COOP authentication token with a COOP
+minting policy identifier, currently:
+
+* preprod: `5ec8416ecd8af5fe338068b2aee00a028dc1f4c0cd5978fb86d7c038`
+  (smart contract address:
+  `addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0`)
+* mainnet: `84da51fd8041b6a1073f1154ddde0c846d71c4081fc1f7ba66e0e6b5`
+  (smart contract address:
+  `addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2`)
+
+Minting policy identifiers are critical as fact statements should be verified as
+coming from a known source. These identifiers also provides the ability to
+filter all of the UTxO at a given smart contract address and to filter out
+those sent by others to the same address.
+
+Users will therefore need to use the following information to identify the
+latest facts.
+
+* Minting policy ID.
+* Datum format, including:
+  * Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
+  largest POSIX timestamp compared to other fact statement datum,
+  * Feed name, e.g. "ADA-USD".
+
+> Note: Users on preprod will find a volume of test data that hasn't been
+> retired as Orcfax previously used this space as a testing sandbox. Users can
+> ignore this data by using the latest preprod policy ID and fact schema.
+
+Unconsumed reference inputs are those still available for smart contracts to use
+on-chain. Spending a UTxO with a reference input renders it unusable in a smart
+contract (though the data will be visible in the historical transaction).
+Consuming reference inputs is sometimes also referred to as garbage collection
+or *retiring* of fact statements. Orcfax's mainnet V1 will operate a policy
+whereby two unspent fact UTxO will remain on-chain at all times.
+
+> Note: maintaining at least two datum on-chain gives smart contracts (and their
+> developers) access to the most current datum and the datum before that for
+> inspection. The POSIX timestamps denoting a valid-from and valid-through
+> period should be inspected to ensure that they are still within a valid
+> window.
+
+For more information about the use of reference inputs and inline datum in COOP,
+see COOP's [design document][coop-design-1].
+
+[coop-design-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#cardano-features-enabling-oracles
+
+[utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
+[reference-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#referenceinputs(cip-31)
+[datum-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#inlinedatums(cip-32)
+
+## Datum structure
+
+All fact statements are structured as [JSON-LD](https://json-ld.org/) objects
 before they are serialized into the Concise Binary Object Representation
 ([CBOR](https://cbor.io/)) that is used in Cardano transactions.
 
 ![Fact Statement](/img/2023-09-30--Orcfax--fact-statement.jpg)
 
+### Orcfax JSON-LD schema
+
+Orcfax's V1 datum is translated to on-chain CBOR from the following JSON schema
+(example given is from Sep 28, 2023):
+
+```json
+{
+  "@context": "https://schema.org",
+  "type": "PropertyValue",
+  "name": "ADA-USD|USD-ADA",
+  "value": [
+    0.249495,
+    4.008096354636367
+  ],
+  "valueReference": [
+    {
+      "@type": "PropertyValue",
+      "name": "validFrom",
+      "value": 1695939870811
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "validThrough",
+      "value": 1695943470811
+    }
+  ],
+  "identifier": {
+    "propertyID": "Arkly Identifier",
+    "type": "PropertyValue",
+    "value": "urn:orcfax:4ae10640-10b9-4c23-af1d-c4a9dbd8938d"
+  },
+  "_:contentSignature": "40330ff2597c399ddaaab6c1dbaab52173ef82bf7f08d3ca84585ab5e76429a0"
+}
+```
 
 ## Read CBOR datum on-chain
+
 Orcfax fact statement datum are readable on-chain as Cardano
 [Reference Inputs](https://github.com/perturbing/vasil-tests/blob/main/reference-inputs-cip-31.md).
 
@@ -24,6 +117,7 @@ To read our `ADA-USD|USD-ADA` Mainnet feed, check the latest transaction
 issued by the [feed smart contract](https://cexplorer.io/address/addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2/tx#data).
 
 ## Read CBOR datum off-chain
+
 The [PyCardano](https://pycardano.readthedocs.io/) SDK provides convenient
 helper functions for converting on-chain CBOR.
 
@@ -37,15 +131,18 @@ machine-readable JSON and then logs various details about the Datum as it goes.
 It's very easy to customize the configuration options of this script to match
 the requirements of your own dApp.
 
-It is made freely available under an open-source Apache v2.0 license so that
-you can test, integrate, and extend your own solutions using the world's most
-[trustworthy/trustless](verify) authenticated fact statement feeds, provided on
-the world's most decentralized and
+This resource has been made freely available under an open-source Apache
+v2.0 license so that you can test, integrate, and extend your own solutions
+using the world's most [trustworthy/trustless](verify) authenticated fact
+statement feeds, provided on the world's most decentralized and
 [stable L1 blockchain](https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc)
 network.
 
+<!-- markdownlint-disable MD013 -->
+
 *demo script output:*
-```
+
+```text
 2023-09-28T16:24:13Z INFO :: read_datum.py:264:read_datum() :: entering this script...
 2023-09-28T16:24:13Z INFO :: read_datum.py:265:read_datum() :: oracle smart contract: addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0
 2023-09-28T16:24:15Z INFO :: read_datum.py:226:get_latest_utxo() :: inspecting '862' UTxOs
@@ -94,3 +191,5 @@ network.
 2023-09-28T16:24:15Z INFO :: read_datum.py:170:pretty_log_value() :: ADA-USD: 0.249495
 2023-09-28T16:24:15Z INFO :: read_datum.py:170:pretty_log_value() :: USD-ADA: 4.008096354636367
 ```
+
+<!-- markdownlint-restore -->
