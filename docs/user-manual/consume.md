@@ -18,10 +18,10 @@ has a [reference input][reference-1] encoded as an [inline datum][datum-1].
 Reference inputs are published using a COOP authentication token with a COOP
 minting policy identifier, currently:
 
-* preprod: `5ec8416ecd8af5fe338068b2aee00a028dc1f4c0cd5978fb86d7c038`
+* preprod: `104d51dd927761bf5d50d32e1ede4b2cff477d475fe32f4f780a4b21`
   (smart contract address:
   `addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0`)
-* mainnet: `84da51fd8041b6a1073f1154ddde0c846d71c4081fc1f7ba66e0e6b5`
+* mainnet: `2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b`
   (smart contract address:
   `addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2`)
 
