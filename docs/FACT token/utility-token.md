@@ -34,6 +34,8 @@ An Orcfax feed consumer can also pay in ADA but will incur an additional fee
 (covering the costs of converting the ADA to FACT) tokens in order to fulfill
 the feed payment.
 
+![Orcfax Economic Model](/img/2024-01-26--Orcfax-Economic-model.png)
+
 ## Utility 2: Staking
 The FACT token is used by Orcfax validator node operators as staked collateral
 to incentivize good performance and trust in the network.
