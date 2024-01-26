@@ -9,7 +9,7 @@ The Orcfax platform includes a Cardano-native utility token named FACT.
 
 The FACT token is used for:
 
-1. Payment for on-demand, oracle data publication
+1. Payment for oracle data publications
 2. Staking by our data validator nodes
 3. Reward payments to validators
 4. Voting power in Orcfax DAO governance decisions
@@ -25,6 +25,14 @@ If an Orcfax feed consumer (e.g. dApp, smart contract) would like a more current
 update for a given datum feed (e.g. ADA/USD), then an on-demand publication
 request can be triggered. The cost of publishing this new fact datum on-chain is
 quoted and paid in FACT.
+
+If an Orcfax feed consumer (e.g. dApp, smart contract) would like to either use
+our heartbeat or on-demand feeds (e.g. ADA/USD), then the cost of publishing
+these fact datum on-chain is quoted and paid in FACT.
+
+An Orcfax feed consumer can also pay in ADA but will incur an additional fee
+(covering the costs of converting the ADA to FACT) tokens in order to fulfill
+the feed payment.
 
 ## Utility 2: Staking
 The FACT token is used by Orcfax validator node operators as staked collateral
