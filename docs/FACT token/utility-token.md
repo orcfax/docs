@@ -21,18 +21,18 @@ for validator node rewards.
 The FACT token is used in the Orcfax network as the form of payment for the fees
 charged to publish new fact statements.
 
-If an Orcfax feed consumer (e.g. dApp, smart contract) would like a more current
-update for a given datum feed (e.g. ADA/USD), then an on-demand publication
-request can be triggered. The cost of publishing this new fact datum on-chain is
-quoted and paid in FACT.
+If an Orcfax feed consumer (e.g. dApp, smart contract) needs a more current
+update for a given datum feed (e.g. ADA/USD) than is available on-chain, then an
+on-demand publication request can be triggered. The cost of publishing this new
+fact datum on-chain is quoted in $FACT.
 
-If an Orcfax feed consumer (e.g. dApp, smart contract) would like to either use
-our heartbeat or on-demand feeds (e.g. ADA/USD), then the cost of publishing
-these fact datum on-chain is quoted and paid in FACT.
+Orcfax feed consumers seeking to fund datum feeds which are published on a
+fixed heartbeat schedule will also have the cost of publication quoted in FACT.
 
-An Orcfax feed consumer can also pay in ADA but will incur an additional fee
-(covering the costs of converting the ADA to FACT) tokens in order to fulfill
-the feed payment.
+While consumer will also have the ability to pay in ADA, these transactions will
+incur an additional fee (covering the costs of converting the ADA to FACT)
+tokens in order to fulfill the feed payment. The ADA which was used to fund
+publication will be sold for FACT.
 
 ![Orcfax Economic Model](/img/2024-02--Orcfax-economic-model2.jpg)
 
