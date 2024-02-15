@@ -47,45 +47,6 @@ This allocation has a cliff date or vesting schedule. However, How it is paid
 out to validators will be made public after the close of the Orcfax Incentivized
 Testnet.
 
-## ISPO
-100,000,000 (10%) $FACT were allocated for use in the successful Orcfax ISPO
-which started on March 15th 2023. Our reflection on the process can be found
-[here](https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf).
-The ISPO was the first and only way for our early supporters to acquire $FACT by
-delegating ADA to our ISPO pool.
-
-An ISPO is a mechanism popular within the Cardano blockchain community.
-The basic principle is that ADA delegators forgo their ADA staking rewards each
-epoch in return for a proportionate share of a project’s token. The Orcfax
-reflection on this mechanism was made available to the public on July 7th, 2023.
-
-The cliff date for the first ISPO drops was September 2023, with 10% of the
-total $FACT supply allocated to ISPO participants. This allocation has a cliff
-date of 6 months after the start of the ISPO and a 6 month vesting period (i.e.
-distributed monthly, for 6 months).
-
-## Launchpad & LP Bootstrapping
-Orcfax used the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
-to introduce the FACT token to the open market and make it available for
-circulation. this was done to raise funds for continued project development via
-a decentralized and non-custodial process. This launchpad supports a
-decentralized and non-custodial method for initial price discovery and the
-initial bootstrapping of a liquidity pool.
-
-86,000,000 (8.6%) $FACT was allocated as collateral for ADA contributed by
-Launchpad participants. 24,000,000 (2.4%) was allocated for bootstrapping the
-first liquidity pool on the Wingriders DEX which followed the launchpad.
-
-The 86,000,000 Launchpad $FACT have no cliff and/or vesting restrictions. They
-can be claimed in full as soon as the launchpad closes.
-
-## Yield Farming APY
-20,000,000 (2%) FACT tokens are used to enhance the appeal of our liquidity
-pool(s) by offering substantial Yield Farming Rewards to our liquidity
-providers.
-
-These tokens have no cliff and/or vesting restrictions.
-
 ## Promotional airdrops
 10,000,000 (1%) $FACT have been allocated for raising awareness for our project
 and to promote Orcfax. This will be done by utilizing the allocated tokens by
@@ -94,23 +55,6 @@ allocation in various public relations campaigns going forward.
 
 This allocation has a cliff date of 3 months after the start of the ISPO and a 6
 month vesting period.
-
-## Ecosystem
-50,000,000 (5%) $FACT have been allocated for developing future partnerships,
-marketing campaigns, developer grants, funding research, and for tools that
-contribute to the project’s overall ecosystem.
-
-This allocation has a cliff date of 6 months after the start of the ISPO and a 6
-month vesting period.
-
-## Token foundation
-50,000,000 (5%) $FACT have been allocated for use in developing and the
-subsequent launch of the Orcfax DAO. The allocation will also be utilized to
-seed the initial treasury, which will be used by the Orcfax DAO foundation to
-fund ongoing activities.
-
-This allocation has a cliff date of 12 months after the start of the ISPO and a
-6 month vesting period.
 
 ## Team
 150,000,000 (15%) $FACT have been allocated for disbursement among the founding
@@ -129,3 +73,58 @@ advisors will be compensated in $FACT from this allocation.
 This allocation has a cliff date of 3 months after the start of the ISPO and a
 24 month vesting period.
 
+## Ecosystem
+50,000,000 (5%) $FACT have been allocated for developing future partnerships,
+marketing campaigns, developer grants, funding research, and for tools that
+contribute to the project’s overall ecosystem.
+
+This allocation has a cliff date of 6 months after the start of the ISPO and a 6
+month vesting period.
+
+## Launchpad & LP Bootstrapping
+Orcfax used the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
+to introduce the FACT token to the open market and make it available for
+circulation. this was done to raise funds for continued project development via
+a decentralized and non-custodial process. This launchpad supports a
+decentralized and non-custodial method for initial price discovery and the
+initial bootstrapping of a liquidity pool.
+
+86,000,000 (8.6%) $FACT was allocated as collateral for ADA contributed by
+Launchpad participants. 24,000,000 (2.4%) was allocated for bootstrapping the
+first liquidity pool on the Wingriders DEX which followed the launchpad.
+
+The 86,000,000 Launchpad $FACT have no cliff and/or vesting restrictions. They
+can be claimed in full as soon as the launchpad closes.
+
+## Token foundation
+50,000,000 (5%) $FACT have been allocated for use in developing and the
+subsequent launch of the Orcfax DAO. The allocation will also be utilized to
+seed the initial treasury, which will be used by the Orcfax DAO foundation to
+fund ongoing activities.
+
+This allocation has a cliff date of 12 months after the start of the ISPO and a
+6 month vesting period.
+
+## ISPO
+100,000,000 (10%) $FACT were allocated for use in the successful Orcfax ISPO
+which started on March 15th 2023. Our reflection on the process can be found
+[here](https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf).
+The ISPO was the first and only way for our early supporters to acquire $FACT by
+delegating ADA to our ISPO pool.
+
+An ISPO is a mechanism popular within the Cardano blockchain community.
+The basic principle is that ADA delegators forgo their ADA staking rewards each
+epoch in return for a proportionate share of a project’s token. The Orcfax
+reflection on this mechanism was made available to the public on July 7th, 2023.
+
+The cliff date for the first ISPO drops was September 2023, with 10% of the
+total $FACT supply allocated to ISPO participants. This allocation has a cliff
+date of 6 months after the start of the ISPO and a 6 month vesting period (i.e.
+distributed monthly, for 6 months).
+
+## Yield Farming APY
+20,000,000 (2%) FACT tokens are used to enhance the appeal of our liquidity
+pool(s) by offering substantial Yield Farming Rewards to our liquidity
+providers.
+
+These tokens have no cliff and/or vesting restrictions.
