@@ -10,25 +10,29 @@ Cardano blockchain’s 400th epoch. An ISPO is a fund-raising mechanism that is
 popular within the Cardano blockchain community. The basic principle is that ADA
 delegators forgo their ADA staking rewards each epoch (5 days) in return for a
 proportionate share of a particular Cardano native token. In Orcfax’s case that
-is $FACT, the utility token used for fees, staking, and rewards in the Orcfax
-decentralized oracle pool network.
+is $FACT, the utility token used for publication fees, staking, rewards, and
+voting within the Orcfax DAO.
 
 The Orcfax ISPO successfully concluded in epoch 413, and the Orcfax pool retired
 in epoch 424. To conclude this phase, Orcfax published both an ISPO
 [Retrospective](/img/2023-07-07--Orcfax-ISPO-reflection.pdf) and a
 [dashboard](https://public.tableau.com/app/profile/christian.koch3382/viz/OrcfaxISPO--Vis/OrcfaxISPOBreakdown) breaking down the ISPO.
 
-# How will reward distribution work?
-100M $FACT will be made available to delegators through a partnership with
-TosiDrop within a 6 month vesting period. Participants ill be able to claim 1/6
-of their rewards each month.
+# How did reward distribution work?
+100M $FACT was made available to delegators through a partnership with
+[TosiDrop](https://app.tosidrop.io/cardano/claim) across a 6 month vesting
+period. Participants were able to claim 1/6 of their rewards each month by
+visiting the site and inputting the stake address used during the ISPO.
 
 # How can I calculate my rewards?
 Participants can use the Orcfax Rewards [Calculator](https://rewards.orcfax.io/)
 to check the rewards earned by participating in the ISPO. Simply enter the stake
-address.
+address used during the ISPO campaign.
 
 # When will my rewards be available on TosiDrop?
+Participants were able to claim 1/6 of their rewards each month on the dates
+listed within the table below.
+
 | Drop | Epoch | Date |
 |     :---:    |     :---:     |     :---:      |
 | 1st drop     | epoch 437     | 2023-09-17     |
@@ -37,3 +41,6 @@ address.
 | 4th drop     | epoch 455     | 2023-12-16     |
 | 5th drop     | epoch 461     | 2024-01-15     |
 | 6th drop     | epoch 467     | 2024-02-14     |
+
+**NOTE: While the final reward drop was made available to participants in Epoch
+467, the last Epoch to claim any rewards will be 510 or September 16, 2024.**
