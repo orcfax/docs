@@ -102,7 +102,7 @@ experience increased adoption. While there can be overlap in the data needs of
 smart contracts, many of these use cases have their own distinct requirements in
 regards to when it must be available for smart contracts to use it.
 
-Orcfax recognizes these differences and has developed services to suite dApp
+Orcfax recognizes these differences and has developed services to suit dApp
 requirements. Our solution supports two distinct publication models: heartbeat
 and on-demand.
 
@@ -116,7 +116,7 @@ before the next heartbeat if price changes by x%).
 
 The on-demand publication model allows complete flexibility and gives dApps even
 more control by allowing dApps to request data collection, validation and
-publication whenever its needed by them.
+publication whenever it's needed by them.
 
 ### Auditable feeds via user friendly explorer vs difficult to audit on-chain data
 When something goes wrong, every user, including non-developers, should be able
