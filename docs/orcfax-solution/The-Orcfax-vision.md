@@ -139,13 +139,13 @@ In the heartbeat publication model, nodes request and cache primary source data
 on the hour and every minute as a result of a monitoring function; this monitor
 then triggers publication workflows in the event of deviations.
 
-<u>The on-demand publication model</u> allows complete flexibility and gives dApps
-even more control of data use by allowing them to request data collection,
-validation and publication whenever it’s needed by their smart contracts. If an
-Orcfax feed consumer needs a more current update for a given datum feed
-(e.g. ADA/USD) than is available on-chain, or through an existing heartbeat
-publication, then an on-demand publication request can be triggered in order to
-receive the datum and use it within the same block.
+<u>The on-demand publication model</u> allows complete flexibility and gives
+dApps even more control of data use by allowing them to request data
+collection, validation and publication whenever it’s needed by their smart
+contracts. If an Orcfax feed consumer needs a more current update for a given
+datum feed (e.g. ADA/USD) than is available on-chain, or through an existing
+heartbeat publication, then an on-demand publication request can be triggered
+in order to receive the datum and use it within the same block.
 
 This service will dramatically increase feed utility for integrators with use
 cases that can’t justify a consistent heartbeat by allowing their smart
