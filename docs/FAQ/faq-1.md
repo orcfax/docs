@@ -8,19 +8,19 @@ slug: /oracle-basics
 ## What is an oracle?
 Oracles like [Orcfax](https://orcfax.io/), [Chainlink](https://chain.link),
 [Charli3](https://charli3.io), etc. are the technical component in blockchain
-architectures that deliver data about the real-world to on-chain smart contracts
-.
+architectures that deliver data about the real-world to on-chain smart
+contracts.
 
 The name is derived from people in the ancient world who delivered messages and
 knowledge from the gods to the mortals.
 
 ![The oracle at Delphi](/img/oracle-of-delphi-bw.png)
 
-Software oracles process information from online sources such as website content
-and open datasets but mostly from server-based application programming
+Software oracles process information from online sources such as website
+content and open datasets but mostly from server-based application programming
 interfaces (API). These are the most common types of oracles and are used, for
-example, by algorithmic stablecoins or automated market maker (AMM) exchanges to
-monitor for changes in currency exchange rates.
+example, by algorithmic stablecoins or automated market maker (AMM) exchanges
+to monitor for changes in currency exchange rates.
 
 ## What is a smart contract?
 Smart contracts are software programs that execute conditional logic on
@@ -38,8 +38,8 @@ accurate, and secure without reliance on a trusted third-party to verify the
 information.
 
 Smart contracts are the key enabler for the explosion of the trillion-dollar
-DeFi industry. What most people don’t realize however, is that the vast majority
-of smart contracts are critically dependent on off-chain data
+DeFi industry. What most people don’t realize however, is that the vast
+majority of smart contracts are critically dependent on off-chain data
 provided by a very small group of oracle service providers.
 
 This is because almost all smart contracts need reliable real-world facts to
@@ -49,11 +49,12 @@ and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
 For example:
-* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi smart
+* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
+smart contract.
+* The final score in a sports event may trigger a payout in a betting dApp
+smart contract.
+* An extreme weather event may trigger a payout for a crop insurance smart
 contract.
-* The final score in a sports event may trigger a payout in a betting dApp smart
-contract.
-* An extreme weather event may trigger a payout for a crop insurance smart contract.
 * The words spoken in a political speech and authenticated via blockchain
 notarization may trigger policy changes or protests.
 
@@ -87,8 +88,8 @@ source data before it is published on-chain.
 
 Unfortunately, most current implementations do not go this far. Instead they
 often receive data from a single, black box provider. They then might use an
-oracle pool to arrive at a consensus about the *uniformity* of that data and not
-necessarily about its *authenticity* or *accuracy*.
+oracle pool to arrive at a consensus about the *uniformity* of that data and
+not necessarily about its *authenticity* or *accuracy*.
 
 Orcfax was intentionally designed as a
 [second-generation oracle](solution-overview) service that addresses multiple
@@ -97,8 +98,8 @@ layers of the oracle problem in a more comprehensive way.
 ## What is the real world?
 As a research-driven project, Orcfax adopts symbol grounding from cognitive
 science along with space-time perspective from physics to first define the
-components of the real world and then map these to the applicable standards that
-best describe them.
+components of the real world and then map these to the applicable standards
+that best describe them.
 
 Space-time is a conceptual model at the root of the Theory of Relativity that
 combines three dimensions of space with one dimension of time. Anything that
