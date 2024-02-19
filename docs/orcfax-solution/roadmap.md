@@ -20,9 +20,9 @@ have [staked the Orcfax utility token](utility-token#utility-2-staking)
 
 This phase is expected to begin in mid-2024, after Orcfax completes the
 operation of its incentivized Testnet. This Testnet exercise will provide the
-data and experience needed to configure the technical and incentive structure of
-the decentralized validator pool prior to transitioning from the federated phase
-.
+data and experience needed to configure the technical and incentive structure
+of the decentralized validator pool prior to transitioning from the federated
+phase.
 
 The following diagram illustrates how the three Orcfax network deployment
 phases overlap.
