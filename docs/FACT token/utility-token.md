@@ -61,7 +61,7 @@ operators while also discouraging bad actors.
 
 On January 9th, 2024 Orcfax announced published its
 [Orcfax Validator License Announcement](https://medium.com/@orcfax/orcfax-validator-license-announcement-5da07ef1439c), which outlined what
-potential node operators and non-validators could look forwardd to as licenses
+potential node operators and non-validators could look forward to as licenses
 became available and as the incentivized testnet (ITN) was rolled out.
 
 If, for whatever reason, a node reports irregular data or has persistent
