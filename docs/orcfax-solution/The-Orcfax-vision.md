@@ -1,6 +1,6 @@
 ---
 id: The Orcfax vision
-sidebar_position: 2
+sidebar_position: 3
 slug: /the-orcfax-vision
 ---
 
