@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.4.1">
 <title data-rh="true">Publication models | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/publication-models"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Publication models | Orcfax"><meta data-rh="true" name="description" content="How data is brought on-chain through an Orcfax oracle feed depends entirely on"><meta data-rh="true" property="og:description" content="How data is brought on-chain through an Orcfax oracle feed depends entirely on"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/publication-models"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/publication-models" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/publication-models" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.0347dc38.css">
-<link rel="preload" href="/assets/js/runtime~main.94614862.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.30b86159.js" as="script">
 <link rel="preload" href="/assets/js/main.66b1e08d.js" as="script">
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -24,13 +24,13 @@ requirement for the data (e.g. liquidations).</p><h2 class="anchor anchorWithSti
 regular intervals which can be set according to their needs (e.g. every 5
 minutes, once per hour, etc.). This model can be further enhanced when paired
 with a monitoring feature which adds a deviation formula; heartbeat publication
-models with deviation add improved precision by guarantying data at both a
+models with deviation add improved precision by guaranteeing data at both a
 consistent interval and when user-stipulated thresholds have been met (e.g.
 publish immediately before the next heartbeat if price changes by x%).</p><p>In the heartbeat publication model, nodes request and cache primary source data
 every minute. Publications are made at a fixed rate (in this case on the hour)
-and additional publications can be triggered by utilizing the monitoring
-function in the event of deviations. This publication model is often referred to
-as a Push based oracle, as the oracle service is parameterized to publish (push)
+that is set by the integrator, and additional publications can be triggered by
+utilizing the monitoring function in the event of deviations.</p><p><img loading="lazy" alt="the heartbeat model" src="/assets/images/2024-02--heartbeat-94821312f34a86203e2fc1710abd78b9.gif" width="1920" height="1080" class="img_ev3q"></p><p>This publication model is often referred to as a Push based oracle, as the
+oracle service is parameterized to publish (push)
 data, and does so continuously at predefined intervals so long as the feed
 remains funded.</p><p>The benefits of the heartbeat (or push) publication model is that integrators
 receive data continuously. However, if the dApp provides services which only
@@ -38,21 +38,19 @@ need data inputs for specific actions, at unpredictable times, or to verify
 components of a transaction, then this model can be nonoptimal or costly given
 the rate at which data is received versus instances of data use.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-on-demand-publication-model">The on-demand publication model<a href="#the-on-demand-publication-model" class="hash-link" aria-label="Direct link to The on-demand publication model" title="Direct link to The on-demand publication model">​</a></h2><p>The on-demand publication model allows complete flexibility and gives dApps even
 more control of data use by allowing them to request data collection, validation
-and publication whenever it’s needed by their smart contracts.</p><p>In the case of CNT feeds, if an Orcfax feed consumer needs a more current update
-for a given datum feed (e.g. ADA/FACT) than is available on-chain or through an
-existing heartbeat publication, then a dApp can request an updated datum by
-posting an utxo with a specific datum in an orders smart contract. This request
-is observed by the validator scripts, and a validator node will be selected to
-submit the requested datum to the feeds smart contract.The dApp can then use a
-script to inspect the requested datum and build a dApp transaction. All these
-actions can happen within the same block.</p><p>This publication model is often referred to as a Pull based oracle, as the
+and publication whenever it’s needed by their smart contracts.</p><p>If an Orcfax feed consumer needs a more current update for a given datum feed
+(e.g. ADA/FACT) than is available on-chain or through an existing heartbeat
+publication schedule, then</p><ol><li>A dApp can request an updated datum by posting an utxo with a specific datum
+in an orders smart contract;</li><li>This request is observed by the validator scripts;</li><li>A validator node will be selected to submit the requested datum to the feeds
+smart contract;</li><li>The dApp can then use a script to inspect the requested datum and build a
+dApp transaction.</li></ol><p>And all of these actions can happen within the same block.</p><p><img loading="lazy" alt="the on-demand model" src="/assets/images/2024-02--on-demand-758b2bc3b02b23a4fe5049ac31e0b6aa.gif" width="1920" height="1080" class="img_ev3q"></p><p>This publication model is often referred to as a Pull based oracle, as the
 oracle service is directly triggered by requests made through a smart contract.</p><p>The benefits of the on-demand (or pull) publication model is that integrators
 experience greater control over when data is made available. This service
 dramatically increases feed utility for dApps with use cases that can’t justify
 a consistent heartbeat. Instead, the on demand publication model allows their
 smart contracts, and/or users to trigger Orcfax publication workflows for the
 data they need, when they need it.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/data-collection"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Data collection</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/the-orcfax-vision"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">The Orcfax vision</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-heartbeat-publication-model" class="table-of-contents__link toc-highlight">The heartbeat publication model</a></li><li><a href="#the-on-demand-publication-model" class="table-of-contents__link toc-highlight">The on-demand publication model</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
-<script src="/assets/js/runtime~main.94614862.js"></script>
+<script src="/assets/js/runtime~main.30b86159.js"></script>
 <script src="/assets/js/main.66b1e08d.js"></script>
 </body>
 </html>
