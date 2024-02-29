@@ -23,9 +23,15 @@ of triangulation in order to enable nodes to function even in scenarios where
 sources fail to return data, are compromised, or report anomalous data. In each
 of these scenarios, the principle means that nodes remain flexible and resilient
 given that they meet the threshold for minimum data sources (e.g. nodes query 5
-sources, and receive inputs from 4 which meets and exceeds the 3 source min),
-which enables the network to maintain data integrity and reliability while being
-unaffected by outliers.
+sources, and receive inputs from 4 which meets and exceeds the 3 source
+minimum), which enables the network to maintain data integrity and reliability
+while being unaffected by outliers.
+
+![Triangulation of primary sources](/img/2024-02--source-triangulation.jpg)
+
+Our adherence to the triangulation policy allows a more thorough response to the
+oracle problem by providing nodes the ability to compare data across multiple
+sources which allows them to assess the authenticity and accuracy of the data.
 
 ## Leveraging decentralized data gathering on chain
 The same data collection principles and standards used in Orcfax price feeds
@@ -42,12 +48,18 @@ Native Token feeds.
 Regardless of the target tokens requested by integrators, Orcfax will leverage
 its network of validator nodes to execute the collection process. Each node will
 be responsible for querying the cardano ledger, in order to collect the total
-liquidity per token pair on each DEX. These liquidity values are then summed up
-in order to derive one virtual liquidity pool for that token pair. This will
-then reflect the aggregated price of that token pair, as observed by the node.
-This approach removes the risk of low liquidity DEXes skewing the price to allow
-manipulation. Each Orcfax node will perform the same process and share their
-prices with the rest of the validator network in order to normalize, validate
+liquidity per token pair on each DEX. These liquidity values are then calculated
+through virtual liquidity pooling to derive an aggregated liquidity pool for
+that token pair.
+
+![Virtual liquidity pooling](/img/2024-02--virtual-liquidity-pooling.jpg)
+
+This virtual pooling will then reflect the aggregated price of that token pair,
+as observed by that specific node. This approach removes the risk of low
+liquidity DEXes skewing the price to allow manipulation.
+
+Each Orcfax node will perform the same process and share their derived values
+with the rest of the validator network in order to normalize, validate
 and finally publish on the Cardano blockchain. This data can then be used as
 trustworthy reference inputs to trigger different kinds of business logic in
 Cardano smart contracts and dApps.
