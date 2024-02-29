@@ -53,7 +53,7 @@ hard fork for reference inputs and inline datum.
 
 More on this topic can be found in [Data collection](data-collection).
 
-## The Cardano Open Oracle Protocol (COOP)
+## COOP
 The rules for how to structure and publish this data has been released as the
 open-source Cardano Open Oracle Protocol ([COOP](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/)) under an Apache 2.0 license. This protocol
 allows Orcfax, and other publication services, to streamline their solutions
@@ -64,6 +64,8 @@ By making it freely available to developers, Orcfax has established the protocol
 as one of many well-structured tools and schemas that will be provided to
 community members in order to aid in viewing and consuming trustworthy off-chain
 data in their smart contracts.
+
+More on this topic can be found in [The Cardano Open Oracle Protocol](coop).
 
 ## Standards & best practice compliance
 The Orcfax Team’s world class experience with information management
