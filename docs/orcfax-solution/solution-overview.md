@@ -76,38 +76,36 @@ as one of many well-structured tools and schemas that will be provided to
 community members in order to aid in viewing and consuming trustworthy off-chain
 data in their smart contracts.
 
-## Standards-compliant audit logs
-Oracles are less trustworthy if they can't demonstrate how their source data
-was collected and validated.
+## Standards & best practice compliance
+The Orcfax Team’s world class experience with information management
+technologies and expertise in other related fields has informed solution
+development at every stage. Orcfax is developing an oracle solution which we
+believe will be the most comprehensive solution to the oracle problem. This will
+be in part because it has been designed to be a standards-compliant
+recordkeeping system that integrates on-chain publication with decentralized
+data collection, validation, and archiving processes.
 
-To address this shortfall found in many other first-generation oracle services,
-Orcfax generates standards-compliant
-[archival packages](design#5-archive-data-validation-audit-logs) that are made
-available permissionlessly so that everybody has the ability to audit the flow
-of Orcfax data collection, validation, and publication.
+The Orcfax system requirements were meticulously derived from the extensive
+analysis and review of blockchain, information technology, and legal standards
+being utilized within the information management industry. The outputs of this
+research are managed in a comprehensive requirements knowledge base from which
+Orcfax has derived system requirements. In addition to these standards and best
+practices, our team continually reviews existing oracle services in order to
+maintain a comparative analysis of other oracle services and how those solutions
+attempt to guarantee the accuracy and authenticity of their data.
 
-These archival packages are described using [Schema.org](https://schema.org)
-and [JSON-LD](https://json-ld.org/) compliant taxonomies, which have been
-purposefully selected in order to enrich Orcfax data. Additionally, by
-leveraging these taxonomies, Orcfax makes its data
-[Linked Data](https://en.wikipedia.org/wiki/Linked_data) and
-[AI-training](https://www.telusinternational.com/insights/ai-data/article/how-to-train-ai)
-compatible, which dramatically enhances value.
+Our analysis continues to reveal gaps both in how existing oracle providers
+conceptualize the oracle problem, and in the efficacy of their attempts to
+address it. These service providers have broadly ignored industry standards and
+academic research findings that exist outside of the blockchain industry’s echo
+chamber. Of particular significance are the ISO quality standards that provide
+well-established international guidelines and practices for ensuring the
+authenticity and accuracy of digital information– the very thing that oracles
+should be most concerned with.
 
-Schema.org is the single most impactful markup language for making any type
-of metadata machine-readable. In Orcfax's case, that means metadata related to
-[Claims](https://schema.org/Claim) made about events happening in the real
-world. This highly structured data from Orcfax feeds will be perfectly
-positioned to serve as the source of a growing data lake of real world fact
-statements that will have many secondary reference uses beyond DeFi oracle
-publication.
-
-To demonstrate the audit-enabling function and re-usability of its archival
-packages, the [Orcfax Explorer](https://explorer.orcfax.io) was developed; this
-product brings additional value to the Orcfax project by enabling users to
-freely search for, and review, all Fact Statements published by Orcfax. The
-Explorer does this through purposeful design decisions which have prioritized
-accessibility and ease of use for a dynamically diverse user group.
+Orcfax stands apart from other oracle solutions because it has leveraged
+relevant multidisciplinary assets in order to inform its development, from the
+ground-up, as a standards-compliant, digital record-keeping system.
 
 ## Orcfax beyond DeFi
 The oracle problem isn't a problem domain limited to scenarios regarding the
