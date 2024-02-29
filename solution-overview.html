@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.4.1">
 <title data-rh="true">Solution overview | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/solution-overview"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Solution overview | Orcfax"><meta data-rh="true" name="description" content="Orcfax is an oracle designed to publish trustworthy data to smart contracts on"><meta data-rh="true" property="og:description" content="Orcfax is an oracle designed to publish trustworthy data to smart contracts on"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/solution-overview"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/solution-overview" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/solution-overview" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.0347dc38.css">
-<link rel="preload" href="/assets/js/runtime~main.405c819e.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.ab24aa2c.js" as="script">
 <link rel="preload" href="/assets/js/main.66b1e08d.js" as="script">
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -46,39 +46,14 @@ that data is sent to a decentralized oracle pool for validation. This allows a
 more thorough response to the oracle problem by providing nodes the ability to
 compare data across multiple sources in order to assess the authenticity and
 accuracy of the data; the data is then further interrogated by having all nodes
-compare the data they collected.</p><p>More on this topic can be found in <a href="/data-collection">Data collection</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cardano-open-oracle-protocol-coop">Cardano Open Oracle Protocol (COOP)<a href="#cardano-open-oracle-protocol-coop" class="hash-link" aria-label="Direct link to Cardano Open Oracle Protocol (COOP)" title="Direct link to Cardano Open Oracle Protocol (COOP)">​</a></h2><p>The Orcfax oracle service uses the Cardano Open Oracle Protocol
-(<a href="https://github.com/mlabs-haskell/cardano-open-oracle-protocol/" target="_blank" rel="noopener noreferrer">COOP</a>)
-to publish and format its data feeds.</p><p>COOP is a set of technical guidelines that specifies a process, and format, for
-the publication and consumption of off-chain data by smart contracts on the
-Cardano blockchain. These guidelines and specification in COOP are free,
-open-source, and can be implemented by any other project seeking to develop
-their own Cardano oracle feeds.</p><p>The Orcfax team developed the Cardano Open Oracle Protocol as a Catalyst
-funded research project that maximizes the eUTXO model and design principles
-in order to demonstrate a cost-sensitive, post-Vasil native method for
-publishing secure, signed, datums on-chain for Reference Input consumption by
-Cardano dApps.</p><p>The initial version was developed in collaboration with
-<a href="https://mlabs.city/" target="_blank" rel="noopener noreferrer">MLabs</a> consultancy. The Orcfax team has since onboarded
-its own Plutus development in-house and expanded on the beta-version of COOP;
-this subsequent version included a full schema.org, JSON-LD compliant
-Cardano datum specification that anchors machine-readable fact-statements in
-the worlds&#x27; most decentralized and stable L1 blockchain network.</p><p>However, R&amp;D at Orcfax is ongoing and our team continues to find ways to bring
-value to Orcfax products. Current work being developed in collaboration with
-the same MLabs team is approaching an optimized COOP deployment that will
-include, among other things, an improved datum structure to further increase
-cost efficiency and ease of integration for dApps.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="levering-eutxo-strengths">Levering eUTXO strengths<a href="#levering-eutxo-strengths" class="hash-link" aria-label="Direct link to Levering eUTXO strengths" title="Direct link to Levering eUTXO strengths">​</a></h3><p>The Cardano open oracle protocol (COOP) was designed to take advantage of the
-<a href="https://cips.cardano.org/cips/cip31/" target="_blank" rel="noopener noreferrer">Cardano CIP-31</a> reference inputs
-enhancements introduced in Cardano network&#x27;s Vasil hard fork. During the design
-process, the primary design goals for the Cardano Open Oracle Protocol (COOP)
-were to leverage CIP-31 in order to provide:</p><ul><li>Financial sustainability – minimize the cost and deposit needed to post,
-maintain, and use COOP datum in eUTXOs, providing opportunities to share costs
-amongst stakeholders.</li><li>Data accessibility – minimize the probability of datum payloads not being
-available for reference by downstream dApp scripts.</li><li>Security – minimize the risk of exposure for the cryptographic keys used in
-verifying the authenticity of COOP datums.</li></ul><p>COOP was able to meet each of these design goals. The reference inputs
-within each Orcfax feed allow the data provider (Orcfax) to publish data points
-once, while simultaneously allowing multiple consumers to use the data point in
-on-chain dApp scripts.</p><p>This enhancement allows a datum written to a single Cardano eUTXO to be read by
-multiple consumers without competing with each other for exclusive access to
-a transaction output.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="standards-compliant-audit-logs">Standards-compliant audit logs<a href="#standards-compliant-audit-logs" class="hash-link" aria-label="Direct link to Standards-compliant audit logs" title="Direct link to Standards-compliant audit logs">​</a></h2><p>Oracles are less trustworthy if they can&#x27;t demonstrate how their source data
+compare the data they collected.</p><p>More on this topic can be found in <a href="/data-collection">Data collection</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-cardano-open-oracle-protocol-coop">The Cardano Open Oracle Protocol (COOP)<a href="#the-cardano-open-oracle-protocol-coop" class="hash-link" aria-label="Direct link to The Cardano Open Oracle Protocol (COOP)" title="Direct link to The Cardano Open Oracle Protocol (COOP)">​</a></h2><p>The rules for how to structure and publish this data has been released as the
+open-source Cardano Open Oracle Protocol (<a href="https://github.com/mlabs-haskell/cardano-open-oracle-protocol/" target="_blank" rel="noopener noreferrer">COOP</a>) under an Apache 2.0 license. This protocol
+allows Orcfax, and other publication services, to streamline their solutions
+while also increasing cost efficiency. The COOP was designed as a purpose-built
+set of software tools and processes to publish datum to the Cardano blockchain.</p><p>By making it freely available to developers, Orcfax has established the protocol
+as one of many well-structured tools and schemas that will be provided to
+community members in order to aid in viewing and consuming trustworthy off-chain
+data in their smart contracts.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="standards-compliant-audit-logs">Standards-compliant audit logs<a href="#standards-compliant-audit-logs" class="hash-link" aria-label="Direct link to Standards-compliant audit logs" title="Direct link to Standards-compliant audit logs">​</a></h2><p>Oracles are less trustworthy if they can&#x27;t demonstrate how their source data
 was collected and validated.</p><p>To address this shortfall found in many other first-generation oracle services,
 Orcfax generates standards-compliant
 <a href="/design#5-archive-data-validation-audit-logs">archival packages</a> that are made
@@ -113,8 +88,8 @@ the Orcfax solution has been intentionally designed to by leveraging global
 record keeping, information management standards so that data created through
 its processes will have many use cases and applications beyond DeFi. Our team
 is particularly interested in on-demand, real-world fact validation to counter
-the threat of AI-generated falsehoods.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Introduction</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/data-collection"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Data collection</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#collection" class="table-of-contents__link toc-highlight">Collection</a></li><li><a href="#cardano-open-oracle-protocol-coop" class="table-of-contents__link toc-highlight">Cardano Open Oracle Protocol (COOP)</a><ul><li><a href="#levering-eutxo-strengths" class="table-of-contents__link toc-highlight">Levering eUTXO strengths</a></li></ul></li><li><a href="#standards-compliant-audit-logs" class="table-of-contents__link toc-highlight">Standards-compliant audit logs</a></li><li><a href="#orcfax-beyond-defi" class="table-of-contents__link toc-highlight">Orcfax beyond DeFi</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
-<script src="/assets/js/runtime~main.405c819e.js"></script>
+the threat of AI-generated falsehoods.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Introduction</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/data-collection"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Data collection</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#collection" class="table-of-contents__link toc-highlight">Collection</a></li><li><a href="#the-cardano-open-oracle-protocol-coop" class="table-of-contents__link toc-highlight">The Cardano Open Oracle Protocol (COOP)</a></li><li><a href="#standards-compliant-audit-logs" class="table-of-contents__link toc-highlight">Standards-compliant audit logs</a></li><li><a href="#orcfax-beyond-defi" class="table-of-contents__link toc-highlight">Orcfax beyond DeFi</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
+<script src="/assets/js/runtime~main.ab24aa2c.js"></script>
 <script src="/assets/js/main.66b1e08d.js"></script>
 </body>
 </html>
