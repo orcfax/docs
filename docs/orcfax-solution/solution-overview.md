@@ -4,59 +4,44 @@ sidebar_position: 1
 slug: /solution-overview
 ---
 
-The Orcfax oracle’s architecture consists of a number of software nodes written
-predominantly as Python, Haskell, and Plutus v2 code. These Orcfax nodes
-publish datum about the real world (e.g. the price of ADA in USD) as
-CBOR-serialized reference inputs into Cardano transactions. These datum are
-read and used in business logic by smart contracts and scripts.
+Orcfax is an oracle designed to publish trustworthy data to smart contracts on
+the Cardano blockchain. The oracle’s architecture consists of a number of
+software nodes written predominantly in Python, Haskell, and Plutus v2 code.
+These Orcfax nodes publish datum about the real world
+(e.g. the price of ADA in USD) a CBOR-serialized reference inputs into Cardano
+transactions. These datum are read and used in business logic by smart contracts
+and scripts.
+
+The subject of this data can be nearly limitless in possibilities, and can
+include changes in currency price pairs, supply-chain activity, insurance, as
+well as data on-chain (e.g. the prices of Cardano native tokens or CNTs).
 
 ![Orcfax solution overview](/img/2023-07-06--Orcfax-concept-diagram.png)
 
-Real world events can include changes in currency price pairs, sporting event
-results, supply-chain activity, weather changes, insurance payouts, and public
-speeches. Orcfax collects this data from a minimum of three independent sources
-via a decentralized pool of validator nodes. These are published to Cardano
-blockchain transactions in its Plutus V2 eUTXO format. This data can then be
-used as trustworthy Reference Inputs to trigger different kinds of business
-logic in Cardano smart contracts and dApps. The Orcfax data collection,
-validation, and publication workflows are captured as audit log packages on the
-decentralized Arweave.org network and can be easily browsed and searched via
-the [Orcfax Explorer](https://explorer.orcfax.io/).
+The Orcfax solution will collect this data from a minimum of three independent
+sources via a decentralized pool of validator nodes. These data points are then
+validated, aggregated, normalized by the nodes before finally being published
+within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
+and the [CIPs](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#:~:text=Cardano%20features%20enabling%20Oracles) implemented in the Vasil
+hard fork for reference inputs and inline datum.
 
-## Standards-compliant audit logs
-Oracles are less trustworthy if they can't demonstrate how their source data
-was collected and validated.
+The rules for how to structure and publish these datum have been released within
+the open-source [Cardano Open Oracle Protocol](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/tree/main) (COOP) under an Apache 2.0 license.
+This protocol allows Orcfax, and other publication services, to streamline their
+solutions while also increasing cost efficiency.
 
-To address this shortfall found in many other first-generation oracle services,
-Orcfax generates standards-compliant
-[archival packages](design#5-archive-data-validation-audit-logs) that are made
-available permissionlessly so that everybody has the ability to audit the flow
-of Orcfax data collection, validation, and publication.
+Once published, this data can be used as trustworthy Reference Inputs to trigger
+different kinds of business logic in Cardano smart contracts and dApps. The
+Orcfax data collection, validation, and publication workflows are captured as
+audit log packages on the decentralized Arweave.org network and can be easily
+browsed and searched via the [Orcfax Explorer](https://explorer.orcfax.io/).
 
-These archival packages are described using [Schema.org](https://schema.org)
-and [JSON-LD](https://json-ld.org/) compliant taxonomies, which have been
-purposefully selected in order to enrich Orcfax data. Additionally, by
-leveraging these taxonomies, Orcfax makes its data
-[Linked Data](https://en.wikipedia.org/wiki/Linked_data) and
-[AI-training](https://www.telusinternational.com/insights/ai-data/article/how-to-train-ai)
-compatible, which dramatically enhances value.
+All data collection, validation, and publication workflows are captured within
+archival packages, which contain complete audit logs of Orcfax processes. These
+packages are secured through decentralized storage and are made easily
+accessible through the [Orcfax Explorer](https://explorer.orcfax.io/) dashboard.
 
-Schema.org is the single most impactful markup language for making any type
-of metadata machine-readable. In Orcfax's case, that means metadata related to
-[Claims](https://schema.org/Claim) made about events happening in the real
-world. This highly structured data from Orcfax feeds will be perfectly
-positioned to serve as the source of a growing data lake of real world fact
-statements that will have many secondary reference uses beyond DeFi oracle
-publication.
-
-To demonstrate the audit-enabling function and re-usability of its archival
-packages, the [Orcfax Explorer](https://explorer.orcfax.io) was developed; this
-product brings additional value to the Orcfax project by enabling users to
-freely search for, and review, all Fact Statements published by Orcfax. The
-Explorer does this through purposeful design decisions which have prioritized
-accessibility and ease of use for a dynamically diverse user group.
-
-## Decentralizing data gathering
+## Collection
 Most leading oracle platforms are beginning to implement some form of
 decentralized oracle pools as another technique to address the
 [oracle problem](oracle-basics#what-is-the-oracle-problem).
@@ -76,6 +61,8 @@ more thorough response to the oracle problem by providing nodes the ability to
 compare data across multiple sources in order to assess the authenticity and
 accuracy of the data; the data is then further interrogated by having all nodes
 compare the data they collected.
+
+More on this topic can be found in [Data collection](data-collection).
 
 ## Cardano Open Oracle Protocol (COOP)
 The Orcfax oracle service uses the Cardano Open Oracle Protocol
@@ -130,6 +117,39 @@ on-chain dApp scripts.
 This enhancement allows a datum written to a single Cardano eUTXO to be read by
 multiple consumers without competing with each other for exclusive access to
 a transaction output.
+
+## Standards-compliant audit logs
+Oracles are less trustworthy if they can't demonstrate how their source data
+was collected and validated.
+
+To address this shortfall found in many other first-generation oracle services,
+Orcfax generates standards-compliant
+[archival packages](design#5-archive-data-validation-audit-logs) that are made
+available permissionlessly so that everybody has the ability to audit the flow
+of Orcfax data collection, validation, and publication.
+
+These archival packages are described using [Schema.org](https://schema.org)
+and [JSON-LD](https://json-ld.org/) compliant taxonomies, which have been
+purposefully selected in order to enrich Orcfax data. Additionally, by
+leveraging these taxonomies, Orcfax makes its data
+[Linked Data](https://en.wikipedia.org/wiki/Linked_data) and
+[AI-training](https://www.telusinternational.com/insights/ai-data/article/how-to-train-ai)
+compatible, which dramatically enhances value.
+
+Schema.org is the single most impactful markup language for making any type
+of metadata machine-readable. In Orcfax's case, that means metadata related to
+[Claims](https://schema.org/Claim) made about events happening in the real
+world. This highly structured data from Orcfax feeds will be perfectly
+positioned to serve as the source of a growing data lake of real world fact
+statements that will have many secondary reference uses beyond DeFi oracle
+publication.
+
+To demonstrate the audit-enabling function and re-usability of its archival
+packages, the [Orcfax Explorer](https://explorer.orcfax.io) was developed; this
+product brings additional value to the Orcfax project by enabling users to
+freely search for, and review, all Fact Statements published by Orcfax. The
+Explorer does this through purposeful design decisions which have prioritized
+accessibility and ease of use for a dynamically diverse user group.
 
 ## Orcfax beyond DeFi
 The oracle problem isn't a problem domain limited to scenarios regarding the
