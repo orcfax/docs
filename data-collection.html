@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.4.1">
 <title data-rh="true">Data collection | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/data-collection"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Data collection | Orcfax"><meta data-rh="true" name="description" content="Decentralizing data collection​"><meta data-rh="true" property="og:description" content="Decentralizing data collection​"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/data-collection"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/data-collection" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/data-collection" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.0347dc38.css">
-<link rel="preload" href="/assets/js/runtime~main.7acf2b2e.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.94614862.js" as="script">
 <link rel="preload" href="/assets/js/main.66b1e08d.js" as="script">
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -25,9 +25,11 @@ of triangulation in order to enable nodes to function even in scenarios where
 sources fail to return data, are compromised, or report anomalous data. In each
 of these scenarios, the principle means that nodes remain flexible and resilient
 given that they meet the threshold for minimum data sources (e.g. nodes query 5
-sources, and receive inputs from 4 which meets and exceeds the 3 source min),
-which enables the network to maintain data integrity and reliability while being
-unaffected by outliers.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="leveraging-decentralized-data-gathering-on-chain">Leveraging decentralized data gathering on chain<a href="#leveraging-decentralized-data-gathering-on-chain" class="hash-link" aria-label="Direct link to Leveraging decentralized data gathering on chain" title="Direct link to Leveraging decentralized data gathering on chain">​</a></h2><p>The same data collection principles and standards used in Orcfax price feeds
+sources, and receive inputs from 4 which meets and exceeds the 3 source
+minimum), which enables the network to maintain data integrity and reliability
+while being unaffected by outliers.</p><p><img loading="lazy" alt="Triangulation of primary sources" src="/assets/images/2024-02--source-triangulation-8207711e3f90a0ab900b0d799cabd16b.jpg" width="3472" height="4607" class="img_ev3q"></p><p>Our adherence to the triangulation policy allows a more thorough response to the
+oracle problem by providing nodes the ability to compare data across multiple
+sources which allows them to assess the authenticity and accuracy of the data.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="leveraging-decentralized-data-gathering-on-chain">Leveraging decentralized data gathering on chain<a href="#leveraging-decentralized-data-gathering-on-chain" class="hash-link" aria-label="Direct link to Leveraging decentralized data gathering on chain" title="Direct link to Leveraging decentralized data gathering on chain">​</a></h2><p>The same data collection principles and standards used in Orcfax price feeds
 will also be leveraged in Cardano Native token (CNT) feeds. Orcfax has chosen to
 leverage DEX Liquidity pools in order to report token pair values. This is
 because liquidity pools provide a unique and efficient price discovery
@@ -39,16 +41,16 @@ ability to provide a simple and elegant solution for decentralized Cardano
 Native Token feeds.</p><p>Regardless of the target tokens requested by integrators, Orcfax will leverage
 its network of validator nodes to execute the collection process. Each node will
 be responsible for querying the cardano ledger, in order to collect the total
-liquidity per token pair on each DEX. These liquidity values are then summed up
-in order to derive one virtual liquidity pool for that token pair. This will
-then reflect the aggregated price of that token pair, as observed by the node.
-This approach removes the risk of low liquidity DEXes skewing the price to allow
-manipulation. Each Orcfax node will perform the same process and share their
-prices with the rest of the validator network in order to normalize, validate
+liquidity per token pair on each DEX. These liquidity values are then calculated
+through virtual liquidity pooling to derive an aggregated liquidity pool for
+that token pair.</p><p><img loading="lazy" alt="Virtual liquidity pooling" src="/assets/images/2024-02--virtual-liquidity-pooling-a1370d1e4b8c50a9669a0d54d6d7345e.jpg" width="5280" height="3029" class="img_ev3q"></p><p>This virtual pooling will then reflect the aggregated price of that token pair,
+as observed by that specific node. This approach removes the risk of low
+liquidity DEXes skewing the price to allow manipulation.</p><p>Each Orcfax node will perform the same process and share their derived values
+with the rest of the validator network in order to normalize, validate
 and finally publish on the Cardano blockchain. This data can then be used as
 trustworthy reference inputs to trigger different kinds of business logic in
 Cardano smart contracts and dApps.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/solution-overview"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Solution overview</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/publication-models"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Publication models</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#decentralizing-data-collection" class="table-of-contents__link toc-highlight">Decentralizing data collection​</a></li><li><a href="#leveraging-decentralized-data-gathering-on-chain" class="table-of-contents__link toc-highlight">Leveraging decentralized data gathering on chain</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
-<script src="/assets/js/runtime~main.7acf2b2e.js"></script>
+<script src="/assets/js/runtime~main.94614862.js"></script>
 <script src="/assets/js/main.66b1e08d.js"></script>
 </body>
 </html>
