@@ -18,18 +18,6 @@ well as data on-chain (e.g. the prices of Cardano native tokens or CNTs).
 
 ![Orcfax solution overview](/img/2023-07-06--Orcfax-concept-diagram.png)
 
-The Orcfax solution will collect this data from a minimum of three independent
-sources via a decentralized pool of validator nodes. These data points are then
-validated, aggregated, normalized by the nodes before finally being published
-within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
-and the [CIPs](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#:~:text=Cardano%20features%20enabling%20Oracles) implemented in the Vasil
-hard fork for reference inputs and inline datum.
-
-The rules for how to structure and publish these datum have been released within
-the open-source [Cardano Open Oracle Protocol](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/tree/main) (COOP) under an Apache 2.0 license.
-This protocol allows Orcfax, and other publication services, to streamline their
-solutions while also increasing cost efficiency.
-
 Once published, this data can be used as trustworthy Reference Inputs to trigger
 different kinds of business logic in Cardano smart contracts and dApps. The
 Orcfax data collection, validation, and publication workflows are captured as
@@ -55,12 +43,13 @@ pool to arrive at a consensus about the *uniformity* of that data and not
 necessarily about its *authenticity* or *accuracy*.
 
 To address this shortfall found in many other oracle services, Orcfax enforces
-a strict source-data triangulation policy for all its oracle feeds *before*
-that data is sent to a decentralized oracle pool for validation. This allows a
-more thorough response to the oracle problem by providing nodes the ability to
-compare data across multiple sources in order to assess the authenticity and
-accuracy of the data; the data is then further interrogated by having all nodes
-compare the data they collected.
+a strict source-data triangulation policy for all its oracle feeds. This means
+that the Orcfax solution will collect data from a minimum of three independent
+sources via a decentralized pool of validator nodes. These data points are then
+validated, aggregated, normalized by the nodes before finally being published
+within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
+and the [CIPs](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#:~:text=Cardano%20features%20enabling%20Oracles) implemented in the Vasil
+hard fork for reference inputs and inline datum.
 
 More on this topic can be found in [Data collection](data-collection).
 
