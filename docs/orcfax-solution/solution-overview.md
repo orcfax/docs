@@ -19,15 +19,18 @@ well as data on-chain (e.g. the prices of Cardano native tokens or CNTs).
 ![Orcfax solution overview](/img/2023-07-06--Orcfax-concept-diagram.png)
 
 Once published, this data can be used as trustworthy Reference Inputs to trigger
-different kinds of business logic in Cardano smart contracts and dApps. The
-Orcfax data collection, validation, and publication workflows are captured as
-audit log packages on the decentralized Arweave.org network and can be easily
-browsed and searched via the [Orcfax Explorer](https://explorer.orcfax.io/).
+different kinds of business logic in Cardano smart contracts and dApps. All of
+this data relating to Orcfax workflows (including collection, validation,
+and publication) is captured within archival packages, which when combined
+represent complete audit logs of Orcfax processes. These packages are secured
+through decentralized storage and are made easily accessible through the
+[Orcfax Explorer](https://explorer.orcfax.io/) dashboard.
 
-All data collection, validation, and publication workflows are captured within
-archival packages, which contain complete audit logs of Orcfax processes. These
-packages are secured through decentralized storage and are made easily
-accessible through the [Orcfax Explorer](https://explorer.orcfax.io/) dashboard.
+More can be read about the dashboard in
+[The Orcfax Explorer](auditability#the-orcfax-explorer).
+
+<!--More about the Orcfax strategy for the long term preservation of its data
+outputs can be read in [Decentralized storage](). -->
 
 ## Collection
 Most leading oracle platforms are beginning to implement some form of
@@ -52,6 +55,11 @@ and the [CIPs](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blo
 hard fork for reference inputs and inline datum.
 
 More on this topic can be found in [Data collection](data-collection).
+
+<!-- ## Validation
+a short primer on the validation process...
+
+More on this topic can be found in [Data validation](data-validation). -->
 
 ## COOP
 The rules for how to structure and publish this data has been released as the
