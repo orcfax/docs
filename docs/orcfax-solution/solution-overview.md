@@ -24,7 +24,7 @@ this data relating to Orcfax workflows (including collection, validation,
 and publication) is captured within archival packages, which when combined
 represent complete audit logs of Orcfax processes. These packages are secured
 through decentralized storage and are made easily accessible through the
-[Orcfax Explorer](https://explorer.orcfax.io/) dashboard.
+Orcfax Explorer [dashboard](https://explorer.orcfax.io/).
 
 More can be read about the dashboard in
 [The Orcfax Explorer](auditability#the-orcfax-explorer).
@@ -73,7 +73,25 @@ as one of many well-structured tools and schemas that will be provided to
 community members in order to aid in viewing and consuming trustworthy off-chain
 data in their smart contracts.
 
-More on this topic can be found in [The Cardano Open Oracle Protocol](coop).
+More on this topic can be found in the [Cardano Open Oracle Protocol](coop).
+
+## Publication
+After the data has been collected, normalized, and validated, the next step is
+to publish it on-chain; how publication is executed is largely dependant on the
+business needs of Orcfax feed integrators and the use cases these feeds enable.
+
+These use cases are wide ranging and innovation in the blockchain space means
+that new use cases for Orcfax feeds continue to evolve. Because of this, there
+often isn't a one size fits all solution for how to bring data on-chain. Orcfax
+recognizes just how dynamic the development landscape is and continues to make
+develop its in order to meet those changing needs.
+
+Orcfax is developing publication options that allow integrators to choose
+services that meet the needs of their projects. By adding flexibility to the
+Orcfax solution, dApps can make business decisions that improve cost efficiency
+and value to their stakeholders.
+
+More on this topic can be found in [Publication models](publication-models).
 
 ## Standards & best practice compliance
 The Orcfax Team’s world class experience with information management

@@ -1,5 +1,5 @@
 ---
-id: The Cardano Open Oracle Protocol
+id: Cardano Open Oracle Protocol
 sidebar_position: 3
 slug: /coop
 ---
