@@ -98,6 +98,8 @@ Orcfax stands apart from other oracle solutions because it has leveraged
 relevant multidisciplinary assets in order to inform its development, from the
 ground-up, as a standards-compliant, digital record-keeping system.
 
+More on this topic can be found in [Auditability](auditability).
+
 ## Orcfax beyond DeFi
 The oracle problem isn't a problem domain limited to scenarios regarding the
 provision of data feeds to dApps in an effort to underpin the success of
