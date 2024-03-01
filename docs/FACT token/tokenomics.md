@@ -16,16 +16,30 @@ on coin tracking sites like
 [CoinGecko](https://www.coingecko.com/en/coins/orcfax) and
 [CoinMarketCap](https://coinmarketcap.com/currencies/orcfax/)
 
+## Token Distribution
+Following the token generation event (TGE), the Orcfax team distributed all
+1,000,000,000 $FACT to a series of [ADA Handle](https://mint.handle.me/)
+wallets. Each of these adahandle wallets represents one of the allocations as
+mentioned in the chart below.
+
 ![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
-The following list of [ADA Handle](https://mint.handle.me/) wallets correspond
-to the allocations in the FACT tokenomics pie chart above. Using these ADA
-handles allows for public transparency and project accountability on when FACT
-tokens are moved and used.
+To further understand these allocations, each will be defined, with their
+purpose and use expanded on; the following list of ADA Handle wallets correspond
+to the allocations in the $FACT tokenomics pie chart above. The ability for
+users to monitor the use of these ADA handles, combined with the wallets’ strict
+parameters for use, provides a unique method of accountability which the Orcfax
+project hopes to foster. This is accomplished by ensuring a high level of
+transparency in the distribution and use of $FACT as any member of the Cardano
+community can monitor activity within these wallets.
 
 ![FACT ADA handle wallets](/img/2023-09-01--ADAhandle-FACT-wallets.png)
 
-Short descriptions of each FACT token allocation is provided below.
+As mentioned previously, each of the nine $FACT allocations has rules governing
+how and when their supply of $FACT can be utilized. The vesting schedule
+provided in table above clearly presents the total $FACT allocation for each
+ADA Handle, the cliff date, and when that supply is made available to the
+allocation.
 
 ![FACT tokenomics table](/img/2023-09-02--FACT-tokenomics-table.png)
 
@@ -85,9 +99,14 @@ month vesting period.
 Orcfax used the [Wingriders Launchpad](https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379)
 to introduce the FACT token to the open market and make it available for
 circulation. this was done to raise funds for continued project development via
-a decentralized and non-custodial process. This launchpad supports a
-decentralized and non-custodial method for initial price discovery and the
-initial bootstrapping of a liquidity pool.
+a decentralized and non-custodial process.
+Decentralized, non-custodial, and fair price discovery were critical aspects of
+the Orcfax launch. This is why we refrained from utilizing a centralized initial
+coin offering (ICO) style public sale. By doing so, we empowered the market to
+set the token’s initial price, avoiding pre-determined prices, promotes
+decentralization strategies, and provided an opportunity for the initial
+bootstrapping of a liquidity pool. Additionally, this approach also enhances
+regulatory clarity and minimizes future risks.
 
 86,000,000 (8.6%) $FACT was allocated as collateral for ADA contributed by
 Launchpad participants. 24,000,000 (2.4%) was allocated for bootstrapping the
@@ -95,6 +114,12 @@ first liquidity pool on the Wingriders DEX which followed the launchpad.
 
 The 86,000,000 Launchpad $FACT have no cliff and/or vesting restrictions. They
 can be claimed in full as soon as the launchpad closes.
+
+Orcfax is committed to increasing the footprint of its community. The way we
+decided to distribute the Orcfax utility token is an important step towards
+achieving this goal. That’s why we decided not to sell any FACT tokens via VC,
+seed, or private sale rounds. We believe this has resulted in a more fair
+distribution of our token among our community.
 
 ## Token foundation
 50,000,000 (5%) $FACT have been allocated for use in developing and the
@@ -106,19 +131,26 @@ This allocation has a cliff date of 12 months after the start of the ISPO and a
 6 month vesting period.
 
 ## ISPO
-100,000,000 (10%) $FACT were allocated for use in the successful Orcfax ISPO
-which started on March 15th 2023. Our reflection on the process can be found
-[here](https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf).
-The ISPO was the first and only way for our early supporters to acquire $FACT by
-delegating ADA to our ISPO pool.
+100,000,000 (10%) $FACT were allocated for use in the Orcfax Initial Stake Pool
+Offering (ISPO). An ISPO is a mechanism popular within the Cardano blockchain
+community. The basic principle is that ADA delegators forgo their ADA staking
+rewards each epoch in return for a proportionate share of a project’s token.
 
-An ISPO is a mechanism popular within the Cardano blockchain community.
-The basic principle is that ADA delegators forgo their ADA staking rewards each
-epoch in return for a proportionate share of a project’s token. The Orcfax
-reflection on this mechanism was made available to the public on July 7th, 2023.
+The Orcfax ISPO started on March 15th 2023, within Cardano’s
+[400th epoch](https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf).
+The Orcfax [reflection](https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf) on the
+process was made available to the public on July 7th, 2023.
+
+As the ISPO approached its saturation point in epoch 405, Orcfax closed the pool
+for new delegators, and the ISPO came to a close in epoch 413. The speed at
+which the Orcfax ISPO reached saturation, and came to a successful close, made
+it one of Cardano’s most successful ISPOs at that time.
+
+The Orcfax ISPO was the first and only way for our early supporters to acquire
+$FACT by delegating ADA to our ISPO pool.
 
 The cliff date for the first ISPO drops was September 2023, with 10% of the
-total $FACT supply allocated to ISPO participants. This allocation has a cliff
+total $FACT supply allocated to ISPO participants. This allocation had a cliff
 date of 6 months after the start of the ISPO and a 6 month vesting period (i.e.
 distributed monthly, for 6 months).
 
@@ -127,4 +159,18 @@ distributed monthly, for 6 months).
 pool(s) by offering substantial Yield Farming Rewards to our liquidity
 providers.
 
-These tokens have no cliff and/or vesting restrictions.
+Yield farming, also called liquidity mining, involves lending or staking
+cryptocurrencies in DeFi platforms to earn extra tokens. Instead of letting
+tokens sit idle in their wallets, users can deposit tokens in DeFi platforms
+like WingRiders, or Minswap. In return, users receive (native) tokens or other
+fees as rewards. Rewards vary based on factors like asset type, amount,
+duration, and platform demand.
+
+These tokens received by users as a reward have no cliff and/or vesting
+restrictions.
+
+### Disclaimer
+The information provided above is for educational and informational
+purposes only. Yield farming involves financial risks, and individuals should
+carefully consider their own financial situation, risk tolerance, and investment
+goals before participating in any yield farming program.
