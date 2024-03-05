@@ -78,7 +78,7 @@ information captured for future auditability.
 }
 ```
 
-In the course of feed discovery, feed consumers will can querry the network for
+In the course of feed discovery, feed consumers will can query the network for
 a feed or specific fact sstatement; if that particular fact statement has
 already been published in a previous transaction, an Orcfax node will reply with
 the UTXO identifier that the Consumer can use for free as a CIP-31 Reference

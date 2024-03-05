@@ -19,7 +19,7 @@ decentralized digital archive of facts. These records will be made available
 free of charge to any person through the Orcfax Fact Explorer.
 <br/>
 For the DApp developers or analysts, huge utility and value for their research
-will be found within these carefully indexed Fact Statements. Wether to inform
+will be found within these carefully indexed Fact Statements. Whether to inform
 future price action prediction models or train new machine learning models from
 verified facts, the value of this archive will grow as users continue to
 transact on Cardano. Users will be able to search through this archive by

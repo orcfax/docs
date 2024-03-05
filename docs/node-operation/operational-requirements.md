@@ -45,14 +45,14 @@ transaction to themselves with a minimum of 250,000 $FACT during a one week
 period. A ranking system was then employed to score user reservations based on
 two factors:
 1. timeliness of the submitted reservation transaction
-1. the total $FACT submitted in the transaction (above andd beyond the minimum
+1. the total $FACT submitted in the transaction (above and beyond the minimum
 requirement of 250K).
 This ranking system wwas designed to provide greater opportunity to all while
 also disincentivizing “whales” and bots from acquiring multiple licenses for the
 purposes of speculation.
 
 The reservation process started on February 17th, 2024 at 19:00:00 UTC and ended
-exactly 1 week later on February 24th at 19:00:00 UTC. During, andd after, the
+exactly 1 week later on February 24th at 19:00:00 UTC. During, and after, the
 reservation period, users were able to track the status of their reservation
 through a realtime [leaderboard](https://status.orcfax.io/validators).
 

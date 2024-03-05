@@ -16,7 +16,7 @@ slug: /design
 What our research has shown is that across a wide-variety of disciplines,
 the primary way to prove that information is authentic is by documenting the
 process of data collection, revision, and publication and then protecting that
-information from alteration while making it easily accessable for reference and
+information from alteration while making it easily accessible for reference and
 audit.
 
 There are a number of relevant industry standards and practices for this which

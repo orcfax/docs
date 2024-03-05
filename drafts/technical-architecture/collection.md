@@ -65,7 +65,3 @@ at least three API responses similar to the below example.
   }
 }
 ```
-
-
-
-

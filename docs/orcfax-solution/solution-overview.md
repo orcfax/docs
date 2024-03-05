@@ -77,7 +77,7 @@ More on this topic can be found in the [Cardano Open Oracle Protocol](coop).
 
 ## Publication
 After the data has been collected, normalized, and validated, the next step is
-to publish it on-chain; how publication is executed is largely dependant on the
+to publish it on-chain; how publication is executed is largely dependent on the
 business needs of Orcfax feed integrators and the use cases these feeds enable.
 
 These use cases are wide ranging and innovation in the blockchain space means
