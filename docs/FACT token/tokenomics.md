@@ -22,7 +22,7 @@ Following the token generation event (TGE), the Orcfax team distributed all
 wallets. Each of these adahandle wallets represents one of the allocations as
 mentioned in the chart below.
 
-![FACT tokenomics piechart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
+![FACT tokenomics pie chart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
 To further understand these allocations, each will be defined, with their
 purpose and use expanded on; the following list of ADA Handle wallets correspond

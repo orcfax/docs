@@ -19,7 +19,7 @@ and diverse feed types according to market demand.
 
 Orcfax data is made available to on-chain
 **[smart contracts](oracle-basics#what-is-a-smart-contract)** in Cardano's eUTXO
-native format using the **[Cardano Open Oracle Protcol](solution-overview#cardano-open-oracle-protocol-coop)** (COOP).
+native format using the **[Cardano Open Oracle Protocol](solution-overview#cardano-open-oracle-protocol-coop)** (COOP).
 
 ## Getting Started
 Check our developer manual for instructions on how to:
