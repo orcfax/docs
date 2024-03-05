@@ -4,6 +4,8 @@ sidebar_position: 3
 slug: /coop
 ---
 
+# Cardano Open Oracle Protocol
+
 The Orcfax oracle service uses the Cardano Open Oracle Protocol
 ([COOP](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/))
 to publish and format its data feeds. The protocol constitutes a set of
@@ -36,7 +38,8 @@ team as our teams. This updated version is working towards an optimized COOP
 deployment that will include, among other things, an improved datum structure to
 further increase cost efficiency and ease of integration for dApps.
 
-### Levering eUTXO strengths
+## Levering eUTXO strengths
+
 The Cardano open oracle protocol (COOP) was designed to take advantage of the
 [Cardano CIP-31](https://cips.cardano.org/cips/cip31/) reference inputs
 enhancements introduced in Cardano network's Vasil hard fork. During the design

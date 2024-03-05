@@ -4,6 +4,8 @@ sidebar_position: 19
 slug: /the-orcfax-vision
 ---
 
+# The Orcfax vision
+
 Oracles are a critical piece of blockchain infrastructure that when overlooked,
 or under-utilized, can have severe impacts on DeFi protocols. An Oracle's
 primary role is to provide data about the real world, which the blockchain is
@@ -47,6 +49,7 @@ services.
 ![The Orcfax oracle vision](/img/2024--Orcfax-oracle-vision.png)
 
 ## Breaking it down
+
 The critical aspects of an oracle solution outlined in the above table
 demonstrate the Orcfax vision for Cardano oracles and how they should be
 designed in order to effectively address the oracle problem. To add more
@@ -55,6 +58,7 @@ following will further unpack each aspect, its significance, and how the Orcfax
 solution provides an answer.
 
 ### Triangulation of data points vs single source data points
+
 To avoid single points of failure or attack, Orcfax has adopted the
 mathematical principle of triangulation, which is concerned with the
 utilization of multiple methods, or sources of information, in order to derive
@@ -73,6 +77,7 @@ providers as Orcfax continues to enhance the reliability and security of its
 oracle solution.
 
 ### Decentralized & permissionless pool of validators vs off-chain kyc-ed validators
+
 Requiring data validators to go through regulatory know-your-customer processes
 (KYC) and/or requiring individuals to sign contracts goes against the very
 decentralization ethos that Orcfax is championing. **Truly decentralized
@@ -86,6 +91,7 @@ party companies to act as gatekeepers for, what should be, a community
 resource.
 
 ### Aggregated & validated by Orcfax vs Aggregated and validated by dApp
+
 The oracle problem represents significant risks for dApps and has implications
 for the data that their smart contracts rely upon in order to execute
 transactions. However, dApps can, and should, reduce their risk significantly
@@ -111,6 +117,7 @@ also result in justifiable mistrust amongst the users of their DeFi products,
 as it is often their assets which are put at risk by these design decisions.
 
 ### Heartbeat & on-demand feeds vs heartbeat feeds only
+
 The number of potential use cases for oracle feeds are numerous, and they are
 increasing every day as developers create exciting new products, and as
 blockchains position themselves for increased adoption. While there can be
@@ -153,6 +160,7 @@ contracts and users to trigger Orcfax publication workflows for the data they
 need, when they need it.
 
 ### Auditable feeds via user friendly explorer vs difficult to audit on-chain data
+
 When something goes wrong, every user, including non-developers, should be able
 to audit all aspects of the processes involved— oracles are no different. Users
 must have the ability to follow detailed documentation that recounts the
@@ -182,6 +190,7 @@ forensic process to follow on-chain transactions. Everything users need is made
 available at their finger tips.
 
 ### Standards-based interoperable audit trails vs feed only available on-chain
+
 This point complements the previous by focusing on the value of re-use; Orcfax
 strongly believes that there is significant secondary value for real-world data
 that has gone through vigorous authenticity and accuracy checks, like the
@@ -203,6 +212,7 @@ to leverage this “data lake of validated facts” for new value-added services
 and products.
 
 ### Cost-effective eUTXO model vs cost-intensive eUTXO model
+
 Cardano was designed to off-load as much transaction processing as possible to
 off-chain components in order to minimize on-chain computations and thereby
 dramatically reduce transaction costs. The Cardano blockchain has been able to
@@ -229,6 +239,7 @@ Orcfax can continue to stand by that claim by optimizing feed publication and
 maximizing integrator ease of use.
 
 ### DAO governance & treasury vs Centralized company
+
 While the Orcfax project was initially established through its incorporation as
 a company in the British Virgin Islands, and has continued to leverage this
 position for development, this was always meant to be temporary. The sole
@@ -262,6 +273,7 @@ VCs also causes the project to be beholden to them, whereas we prefer to be
 beholden to our community.
 
 ### Open source vs Closed source
+
 The Orcfax team stalwartly believes in the open-source software ethos, which
 prioritizes equitable access by allowing users to copy, inspect, and alter
 software source code for the benefit of their own projects. Another key benefit
@@ -284,6 +296,7 @@ Orcfax components as they are are rolled-out into production in the near
 future.
 
 ## What is the Orcfax difference?
+
 We believe that the purposeful design of the Orcfax solution and the
 incorporation of the above critical aspects demonstrates how Orcfax sets itself
 apart from other oracle solution attempts in the Cardano space. With that said,

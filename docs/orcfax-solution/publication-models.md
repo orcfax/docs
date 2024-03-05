@@ -4,6 +4,8 @@ sidebar_position: 5
 slug: /publication-models
 ---
 
+# Publication models
+
 How data is brought on-chain through an Orcfax oracle feed depends entirely on
 the use case and the needs of integrating dApps; there are many different oracle
 use cases, and each needs something different from Orcfax. While there can be
@@ -20,6 +22,7 @@ best to receive their data: hourly, daily or when there’s a real-time
 requirement for the data (e.g. liquidations).
 
 ## The heartbeat publication model
+
 The heartbeat publication model gives integrators the ability to access data at
 regular intervals which can be set according to their needs (e.g. every 5
 minutes, once per hour, etc.). This model can be further enhanced when paired
@@ -47,13 +50,15 @@ components of a transaction, then this model can be nonoptimal or costly given
 the rate at which data is received versus instances of data use.
 
 ## The on-demand publication model
+
 The on-demand publication model allows complete flexibility and gives dApps even
 more control of data use by allowing them to request data collection, validation
 and publication whenever it’s needed by their smart contracts.
 
 If an Orcfax feed consumer needs a more current update for a given datum feed
 (e.g. ADA/FACT) than is available on-chain or through an existing heartbeat
-publication schedule, then
+publication schedule, then:
+
 1. A dApp can request an updated datum by posting an utxo with a specific datum
 in an orders smart contract;
 1. This request is observed by the validator scripts;

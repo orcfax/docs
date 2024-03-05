@@ -4,6 +4,8 @@ sidebar_position: 3
 slug: /technical-requirements
 ---
 
+# Technical requirements
+
 While we believe that accessibility plays a large role in decentralization, and
 have made design choices which we hope allows a broader range of participation
 within the network, it is still important to be aware of what will be required

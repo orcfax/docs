@@ -4,7 +4,10 @@ sidebar_position: 2
 slug: /data-collection
 ---
 
+# Data collection
+
 ## Decentralizing data collection​
+
 Since the roll out of our ADA-USD / USD-ADA feed, Orcfax has committed to
 educating users on the critical importance of rejecting data derived from single
 sources and the necessity for source redundancy. Orcfax addresses both of these
@@ -34,6 +37,7 @@ oracle problem by providing nodes the ability to compare data across multiple
 sources which allows them to assess the authenticity and accuracy of the data.
 
 ## Leveraging decentralized data gathering on chain
+
 The same data collection principles and standards used in Orcfax price feeds
 will also be leveraged in Cardano Native token (CNT) feeds. Orcfax has chosen to
 leverage DEX Liquidity pools in order to report token pair values. This is

@@ -5,6 +5,7 @@ slug: /The-$FACT-launch
 ---
 
 # The $FACT Launch
+
 On September 8th, Orcfax launched the $FACT utility token in collaboration with
 the Wingriders’ Launchpad, and quickly reached the max contributions, raising
 4.5 million ADA! We are grateful to have such an engaged and supportive
@@ -19,13 +20,17 @@ On September 22nd, the Minswap liquidity pool came online.
 
 On  September 25th, the Sundae Swap liquidity pool came online.
 
-# What is the Fact policy ID?
+## What is the Fact policy ID?
+
 It has been reported that multiple fake FACT tokens, and pools, have been
 found. **Always** check our FACT Policy ID before making any trades:
+
+```text
 a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51
+```
 
+## Where can I participate in yield farming?
 
-# Where can I participate in yield farming?
 On September 15th, users had the opportunity to add liquidity, and stake LP
 tokens on WingRiders' [liquidity pool](https://app.wingriders.com/pools/026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a5702b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604)
 before epoch 438, in order to start receiving double yield rewards

@@ -4,6 +4,8 @@ sidebar_position: 1
 slug: /solution-overview
 ---
 
+# Solution overview
+
 Orcfax is an oracle designed to publish trustworthy data to smart contracts on
 the Cardano blockchain. The oracle’s architecture consists of a number of
 software nodes written predominantly in Python, Haskell, and Plutus v2 code.
@@ -33,6 +35,7 @@ More can be read about the dashboard in
 outputs can be read in [Decentralized storage](). -->
 
 ## Collection
+
 Most leading oracle platforms are beginning to implement some form of
 decentralized oracle pools as another technique to address the
 [oracle problem](oracle-basics#what-is-the-oracle-problem).
@@ -51,8 +54,10 @@ that the Orcfax solution will collect data from a minimum of three independent
 sources via a decentralized pool of validator nodes. These data points are then
 validated, aggregated, normalized by the nodes before finally being published
 within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
-and the [CIPs](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#:~:text=Cardano%20features%20enabling%20Oracles) implemented in the Vasil
+and the [CIPs][eUTXO-1] implemented in the Vasil
 hard fork for reference inputs and inline datum.
+
+[eUTXO-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#:~:text=Cardano%20features%20enabling%20Oracles
 
 More on this topic can be found in [Data collection](data-collection).
 
@@ -62,11 +67,15 @@ a short primer on the validation process...
 More on this topic can be found in [Data validation](data-validation). -->
 
 ## COOP
+
 The rules for how to structure and publish this data has been released as the
-open-source Cardano Open Oracle Protocol ([COOP](https://github.com/mlabs-haskell/cardano-open-oracle-protocol/)) under an Apache 2.0 license. This protocol
-allows Orcfax, and other publication services, to streamline their solutions
-while also increasing cost efficiency. The COOP was designed as a purpose-built
-set of software tools and processes to publish datum to the Cardano blockchain.
+open-source Cardano Open Oracle Protocol ([COOP][coop-1]) under an Apache 2.0
+license. This protocol allows Orcfax, and other publication services, to
+streamline their solutions while also increasing cost efficiency. The COOP was
+designed as a purpose-built set of software tools and processes to publish datum
+to the Cardano blockchain.
+
+[coop-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/
 
 By making it freely available to developers, Orcfax has established the protocol
 as one of many well-structured tools and schemas that will be provided to
@@ -76,6 +85,7 @@ data in their smart contracts.
 More on this topic can be found in the [Cardano Open Oracle Protocol](coop).
 
 ## Publication
+
 After the data has been collected, normalized, and validated, the next step is
 to publish it on-chain; how publication is executed is largely dependent on the
 business needs of Orcfax feed integrators and the use cases these feeds enable.
@@ -94,6 +104,7 @@ and value to their stakeholders.
 More on this topic can be found in [Publication models](publication-models).
 
 ## Standards & best practice compliance
+
 The Orcfax Team’s world class experience with information management
 technologies and expertise in other related fields has informed solution
 development at every stage. Orcfax is developing an oracle solution which we
@@ -127,6 +138,7 @@ ground-up, as a standards-compliant, digital record-keeping system.
 More on this topic can be found in [Auditability](auditability).
 
 ## Orcfax beyond DeFi
+
 The oracle problem isn't a problem domain limited to scenarios regarding the
 provision of data feeds to dApps in an effort to underpin the success of
 *truly* decentralized finance. Society at large is experiencing a

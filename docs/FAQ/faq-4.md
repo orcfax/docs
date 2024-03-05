@@ -7,12 +7,14 @@ slug: /Technical-questions
 # Technical Questions
 
 ## What are the minimum technical requirements for node operations?
+
 While we believe that accessibility plays a large role in decentralization, and
 have made design choices which we hope allows a broader range of participation
 within the network, it is still important to be aware of what will be required
 technically from those who choose to participate. In addition to a validator
 license and the minimum $FACT deposit, operators will be expected to be
 familiar with:
+
 - The Cardano network
 - Operating Linux servers
 
@@ -21,6 +23,7 @@ section should be anticipated as R&D continues in preparation for the
 incentivized testnet.
 
 ## Phase 1 is federated, what does that mean?
+
 Phase 1 is only the first step in realizing Orcfax's decentralization vision,
 while enabling the team to continue developing important components and gaining
 invaluable knowledge for future phases. These incremental development
@@ -44,6 +47,7 @@ Orcfax running the Incentivized Testnet Dec23-May24 and then transitioning to
 independent validator nodes publishing to Mainnet in June 2024.
 
 ## Where can I find the price data in the datum?
+
 In this example we will use an off-chain datum. We will use this
 [datum](https://preprod.cexplorer.io/datum/9ced750ebbb2c9a9eac2e07a91525cadd3bfab23950089faa3e3a55517d1033f)
 , within which the price data can be found in the following portion:

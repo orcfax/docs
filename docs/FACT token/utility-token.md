@@ -5,6 +5,7 @@ slug: /utility-token
 ---
 
 # FACT utility
+
 The Orcfax platform includes a Cardano-native utility token which has been named
 $FACT. This utility token has been designed with a limited number of explicit
 uses. $FACT can be  used for:
@@ -21,6 +22,7 @@ this total supply has been reserved for validator node rewards to
 incentivize participation.
 
 ## Utility 1: Payment
+
 The FACT token is used in the Orcfax network as the form of payment for the fees
 charged to publish new fact statements.
 
@@ -41,6 +43,7 @@ publication will be sold for FACT.
 ![Orcfax Economic Model](/img/2024-02--Orcfax-economic-model2.jpg)
 
 ## Utility 2: Staking
+
 $FACT will also be used by Orcfax validator node operators as staked collateral
 to incentivize good performance and trust in the network.
 
@@ -60,9 +63,11 @@ amount of $FACT which simultaneously encourages a diverse community of node
 operators while also discouraging bad actors.
 
 On January 9th, 2024 Orcfax announced published its
-[Orcfax Validator License Announcement](https://medium.com/@orcfax/orcfax-validator-license-announcement-5da07ef1439c), which outlined what
+[Orcfax Validator License Announcement][announce-1], which outlined what
 potential node operators and non-validators could look forward to as licenses
 became available and as the incentivized testnet (ITN) was rolled out.
+
+[announce-1]: https://medium.com/@orcfax/orcfax-validator-license-announcement-5da07ef1439c
 
 If, for whatever reason, a node reports irregular data or has persistent
 networking issues, then their deposited stake will be slashed by the protocol.
@@ -70,6 +75,7 @@ This is both a penalty for jeopardizing the integrity of the Orcfax network, as
 well as an incentive to re-calibrate their node operations.
 
 ## Utility 3: Rewards
+
 When a fact statement is published on chain the validator that was randomly
 selected to put that statement on-chain will be rewarded with FACT tokens. This
 means that because the amount of Validator licenses are limited, more feeds
@@ -86,6 +92,7 @@ long enough to allow the network to become fully self-sustaining via its
 publication fees.
 
 ### Validator incentives
+
 Validators have the ability to estimate potential rewards that they can expect
 by utilizing the [initial rewards calculator](https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit#gid=1934045699).
 
@@ -95,6 +102,7 @@ The yellow fields can be modified by the user. Some fields include notes to help
 users understand how the calculation works.
 
 ## Utility 4: Voting
+
 Governance of the Orcfax network, including its technical operations, R&D,
 community management, new feed nominations, fee schedule, etc., will all be
 transitioned from Orcfax Ltd. to a Decentralized Autonomous Organization after

@@ -4,6 +4,8 @@ sidebar_position: 2
 slug: /operational-requirements
 ---
 
+# Operational requirements
+
 Orcfax is a decentralized oracle solution that publishes data about real world
 events to the Cardano blockchain. The decentralized oracle feeds issued by
 Orcfax are made possible by leveraging a network of independent nodes which are
@@ -11,10 +13,12 @@ responsible for collecting and aggregating multiple primary data sources while
 providing full audit logs of the complete oracle process.
 
 Those interested in running an Orcfax node will be required to do the following:
+
 1. Reserve, mint and hold a Validator license
 1. Deposit FACT tokens in our validator smart contract
 
 ## Rationale
+
 The use of a license and the required deposit is designed strategically to
 provide network security, clarity, and fairness within the Validator Network.
 
@@ -33,6 +37,7 @@ added once again.
 <!-- insert graphic from medium -->
 
 ## The Validator License
+
 The decentralized Orcfax network will consist of 100 nodes. This means that only
 100 licenses are available. This decision to limit network size was made in
 consultation with the Orcfax community.
@@ -44,9 +49,11 @@ available through a reservation process, whereby users were required to submit a
 transaction to themselves with a minimum of 250,000 $FACT during a one week
 period. A ranking system was then employed to score user reservations based on
 two factors:
+
 1. timeliness of the submitted reservation transaction
 1. the total $FACT submitted in the transaction (above and beyond the minimum
 requirement of 250K).
+
 This ranking system wwas designed to provide greater opportunity to all while
 also disincentivizing “whales” and bots from acquiring multiple licenses for the
 purposes of speculation.
@@ -65,6 +72,7 @@ mint a license, or a reservation entry is invalidated due to fund movement prior
 to the mint event.
 
 ### Mint date
+
 The date at which whitelisted wallets may mint their licenses will be announced
 shortly. Please watch our Discord for timely updates.
 
@@ -81,9 +89,11 @@ developer grants. The funds within this wallet have been set aside to fund
 research, and to develop tools/services that contribute to the growth of the
 Orcfax ecosystem.
 
-<!-- Maybe we can put some stats here that show how much was locked during that week? -->
+<!-- Maybe we can put some stats here that show how much was locked during that
+week? -->
 
 ## The $FACT deposit
+
 On March 1, 2024 The required $FACT deposit for node operation was set at
 500,000 $FACT. This sum was determined through market value, whereby either
 500,000 $FACT or 10,000 USD equivalent in $FACT on March 1st would be required

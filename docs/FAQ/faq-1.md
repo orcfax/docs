@@ -5,7 +5,9 @@ slug: /oracle-basics
 ---
 
 # Oracle basics
+
 ## What is an oracle?
+
 Oracles like [Orcfax](https://orcfax.io/), [Chainlink](https://chain.link),
 [Charli3](https://charli3.io), etc. are the technical component in blockchain
 architectures that deliver data about the real-world to on-chain smart
@@ -23,6 +25,7 @@ example, by algorithmic stablecoins or automated market maker (AMM) exchanges
 to monitor for changes in currency exchange rates.
 
 ## What is a smart contract?
+
 Smart contracts are software programs that execute conditional logic on
 next-generation blockchains like Cardano  (e.g. when event X happens, trigger
 action Y).  Because their source code is immutably stored and run on
@@ -49,6 +52,7 @@ and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
 For example:
+
 * A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
 smart contract.
 * The final score in a sports event may trigger a payout in a betting dApp
@@ -59,6 +63,7 @@ contract.
 notarization may trigger policy changes or protests.
 
 ## What is the oracle problem?
+
 The blockchain industry refers to the "oracle problem" to refer to the various
 issues related to ensuring that on-chain smart contracts can trust real world
 data inputs to be authentic and accurate.
@@ -96,6 +101,7 @@ Orcfax was intentionally designed as a
 layers of the oracle problem in a more comprehensive way.
 
 ## What is the real world?
+
 As a research-driven project, Orcfax adopts symbol grounding from cognitive
 science along with space-time perspective from physics to first define the
 components of the real world and then map these to the applicable standards
@@ -109,6 +115,7 @@ events is what oracles do.
 ![What is the real world?](/img/2023-09-30--Orcfax-What-Is-The-Real-World.jpg)
 
 ## What is a fact?
+
 A fact is something that is known to have happened or to exist, especially
 something for which proof exists, or about which there is information.
 (Cambridge Dictionary, 2021)

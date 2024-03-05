@@ -4,7 +4,10 @@ sidebar_position: 6
 slug: /auditability
 ---
 
+# Auditability
+
 ## Standards-compliant audit logs
+
 Can oracle solutions be trusted if they cannot, or will not, demonstrate how
 their source data was collected and validated? We at Orcfax strongly believe
 that they should not be.
@@ -15,6 +18,7 @@ ability to audit the flow of Orcfax data collection, validation, and
 publication.
 
 ### The Orcfax Explorer
+
 To demonstrate the audit-enabling function and re-usability of these archival
 packages, while further simplifying the auditing process for users, Orcfax
 launched its [Orcfax Explorer](https://explorer.orcfax.io/); this tool provides
@@ -45,6 +49,7 @@ which have prioritized accessibility and ease of use for a dynamic and diverse
 user group.
 
 ## Future value
+
 The archival packages created by Orcfax are described using
 [Schema.org](https://schema.org) and [JSON-LD](https://json-ld.org/) compliant
 taxonomies, which have been purposefully selected in order to enrich Orcfax

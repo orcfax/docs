@@ -5,6 +5,7 @@ slug: /verify
 ---
 
 # Verify fact statements
+
 Orcfax publishes very concise fact statement datum or snippets to the Cardano
 blockchain.
 
