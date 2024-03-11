@@ -1,6 +1,6 @@
 ---
 id: faq-1
-sidebar_position: 2
+sidebar_position: 3
 slug: /utility-token
 ---
 
@@ -21,6 +21,11 @@ supply; there will only ever be [1 Billion FACT tokens](tokenomics), and 50% of
 this total supply has been reserved for validator node rewards to
 incentivize participation.
 
+More information about the utility of the FACT token can be found in thr Orcfax
+[Economic Model][econmodel-1].
+
+[econmodel-1]: economic-model
+
 ## Utility 1: Payment
 
 The FACT token is used in the Orcfax network as the form of payment for the fees
@@ -35,10 +40,8 @@ given datum feed (e.g. ADA/USD) than is available on-chain, then an on-demand
 publication request can be triggered. The cost of publishing this new fact datum
 on-chain will likewise be quoted in $FACT.
 
-While consumers will also have the ability to pay in ADA, these transactions
-will incur an additional fee (covering the costs of converting the ADA to FACT)
-tokens in order to fulfill the feed payment. The ADA which was used to fund
-publication will be sold for FACT.
+While consumers can also use ADA, these payments will be sold for FACT tokens,
+creating a positive feedback loop that boosts demand for the FACT token.
 
 ![Orcfax Economic Model](/img/2024-02--Orcfax-economic-model2.jpg)
 
