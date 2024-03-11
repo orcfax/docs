@@ -22,9 +22,7 @@ this total supply has been reserved for validator node rewards to
 incentivize participation.
 
 More information about the utility of the FACT token can be found in thr Orcfax
-[Economic Model][econmodel-1].
-
-[econmodel-1]: economic-model
+[Economic Model](economic-model).
 
 ## Utility 1: Payment
 
@@ -70,12 +68,12 @@ On January 9th, 2024 Orcfax announced published its
 potential node operators and non-validators could look forward to as licenses
 became available and as the incentivized testnet (ITN) was rolled out.
 
-[announce-1]: https://medium.com/@orcfax/orcfax-validator-license-announcement-5da07ef1439c
-
 If, for whatever reason, a node reports irregular data or has persistent
 networking issues, then their deposited stake will be slashed by the protocol.
 This is both a penalty for jeopardizing the integrity of the Orcfax network, as
 well as an incentive to re-calibrate their node operations.
+
+[announce-1]: https://medium.com/@orcfax/orcfax-validator-license-announcement-5da07ef1439c
 
 ## Utility 3: Rewards
 
@@ -97,12 +95,14 @@ publication fees.
 ### Validator incentives
 
 Validators have the ability to estimate potential rewards that they can expect
-by utilizing the [initial rewards calculator](https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit#gid=1934045699).
+by utilizing the [initial rewards calculator][calc-1].
 
 The calculator allows users to simulate certain scenarios by modifying the most
 important parameters that define the estimated rewards (like number of feeds).
 The yellow fields can be modified by the user. Some fields include notes to help
 users understand how the calculation works.
+
+[calc-1]: https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit#gid=1934045699
 
 ## Utility 4: Voting
 
