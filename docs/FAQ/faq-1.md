@@ -24,6 +24,10 @@ interfaces (API). These are the most common types of oracles and are used, for
 example, by algorithmic stablecoins or automated market maker (AMM) exchanges
 to monitor for changes in currency exchange rates.
 
+See [this article](https://cointelegraph.com/learn/what-is-a-blockchain-oracle-and-how-does-it-work)
+for some further information about oracles and their role in blockchain networks
+.
+
 ## What is a smart contract?
 
 Smart contracts are software programs that execute conditional logic on
