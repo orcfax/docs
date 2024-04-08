@@ -8,15 +8,15 @@ slug: /
 
 Orcfax is a decentralized **[oracle][oracle-1]** service
 designed to publish data about real world events to the
-**[Cardano][cardano-1]** blockchain. Orcfax collects and validates facts about
+**[Cardano][cardano-1]** blockchain. Orcfax data is made available to on-chain
+**[smart contracts][smart-1]** in Cardano's eUTXO native format using the
+**[Cardano Open Oracle Protocol][coop-1]** (COOP).
+
+Orcfax collects and validates facts about
 the real world using multiple, redundant nodes that are run as a decentralized
 network. Just as imporantly, Orcfax archives standards-compliant audit log
 packages for the entire oracle publication workflow. This allows Orcfax users to
 "trust but verify" that Orcfax is delivering authentic and accurate data.
-
-Orcfax data is made available to on-chain **[smart contracts][smart-1]** in
-Cardano's eUTXO native format using the
-**[Cardano Open Oracle Protocol][coop-1]** (COOP).
 
 The Orcfax solution has launched by offering currency price-pair feeds but will
 expand to report on a diverse type of other real-world facts as oracle use cases
