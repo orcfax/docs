@@ -7,7 +7,7 @@ slug: /consume
 # Consume fact statements
 
 A fact statement is a datum that the Orcfax network publishes to a Cardano
-blockchain transaction. This This datum can then be used as an input to Cardano smart
+blockchain transaction. This datum can then be used as an input to Cardano smart
 contracts and dApps.
 
 ## UTxO model
@@ -70,11 +70,11 @@ those sent by others to the same address.
 Users will therefore need to use the following information to identify the
 latest facts.
 
-* Minting policy ID.
-* Datum format, including:
-  * Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
-  largest POSIX timestamp compared to other fact statement datum,
-  * Feed name, e.g. "ADA-USD".
+-   Minting policy ID.
+-   Datum format, including:
+    -   Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
+        largest POSIX timestamp compared to other fact statement datum,
+    -   Feed name, e.g. "ADA-USD".
 
 > Note: Users on preprod will find a volume of test data that hasn't been
 > retired as Orcfax previously used this space as a testing sandbox. Users can
@@ -84,7 +84,7 @@ Unconsumed reference inputs are those still available for smart contracts to use
 on-chain. Spending a UTxO with a reference input renders it unusable in a smart
 contract (though the data will be visible in the historical transaction).
 Consuming reference inputs is sometimes also referred to as garbage collection
-or *retiring* of fact statements. Orcfax's mainnet V1 will operate a policy
+or _retiring_ of fact statements. Orcfax's mainnet V1 will operate a policy
 whereby two unspent fact UTxO will remain on-chain at all times.
 
 > Note: maintaining at least two datum on-chain gives smart contracts (and their
@@ -97,7 +97,6 @@ For more information about the use of reference inputs and inline datum in COOP,
 see COOP's [design document][coop-design-1].
 
 [coop-design-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#cardano-features-enabling-oracles
-
 [utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
 [reference-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#referenceinputs(cip-31)
 [datum-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#inlinedatums(cip-32)
@@ -117,31 +116,28 @@ Orcfax's V1 datum is translated to on-chain CBOR from the following JSON schema
 
 ```json
 {
-  "@context": "https://schema.org",
-  "type": "PropertyValue",
-  "name": "ADA-USD|USD-ADA",
-  "value": [
-    0.249495,
-    4.008096354636367
-  ],
-  "valueReference": [
-    {
-      "@type": "PropertyValue",
-      "name": "validFrom",
-      "value": 1695939870811
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "validThrough",
-      "value": 1695943470811
-    }
-  ],
-  "identifier": {
-    "propertyID": "Arkly Identifier",
+    "@context": "https://schema.org",
     "type": "PropertyValue",
-    "value": "urn:orcfax:4ae10640-10b9-4c23-af1d-c4a9dbd8938d"
-  },
-  "_:contentSignature": "40330ff2597c399ddaaab6c1dbaab52173ef82bf7f08d3ca84585ab5e76429a0"
+    "name": "ADA-USD|USD-ADA",
+    "value": [0.249495, 4.008096354636367],
+    "valueReference": [
+        {
+            "@type": "PropertyValue",
+            "name": "validFrom",
+            "value": 1695939870811
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "validThrough",
+            "value": 1695943470811
+        }
+    ],
+    "identifier": {
+        "propertyID": "Arkly Identifier",
+        "type": "PropertyValue",
+        "value": "urn:orcfax:4ae10640-10b9-4c23-af1d-c4a9dbd8938d"
+    },
+    "_:contentSignature": "40330ff2597c399ddaaab6c1dbaab52173ef82bf7f08d3ca84585ab5e76429a0"
 }
 ```
 
@@ -177,7 +173,7 @@ network.
 
 <!-- markdownlint-disable MD013 -->
 
-*demo script output:*
+_demo script output:_
 
 ```text
 2023-09-28T16:24:13Z INFO :: read_datum.py:264:read_datum() :: entering this script...
