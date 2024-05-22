@@ -29,7 +29,6 @@ has a [reference input][reference-1] encoded as an [inline datum][datum-1].
 Reference inputs are published using a COOP authentication token with a COOP
 minting policy identifier, currently:
 
-
 [utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
 [reference-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#referenceinputs(cip-31)
 [datum-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#inlinedatums(cip-32)
