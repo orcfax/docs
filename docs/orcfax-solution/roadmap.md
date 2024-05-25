@@ -36,4 +36,6 @@ phases overlap.
 The final phase marks the shift of Orcfax network governance from the
 Orcfax Ltd. company to the Orcfax Decentralized Autonomous Organization (DAO).
 
-![Orcfax roadmap](/img/2023-09-28--Orcfax-roadmap.png)
+<!--
+needs to be updated
+![Orcfax roadmap](/img/2023-09-28--Orcfax-roadmap.png) -->
