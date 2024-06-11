@@ -12,11 +12,11 @@ A list of Orcfax oracle policy IDs.
 
 ### v1
 
-#### Mainnet
+#### v1 Mainnet
 
 Policy ID:
 
-#### Preprod
+#### v1 Preprod
 
 Policy ID:
 
@@ -29,7 +29,7 @@ interpret the data published on-chian using this version.
 
 [archive-1]: archived-resources#in-use
 
-#### Mainnet
+#### v0 Mainnet
 
 Policy ID:
 
@@ -43,7 +43,7 @@ Smart contract address:
 addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
 ```
 
-#### Preprod
+#### v0 Preprod
 
 Policy ID:
 
