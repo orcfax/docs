@@ -20,7 +20,7 @@ that specified a process, and format, for the publication and consumption of
 off-chain data by smart contracts on the Cardano blockchain.
 
 The Orcfax team developed the Cardano Open Oracle Protocol as a Catalyst funded
-research project that aimed to maximize the eUTXO model and leveraged design
+research project that aimed to maximize the [eUTXO][utxo-1] model and leveraged design
 principles, [CIP-31][cip-31], and [CIP-32][cip-32] to prioritize a
 cost-sensitive, post-Vasil native method for publishing secure, signed, datums
 on-chain for Reference Input consumption by Cardano dApps.
