@@ -21,9 +21,9 @@ off-chain data by smart contracts on the Cardano blockchain.
 
 The Orcfax team developed the Cardano Open Oracle Protocol as a Catalyst funded
 research project that aimed to maximize the eUTXO model and leveraged design
-principles to prioritize a cost-sensitive, post-Vasil native method for
-publishing secure, signed, datums on-chain for Reference Input consumption by
-Cardano dApps.
+principles, [CIP-31][cip-31], and [CIP-32][cip-32] to prioritize a
+cost-sensitive, post-Vasil native method for publishing secure, signed, datums
+on-chain for Reference Input consumption by Cardano dApps.
 
 The initial version of COOP was developed in collaboration with [MLabs][mlabs-1]
 consultancy. The guidelines and specification in COOP are free, open-source, and
@@ -40,18 +40,21 @@ replacement could be rolled-out.
 And so v0 was suspended in May of 2024.
 
 More information pertaining to this failure can be found in both the
-[public announcement][medium-1]
-and in the subsequent incident [report][report-1]. 
+[public announcement][medium-1] and in the subsequent incident
+[report][incident-35].
 
-Users may find it informative to review the entire v0 [Incidents][incident-1]
-repository as it contains many critical learnings from the implementation
-of v0.
+Additionally, users and developers may find it informative to review the entire
+v0 [Incidents][incidentRepo-1] repository as it contains many critical learnings
+from the implementation of v0.
 
 [coop-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/
+[utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
+[cip-31]: https://docs.cardano.org/about-cardano/evolution/upgrades/vasil/#reference-inputs-cip-31
+[cip-32]: https://docs.cardano.org/about-cardano/evolution/upgrades/vasil/#inline-datums-cip-32
 [mlabs-1]: https://mlabs.city/
 [medium-1]: https://medium.com/@orcfax/orcfax-feed-suspension-and-protocol-upgrade-a45709dafb56
-[report-1]: https://github.com/orcfax/Incidents/issues/38
-[incident-1]: https://github.com/orcfax/Incidents
+[incident-35]: https://github.com/orcfax/Incidents/issues/38
+[incidentRepo-1]: https://github.com/orcfax/Incidents
 
 ### v0 Mainnet
 
@@ -107,11 +110,11 @@ those sent by others to the same address.
 Users were required to use the following information to identify the latest
 facts published.
 
--   Minting policy ID.
--   Datum format, including:
-    -   Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
-        largest POSIX timestamp compared to other fact statement datum,
-    -   Feed name, e.g. "ADA-USD".
+* Minting policy ID.
+* Datum format, including:
+  * Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
+  largest POSIX timestamp compared to other fact statement datum,
+  * Feed name, e.g. "ADA-USD".
 
 > Note: Users on preprod will find a volume of test data that was not ever
 > retired as Orcfax previously used this space as a testing sandbox.
@@ -136,9 +139,6 @@ For more information about the use of reference inputs and the inline datum
 utilized in COOP v0, see the relevant COOP [design document][coop-design-1].
 
 [coop-design-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/blob/9e9c9aedba84d32e424b1dd116b4734e1a42f3bc/coop-docs/00-design.md#cardano-features-enabling-oracles
-[utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
-[reference-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#referenceinputs(cip-31)
-[datum-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#inlinedatums(cip-32)
 
 ### v0 datum structure
 
