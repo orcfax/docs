@@ -41,12 +41,17 @@ And so v0 was suspended in May of 2024.
 
 More information pertaining to this failure can be found in both the
 [public announcement][medium-1]
-and in the subsequent [incident report][report-1]
+and in the subsequent incident [report][report-1]. 
+
+Users may find it informative to review the entire v0 [Incidents][incident-1]
+repository as it contains many critical learnings from the implementation
+of v0.
 
 [coop-1]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol/
 [mlabs-1]: https://mlabs.city/
 [medium-1]: https://medium.com/@orcfax/orcfax-feed-suspension-and-protocol-upgrade-a45709dafb56
-[report-1]:
+[report-1]: https://github.com/orcfax/Incidents/issues/38
+[incident-1]: https://github.com/orcfax/Incidents
 
 ### v0 Mainnet
 
