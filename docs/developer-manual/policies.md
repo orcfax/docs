@@ -16,6 +16,14 @@ A list of Orcfax oracle policy IDs.
 
 Policy ID:
 
+Smart contract address:
+
+Date of appearance:
+Slot Number:
+
+Date of deprecation:
+Slot Number:
+
 #### v1 Preprod
 
 Policy ID:
@@ -42,6 +50,12 @@ Smart contract address:
 ```text
 addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
 ```
+
+Date of appearance:
+Slot Number:
+
+Date of deprecation:
+Slot Number:
 
 #### v0 Preprod
 
