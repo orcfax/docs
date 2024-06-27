@@ -244,10 +244,10 @@ or “slashed” from their deposit balance.
 
 This milestone marks the time at which the Orcfax Decentralized Autonomous
 Organization (DAO) will take over network governance decisions and project
-strategy from Orcfax Ltd, the company. The responsibilities of this DAO will
-include deciding which contracting firms (e.g. Orcfax Ltd, or other) to hire to
-continue operating, monitoring, and/or upgrading the Orcfax technical
-infrastructure, for how long, and for how much.
+strategy from Orcfax Ltd, the company. The responsibilities of this DAO, among
+many things, will include deciding which contracting firms (e.g. Orcfax Ltd, or
+other) to hire to continue operating, monitoring, and/or upgrading the Orcfax
+technical infrastructure, for how long, and for how much.
 
 Five percent of the fixed 1 billion FACT token supply has been allocated to fund
 the Orcfax DAO and to seed its long term success.
