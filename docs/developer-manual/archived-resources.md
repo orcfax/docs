@@ -6,7 +6,7 @@ slug: /archived-resources
 
 # Archived Orcfax resources
 
-This section contains links, instructions, and commentary relating to Orcfax
+This section contains instructions, and commentary relating to Orcfax
 solution versions and/or components **which are no longer in operation**. This
 information has been left as an educational resource and as a testament to the
 development journey of the Orcfax oracle solution.
@@ -20,8 +20,8 @@ that specified a process, and format, for the publication and consumption of
 off-chain data by smart contracts on the Cardano blockchain.
 
 The Orcfax team developed the Cardano Open Oracle Protocol as a Catalyst funded
-research project that aimed to maximize the [eUTXO][utxo-1] model and leveraged design
-principles, [CIP-31][cip-31], and [CIP-32][cip-32] to prioritize a
+research project that aimed to maximize the [eUTXO][utxo-1] model and leveraged
+design principles, [CIP-31][cip-31], and [CIP-32][cip-32] to prioritize a
 cost-sensitive, post-Vasil native method for publishing secure, signed, datums
 on-chain for Reference Input consumption by Cardano dApps.
 
@@ -56,49 +56,10 @@ from the implementation of v0.
 [incident-35]: https://github.com/orcfax/Incidents/issues/38
 [incidentRepo-1]: https://github.com/orcfax/Incidents
 
-### v0 Mainnet
+### Policy details
 
-Policy ID:
-
-```text
-2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b
-```
-
-On [cexplorer][cexplorer-1].
-
-[cexplorer-1]: https://cexplorer.io/policy/2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b
-
-Smart contract address:
-
-```text
-addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
-```
-
-On [cexplorer][cexplorer-2].
-
-[cexplorer-2]: https://cexplorer.io/address/addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
-
-### v0 Preprod
-
-Policy ID:
-
-```text
-104d51dd927761bf5d50d32e1ede4b2cff477d475fe32f4f780a4b21
-```
-
-On [preprod.cexplorer][preprod-1].
-
-[preprod-1]: https://preprod.cexplorer.io/policy/104d51dd927761bf5d50d32e1ede4b2cff477d475fe32f4f780a4b21/mint
-
-Smart contract address:
-
-```text
-addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0
-```
-
-On [preprod.cexplorer][preprod-2].
-
-[preprod-2]: https://preprod.cexplorer.io/address/addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0
+Links and information pertaining to policy IDs and smart contract addresses can
+be found in [Policies](policies).
 
 ### In use
 
