@@ -12,8 +12,9 @@ This page is being updated to reflect the upcoming changes in the Orcfax v1
 solution. Once this upgrade has been released, instructions on how to consume
 the enhanced datum will be made available here.
 
-Historical data concerning the v0 Orcfax solution, including policy ID's, will
-be made available for review in a forthcoming _Archived_ section.
+Historical data concerning the v0 Orcfax solution can be found in
+[Archived resources](archived-resources) and information pertaining to policy
+ID's in [Policies](policies).
 
 ## Fact statements
 
@@ -26,9 +27,8 @@ contracts and dApps.
 A single fact statement is associated with a single [UTxO][utxo-1]. Each UTxO
 has a [reference input][reference-1] encoded as an [inline datum][datum-1].
 
-Reference inputs are published using a COOP authentication token with a COOP
-minting policy identifier, currently:
+Reference inputs are published using the Orcfax Protocol.
 
 [utxo-1]: https://docs.cardano.org/learn/eutxo-explainer/
-[reference-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#referenceinputs(cip-31)
-[datum-1]: https://docs.cardano.org/cardano-testnet/about/feature-overview/#inlinedatums(cip-32)
+[reference-1]: https://docs.cardano.org/about-cardano/evolution/upgrades/vasil/#reference-inputs-cip-31
+[datum-1]: https://docs.cardano.org/about-cardano/evolution/upgrades/vasil/#inline-datums-cip-32
