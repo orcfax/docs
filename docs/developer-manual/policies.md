@@ -20,9 +20,9 @@ below.
 
 Policy ID: TBA
 
-Smart contract address: TBA
+* Smart contract address: TBA
 
-Date of appearance: TBA
+* Date of appearance: TBA
   * Slot Number: TBA
   * block: TBA
   * Explorer view: TBA
@@ -59,10 +59,12 @@ the protocol’s publishing logic.
 
 ### v0
 
-V0 used a legacy datum format, see [archived resources][archive-1] for how to
+<!-- V0 used a legacy datum format, see [archived resources][archive-1] for how to
 interpret the data published on-chian using this version.
 
 [archive-1]: archived-resources#in-use
+Branch must first be merged
+-->
 
 #### v0 Mainnet
 
@@ -78,7 +80,7 @@ Smart contract address:
 addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
 ```
 
-Date of appearance: 28.9.2023
+* Date of appearance: 28.9.2023
   * Slot Number: 104,327,334
   * block:
 
@@ -88,7 +90,7 @@ Date of appearance: 28.9.2023
 
   * [Explorer view](https://cexplorer.io/tx/51f35f76b06923344e8bfb5743b6ab8e65e2afdce8ef578ccf979cb0ffcb1bab)
 
-Date of deprecation: 14.5.2024
+* Date of deprecation: 14.5.2024
   * Slot Number: 124,114,551
   * block:
 
