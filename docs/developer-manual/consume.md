@@ -135,10 +135,11 @@ again at the FSP address in a UTXO with a datum matching the new FS script hash.
 ### Tokens
 
 Two additional tokens are important to note.
+
 * `FS-token` name is an empty bytearray
 * `FSP-token` name is an empty bytearray
 
-<!-- have I marked those up correctly? It isnt 'FSP-token name` right? -->
+<!-- have I marked those up correctly? It isn't 'FSP-token name` right? -->
 
 ## How to integrate
 
@@ -182,7 +183,7 @@ follows:
 
 <!-- This repo is not yet public -->
 
-```
+```text
 pub type Datum<t> {
   statement : Statement<t>,
   context : Context
@@ -209,7 +210,7 @@ pub type Price {
 
 Below is a pseudo-code example of a datum belonging to the FACT-ADA price-feed.
 
-```
+```text
 [
    [
       "cer/FACT-ADA/3",// the Feed ID & version
@@ -227,9 +228,10 @@ Below is a pseudo-code example of a datum belonging to the FACT-ADA price-feed.
 
 And its representation in CBOR:
 
-```
+```text
 d8799fd8799f4d63702f464143542d4144412f331b0000019012c8ccd3d8799f1981951a000f4240ffffd8799f1b0000019012c90f89581c694f647f6c6fee725eaf731938613059ac560e573d9fa6560850eab0ffff
 ```
+
 [aiken-1]: https://github.com/orcfax/orcfax-types-aiken/blob/5cf8912d0fec118f3679e7bfb26bea7e889b0807/lib/orcfax/types.ak
 
 ### Feed ID

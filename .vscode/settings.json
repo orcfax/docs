@@ -36,6 +36,8 @@
         "POSIX",
         "preprod",
         "recordkeeping",
-        "Wingriders"
+        "Wingriders",
+        "bytearray",
+        "timeframe"
     ]
 }
