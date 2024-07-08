@@ -93,21 +93,28 @@ Participants need to maintain this balance in their Mainnet wallet, which will
 later need to be secured in a smart contract on the Testnet with tFACT
 (Testnet FACT).
 
-### Hardware and Infrastructure
+### Hardware and infrastructure
 
 During [Phase 1](#phase-1-data-collection-for-cexes) of the ITN, the hardware
 requirements will be minimal to handle the tasks involved. Participants should
-expect to meet the following:
+expect to meet the following minimum requirements:
 
-* A broadband internet connection
 * 2GB of RAM
 * A single CPU
 
-However, as we progress through the ITN, the complexity and demands will
-increase. Because of this, Participants should consult our
-[Hardware Requirements](technical-requirements#hardware) section while also
-anticipating that these requirements will change as development, and ITN phases,
-progress.
+Recommended requirements for phase 2 onwards\*:
+
+* 32 GB RAM
+* 8 CPU
+* 600 GB disk
+
+\* Specs are based on the minimal viable digital ocean servers operated by
+Orcfax.
+
+However, participants should anticipate that these requirements will change as
+development, and ITN phases, progress. For this reason, participants should
+consult our [Hardware Requirements](technical-requirements#hardware) where we
+will update the requirements as development progresses.
 
 ### Software requirements
 
@@ -121,23 +128,23 @@ progress.
 
 ### Knowledge requirements
 
-Participants must be able to run a Linux server and install
-various software packages, including those provided by Orcfax.
-Participants should be capable of updating both the operating system and any
-installed software packages to stay up to date with security and any required functionality.
+Participants must possess the skills to operate a Linux server and install
+various software packages, including those provided by Orcfax. Additionally,
+participants should be capable of updating both the operating system and any
+installed software packages to maintain security and functionality.
 
-While it is not a requirement at the outset, having an understanding of the
-Cardano node and its underlying protocols is highly recommended to facilitate a
-smoother adaptation to the ITN environment.
+While it is not a requirement at the outset, having experience operating a
+Cardano Node, with an understanding of its underlying protocols, is recommended
+in order to facilitate a smoother adaptation to the ITN environment.
 
-## ITN Rewards and Calculation Method
+## ITN Rewards
 
 ITN participants will operate software that initially collects, later validates,
 and ultimately publishes Fact Statements on-chain. The completion of each of
 these functions by participants will be recorded and used as metrics for the
 calculation of $FACT rewards throughout the ITN.
 
-### Monthly rewards pot
+### Monthly rewards
 
 For each month of the ITN, a specific amount of FACT tokens will be allocated
 for validator rewards. The first month will make 1,500,000 $FACT available for
@@ -195,16 +202,9 @@ and cause more volatility.
 
 To claim rewards:
 
-1. Send a small amount of ADA to a given address (covering the minimum UTXO and
+1. Send small amount of ADA to a given address (covering the minimum UTXO and
 transaction fees)
 1. Shortly after, participants will receive their $FACT rewards.
 
 This process can be repeated as often as a validator wishes to claim their
 rewards.
-
-#### Vesting method
-
-We are investigating whether the addition of a vesting method to the claiming
-process will be possible before ITN goes live. If we find a way to add this
-feature, we will implement it. However, we cannot guarantee at this moment that
-we will be able to do so.

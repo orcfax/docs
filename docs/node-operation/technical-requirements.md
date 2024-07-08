@@ -34,11 +34,14 @@ Operators will be expected to be comfortable with the following:
 ## Hardware
 
 The expected hardware specifications required to efficiently run an Orcfax
-network node are as follows:
+network node are as follows\*:
 
-* Between 24–32 GB of RAM
-* 2–4 CPUs
-* A minimum of 250GB of hard disk space
+* Between 24–32 GB RAM
+* 8 CPU
+* 600 GB disk
+
+\* Specs are based on the minimal viable digital ocean servers operated by
+Orcfax.
 
 These specifications are approximate, and participants should be prepared to
 scale their hardware setup promptly to meet evolving requirements and ensure
