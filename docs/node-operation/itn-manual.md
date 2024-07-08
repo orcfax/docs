@@ -121,10 +121,10 @@ progress.
 
 ### Knowledge requirements
 
-Participants must possess the skills to operate a Linux server and install
-various software packages, including those provided by Orcfax. Additionally,
-participants should be capable of updating both the operating system and any
-installed software packages to maintain security and functionality.
+Participants must be able to run a Linux server and install
+various software packages, including those provided by Orcfax.
+Participants should be capable of updating both the operating system and any
+installed software packages to stay up to date with security and any required functionality.
 
 While it is not a requirement at the outset, having an understanding of the
 Cardano node and its underlying protocols is highly recommended to facilitate a
@@ -195,7 +195,7 @@ and cause more volatility.
 
 To claim rewards:
 
-1. Send small amount of ADA to a given address (covering the minimum UTXO and
+1. Send a small amount of ADA to a given address (covering the minimum UTXO and
 transaction fees)
 1. Shortly after, participants will receive their $FACT rewards.
 
