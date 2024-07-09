@@ -73,7 +73,6 @@ A set of links to open source licenses as described above.
 * [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
 * [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
 
-
 [coop-1]: https://github.com/orcfax/cardano-open-oracle-protocol
 <!-- ^ still private -->
 [datum-1]: https://github.com/orcfax/datum-demo
