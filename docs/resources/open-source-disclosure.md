@@ -4,7 +4,9 @@ sidebar_position: 1
 slug: /open-source-disclosure
 ---
 
-# Our open source ethos
+# Open source disclosure
+
+## Our open source ethos
 
 <!-- This can be quite redundant given that users could navigate to our github
 and search for public repos... we must find ways to add value by listing these
@@ -34,11 +36,15 @@ development matures and stabilizes.
 
 The following Orcfax components and projects have been open sourced:
 
+<!-- markdownlint-disable MD013 -->
+
 | Component | Description | License |
 | :--- | :--- | :--- |
 | [v0 COOP][coop-1] | Used to publish the first Orcfax mainnet feeds | <!-- Type? --> |
 | [v0 Datum demo][datum-1] | Provides tooling for users to develop dapps which utilize the Orcfax v0 datum | <!-- type? --> |
 | [Orcfax branch of Chronicle Labs oracle suite][oracle-1] | Provides useful Cardano specific tooling for querying public APIs | <!-- type? --> |
+
+<!-- markdownlint-restore -->
 
 Additionally, Orcfax will also open source peripheral developments which have
 been needed for various business actions but are not core components of the
@@ -48,6 +54,8 @@ It is our hope that while our team felt compelled to develop these tools, future
 teams may not need to and can instead focus their resources towards their key
 objectives.
 
+<!-- markdownlint-disable MD013 -->
+
 | Component | Description | License |
 | :--- | :--- | :--- |
 | [ISPO calculator][calc-1] | Used by Orcfax during the launch of its ISPO | <!-- Type? --> |
@@ -55,6 +63,8 @@ objectives.
 | NFT reservation tracker | The script used to track Validator License reservations | <!-- Type? --> |
 | [License minting scripts][nft-1] | The scripts used to create the Orcfax validator license NFTs | <!-- Type? --> |
 | [License sale][nft-2] | The scripts used to facilitate both the sale of the Orcfax validator NFTs and their distribution to the purchasing wallets | <!-- Type? --> |
+
+<!-- markdownlint-restore -->
 
 [coop-1]: https://github.com/orcfax/cardano-open-oracle-protocol
 <!-- ^ still private -->
