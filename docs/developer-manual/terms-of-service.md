@@ -6,8 +6,12 @@ slug: /tos
 
 # Terms of Service
 
+<!-- markdownlint-disable MD036 -->
 <!-- To be linked to from `"tos":` -->
+
 *MM DD YYYY*
+
+<!-- markdownlint-restore -->
 
 These terms of service, together with any documents and additional terms they
 incorporate by reference (collectively, these “Terms”), are entered into between
