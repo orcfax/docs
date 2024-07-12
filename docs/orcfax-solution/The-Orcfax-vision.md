@@ -276,24 +276,41 @@ beholden to our community.
 
 The Orcfax team stalwartly believes in the open-source software ethos, which
 prioritizes equitable access by allowing users to copy, inspect, and alter
-software source code for the benefit of their own projects. Another key benefit
-is that it creates a unique auditing environment; the concept of, “more eyes on
-the code”, demonstrates this phenomena and is meant to convey scenarios where
-it’s more likely that developers outside the core team are able to spot, and
-willing to help fix, any bugs or errors in the software.
+software source code for the benefit of their own projects. The Orcfax project
+itself leans heavily on other free and open-source software components, and
+stands on the shoulders of developers who have committed their work to the
+benefit of the public. Because of this, we recognize the responsibility for our
+project to pay it forward, and this will be done through the software which we
+open source.
 
-The Orcfax project itself leans heavily on other free and open-source software
-components, and stands on the shoulders of developers who have committed their
-work to the benefit of the public. Because of this, we recognize the
-responsibility for our project to pay it forward, and this will be done through
-the software which we open source.
+#### The Orcfax open source commitment
 
-At the core of the Orcfax oracle network is the Cardano Open Oracle Protocol
-(COOP) which we’ve already released under the Apache 2 open-source license.
-This license allows other projects to adopt COOP code in order to implement
-their own oracle products or features. We will continue to open-source more
-Orcfax components as they are are rolled-out into production in the near
-future.
+We are fully committed to the complete open sourcing of the Orcfax solution,
+which will occur before giving control over to the Orcfax DAO.
+
+Orcfax has championed this ambitious goal from the beginning because we believe
+it is a huge part of both the Orcfax value proposition and our security
+argument.
+
+* By open sourcing our stack, we enable developers to audit the code before
+implementation.
+
+* By open sourcing our data pipelines, we enable the users of dApps, which
+consume our feeds, to "Trust but Verify" the data underpinning their smart
+contracts.
+
+We believe that the open source development of key infrastructural elements
+within the Cardano environment is critical for eliminating trust and successful
+decentralization.
+
+In order to meet our goal of being fully open source prior to the launch of the
+Orcfax DAO, we will release components of the Orcfax stack incrementally as
+development matures and stabilizes. In addition to core components of the Orcfax
+solution, we will also open source peripheral components which have been needed
+for various aspects of the business.
+
+Progress towards this goal can be tracked in our
+[Open source disclosure](open-source-disclosure).
 
 ## What is the Orcfax difference?
 
