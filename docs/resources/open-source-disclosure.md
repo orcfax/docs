@@ -6,35 +6,13 @@ slug: /open-source-disclosure
 
 # Open source disclosure
 
-## Our open source ethos
-
 <!-- This can be quite redundant given that users could navigate to our github
 and search for public repos... we must find ways to add value by listing these
 here -->
-We are fully committed to the complete open sourcing of the Orcfax solution,
-which will occur before giving control over to the Orcfax DAO.
 
-Orcfax has championed this ambitious goal from the beginning because we believe
-it is a huge part of both the Orcfax value proposition and our security
-argument.
+## Core components
 
-By open sourcing our stack, we enable developers to audit the code before
-implementation.
-
-By open sourcing our data pipelines, we enable the users of dApps, which consume
-our feeds, to "Trust but Verify" the data underpinning their smart contracts.
-
-We believe that the open source development of key infrastructural elements
-within the Cardano environment is critical for eliminating trust and successful
-decentralization. For this reason, Orcfax
-
-## Disclosures
-
-In order to meet our goal of being fully open source prior to the launch of the
-Orcfax DAO, we will release components of the Orcfax stack incrementally as
-development matures and stabilizes.
-
-The following Orcfax components and projects have been open sourced:
+The following Orcfax components have been open sourced:
 
 <!-- markdownlint-disable MD013 -->
 
@@ -46,13 +24,9 @@ The following Orcfax components and projects have been open sourced:
 
 <!-- markdownlint-restore -->
 
-Additionally, Orcfax will also open source peripheral developments which have
-been needed for various business actions but are not core components of the
-Orcfax oracle service.
+## Peripheral
 
-It is our hope that while our team felt compelled to develop these tools, future
-teams may not need to and can instead focus their resources towards their key
-objectives.
+The following peripheral Orcfax components have been open sourced:
 
 <!-- markdownlint-disable MD013 -->
 
