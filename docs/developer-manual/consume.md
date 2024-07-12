@@ -16,7 +16,7 @@ with all the gory (technical) details included.
 Orcfax is a Cardano native oracle platform.
 
 Orcfax is organized into feeds.
-Generally a feed concerns a time series data, such as the exchange rate from ada to usd.
+Generally a feed concerns a time series data, such as the exchange rate from ADA to USD.
 A feed is a data pipeline that specifies how data is sourced, processed, and the format of its outputs.
 
 FIXME : See the orcfax explorer for more details on the feeds available and their definitions.
@@ -28,7 +28,7 @@ A statement is included in the datum of a transaction input, and thus available 
 ### Orcfax-publish
 
 The part of the overall protocol getting the data on-chain is called **Orcfax-publish**.
-Orcfax-publish consists of three Plutus scripts:
+Orcfax-publish consists of three Plutus V2 scripts:
 
 1. FactStatement (FS)
 2. FactStatementPointer (FSP)
@@ -162,13 +162,13 @@ rather than assume that there is equality.
 ### Verifying the created at
 
 Generally a dapp will require knowing **when** a statement was deemed true.
-For example, that the statement represents the ada USD exchange rate in the last hour, not simply at some previous point in time.
+For example, that the statement represents the ADA USD exchange rate in the last hour, not simply at some previous point in time.
 
 The "right" way to handle time is down to the business logic and its needs.
 
 One way integrators might choose to this is as follows:
 
-1. Verify that the validity range of the tx is 'short' (say ~1h).
+1. Verify that the validity range of the transaction is 'short' (say ~1h).
 2. Check that the value of `created_at` falls within the bounds of this validity range.
 
 ### Coercing the body
@@ -234,10 +234,10 @@ Which can be deserialized as:
 
 ## Deployments
 
-| Network | Link        | FSP hash  |
-|---------|-------------|-----------|
+| Network | Link                 | FSP hash                                                           |
+| ------- | -------------------- | ------------------------------------------------------------------ |
 | preview | [cexplorer.io][prev] | `e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d` |
-| preprod | n/a         |           |
-| mainnet | n/a         |           |
+| preprod | n/a                  |                                                                    |
+| mainnet | n/a                  |                                                                    |
 
 [prev]: https://preview.cexplorer.io/tx/e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d
