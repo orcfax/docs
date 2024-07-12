@@ -89,7 +89,7 @@ asset class.
 The FSP UTXO will contain the FSP script token. The FSP script token has the
 following token name (expressed in base 16/ hex)
 
-```
+```aiken
 fsp_script=#"000de140"
 ```
 
@@ -150,14 +150,14 @@ Integrators must verify the feed ID is as expected.
 Integrators should establish the expected feed ID from Orcfax documentation on
 the feed definition. The feed ID is a human readable label and decomposes as
 
-```
+```sample
 <feed_type>/<feed_name>
 ```
 
 Warning: Orcfax reserves the possibility to use a `versioned_feed_id` as the
 value in the statement. A versioned feed ID has the following form:
 
-```
+```sample
 <feed_type>/<feed_name>/<feed_version>
 ```
 
@@ -214,7 +214,7 @@ type RationalDatum {
 
 Some example hex encoded CBOR
 
-```
+```sample
 D87982D879834E4345522F464143542D4144412F331B0000019012C8CCD3D879821981951A000F4
 240D879821B0000019012C90F89581C694F647F6C6FEE725EAF731938613059AC560E573D9FA656
 0850EAB0
@@ -222,7 +222,7 @@ D87982D879834E4345522F464143542D4144412F331B0000019012C8CCD3D879821981951A000F4
 
 Which can be deserialized as:
 
-```
+```cbor
 121([
   121([
     "CER/FACT-ADA/3",

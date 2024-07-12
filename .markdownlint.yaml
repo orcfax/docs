@@ -7,3 +7,6 @@ default: true
 
 # In-line HTML.
 MD033: false
+MD013:
+    line_length: 80
+    tables: false
