@@ -7,7 +7,7 @@ slug: /consume
 # Consuming Orcfax Statements
 
 This document aims to explain how dapp developers (ie integrators) can integrate
-Orcfax feeds into their dapp with all the gory (technical) details included.
+Orcfax feeds into their dapp with all the technical details included.
 
 ## Overview
 
@@ -47,12 +47,12 @@ allow a UTXO at the script address to hold a validity token and a piece of state
 (in the datum). When required, a twinned auth token is used to spend this UTXO
 and output another with the same validity token and a new state.
 
-In the case of the FSP, the state is simply the FS script hash. The FSP exists
-to allow Orcfax to update the FS script while allowing integrators to launch
-dapps without having to roll their own update mechanism. Orcfax reserves the
-ability to be able to say, migrate to Plutus V3 without impacting integrators.
-By first finding the FSP in the reference inputs of a script context, a
-validator can recognise the correct FS script hash.
+In the case of the FSP, the state is simply the FS script hash. Orcfax reserves
+the ability to update the FS script should business or developmental needs
+require (eg in order to migrate to Plutus V3), and the FS script allows Orcfax
+to do this without impacting integrators. By first finding the FSP in the
+reference inputs of a script context, a validator can recognise the correct FS
+script hash.
 
 The C script represents the constitution. It holds the current valid pubkey that
 is permitted to sign statements. The FS script checks that every statement
@@ -112,7 +112,7 @@ while the FSP script will remain the same.
 An FS UTXO must contain an FS token. The FS token is the only asset class of the
 FS script, and has token name of the empty bytearray.
 
-> Note: Integrators must verify an FS UTXO via an FS token. Any fool can put a
+> Note: Integrators must verify an FS UTXO via an FS token. Anyone can put a
 > UTXO at the FS script address with any data they like.
 
 ### Coercing FS data
@@ -166,13 +166,14 @@ expected bytes, rather than assume that there is equality.
 
 ### Verifying the created at
 
-Generally a dapp will require knowing **when** a statement was deemed true. For
-example, that the statement represents the ADA USD exchange rate in the last
-hour, not simply at some previous point in time.
+Generally a dapp will require the ability to ascertain **when** a statement was
+deemed true. For example, that the statement represents the ADA USD exchange
+rate in the last hour, not simply at some previous point in time.
 
-The "right" way to handle time is down to the business logic and its needs.
+The "right" way to handle time is down to the business logic and the
+integrator's needs.
 
-One way integrators might choose to this is as follows:
+One way integrators might choose to do this is as follows:
 
 1. Verify that the validity range of the transaction is 'short' (say ~1h).
 2. Check that the value of `created_at` falls within the bounds of this validity
