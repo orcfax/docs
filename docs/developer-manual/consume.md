@@ -15,7 +15,7 @@ Orcfax feeds into their dapp with all the technical details included.
 
 Orcfax is a Cardano native oracle platform.
 
-Orcfax is organized into feeds. Generally a feed concerns a time series data,
+Orcfax is organized into feeds. Generally a feed concerns time series data,
 such as the exchange rate from ADA to USD. A feed is a data pipeline that
 specifies how data is sourced, processed, and the format of its outputs.
 
