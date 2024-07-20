@@ -38,6 +38,7 @@
         "recordkeeping",
         "Wingriders",
         "bytearray",
-        "timeframe"
+        "timeframe",
+        "pubkey"
     ]
 }
