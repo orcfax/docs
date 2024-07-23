@@ -47,10 +47,9 @@ ITN, participants will also need one on Testnet.
 Holding a validator license on Mainnet will allow participants to mint one on
 Testnet.
 
-```text
-NB
-ITN rewards cannot be earned without a valid license.
-```
+> NB
+>
+> ITN rewards cannot be earned without a valid license.
 
 ### 500,000 FACT deposit
 
@@ -103,13 +102,12 @@ validations, and publications, multiplied by each validator’s ITN
 The actual rewards accrued per validator will be proportional to their
 participation in a given day relative to all other validators.
 
-```text
-Example
-if a validator has collected 5% of all fact statements on a specific day,
+> Example
+>
+> if a validator has collected 5% of all fact statements on a specific day,
 they will receive 5% of that day’s available rewards (after applying the ITN
 multiplier). This method ensures that optimal uptime and efficient validator
 setup will yield the highest possible rewards.
-```
 
 Validators will be able to use the Orcfax Validator Dashboard to track their
 metrics and corresponding rewards. You can find a basic ITN rewards calculator
@@ -127,12 +125,11 @@ back to the validator allocation.
 If validators are unable to earn rewards due to unscheduled maintenance or
 unexpected issues, they will receive equal rewards for those days.
 
-```text
-Example
-If on a given day there are 60 registered ITN participants, and the network
+> Example
+>
+> If on a given day there are 60 registered ITN participants, and the network
 experiences unscheduled maintenance or unexpected issues, the available rewards
 for that day will be equally divided among participants.
-```
 
 ### Reward claiming process
 
