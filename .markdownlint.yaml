@@ -7,6 +7,9 @@ default: true
 
 # In-line HTML.
 MD033: false
+# Line lengths
 MD013:
     line_length: 80
     tables: false
+# First line in a file should be a top-level heading
+MD041: false

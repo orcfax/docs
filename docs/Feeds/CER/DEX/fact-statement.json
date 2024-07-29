@@ -1,0 +1,37 @@
+{
+    "@context": "https://schema.org",
+    "type": "Claim",
+    "description": "FACT price in ADA",
+    "identifier": "urn:orcfax:349ebbf8-7c49-4740-9626-bc101a3c032c",
+    "dateCreated": "2024-08-28T16:20:14Z",
+    "text": "The price of 1 FACT at 2024-08-28T16:20:14Z is 0.026216944 ADA",
+    "about": {
+      "@type": "ExchangeRateSpecification",
+      "currency": "FACT",
+      "currentExchangeRate": {
+        "@type": "UnitPriceSpecification",
+        "price": 0.026216944,
+        "priceCurrency": "ADA"
+      }
+    },
+    "claimInterpreter": {
+      "@type": "Organization",
+      "name": "Orcfax",
+      "url": "https://orcfax.io/"
+    },
+    "appearance": [
+      "message-FACT-ADA-MinSwap-2024-08-28T16-19-06Z.json",
+      "message-FACT-ADA-MinSwapV2-2024-08-28T16-19-06Z.json",
+      "message-FACT-ADA-SundaeSwapV3-2024-08-28T16-19-06Z.json",
+      "message-FACT-ADA-WingRiders-2024-08-28T16-19-06Z.json",
+      "message-FACT-ADA-SundaeSwap-2024-08-28T16-19-06Z.json",
+      "message-FACT-ADA-Spectrum-2024-08-28T16-19-06Z.json"
+    ],
+    "isBasedOn": {
+      "@type": "CreativeWork",
+      "name": "validation-FACT-ADA-2024-08-28T16-20-14Z.json",
+      "creator": "Orcfax Validator Node: 1.0.0rc23",
+      "identifier": "urn:orcfax:24912186-c418-4041-9abf-1193db67b9a4",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  }
