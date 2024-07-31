@@ -6,85 +6,96 @@ slug: /policies
 
 # Orcfax policies
 
-A list of Orcfax oracle policy IDs.
+A list of Orcfax oracle policy IDs and permanent storage addresses to aid with
+historical investigation and reconstruction of Orcfax fact-statements.
 
-## Current policies
+## Mainnet summary
 
-### v1
+A summary of current, and previous Orcfax policies on mainnet is shown below.
 
-The upgraded v1 protocol is currently under development. While mainnet details
-are unavailable, integrators can find details regarding Preprod and Preview
-below.
+| Version | Network | FSP hash                                                           | Policy                                                             | Date Start | Date End |
+| ------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ---------- | -------- |
+| v1      | mainnet | `TBD` | `TBD` | TBD | TBD |
+| v0      | mainnet | `Not implemented` | `2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b` | 28.09.2023 | 15.05.2024 |
 
-#### v1 Mainnet
+## v1 Detailed policy information
 
-Policy ID: TBA
+### v1 Mainnet
 
-* Smart contract address: TBA
+<!-- Order should run chronologically in descending order, i.e. newest first -->
 
-* Date of appearance: TBA
-  * Slot Number: TBA
-  * block: TBA
-  * Explorer view: TBA
+#### Policy: TBD
 
-#### v1 Preprod
+> NB. The v1 protocol is currently under development. While mainnet details are
+unavailable, integrators can find details regarding Preprod and Preview below.
 
-Policy ID: TBA
+|                        | Details |
+|------------------------|---------|
+| Current                | ... |
+| Network                | Mainnet |
+| Arweave                | ... |
+| Fact Statement Pointer | `...` |
+| Policy ID              | `...` |
+| First appearance       | ... |
+| Slot no.               | ... |
+| Block                  | `...` |
 
-#### v1 Preview
+#### Preview policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
 
-Fact Statement Pointer:
-```e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d```
+[Explorer view][cexplorer-preview-policy].
 
-* [Explorer view](https://preview.cexplorer.io/tx/e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d)
+|                        | Details |
+|------------------------|---------|
+| Current                | True |
+| Network                | Preview |
+| Arweave                | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview]|
+| Fact Statement Pointer | [`e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d`][cexplorer-preview-fsp] |
+| Policy ID              | [`900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724`][cexplorer-preview-policy] |
+| First appearance       | 26.6.2024 |
+| Slot no.               | 52,764,149 |
+| Block                  | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752` |
 
-Policy ID:
-```900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724```
+[arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
+[cexplorer-preview-fsp]: https://preview.cexplorer.io/policy/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
+[cexplorer-preview-policy]: https://preview.cexplorer.io/policy/900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724/mint#data
 
-```text
-NB
-The Preview Testnet policy is not yet static and will move as the smart
-contracts involved in Orcfax publish are improved on the way to mainnet. Because
-Orcfax is currently under active development, we reserve the ability to update
-the protocol’s publishing logic.
-```
+> NB. To the extent that preview testnet is static, integrators can make use of
+the FactStatementPointer (FSP) as described in
+[Consuming Orcfax Statements][consume]. However, because Orcfax v1 is currently
+under active development, we reserve the ability to update the protocol’s
+publishing logic and so preview's details may change and the details will be
+updated here.
 
-## Legacy policies
+[consume]: ./consume.md
+
+## Legacy policy information
 
 ### v0
 
-<!-- V0 used a legacy datum format, see [archived resources][archive-1] for how to
-interpret the data published on-chian using this version.
+> NB. v0 used a legacy datum format, see [archived resources][archive-1] for how
+to interpret the data published on-chian using this version.
 
 [archive-1]: archived-resources#in-use
-Branch must first be merged
--->
 
-#### v0 Mainnet
+<!-- Order should run chronologically in descending order, i.e. newest first -->
 
-Policy ID:
-```2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b```
+#### Mainnet policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
 
-Smart contract address:
-```addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2```
+[Explorer view][cexplorer-mainnet-v0-policy].
 
-* Date of appearance: 28.9.2023
-  * Slot Number: 104,327,334
-  * block: `81394cd019daf9d2575b04d902735cbfe5d8b14e33242f6810664b911fe81798`
-  * [Explorer view](https://cexplorer.io/tx/51f35f76b06923344e8bfb5743b6ab8e65e2afdce8ef578ccf979cb0ffcb1bab)
+|                  | Details |
+|------------------|---------|
+| Current          | False |
+| Arweave          | [Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ][arweave-mainnet-v0]|
+| Smart Contract   | [addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2][cexplorer-mainnet-v0-sc]
+| Policy ID        | [`2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b`][cexplorer-mainnet-v0-policy] |
+| First appearance | 28.9.2023 |
+| Slot no.         | 104,327,334 |
+| Block            | `81394cd019daf9d2575b04d902735cbfe5d8b14e33242f6810664b911fe81798` |
+| Last appearance  | 15.05.2024 |
+| Slot no.         | 124,222,696 |
+| Block            | `6212e3e9ac6d969eb6d0d63a865b97c38df8f1ef8220d2340aaa91df25879247` |
 
-* Date of deprecation: 14.5.2024
-  * Slot Number: 124,114,551
-  * block: ```c508478bbb1b63070c45e6bd6d813eef060915ebf0ccfa325e1fe194a03f664f```
-  * [Explorer view](https://cexplorer.io/tx/63e6f7b3f1ca150213be192f09ef14701336962d555ac0eeac49650e08d2a61c)
-
-* Arweave wallet: ```Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ```
-  * [Explorer view](https://arscan.io/address/Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ)
-
-#### v0 Preprod
-
-Policy ID:
-```104d51dd927761bf5d50d32e1ede4b2cff477d475fe32f4f780a4b21```
-
-Smart contract address:
-```addr_test1wrtcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgmktuc0```
+[arweave-mainnet-v0]: https://arscan.io/address/Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ
+[cexplorer-mainnet-v0-sc]: https://cexplorer.io/address/addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2
+[cexplorer-mainnet-v0-policy]: https://cexplorer.io/policy/2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b
