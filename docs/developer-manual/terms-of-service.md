@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /tos
 ---
 
-# Terms of Service
+# TERMS OF SERVICE
 
 <!-- markdownlint-disable MD036 -->
 <!-- To be linked to from `"tos":` -->
@@ -24,11 +24,12 @@ we publish inline to transactions on the Cardano blockchain ("Oracle data")
 as well as related information that we make available on pages and files
 located at the domain Orcfax.io (the "Website").
 
-## SERVICES
-The Oracle data collected, calculated, validated and published
-by Orcfax to transactions on the Cardano blockchain, as well as the files and
-data archived to the Arweave network, and the data and information published
-to the Website are referred to, collectively, as "the Services" provided by Orcfax. 
+## The SERVICES
+Collectively, the Oracle data collected, calculated, validated and published
+by Orcfax to transactions on the Cardano blockchain, along with the files and
+data archived to the Arweave network, as well as the data and information published
+to the Website are hereby referred to, collectively, as "the Services" provided 
+by Orcfax. 
 
 These Terms describe your rights and obligations in relation to the Services and
 our disclaimers and limitations of legal liability for the Services. By accessing
@@ -37,16 +38,16 @@ these Terms of Service.
 
 If you use the Services on behalf of a company, organization (including a
 decentralized autonomous organization or “DAO”) or other entity, or if you
-are an automated agent (including "bots" that execute actions using artificial
-intellegence or other technologies for autonomous decision-making on behalf of
-an other entity), then “you” includes you and that entity, and you represent and
-warrant that (a) you are an authorized representative of the entity with the
-authority and agency to bind the entity to these Terms, and (b) you agree to these
-Terms on the entity’s behalf.
+are an automated agent acting on behalf of another entity (including "bots" that
+execute actions using artificial intellegence or other technologies for autonomous
+decision-making, such as "smart contracts"), then “you” includes you and that entity, 
+and you represent and warrant that (a) you are an authorized representative of the
+entity with the authority and agency to bind the entity to these Terms, and (b) you
+agree to these Terms on the entity’s behalf.
 
-If you do not agree to these Terms or do not have authority to bind the entity
-on whose behalf you are using the Services to these Terms, you must not access or
-use our Oracle data or Website.
+You must not use any our Services, if you do not agree to these Terms or if you
+do not have the authority or agency to bind the entity, on whose behalf you are using
+the Services, to these Terms. 
 
 We reserve the right, in our sole discretion, to modify these Terms from time to
 time. If we make changes, we will provide you with notice of such changes using
@@ -59,21 +60,24 @@ continued use of Orcfax's Services will confirm your acceptance of the changes.
 If you do not agree to the amended Terms, you must stop using our Services.
 
 ## YOUR REPRESENTATIONS AND WARRANTIES; CONDITIONS
-
-You represent and warrant that you: (i) have the necessary technical expertise
-and ability to review and evaluate the security, integrity and operation of any
-Fact Tokens that you decide to acquire, sell or use; (ii) have the knowledge,
-experience, understanding, professional advice and information to make your own
-evaluation of the merits, risks and applicable compliance requirements under
-Applicable Law of any Fact Token; and (iii) know, understand and accept the
-risks associated with your use of the Orcfax Network, your Distributed Ledger
-Technology Address, the Distributed Ledger Technology, and Fact Tokens.
-
-The Orcfax Network enables access to data from multiple sources and you
-acknowledge and agree that the accuracy, availability or quality of data
-provided via the Orcfax Network may be impacted by various factors, including as
+Our Services enable access to data from multiple and varied sources. You
+acknowledge and agree that the accuracy, availability and quality of data collected
+and calculated via our Services may be impacted by various factors, including as
 a result of the underlying data being volatile or otherwise compromised at the
-data source.
+data source, whether through malfeance or malpractice.
+
+Some of our Services require holding and paying Distributed Ledger Technology (DLT) 
+tokens (also known as "crypto-currency") including ADA and FACT. You hereby represent
+and warrant that you: (i) have the necessary technical expertise and ability to review
+and evaluate the security, integrity and operation of any tokens that you decide to
+acquire, sell or use as a result of using our Services (ii) you have the knowledge, 
+experience, understanding, professional advice and information to make your own
+evaluation of the merits, risks and applicable compliance requirements, under Applicable
+Law, of any ADA or FACT tokens that are used as inputs or outputs to Orcfax Services; and 
+(iii) know, understand and accept the financial risks associated with your use of
+Orcfax Services and any tokens that are used as inputs or outputs to deliver the Services.
+
+
 
 ## CHANGES; SUSPENSION; TERMINATION
 
