@@ -15,48 +15,48 @@ Valid from: *August 1, 2024*
 
 These Terms of Service, together with any documents and additional terms they
 incorporate by reference (collectively, these “Terms”), are entered into between
-Orcfax Ltd. ("Orcfax”, “we,” “us,” and “our”) and you or the company or
+Orcfax Ltd. ("Orcfax”, “we,” “us,” and “our”), a legal entity registered as a
+corporation in the British Virgin Islands and you or the company or
 other legal entity that you represent (“you” or “your”).
 
 Please read these Terms carefully as they govern your use of the data that
 we publish inline to transactions on the Cardano blockchain ("Oracle data")
 as well as related information that we make available on pages and files
-located at the domain Orcfax.io (the "Website"). Collectively, the Oracle
-data published by Orcfax along with the data published on the Website are 
-referred to as "the Services" provided by Orcfax. These Terms describe your rights
-and obligations in relation to the Services and our disclaimers and limitations of
-legal liability for the Services.
+located at the domain Orcfax.io (the "Website").
 
-By accessing or using any part of Orcfax's Oracle data or Website you agree
-to become bound by these Terms of Service.
+## SERVICES
+Collectively, the Oracle data collected, calculated, validated and published
+by Orcfax to transactions on the Cardano blockchain, along with the files and
+data archived to the Arweave network, and published on the Website are referred
+to as "the Services" provided by Orcfax. 
+
+These Terms describe your rights and obligations in relation to the Services and
+our disclaimers and limitations of legal liability for the Services. By accessing
+or using any part of Orcfax's Oracle data or Website you agree to become bound by
+these Terms of Service.
 
 If you use the Services on behalf of a company, organization (including a
-decentralized autonomous organization or “DAO”) or other entity then “you”
-includes you and that entity, and you represent and warrant that (a) you are an
-authorized representative of the entity with the authority to bind the entity to
-these Terms, and (b) you agree to these Terms on the entity’s behalf.
+decentralized autonomous organization or “DAO”) or other entity, or if you
+are an automated agent (including "bots" that execute actions using artificial
+intellegence or other technologies for autonomous decision-making on behalf of
+an other entity), then “you” includes you and that entity, and you represent and
+warrant that (a) you are an authorized representative of the entity with the
+authority and agency to bind the entity to these Terms, and (b) you agree to these
+Terms on the entity’s behalf.
 
-If you do not agree to these Terms or do not have authority to bind your organization
+If you do not agree to these Terms or do not have authority to bind the entity
 on whose behalf you are using the Services to these Terms, you must not access or
-use our Oracle data or Website data.
+use our Oracle data or Website.
 
 We reserve the right, in our sole discretion, to modify these Terms from time to
 time. If we make changes, we will provide you with notice of such changes using
-commercially reasonable means, such as by providing a notice through the Website
-or our Services or updating the date at the top of these Terms. Unless we say
-otherwise in our notice, any modifications are effective immediately, and your
-continued use of the Website or our Services will confirm your acceptance of the
-changes. If you do not agree to the amended Terms, you must stop using our
-Services.
-
-## SERVICES
-
-The Website enables users to access open source documentation, content, and
-services, including (without limitation) resources, data and computation
-services provided by a network of nodes directly to smart contracts integrating
-Orcfax feeds, and information and resources for the community comprising the
-Orcfax Network (collectively such services, information, APIs, and resources
-related to the Orcfax network are referred to as the “Services”).
+commercially reasonable means, which is defined as taking the desired notification
+action without a material increase in costs incurred by Orcfax and the competitive
+environment in which such action occurs. Examples of such notice include providing
+a notice through the Website or updating the date at the top of these Terms. Unless
+we say otherwise in our notice, any modifications are effective immediately, and your
+continued use of Orcfax's Services will confirm your acceptance of the changes. 
+If you do not agree to the amended Terms, you must stop using our Services.
 
 ## YOUR REPRESENTATIONS AND WARRANTIES; CONDITIONS
 
