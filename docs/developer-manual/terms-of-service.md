@@ -67,7 +67,7 @@ Our Services enable access to data from multiple and varied sources. You
 acknowledge and agree that the accuracy, availability and quality of data collected
 and calculated via our Services may be impacted by various factors, including as
 a result of the underlying data being volatile or otherwise compromised at the
-data source, whether through malfeance or malpractice.
+data source, which could include malfeance or malpractice.
 
 Some of our Services require holding and paying Distributed Ledger Technology (DLT) 
 tokens (also known as "crypto-currency") including ADA and FACT. You hereby represent
@@ -79,81 +79,6 @@ evaluation of the merits, risks and applicable compliance requirements, under Ap
 Law, of any ADA or FACT tokens that are used as inputs or outputs to Orcfax Services; and 
 (3) know, understand and accept the financial risks associated with your use of
 Orcfax Services and any tokens that are used as inputs or outputs to deliver the Services.
-
-## CHANGES; SUSPENSION; OR TERMINATION OF SERVICES
-Orcfax may, at our sole discretion, from time to time and with or without prior notice to you,
-modify, suspend or disable, temporarily or permanently, our offered Services, in whole or in 
-part, for any reason whatsoever, including, but not limited to, as a result of demands and 
-preferences communicated by users of our Services, a security incident, your violation of these 
-Terms or, in the Orcfax's good faith judgment, such changes, suspension or termination are
-necessary for the protection of our Services. 
-
-# DISCLAIMER OF LIABILITY
-ORCFAX IS NOT LIABLE FOR ANY LOSSES SUFFERED BY YOU RESULTING FROM ANY SUSPENSION, TERMINATION, 
-OR MODIFICATION TO OUR SERVICES OR YOUR LOSS OF ACCESS TO ALL OR A PORTION OF OUR SERVICES, 
-FOR ANY REASON.
-
-To the maximum extent permitted under Applicable Law, the Services (including any of their
-content or functionality) is provided by or on behalf of Orcfax on an “AS IS” and 
-“AS AVAILABLE” basis. WE EXPRESSLY DISCLAIM, AND YOU HEREBY WAIVE, ANY REPRESENTATION, 
-CONDITIONS, OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, LEGAL, STATUTORY 
-OR OTHERWISE, OR ARISING FROM STATUTE, OTHERWISE IN LAW, COURSE OF DEALING, OR USAGE OF
-TRADE, INCLUDING WITHOUT LIMITATION, THE IMPLIED OR LEGAL WARRANTIES AND CONDITIONS OF
-MERCHANTABILITY, MERCHANTABLE QUALITY, QUALITY OR FITNESS FOR A PARTICULAR PURPOSE,
-TITLE, SECURITY, AVAILABILITY, RELIABILITY, ACCURACY, QUIET ENJOYMENT AND NON-INFRINGEMENT
-OF THIRD PARTY RIGHTS.
-
-Applicable Law is defined to mean all applicable provisions of constitutions,
-laws, statutes, ordinances, rules, trieties, policies, regulations,
-permits, licenses, approvals, interpretations and orders of court or 
-government authorities and all orders and decrees of all courts and
-arbitrators. 
-
-Without limiting the foregoing, we do not represent or warrant that Services
-(including any Oracle data, Archival data, Website data or related data) will
-be uninterrupted, available at any particular time or error-free. Further, WE
-DO NOT WARRANT THAT ERRORS IN THE SERVICES ARE CORRECTABLE OR WILL BE CORRECTED.
-
-All of these terms will survive any termination of your access to the Services, 
-regardless of the reasons for its expiration or termination, in addition to any
-other provision which by law or by its nature should survive.
-
-
-## LIMITATION OF LIABILITY
-
-In no event will the Protected Parties' aggregate liability arising out of or in
-connection with the Website, the Services and the Orcfax Network
-(and any of their content and functionality), any performance or non-performance
-of the Services, your Distributed Ledger Technology assets, other
-digital assets, Fact Tokens or any other product, service or other item provided
-by or on behalf of a Protected Party, whether under contract, tort
-(including negligence), civil liability, statute, strict liability or other
-theory of liability exceed the amount of fees paid by you to us under these
-Terms in the twelve (12) month period immediately preceding the event giving
-rise to the claim for liability.
-
-
-
-## EXCLUSION OF CONSEQUENTIAL AND RELATED DAMAGES
-In no event will the Oracle, together with any Protected Party, be liable for
-any incidental, indirect, special, punitive, exemplary, consequential or similar
-damages or liabilities whatsoever (including, without limitation, damages for
-loss of data, information, revenue, goodwill, profits or other business or
-financial benefit) arising out of or in connection with the Website, the
-Services and the Orcfax Network (and any of their content and functionality),
-any execution or settlement of a transaction, any performance or non-performance
-of the Services, your Distributed Ledger Technology assets, other digital
-assets, Fact Tokens or any other product, service or other item provided by or
-on behalf of a Protected Party, whether under contract, tort
-(including negligence), civil liability, statute, strict liability, breach of
-warranties, or under any other theory of liability, and whether or not any
-Protected Party has been advised of, knew of or should have known of the
-possibility of such damages and notwithstanding any failure of the essential
-purpose of these Terms or any limited remedy nor is the Oracle in any way
-responsible for the execution or settlement of transactions between users of
-Orcfax software or the Orcfax Network.
-
-
 
 ## INDEMNIFICATION
 You will defend, indemnify, and hold harmless Orcfax, our directors, officers,
@@ -173,3 +98,60 @@ If you are obligated to indemnify any Protected Party, Orcfax (or, at its discre
 the applicable Protected Party) will have the right, in its sole discretion, to
 control any action or proceeding and to determine whether Orcfax wishes to
 settle, and if so, on what terms.
+
+## CHANGES; SUSPENSION; OR TERMINATION OF SERVICES
+Orcfax may, at our sole discretion, from time to time and with or without prior notice to you,
+modify, suspend or disable, temporarily or permanently, our offered Services, in whole or in 
+part, for any reason whatsoever, including, but not limited to, as a result of demands and 
+preferences communicated by users of our Services, a security incident, your violation of these 
+Terms or, in the Orcfax's good faith judgment, such changes, suspension or termination as are
+necessary for the protection of our Services. 
+
+# DISCLAIMER OF LIABILITY
+To the maximum extent permitted under Applicable Law, the Services (including any of their
+content or functionality) is provided by or on behalf of Orcfax on an “AS IS” and 
+“AS AVAILABLE” basis. WE EXPRESSLY DISCLAIM, AND YOU HEREBY WAIVE, ANY REPRESENTATION, 
+CONDITIONS, OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, LEGAL, STATUTORY 
+OR OTHERWISE, OR ARISING FROM STATUTE, OTHERWISE IN LAW, COURSE OF DEALING, OR USAGE OF
+TRADE, INCLUDING WITHOUT LIMITATION, THE IMPLIED OR LEGAL WARRANTIES AND CONDITIONS OF
+MERCHANTABILITY, MERCHANTABLE QUALITY, QUALITY OR FITNESS FOR A PARTICULAR PURPOSE,
+TITLE, SECURITY, AVAILABILITY, RELIABILITY, ACCURACY, QUIET ENJOYMENT AND NON-INFRINGEMENT
+OF THIRD PARTY RIGHTS.
+
+Applicable Law is defined to mean all applicable provisions of constitutions,
+laws, statutes, ordinances, rules, trieties, policies, regulations,
+permits, licenses, approvals, interpretations and orders of court or 
+government authorities and all orders and decrees of all courts and
+arbitrators. 
+
+Furthermore, ORCFAX IS NOT LIABLE FOR ANY LOSSES SUFFERED BY YOU RESULTING
+FROM ANY SUSPENSION, TERMINATION, OR MODIFICATION TO OUR SERVICES OR YOUR LOSS
+OF ACCESS TO ALL OR A PORTION OF OUR SERVICES, FOR ANY REASON.
+
+Without limiting the foregoing, we do not represent or warrant that Services
+(including any Oracle data, Archival data, Website data or related data) will
+be uninterrupted, available at any particular time or error-free. Further, WE
+DO NOT WARRANT THAT ERRORS IN THE SERVICES ARE CORRECTABLE OR WILL BE CORRECTED.
+
+All of these terms will survive any termination of your access to the Services, 
+regardless of the reasons for its expiration or termination, in addition to any
+other provision which by law or by its nature should survive.
+
+## EXCLUSION OF CONSEQUENTIAL AND RELATED DAMAGES
+In no event will Orcfax, together with any Protected Party, be liable for
+any incidental, indirect, special, punitive, exemplary, consequential or similar
+damages or liabilities whatsoever (including, without limitation, damages for
+loss of data, information, revenue, goodwill, profits or other business or
+financial benefit) arising out of or in connection with Orcfax Services
+(including any and all of its data and functionality), any execution or
+settlement of a transaction, any performance or non-performance
+of the Services, your Distributed Ledger Technology assets, other digital
+assets (including FACT and ADA tokens) or any other product, service or other
+item provided by or on behalf of a Protected Party, whether under contract, tort
+(including negligence), civil liability, statute, strict liability, breach of
+warranties, or under any other theory of liability, and whether or not any
+Protected Party has been advised of, knew of or should have known of the
+possibility of such damages and notwithstanding any failure of the essential
+purpose of these Terms or any limited remedy NOR IS ORCFAX IN ANY WAY RESPONSIBLE
+FOR THE EXECUTION OR SETTLEMENT OF TRANSACTIONS BETWEEN USERS OF ORCFAX SERVICES AND
+ANY OTHER SERVICES OR SOFTWARE.
