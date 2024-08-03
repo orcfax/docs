@@ -9,21 +9,25 @@ slug: /tos
 <!-- markdownlint-disable MD036 -->
 <!-- To be linked to from `"tos":` -->
 
-*MM DD YYYY*
+Valid from: *August 1, 2024*
 
 <!-- markdownlint-restore -->
 
-These terms of service, together with any documents and additional terms they
+These Terms of Service, together with any documents and additional terms they
 incorporate by reference (collectively, these “Terms”), are entered into between
-Orcfax Ltd. (the “Oracle,” “we,” “us,” and “our”) and you or the company or
+Orcfax Ltd. ("Orcfax”, “we,” “us,” and “our”) and you or the company or
 other legal entity that you represent (“you” or “your”).
 
-Please read these Terms carefully as they govern your use of our site located at
-Orcfax.io and all associated sites (the “Website”) and our Services
-(defined below) and describe your rights and obligations and our disclaimers and
-limitations of legal liability. By accessing or using any part of the Website or
-the Services, you agree to become bound by the terms and conditions of these
-Terms.
+Please read these Terms carefully as they govern your use of the data that
+we publish inline to transactions on the Cardano blockchain ("Oracle data")
+as well as related information that we make available at our websites located
+at the domain Orcfax.io ("Website data"). Collectively, the Orcfax Oracle
+data and Website data are referred to as "the Services" provided by Orcfax.
+
+These Terms describe your rights and obligations and our disclaimers and
+limitations of legal liability. By accessing or using any part of Orcfax's
+Oracle data and Website data you agree to become bound by the terms and
+conditions of these Terms.
 
 If you use the Services on behalf of a company, organization (including a
 decentralized autonomous organization or “DAO”) or other entity then “you”
