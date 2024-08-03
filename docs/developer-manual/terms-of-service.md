@@ -9,7 +9,7 @@ slug: /tos
 <!-- markdownlint-disable MD036 -->
 <!-- To be linked to from `"tos":` -->
 
-Valid from: *August 1, 2024*
+Valid from: *August 1, 2024* 
 
 <!-- markdownlint-restore -->
 
