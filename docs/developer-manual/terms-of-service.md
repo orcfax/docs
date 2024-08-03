@@ -20,23 +20,25 @@ other legal entity that you represent (“you” or “your”).
 
 Please read these Terms carefully as they govern your use of the data that
 we publish inline to transactions on the Cardano blockchain ("Oracle data")
-as well as related information that we make available at our websites located
-at the domain Orcfax.io ("Website data"). Collectively, the Orcfax Oracle
-data and Website data are referred to as "the Services" provided by Orcfax.
+as well as related information that we make available on pages and files
+located at the domain Orcfax.io (the "Website"). Collectively, the Oracle
+data published by Orcfax along with the data published on the Website are 
+referred to as "the Services" provided by Orcfax. These Terms describe your rights
+and obligations in relation to the Services and our disclaimers and limitations of
+legal liability for the Services.
 
-These Terms describe your rights and obligations and our disclaimers and
-limitations of legal liability. By accessing or using any part of Orcfax's
-Oracle data and Website data you agree to become bound by the terms and
-conditions of these Terms.
+By accessing or using any part of Orcfax's Oracle data or Website you agree
+to become bound by these Terms of Service.
 
 If you use the Services on behalf of a company, organization (including a
 decentralized autonomous organization or “DAO”) or other entity then “you”
 includes you and that entity, and you represent and warrant that (a) you are an
 authorized representative of the entity with the authority to bind the entity to
-these Terms, and (b) you agree to these Terms on the entity’s behalf. If you do
-not agree to these Terms or do not have authority to bind your organization on
-whose behalf you are using the Services to these Terms, you must not access or
-use our Website or the Services.
+these Terms, and (b) you agree to these Terms on the entity’s behalf.
+
+If you do not agree to these Terms or do not have authority to bind your organization
+on whose behalf you are using the Services to these Terms, you must not access or
+use our Oracle data or Website data.
 
 We reserve the right, in our sole discretion, to modify these Terms from time to
 time. If we make changes, we will provide you with notice of such changes using
