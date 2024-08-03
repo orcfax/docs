@@ -20,28 +20,29 @@ corporation in the British Virgin Islands and you or the company or
 other legal entity that you represent (“you” or “your”).
 
 Please read these Terms carefully as they govern your use of the data that
-we publish inline to transactions on the Cardano blockchain ("Oracle data")
-as well as related information that we make available on pages and files
-located at the domain Orcfax.io (the "Website").
+we (1) publish inline to transactions on the Cardano blockchain ("Oracle data"), 
+(2) archive to the Arweave network ("Archival data") (3) publish to the pages
+and files located at the Internet domain Orcfax.io (the "Website").
 
-## The SERVICES
+## THE SERVICES
 Collectively, the Oracle data collected, calculated, validated and published
-by Orcfax to transactions on the Cardano blockchain, along with the files and
-data archived to the Arweave network, as well as the data and information published
-to the Website are hereby referred to, collectively, as "the Services" provided 
-by Orcfax. 
+by Orcfax to transactions on the Cardano blockchain; along with the archival data
+and files archived to the Arweave network; as well as the data and
+information published to the Website are hereby referred to, collectively, as
+"the Services" provided by Orcfax. 
 
+## YOUR AGREEMENT TO THESE TERMS OF SERVICE
 These Terms describe your rights and obligations in relation to the Services and
 our disclaimers and limitations of legal liability for the Services. By accessing
-or using any part of Orcfax's Oracle data or Website you agree to become bound by
-these Terms of Service.
+or using any part of Orcfax's Oracle data, Archival data or Website data you agree to
+become bound by these Terms of Service.
 
 If you use the Services on behalf of a company, organization (including a
 decentralized autonomous organization or “DAO”) or other entity, or if you
 are an automated agent acting on behalf of another entity (including "bots" that
 execute actions using artificial intellegence or other technologies for autonomous
-decision-making, such as "smart contracts"), then “you” includes you and that entity, 
-and you represent and warrant that (a) you are an authorized representative of the
+decision-making, such as "smart contracts"), then “you” includes you and that entity. 
+You represent and warrant that (a) you are an authorized representative of the
 entity with the authority and agency to bind the entity to these Terms, and (b) you
 agree to these Terms on the entity’s behalf.
 
@@ -49,9 +50,10 @@ You must not use any our Services, if you do not agree to these Terms or if you
 do not have the authority or agency to bind the entity, on whose behalf you are using
 the Services, to these Terms. 
 
+## REVISION OF TERMS OF SERVICE
 We reserve the right, in our sole discretion, to modify these Terms from time to
 time. If we make changes, we will provide you with notice of such changes using
-commercially reasonable means, which is defined as taking the desired notification
+Commercially Reasonable Means, which is defined as taking the desired notification
 action without a material increase in costs incurred by Orcfax and the competitive
 environment in which such action occurs. Examples of such notice include providing
 a notice through the Website or updating the date at the top of these Terms. Unless
@@ -77,43 +79,40 @@ Law, of any ADA or FACT tokens that are used as inputs or outputs to Orcfax Serv
 (iii) know, understand and accept the financial risks associated with your use of
 Orcfax Services and any tokens that are used as inputs or outputs to deliver the Services.
 
+## CHANGES; SUSPENSION; OR TERMINATION OF SERVICES
+Orcfax may, at our sole discretion, from time to time and with or without prior notice to you,
+modify, suspend or disable, temporarily or permanently, our offered Services, in whole or in 
+part, for any reason whatsoever, including, but not limited to, as a result of demands and 
+preferences communicated by users of our Services, a security incident, your violation of these 
+Terms or, in the Orcfax's good faith judgment, such changes, suspension or termination are
+necessary for the protection of our Services. 
 
-
-## CHANGES; SUSPENSION; TERMINATION
-
-The Orcfax Network is intended to be decentralized and self-operating, with or
-without any Services provided by the Oracle. Accordingly, we may, at our sole
-discretion, from time to time and with or without prior notice to you, modify,
-suspend or disable, temporarily or permanently, the Services offered by the
-Oracle, in whole or in part, for any reason whatsoever, including, but not
-limited to, as a result of a security incident, your violation of these Terms
-or, in the Oracle’s good faith judgment, such changes, suspension or termination
-are necessary for the protection of the Orcfax Network. We will not be liable
-for any losses suffered by you resulting from any modification to any Services
+# DISCLAIMER OF LIABILITY
+We will not be liable for any losses suffered by you resulting from any modification to any Services
 or from any suspension or termination, for any reason, of your access to all or
-any portion of the Website or the Services. All of these terms will survive any
-termination of your access to the Website or the Services, regardless of the
-reasons for its expiration or termination, in addition to any other provision
-which by law or by its nature should survive.
+any portion of the Services. 
+
+All of these terms will survive any termination of your access to the Services, regardless of the
+reasons for its expiration or termination, in addition to any other provision which by law or by its
+nature should survive.
 
 ## INDEMNIFICATION
-
-You will defend, indemnify, and hold harmless the Oracle, our members,
-directors, officers, employees, attorneys, agents, representatives, suppliers,
-licensors and contractors (collectively, Protected Parties”) from any claim,
-demand, lawsuit, action, proceeding, investigation, liability, damage, loss,
-cost or expense, including without limitation reasonable attorneys’ fees,
-arising out of or relating to your use of, or conduct in connection with, the
-Website, Services, the Orcfax Network or Fact Tokens, Distributed Ledger
-Technology assets associated with your Distributed Ledger Technology Address,
-any other digital assets, any Feedback or User Content; your violation of these
-Terms; your violation of Applicable Law or regulations; any claims made by or
-against the Protected Parties by other members of the organization or entity on
-whose behalf you may be using the Website or Services; or your infringement or
-misappropriation of the rights of any other person or entity. If you are
-obligated to indemnify any Protected Party, the Oracle (or, at its discretion,
+You will defend, indemnify, and hold harmless Orcfax, our directors, officers,
+employees, attorneys, agents, representatives, suppliers, licensors and contractors,
+including those persons and entities operating software that contributes Oracle data
+to Orcfax (collectively, the "Protected Parties” or individually a "Protected Party")
+from (1) any claim, demand, lawsuit, action, proceeding, investigation, liability, 
+damage, loss, cost or expense, including without limitation reasonable attorneys’ fees,
+arising out of or relating to your use of, or conduct in connection with, 
+Orcfax's Services, including our Oracle data, Archival data, the Website, ADA and FACT
+tokens associated with our or your Distributed Ledger Technology Address; (2) your
+violation of these terms; (3) your violation of Applicable Law or regulations; (4)
+any claims made by or against the Protected Parties by you or other members of the
+organization or entity on whose behalf you may be using the Website or Services; 
+(5) or your infringement or misappropriation of the rights of any other person or entity.
+If you are obligated to indemnify any Protected Party, Orcfax (or, at its discretion,
 the applicable Protected Party) will have the right, in its sole discretion, to
-control any action or proceeding and to determine whether the Oracle wishes to
+control any action or proceeding and to determine whether Orcfax wishes to
 settle, and if so, on what terms.
 
 ## DISCLOSURES; DISCLAIMERS
