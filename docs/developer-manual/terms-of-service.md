@@ -25,10 +25,10 @@ as well as related information that we make available on pages and files
 located at the domain Orcfax.io (the "Website").
 
 ## SERVICES
-Collectively, the Oracle data collected, calculated, validated and published
-by Orcfax to transactions on the Cardano blockchain, along with the files and
-data archived to the Arweave network, and published on the Website are referred
-to as "the Services" provided by Orcfax. 
+The Oracle data collected, calculated, validated and published
+by Orcfax to transactions on the Cardano blockchain, as well as the files and
+data archived to the Arweave network, and the data and information published
+to the Website are referred to, collectively, as "the Services" provided by Orcfax. 
 
 These Terms describe your rights and obligations in relation to the Services and
 our disclaimers and limitations of legal liability for the Services. By accessing
