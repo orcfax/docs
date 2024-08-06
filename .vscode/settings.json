@@ -39,6 +39,8 @@
         "Wingriders",
         "bytearray",
         "timeframe",
-        "pubkey"
+        "pubkey",
+        "readablility",
+        "remediative"
     ]
 }

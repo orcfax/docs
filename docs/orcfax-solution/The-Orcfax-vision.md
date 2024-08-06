@@ -12,7 +12,6 @@ primary role is to provide data about the real world, which the blockchain is
 innately ignorant of. When oracles bring this data on chain, it opens up a
 world of new possibilities for protocols which can utilize the data to underpin
 business logic and to serve as inputs to trigger smart contract execution.
-These smart contracts can represent significant financial assets.
 
 However, the heavy reliance on oracles to provide these inputs, and the trust
 that consuming dApps must have in the data being utilized, creates new risk
@@ -34,17 +33,18 @@ this issue.
 The Oracle problem represents several interconnected issues regarding trust;
 Orcfax believes that solving the oracle problem means designing a solution from
 the bottom up with a focus on addressing decentralization and
-audit-ability.
+auditability.
 
-Recent claims within the Cardano community of new oracle solutions mean that
-users, now more than ever, need to assess the services being offered, the logic
-behind their design, how they are executed, and the implications of their use.
+Recent claims within the Cardano community of newly launched oracle solutions
+mean that users, now more than ever, need to assess the services being offered,
+the logic behind their design, how they are executed, and the implications of
+their use.
 
-What follows is a short introduction to what we have identified as critical
+What follows is a short introduction to what Orcfax has identified as critical
 aspects of an oracle. It is our belief that solutions should be able to
 demonstrate these aspects in order to claim that their solution is in fact an
-oracle, and that it's addressing the "oracle problem" through the provided
-services.
+oracle, and that it's addressing the "oracle problem" through the its provided
+service.
 
 ![The Orcfax oracle vision](/img/2024--Orcfax-oracle-vision.png)
 
@@ -53,24 +53,24 @@ services.
 The critical aspects of an oracle solution outlined in the above table
 demonstrate the Orcfax vision for Cardano oracles and how they should be
 designed in order to effectively address the oracle problem. To add more
-context, and to help users further appreciate how important these are, the
-following will further unpack each aspect, its significance, and how the Orcfax
-solution provides an answer.
+context, and to help users further appreciate how important these are, we unpack
+each of the above aspects, their significance, and how the Orcfax solution
+provides an answer.
 
 ### Triangulation of data points vs single source data points
 
 To avoid single points of failure or attack, Orcfax has adopted the
-mathematical principle of triangulation, which is concerned with the
+principle of triangulation, which is concerned with the
 utilization of multiple methods, or sources of information, in order to derive
 a comprehensive understanding of phenomena in the world; this principle also
 aids in testing the validity of source information by providing the ability to
 compare data across sources. In practice, the principle of triangulation is
 leveraged by our project to develop robust Orcfax nodes. Each of these nodes
-are required to query a min of 3+ primary sources as a validation check. If one
+are required to query a min of 3 primary sources as a validation check. If one
 source fails, gets hacked, or contributes outlier data, then the remaining
-reliable sources can still be utilized to derive authentic values from.
+reliable sources can still be utilized to derive authentic values.
 
-Orcfax released its first price feed (ADA/USD) with three primary sources being
+Orcfax released its first price feed (ADA-USD) with three primary sources being
 leveraged in accordance with this principle; however, future updates and
 additional products will benefit from an increased pool of primary source data
 providers as Orcfax continues to enhance the reliability and security of its
@@ -78,8 +78,8 @@ oracle solution.
 
 ### Decentralized & permissionless pool of validators vs off-chain kyc-ed validators
 
-Requiring data validators to go through regulatory know-your-customer processes
-(KYC) and/or requiring individuals to sign contracts goes against the very
+Requiring data validators to go through regulatory know-your-customer (KYC)
+processes and/or requiring individuals to sign contracts goes against the very
 decentralization ethos that Orcfax is championing. **Truly decentralized
 networks are permissionless**; this means that the only limiting factor for
 network participants should be their ability to meet the minimal technical
@@ -130,27 +130,31 @@ Because of this, we have developed services to suit and accommodate dApp
 requirements. Our solution will now support two distinct publication models:
 heartbeat and on-demand.
 
-Our ADA/USD feed went live on mainnet by leveraging the first of these
+Our ADA-USD feed went live on mainnet by leveraging the first of these
 publication options–  an Orcfax hourly heartbeat publication model with
 deviation monitoring.
 
 <u>The heartbeat publication model</u> gives integrators the ability to access
-data at regular intervals which can be set according to their needs (e.g. every
-5 minutes, once per hour, etc.). This model can be further enhanced when paired
+data at regular intervals which can be set according to their needs (e.g. once
+per hour). This model can be further enhanced when paired
 with a monitoring feature which adds a deviation formula; heartbeat publication
 models with deviation add improved precision by guaranteeing data at both a
 consistent interval and when user-stipulated thresholds have been met (e.g.
 publish immediately before the next heartbeat if price changes by x%).
 
-In the heartbeat publication model, nodes request and cache primary source data
-on the hour and every minute as a result of a monitoring function; this monitor
-then triggers publication workflows in the event of deviations.
+In the heartbeat publication model, two processes ensure that data gets on
+chain; the first is the heartbeat, which triggers nodes to execute a publication
+workflow at a specified interval. The second is the price monitor; nodes request
+and cache primary source data every minute in order to detect price deviations
+between heartbeat publications; if the price deviates from the last published
+price by a specified margin (e.ge 2%) then another publication workflow will be
+triggered.
 
 <u>The on-demand publication model</u> allows complete flexibility and gives
 dApps even more control of data use by allowing them to request data
 collection, validation and publication whenever it’s needed by their smart
 contracts. If an Orcfax feed consumer needs a more current update for a given
-datum feed (e.g. ADA/USD) than is available on-chain, or through an existing
+datum feed (e.g. ADA-USD) than is available on-chain, or through an existing
 heartbeat publication, then an on-demand publication request can be triggered
 in order to receive the datum and use it within the same block.
 
@@ -161,33 +165,34 @@ need, when they need it.
 
 ### Auditable feeds via user friendly explorer vs difficult to audit on-chain data
 
-When something goes wrong, every user, including non-developers, should be able
-to audit all aspects of the processes involved— oracles are no different. Users
-must have the ability to follow detailed documentation that recounts the
-processes, their outputs, and how the steps taken resulted in the oracle
-values published on-chain and utilized by smart contracts.
+When something goes wrong with software, every user, including non-developers,
+should be able to audit all aspects of the processes involved— blockchain
+oracles are no different. Users must have the ability to follow detailed
+documentation that recounts the processes, their outputs, and how the steps
+taken resulted in the oracle values published on-chain and utilized by smart
+contracts.
 
 Not only should this documentation exist in a way that is easy to access, the
 information needs to be intelligible for users of diverse skill sets and to
 future audiences that may lack context.
 
 Orcfax has addressed both of these requirements by creating human and
-machine-readable audit trails of all oracle solution processes: data
-collection, formatting, validation, and publication. This is made possible by
-leveraging standards-compliant record-keeping practices that ensure that the
-links between all the on-chain and off-chain components are immutable,
-inextricable, and trustworthy.
+machine-readable audit trails of all Orcfax solution processes: data
+collection, normalization, aggregation, validation, and publication. This is
+made possible by leveraging standards-compliant record-keeping practices that
+ensure the links between all the on-chain and off-chain components are
+immutable, inextricable, and trustworthy.
 
 While these records can be interrogated manually on-chain, we have developed a
 user-friendly [Explorer](https://explorer.orcfax.io/) interface that makes
 surfacing these audit trails simple and convenient so that users of Orcfax
 feeds can “Trust But Verify”. The explorer was developed as a direct response
-to the disregard that other solutions have shown regarding the right of user
-audits, the need to prioritize accessibility, and ease of use; unlike other
-oracle solutions, the Orcfax Explorer does not require expert knowledge of
-Cardano eUTXO architecture, nor does it force users to execute a complicated
-forensic process to follow on-chain transactions. Everything users need is made
-available at their finger tips.
+to the disregard that other solutions have shown regarding the right of users to
+conduct their own audits, the need to prioritize accessibility, and ease of use;
+unlike other oracle solutions, the Orcfax Explorer does not require expert
+knowledge of Cardano eUTXO architecture, nor does it force users to execute
+complicated forensic processes to follow on-chain transactions. Everything users
+need is made available at their finger tips.
 
 ### Standards-based interoperable audit trails vs feed only available on-chain
 
@@ -200,12 +205,12 @@ including [IPLD](https://ipld.io/), [JSON-LD](https://json-ld.org/),
 [Schema.org](https://schema.org/), and
 [IETF Bagit](https://datatracker.ietf.org/doc/rfc8493/).
 
-The archival packages designed to preserve on-chain data, and their context,
-use identifiers which link all records associated and creates a permanent link
-back to the on-chain Cardano transactions containing the relevant Orcfax datum.
-The result is that Orcfax provides blockchain-based trust anchors for fact
-statements about the real world that are now highly interoperable and re-usable
-beyond Web3 (e.g. training AI models on validated real-world facts).
+The archival packages are designed to preserve on-chain data, and their context,
+all while using identifiers which link all associated records and creates a
+permanent link back to the on-chain Cardano transactions containing the relevant
+Orcfax datum. The result is that Orcfax provides blockchain-based trust anchors
+for fact statements about the real world that are now highly interoperable and
+re-usable beyond Web3 (e.g. training AI models on validated real-world facts).
 
 Orcfax is committed to continuing its R&D into new ways to reuse feed data and
 to leverage this “data lake of validated facts” for new value-added services
@@ -222,7 +227,7 @@ delegation principles.
 
 Orcfax has managed to reduce on-chain interaction to a single certified data
 publication event, all while providing linkages that connect on-chain
-datapoints with their complete history of supporting documentation of all
+datapoints with a complete history of supporting documentation related to all
 off-chain processes; these records are made available permissionlessly through
 decentralized storage, and have standards-based security guarantees for
 their links back to the on-chain data.
@@ -230,70 +235,69 @@ their links back to the on-chain data.
 Other oracle solutions require users to juggle the handling of numerous NFTs
 and a complicated series of inter-dependent on-chain transactions to support
 their workflow, each adding transaction fees along the way. These other
-solutions are neither efficient nor cost effective for users.
+solutions are neither efficient nor cost effective for their integrators and end
+users.
 
-Instead Orcfax has designed its solution with a commitment to minimal
+Orcfax has designed its solution with a commitment to minimal
 transaction fees for integrators, making it the most cost-effective and
-long-term sustainable oracle solution on Cardano. And R&D continues for how
-Orcfax can continue to stand by that claim by optimizing feed publication and
-maximizing integrator ease of use.
+long-term sustainable oracle solution on Cardano. And R&D continues as
+Orcfax continues to find strategies to optimize feed publication and to
+maximize integrator ease of use.
 
 ### DAO governance & treasury vs Centralized company
 
 While the Orcfax project was initially established through its incorporation as
 a company in the British Virgin Islands, and has continued to leverage this
 position for development, this was always meant to be temporary. The sole
-purpose of the Orcfax ltd company is to develop and launch the Orcfax oracle
-network and to perform custodial duties for the $FACT token. It is our desire
-that as soon as specific implementation targets are reached, Orcfax Ltd will
-dissolve itself and initiate the transfer of Orcfax network operations to the
-Orcfax Foundation, which will be operated as a decentralized autonomous
-organization (DAO).
+purpose of the Orcfax ltd company is to develop, and launch, the Orcfax Network
+while also performing custodial duties for the FACT token.
+
+It is our desire that as soon as specific implementation targets are reached,
+Orcfax Ltd will dissolve itself and initiate the transfer of Orcfax Network
+operations to the Orcfax Foundation, which will be operated as a decentralized
+autonomous organization (DAO).
 
 The Orcfax commitment to DAO governance was enshrined in our tokenomics wherein
-5% of the $FACT supply was reserved, within its own distinct ada handle, for
-the sole purpose of funding the operations of the Orcfax Foundation. After
+5% of the total $FACT supply was reserved, within its own distinct ada handle,
+for the sole purpose of funding the operations of the Orcfax Foundation. After
 Orcfax Ltd has delivered the full roadmap and has dissolved itself, the DAO
 will become the recipient of the network share of $FACT data feed fees.
 
-We envision that the DAO will be run via staked-based voting using $FACT to
-decide on housekeeping matters, such as which contractor to hire to monitor
-daily network operations, which developers to hire to add new features, and
-decisions on network parameters like transaction fee percentages and whether or
-not to add or remove certain feeds.
+We envision that the DAO will be run via stake-based voting using $FACT to
+decide on housekeeping matters, hiring contractors to monitor daily network
+operations, hiring developers to add new features, and decisions on network
+parameters such as transaction fee percentages and whether or not to add or
+remove certain feeds.
 
-Importantly, current Orcfax activities and development have been funded via our
-successful $FACT token launch. Many other oracle providers have been funded by
-venture capitalists (VCs) who are averse to any type of DAO/community based
-governance that will affect their ability to get a return on their investment
+Importantly, current Orcfax activities and development have been largely funded
+via our successful FACT token launch. Many other oracle providers have been
+funded by venture capitalists (VCs) who are averse to any type of DAO/community
+based governance that affects their ability to get a return on their investment
 (e.g. pull value out of the oracle project). We object to these kinds of
 project financing strategies as they effectively tie the project’s hands and
 can prevent the development and fostering of decentralization; alignment with
 VCs also causes the project to be beholden to them, whereas we prefer to be
 beholden to our community.
 
-### Open source vs Closed source
+### Open-source vs Closed-source
 
 The Orcfax team stalwartly believes in the open-source software ethos, which
 prioritizes equitable access by allowing users to copy, inspect, and alter
 software source code for the benefit of their own projects. Another key benefit
-is that it creates a unique auditing environment; the concept of, “more eyes on
-the code”, demonstrates this phenomena and is meant to convey scenarios where
-it’s more likely that developers outside the core team are able to spot, and
-willing to help fix, any bugs or errors in the software.
+is that this creates a unique auditing environment; the concept of,
+“more eyes on the code”, demonstrates this phenomena and is meant to convey
+scenarios where it’s more likely that developers outside the core team are able
+to spot, and willing to help fix, any bugs or errors in the software.
 
 The Orcfax project itself leans heavily on other free and open-source software
 components, and stands on the shoulders of developers who have committed their
 work to the benefit of the public. Because of this, we recognize the
-responsibility for our project to pay it forward, and this will be done through
-the software which we open source.
+responsibility of our project to pay it forward, and this will be done through
+the software which we open-source.
 
-At the core of the Orcfax oracle network is the Cardano Open Oracle Protocol
-(COOP) which we’ve already released under the Apache 2 open-source license.
-This license allows other projects to adopt COOP code in order to implement
-their own oracle products or features. We will continue to open-source more
-Orcfax components as they are are rolled-out into production in the near
-future.
+While we have already open-sourced a number of Orcfax projects, we will continue
+to do so as components enter production and maturity until we have incrementally
+open-sourced the Orcfax oracle solution.
 
 ## What is the Orcfax difference?
 
