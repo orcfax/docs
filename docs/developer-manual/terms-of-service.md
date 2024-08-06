@@ -1,7 +1,7 @@
 ---
 id: terms of service
 sidebar_position: 5
-slug: /tos
+slug: /terms-of-service
 ---
 
 # TERMS OF SERVICE
