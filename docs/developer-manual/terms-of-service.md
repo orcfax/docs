@@ -23,7 +23,7 @@ Please read these Terms carefully as they govern your use of the data that
 we (1) publish inline to transactions on the Cardano blockchain ("Oracle data"),
 (2) data that we archive to the Arweave network ("Archival data") (3) or data
 that we publish to the pages and files located at the Internet domain Orcfax.io
-(the "Website").
+(the "Website") and its subdomains such as explorer.orcfax.io or docs.orcfax.io.
 
 ## THE SERVICES
 
@@ -42,7 +42,7 @@ Commercially Reasonable Means, which is defined as taking the desired
 notification action without a material increase in costs incurred by Orcfax and
 the competitive environment in which such action occurs. Examples of such notice
 include providing a notice through the Website or updating the date at the top
-of these Terms. Unless we say otherwise in our notice, any modifications are
+of these Terms. Unless otherwise stated, any modifications are
 effective immediately, and your continued use of Orcfax's Services will confirm
 your acceptance of the changes. If you do not agree to the amended Terms, you
 must stop using our Services.
@@ -92,7 +92,7 @@ Services.
 
 You will defend, indemnify, and hold harmless Orcfax, our directors, officers,
 employees, attorneys, agents, representatives, suppliers, licensors and
-contractors, sincluding those persons and entities operating software that
+contractors, including those persons and entities operating software that
 contributes Oracle data to Orcfax (collectively, the "Protected Parties” or
 individually a "Protected Party") from (1) any claim, demand, lawsuit, action,
 proceeding, investigation, liability, damage, loss, cost or expense, including
