@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.4.1">
 <title data-rh="true">Solution overview | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/solution-overview"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Solution overview | Orcfax"><meta data-rh="true" name="description" content="Orcfax is an oracle designed to publish trustworthy data to smart contracts on"><meta data-rh="true" property="og:description" content="Orcfax is an oracle designed to publish trustworthy data to smart contracts on"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/solution-overview"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/solution-overview" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/solution-overview" hreflang="x-default"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.896c9a3f.css">
-<link rel="preload" href="/assets/js/runtime~main.843c6a64.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.a193979d.js" as="script">
 <link rel="preload" href="/assets/js/main.421b6295.js" as="script">
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -13,18 +13,19 @@
 the Cardano blockchain. The oracle’s architecture consists of a number of
 software nodes written predominantly in Python, Haskell, and Plutus v2 code.
 These Orcfax nodes publish datum about the real world
-(e.g. the price of ADA in USD) a CBOR-serialized reference inputs into Cardano
+(e.g. the price of ADA in USD) as CBOR-serialized reference inputs into Cardano
 transactions. These datum are read and used in business logic by smart contracts
 and scripts.</p><p>The subject of this data can be nearly limitless in possibilities, and can
-include changes in currency price pairs, supply-chain activity, insurance, as
-well as data on-chain (e.g. the prices of Cardano native tokens or CNTs).</p><p><img loading="lazy" alt="Orcfax solution overview" src="/assets/images/2023-07-06--Orcfax-concept-diagram-086dc58d36b4cad3f8883cb33340ec42.png" width="5068" height="2034" class="img_ev3q"></p><p>Once published, this data can be used as trustworthy Reference Inputs to trigger
+include changes in current exchange rates (CER), supply-chain activity,
+insurance, as well as data on-chain
+(e.g. the prices of Cardano native tokens or CNTs).</p><p><img loading="lazy" alt="Orcfax solution overview" src="/assets/images/2023-07-06--Orcfax-concept-diagram-086dc58d36b4cad3f8883cb33340ec42.png" width="5068" height="2034" class="img_ev3q"></p><p>Once published, this data can be used as trustworthy reference inputs to trigger
 different kinds of business logic in Cardano smart contracts and dApps. All of
 this data relating to Orcfax workflows (including collection, validation,
 and publication) is captured within archival packages, which when combined
 represent complete audit logs of Orcfax processes. These packages are secured
 through decentralized storage and are made easily accessible through the
-Orcfax Explorer <a href="https://explorer.orcfax.io/" target="_blank" rel="noopener noreferrer">dashboard</a>.</p><p>More can be read about the dashboard in
-<a href="/auditability#the-orcfax-explorer">The Orcfax Explorer</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="collection">Collection<a href="#collection" class="hash-link" aria-label="Direct link to Collection" title="Direct link to Collection">​</a></h2><p>Most leading oracle platforms are beginning to implement some form of
+Orcfax <a href="https://explorer.orcfax.io/" target="_blank" rel="noopener noreferrer">Explorer</a>.</p><p>More can be read about the Explorer in the
+<a href="/auditability#the-orcfax-explorer">The Orcfax Explorer</a> section.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="collection">Collection<a href="#collection" class="hash-link" aria-label="Direct link to Collection" title="Direct link to Collection">​</a></h2><p>Most leading oracle platforms are beginning to implement some form of
 decentralized oracle pools as another technique to address the
 <a href="/oracle-basics#what-is-the-oracle-problem">oracle problem</a>.
 In its purest form, a decentralized oracle pool uses distributed networking and
@@ -33,27 +34,26 @@ source data before it is published on-chain.</p><p>Unfortunately, most current i
 often receive data from a single, black box provider. They then use an oracle
 pool to arrive at a consensus about the <em>uniformity</em> of that data and not
 necessarily about its <em>authenticity</em> or <em>accuracy</em>.</p><p>To address this shortfall found in many other oracle services, Orcfax enforces
-a strict source-data triangulation policy for all its oracle feeds. This means
-that the Orcfax solution will collect data from a minimum of three independent
+a strict triangulation policy for all its oracle feeds. This means that the
+Orcfax solution will collect data from a minimum of three independent
 sources via a decentralized pool of validator nodes. These data points are then
-validated, aggregated, normalized by the nodes before finally being published
-within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
-and the CIPs implemented in the Vasil hard fork for reference inputs and inline
-datum.</p><p>More on this topic can be found in <a href="/data-collection">Data collection</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="v1-orcfax-protocol">v1 Orcfax Protocol<a href="#v1-orcfax-protocol" class="hash-link" aria-label="Direct link to v1 Orcfax Protocol" title="Direct link to v1 Orcfax Protocol">​</a></h2><p>The rules for how to structure and publish this data is defined through the v1
-deployment of the upgraded Orcfax Protocol. The protocol allows Orcfax to
-streamline its solutions while also increasing cost efficiency. The Orcfax
-Protocol was designed as a purpose-built set of software tools and processes to
-publish datum to the Cardano blockchain.</p><p>More about the <a href="/orcfax-protocol">Orcfax Protocol</a> will be published closer to
-its release.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="publication">Publication<a href="#publication" class="hash-link" aria-label="Direct link to Publication" title="Direct link to Publication">​</a></h2><p>After the data has been collected, normalized, and validated, the next step is
+normalized, aggregated, and validated by the nodes before finally being
+published within a Cardano blockchain transaction via its Plutus V2 eUTXO
+format.</p><p>More on this topic can be found in <a href="/data-collection">Data collection</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="v1-orcfax-protocol">v1 Orcfax Protocol<a href="#v1-orcfax-protocol" class="hash-link" aria-label="Direct link to v1 Orcfax Protocol" title="Direct link to v1 Orcfax Protocol">​</a></h2><p>The rules for how this data is structure and published is defined through the v1
+deployment of the upgraded Orcfax Protocol. Further details can be found in
+the Orcfax <a href="/consume">developer manual</a></p><p>The upgraded protocol allows Orcfax to streamline its solutions while also
+increasing cost efficiency. The Orcfax Protocol was designed as a purpose-built
+set of software tools and processes to publish datum to the Cardano blockchain.</p><p>More about the <a href="/orcfax-protocol">Orcfax Protocol</a> will be published closer to
+its mainnet release.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="publication">Publication<a href="#publication" class="hash-link" aria-label="Direct link to Publication" title="Direct link to Publication">​</a></h2><p>After the data has been collected, normalized, and validated, the next step is
 to publish it on-chain; how publication is executed is largely dependent on the
 business needs of Orcfax feed integrators and the use cases these feeds enable.</p><p>These use cases are wide ranging and innovation in the blockchain space means
 that new use cases for Orcfax feeds continue to evolve. Because of this, there
 often isn&#x27;t a one size fits all solution for how to bring data on-chain. Orcfax
-recognizes just how dynamic the development landscape is and continues to make
-develop its in order to meet those changing needs.</p><p>Orcfax is developing publication options that allow integrators to choose
-services that meet the needs of their projects. By adding flexibility to the
-Orcfax solution, dApps can make business decisions that improve cost efficiency
-and value to their stakeholders.</p><p>More on this topic can be found in <a href="/publication-models">Publication models</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="standards--best-practice-compliance">Standards &amp; best practice compliance<a href="#standards--best-practice-compliance" class="hash-link" aria-label="Direct link to Standards &amp; best practice compliance" title="Direct link to Standards &amp; best practice compliance">​</a></h2><p>The Orcfax Team’s world class experience with information management
+recognizes just how dynamic the development landscape and is leveraging ongoing
+R&amp;D along with integrator feedback in order to meet those changing needs.</p><p>One way that Orcfax is addressing varying integrator needs is through the
+development of options in terms of feed publication models; these models allow
+integrators to choose a service which meets the needs of their projects.</p><p>By adding flexibility to the Orcfax solution, dApps can make business decisions
+that improve cost efficiency and value to their stakeholders.</p><p>More on this topic can be found in <a href="/publication-models">Publication models</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="standards--best-practice-compliance">Standards &amp; best practice compliance<a href="#standards--best-practice-compliance" class="hash-link" aria-label="Direct link to Standards &amp; best practice compliance" title="Direct link to Standards &amp; best practice compliance">​</a></h2><p>The Orcfax Team’s world class experience with information management
 technologies and expertise in other related fields has informed solution
 development at every stage. Orcfax is developing an oracle solution which we
 believe will be the most comprehensive solution to the oracle problem. This will
@@ -74,22 +74,21 @@ chamber. Of particular significance are the ISO quality standards that provide
 well-established international guidelines and practices for ensuring the
 authenticity and accuracy of digital information– the very thing that oracles
 should be most concerned with.</p><p>Orcfax stands apart from other oracle solutions because it has leveraged
-relevant multidisciplinary assets in order to inform its development, from the
-ground-up, as a standards-compliant, digital record-keeping system.</p><p>More on this topic can be found in <a href="/auditability">Auditability</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="orcfax-beyond-defi">Orcfax beyond DeFi<a href="#orcfax-beyond-defi" class="hash-link" aria-label="Direct link to Orcfax beyond DeFi" title="Direct link to Orcfax beyond DeFi">​</a></h2><p>The oracle problem isn&#x27;t a problem domain limited to scenarios regarding the
-provision of data feeds to dApps in an effort to underpin the success of
-<em>truly</em> decentralized finance. Society at large is experiencing a
+relevant multidisciplinary assets in order to inform its development from the
+ground-up as a standards-compliant digital record-keeping system.</p><p>More on this topic can be found in <a href="/auditability">Auditability</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="orcfax-beyond-defi">Orcfax beyond DeFi<a href="#orcfax-beyond-defi" class="hash-link" aria-label="Direct link to Orcfax beyond DeFi" title="Direct link to Orcfax beyond DeFi">​</a></h2><p>The oracle problem limited to DeFi and its quest to <em>truly</em> decentralized
+finance; society as a whole is experiencing a
 &quot;<a href="https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6" target="_blank" rel="noopener noreferrer">trust crisis</a>&quot;.
 We need better solutions for validating statements of fact about the real
 world.</p><p>Orcfax is responding to that call. Our solution is intentionally designed
 to leverage the distributed consensus breakthroughs achieved through
 distributed ledger technologies like blockchain in order to provide
 decentralized, &quot;trustless&quot; fact validation and reference services; What&#x27;s more,
-the Orcfax solution has been intentionally designed to by leveraging global
-record keeping, information management standards so that data created through
+the Orcfax solution has been intentionally designed to leverage global
+record keeping and information management standards so that data created through
 its processes will have many use cases and applications beyond DeFi. Our team
 is particularly interested in on-demand, real-world fact validation to counter
 the threat of AI-generated falsehoods.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Introduction</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/data-collection"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Data collection</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#collection" class="table-of-contents__link toc-highlight">Collection</a></li><li><a href="#v1-orcfax-protocol" class="table-of-contents__link toc-highlight">v1 Orcfax Protocol</a></li><li><a href="#publication" class="table-of-contents__link toc-highlight">Publication</a></li><li><a href="#standards--best-practice-compliance" class="table-of-contents__link toc-highlight">Standards &amp; best practice compliance</a></li><li><a href="#orcfax-beyond-defi" class="table-of-contents__link toc-highlight">Orcfax beyond DeFi</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
-<script src="/assets/js/runtime~main.843c6a64.js"></script>
+<script src="/assets/js/runtime~main.a193979d.js"></script>
 <script src="/assets/js/main.421b6295.js"></script>
 </body>
 </html>
