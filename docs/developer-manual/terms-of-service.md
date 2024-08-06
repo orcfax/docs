@@ -57,7 +57,7 @@ agree to become bound by these Terms of Service.
 If you use the Services on behalf of a company, organization (including a
 decentralized autonomous organization or “DAO”) or other entity, or if you
 are an automated agent acting on behalf of another entity (including "bots" that
-execute actions using artificial intellegence or other technologies for
+execute actions using artificial intelligence or other technologies for
 autonomous decision-making, such as "smart contracts"), then “you” includes you
 and that entity. You represent and warrant that (a) you are an authorized
 representative of the entity with the authority and agency to bind the entity to
