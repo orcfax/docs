@@ -49,8 +49,9 @@ Learn more about the **[tokenomics](tokenomics)** and
 Read our [FAQ](oracle-basics) sections to answer any further questions you may
 have about Orcfax or oracles in general.
 
-You can subscribe to our content on [Medium][med-1] to stay up to date on new
+You can subscribe to our content on **[Medium][med-1]** to stay up to date on new
 developments and join our **[Discord][Discord-1]** to engage directly
 with Orcfax team members.
+
 [med-1]: https://medium.com/@orcfax
 [Discord-1]: https://dsc.gg/orcfax
