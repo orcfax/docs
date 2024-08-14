@@ -16,13 +16,17 @@ All acronyms capitalized unless never capitalized.
 >* CER
 >* ID
 >* eUTXO
-
+>
 >Exceptions:
 >
 >* dApp
 >* DeFi
 
-Rules regarding acronyms extends to currencies. Example: ADA-USD
+Rules regarding acronyms extends to currencies.
+
+>Example:
+>
+>* ADA-USD
 
 ### Titles
 
@@ -221,7 +225,6 @@ keep titles shorter by leaving off extraneous language such as "how to".
 Good examples for page titles for instructive documentation are:
 
 * Consuming Orcfax Statements
-*
 
 ### Reference documentation
 
@@ -257,10 +260,10 @@ should not need to know anything about its implementation.
 * If a max line length is stipulated in a repositories config, then contributors
 should ensure their adherence.
 
-* Parenthaticals should not be split over lines
-
 ## Resources
 
-This guide has been informed by the following editorial guides
-* https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md
-*
+This guide has been informed by the following editorial guides:
+
+* [Adobe style guide][res-1]
+
+[res-1]: https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md
