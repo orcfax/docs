@@ -3,8 +3,6 @@
 This document is intended to aid contributors in adhering to a more consistent
 style and tone when creating documentation for Orcfax.
 
-ADD TABLE OF CONTENTS
-
 ## Capitalization
 
 ### Acronyms
@@ -140,10 +138,10 @@ These two styles are further styled by their intended purpose.
 ### Explanatory documentation
 
 This kind of documentation is best used for explaining ideas more broadly or for
-presenting the big picture. These documents msy be used to introduce technical
+presenting the big picture. These documents may be used to introduce technical
 components, but detailed technical description should be given elsewhere.
 
-The first appearance of an introduction should always be followed by its
+The first appearance of an acronym should always be followed by its
 explanation. Thereafter, the use of the acronym without description is
 appropriate.
 
@@ -169,6 +167,24 @@ Good page titles are:
 * Understanding Orcfax validation
 * Orcfax update # -- The subject of the update
 * Orcfax architecture overview
+
+>Sample
+>
+>As we draw closer to the mainnet launch of the Orcfax v1 solution, our team has
+>been working hard to ensure that the upgraded protocol delivers some exciting
+>new features.
+>
+>Not only will the v1 protocol leverage a new streamlined datum, but Orcfax will
+>also be able to bundle multiple feeds within a single transaction. The new
+>on-chain datum prioritizes integrator needs by limiting its size to the bare
+>minimum needed for oracle feed consumption by their smart contracts and
+>scripts. At the same time, this structure still provides the highest quality
+>provenance and contextual data within the oracle industry by leveraging
+>Cardano’s unique transaction metadata sidecar (aka. txMetadata) feature and
+>links out to each datum’s full audit log package stored on the Arweave network.
+>Furthermore, Orcfax allows integrators to request custom bundles of feeds, and
+>for those feeds to be published in the same transaction. This results in
+>significant transaction fee savings.
 
 ### Instructive documentation
 
@@ -226,6 +242,24 @@ Good examples for page titles for instructive documentation are:
 
 * Consuming Orcfax Statements
 
+>Sample
+>
+>To integrate an orcfax statement safely in a plutus script, the script must
+>perform the following steps:
+>
+>1. Verify FSP UTXO from reference inputs. Extract FS script hash from inline
+>datum.
+>1. Verify FS UTXO. Extract the inline datum and parse as a bytearray. The value
+>is the FS script hash, which determines the FS token.
+>1. From reference inputs, find the input(s) containing an FS token. These are
+>the FS inputs.
+>1. For each FS input, extract the inline datum and parse. The datum will be of
+>type FsDat<t> (described below).
+>1. Extract the statement from the datum.
+>1. Verify that the statement’s feed_id is the one required for the integration.
+>1. Verify that the statement’s created_at timestamp is within the timeframe
+>established by your specific business rules.
+
 ### Reference documentation
 
 Reference documentation is consumed in a way similar to a dictionary or
@@ -244,6 +278,21 @@ Write reference documentation from the perspective of the developer who is using
 it, not from the perspective of the developer that built it. Contributors should
 assume that the The consuming developer is not familiar with the component, and
 should not need to know anything about its implementation.
+
+>Sample
+>
+>```@prefix : <http://glossary.orcfax.io/#> .
+>@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+>:baseQuote
+>    skos:prefLabel "base-quote"@en;
+>    skos:definition '''
+>      Describes a currency exchange rate.
+>      For one $BASE a user needs n-$QUOTE.
+>    ''' ;
+>    skos:note: '''
+>      <a href="https://tradenation.com/en-bs/articles/base-currency-and-quote-currency/">Ref</a>
+>    '''.
+>```
 
 ## General Notes
 
@@ -265,5 +314,7 @@ should ensure their adherence.
 This guide has been informed by the following editorial guides:
 
 * [Adobe style guide][res-1]
+* [Diátaxis][res-2]: A semantical approach to technical documentation authoring
 
 [res-1]: https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md
+[res-2]: https://diataxis.fr/
