@@ -26,6 +26,9 @@
     "rehype-katex": "^5.0.0",
     "remark-math": "^3.0.1"
   },
+  "overrides": {
+    "cheerio": "1.0.0-rc.12"
+  },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1"
   },
