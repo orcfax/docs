@@ -1,0 +1,93 @@
+{
+    "@context": "https://schema.org",
+    "type": "MediaObject",
+    "identifier": "urn:orcfax:11ceadf4-69d6-4b96-9401-c0a1e7e5d3eb",
+    "isBasedOn": {
+      "@type": "MediaObject",
+      "name": "the raw information sent to an Orcfax validator by an Orcfax node",
+      "identifier": "urn:orcfax:node:2a531a7e-4961-4895-985d-1fa9aaaf50a2"
+    },
+    "contributor": {
+      "@type": "Organization",
+      "name": "AS14061 DigitalOcean, LLC",
+      "locationCreated": {
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "London",
+          "addressRegion": "England, GB,",
+          "geo": "51.5085,-0.1257"
+        }
+      }
+    },
+    "additionalType": [
+      {
+        "@type": "Event",
+        "description": "successful content signature generation for Orcfax node data",
+        "startDate": "2024-08-28T16:20:35Z",
+        "recordedIn": {
+          "@type": "CreativeWork",
+          "description": {
+            "@type": "TextObject",
+            "comment": "an Orcfax content signature is a sha256 digest of a node's 'collected timestamp', 'data-points' in-order and the 'node identifier' (uuid)",
+            "sha256": "33ac6c61317e8909871a759e025c82f8155a1739d7e4128f9231e527e1584572"
+          },
+          "hasPart": [
+            {
+              "@type": "CreativeWork",
+              "description": "collecting timestamp",
+              "text": "2024-08-28T16:20:26Z"
+            },
+            {
+              "@type": "CreativeWork",
+              "description": "data points for ADA-USD",
+              "text": [
+                "0.34541",
+                "0.3423",
+                "0.342465",
+                "0.3420342",
+                "0.34335"
+              ]
+            },
+            {
+              "@type": "CreativeWork",
+              "description": "node identifier (uuid)",
+              "text": "2a531a7e-4961-4895-985d-1fa9aaaf50a2"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "Event",
+        "description": "selection of median value from collected node data",
+        "startDate": "2024-08-28T16:20:35Z",
+        "about": {
+          "@type": "StatisticalValue",
+          "measurementMethod": "median calculation of a minimum of three data sources from the selected collector node",
+          "measurementTechnique": [
+            {
+              "@type": "PropertyValue",
+              "name": "SoftwareApplication",
+              "value": "Python 3.11.6 (main, Apr 10 2024, 17:26:07) [GCC 13.2.0] on Linux-6.5.0-44-generic-x86_64-with-glibc2.38"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "SoftwarePackage",
+              "value": "statistics"
+            }
+          ],
+          "variableMeasured": {
+            "@type": "Observation",
+            "measurementMethod": "median value",
+            "value": 0.342465,
+            "valueReference": [
+              "0.34541",
+              "0.3423",
+              "0.342465",
+              "0.3420342",
+              "0.34335"
+            ]
+          }
+        }
+      }
+    ]
+  }

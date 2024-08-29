@@ -1,10 +1,10 @@
 import CodeBlock from '@theme/CodeBlock';
 
 <!-- probably want this approach -->
-import fileOne from '!!raw-loader!/schema/cer/cex/file.json';
+import fileOne from '!!raw-loader!/schema/cer/cex/message.json';
 
 <!-- just as a demo, we probably want above -->
-import fileTwo from '!!raw-loader!./file2.json';
+import fileTwo from '!!raw-loader!./fact-statement.json';
 
 > NB. this needs to be named with a .mdx extension.
 
@@ -21,13 +21,13 @@ be in future?
 
 <CodeBlock language="jsx">{fileOne}</CodeBlock>
 
-<a target="_blank" href="/schema/cer/cex/file.json" download="file.json">Download</a>
+<a target="_blank" href="/schema/cer/cex/message.json" download="message.json">Download</a>
 
 ## file embedded from local dir, i.e. not static files
 
 <CodeBlock language="jsx">{fileTwo}</CodeBlock>
 
-<a target="_blank" href="./file2.json" download="file.json">Download doesn't work</a>
+<a target="_blank" href="./fact-statement.json" download="fact-statement.json">Download doesn't work</a>
 
 > NB. I don't think it can be downloaded from here though, so it needs to be
 in static files.
