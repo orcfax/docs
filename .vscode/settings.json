@@ -26,6 +26,7 @@
     "cSpell.words": [
         "Arkly",
         "Bagit",
+        "bytearray",
         "Cardano",
         "CBOR",
         "datapoints",
@@ -35,10 +36,11 @@
         "permissionlessly",
         "POSIX",
         "preprod",
+        "pubkey",
         "recordkeeping",
-        "Wingriders",
-        "bytearray",
+        "subproperty",
         "timeframe",
-        "pubkey"
+        "Wingriders"
+
     ]
 }
