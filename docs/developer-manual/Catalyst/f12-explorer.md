@@ -13,6 +13,7 @@ and links to each of the deliverables required for their respective Milestones.
 The full Catalyst proposal can be found [here][cat-1].
 
 [cat-1]: https://projectcatalyst.io/funds/12/f12-cardano-use-cases-product/orcfax-explorer-improving-trust-but-verify
+
 ## Problem statement
 
 Users that rely on external oracle data to trigger their DeFi financial
@@ -83,7 +84,7 @@ gantt
         Submit evidence                :milestone,       m3, after nh5, 1d
 
     section Milestone 4
-        Dev network notifictions       :                 nn1, after nh5, 15d
+        Dev network notifications       :                 nn1, after nh5, 15d
         Test cases (NH)                :                 nn2, after nn1, 5d
         Publish tests - Github         :crit,            nn3, after nn2, 1d
         Publish code - Github          :crit,            nn4, after nn3, 2d
