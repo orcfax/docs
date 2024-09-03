@@ -20,8 +20,8 @@ anticipate that this page will change as development progresses.
 ```
 
 Those interested in the operation of an Orcfax node should consult the
-[ITN Manual](itn-manual) and join our [Discord](https://dsc.gg/orcfax) were
-specific channels for operators have been created.
+[ITN Manual](docs/ITN/overview.md) and join our [Discord](https://dsc.gg/orcfax)
+were specific channels for operators have been created.
 
 ## Software
 

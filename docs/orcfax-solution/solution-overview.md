@@ -10,29 +10,27 @@ Orcfax is an oracle designed to publish trustworthy data to smart contracts on
 the Cardano blockchain. The oracle’s architecture consists of a number of
 software nodes written predominantly in Python, Haskell, and Plutus v2 code.
 These Orcfax nodes publish datum about the real world
-(e.g. the price of ADA in USD) a CBOR-serialized reference inputs into Cardano
+(e.g. the price of ADA in USD) as CBOR-serialized reference inputs into Cardano
 transactions. These datum are read and used in business logic by smart contracts
 and scripts.
 
 The subject of this data can be nearly limitless in possibilities, and can
-include changes in currency price pairs, supply-chain activity, insurance, as
-well as data on-chain (e.g. the prices of Cardano native tokens or CNTs).
+include changes in current exchange rates (CER), supply-chain activity,
+insurance, as well as data on-chain
+(e.g. the prices of Cardano native tokens or CNTs).
 
 ![Orcfax solution overview](/img/2023-07-06--Orcfax-concept-diagram.png)
 
-Once published, this data can be used as trustworthy Reference Inputs to trigger
+Once published, this data can be used as trustworthy reference inputs to trigger
 different kinds of business logic in Cardano smart contracts and dApps. All of
 this data relating to Orcfax workflows (including collection, validation,
 and publication) is captured within archival packages, which when combined
 represent complete audit logs of Orcfax processes. These packages are secured
 through decentralized storage and are made easily accessible through the
-Orcfax Explorer [dashboard](https://explorer.orcfax.io/).
+Orcfax [Explorer](https://explorer.orcfax.io/).
 
-More can be read about the dashboard in
-[The Orcfax Explorer](auditability#the-orcfax-explorer).
-
-<!--More about the Orcfax strategy for the long term preservation of its data
-outputs can be read in [Decentralized storage](). -->
+More can be read about the Explorer in the
+[The Orcfax Explorer](auditability#the-orcfax-explorer) section.
 
 ## Collection
 
@@ -49,31 +47,27 @@ pool to arrive at a consensus about the *uniformity* of that data and not
 necessarily about its *authenticity* or *accuracy*.
 
 To address this shortfall found in many other oracle services, Orcfax enforces
-a strict source-data triangulation policy for all its oracle feeds. This means
-that the Orcfax solution will collect data from a minimum of three independent
+a strict triangulation policy for all its oracle feeds. This means that the
+Orcfax solution will collect data from a minimum of three independent
 sources via a decentralized pool of validator nodes. These data points are then
-validated, aggregated, normalized by the nodes before finally being published
-within a Cardano blockchain transaction by leveraging its Plutus V2 eUTXO format
-and the CIPs implemented in the Vasil hard fork for reference inputs and inline
-datum.
+normalized, aggregated, and validated by the nodes before finally being
+published within a Cardano blockchain transaction via its Plutus V2 eUTXO
+format.
 
 More on this topic can be found in [Data collection](data-collection).
 
-<!-- ## Validation
-a short primer on the validation process...
-
-More on this topic can be found in [Data validation](data-validation). -->
-
 ## v1 Orcfax Protocol
 
-The rules for how to structure and publish this data is defined through the v1
-deployment of the upgraded Orcfax Protocol. The protocol allows Orcfax to
-streamline its solutions while also increasing cost efficiency. The Orcfax
-Protocol was designed as a purpose-built set of software tools and processes to
-publish datum to the Cardano blockchain.
+The rules for how this data is structure and published is defined through the v1
+deployment of the upgraded Orcfax Protocol. Further details can be found in
+the Orcfax [developer manual](docs/developer-manual/consume.md)
+
+The upgraded protocol allows Orcfax to streamline its solutions while also
+increasing cost efficiency. The Orcfax Protocol was designed as a purpose-built
+set of software tools and processes to publish datum to the Cardano blockchain.
 
 More about the [Orcfax Protocol](orcfax-protocol) will be published closer to
-its release.
+its mainnet release.
 
 ## Publication
 
@@ -84,13 +78,15 @@ business needs of Orcfax feed integrators and the use cases these feeds enable.
 These use cases are wide ranging and innovation in the blockchain space means
 that new use cases for Orcfax feeds continue to evolve. Because of this, there
 often isn't a one size fits all solution for how to bring data on-chain. Orcfax
-recognizes just how dynamic the development landscape is and continues to make
-develop its in order to meet those changing needs.
+recognizes just how dynamic the development landscape and is leveraging ongoing
+R&D along with integrator feedback in order to meet those changing needs.
 
-Orcfax is developing publication options that allow integrators to choose
-services that meet the needs of their projects. By adding flexibility to the
-Orcfax solution, dApps can make business decisions that improve cost efficiency
-and value to their stakeholders.
+One way that Orcfax is addressing varying integrator needs is through the
+development of options in terms of feed publication models; these models allow
+integrators to choose a service which meets the needs of their projects.
+
+By adding flexibility to the Orcfax solution, dApps can make business decisions
+that improve cost efficiency and value to their stakeholders.
 
 More on this topic can be found in [Publication models](publication-models).
 
@@ -123,16 +119,15 @@ authenticity and accuracy of digital information– the very thing that oracles
 should be most concerned with.
 
 Orcfax stands apart from other oracle solutions because it has leveraged
-relevant multidisciplinary assets in order to inform its development, from the
-ground-up, as a standards-compliant, digital record-keeping system.
+relevant multidisciplinary assets in order to inform its development from the
+ground-up as a standards-compliant digital record-keeping system.
 
 More on this topic can be found in [Auditability](auditability).
 
 ## Orcfax beyond DeFi
 
-The oracle problem isn't a problem domain limited to scenarios regarding the
-provision of data feeds to dApps in an effort to underpin the success of
-*truly* decentralized finance. Society at large is experiencing a
+The oracle problem limited to DeFi and its quest to *truly* decentralized
+finance; society as a whole is experiencing a
 "[trust crisis](https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6)".
 We need better solutions for validating statements of fact about the real
 world.
@@ -141,8 +136,8 @@ Orcfax is responding to that call. Our solution is intentionally designed
 to leverage the distributed consensus breakthroughs achieved through
 distributed ledger technologies like blockchain in order to provide
 decentralized, "trustless" fact validation and reference services; What's more,
-the Orcfax solution has been intentionally designed to by leveraging global
-record keeping, information management standards so that data created through
+the Orcfax solution has been intentionally designed to leverage global
+record keeping and information management standards so that data created through
 its processes will have many use cases and applications beyond DeFi. Our team
 is particularly interested in on-demand, real-world fact validation to counter
 the threat of AI-generated falsehoods.
