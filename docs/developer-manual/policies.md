@@ -40,9 +40,9 @@ unavailable, integrators can find details regarding Preprod and Preview below.
 | Slot no.               | ... |
 | Block                  | `...` |
 
-#### Preview policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
+#### Preview policy ID: 572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244
 
-[Explorer view][cexplorer-preview-policy].
+[Explorer view][cexplorer-preview-policy-2].
 
 |                        | Details |
 |------------------------|---------|
@@ -50,14 +50,31 @@ unavailable, integrators can find details regarding Preprod and Preview below.
 | Network                | Preview |
 | Arweave                | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview]|
 | Fact Statement Pointer | [`e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d`][cexplorer-preview-fsp] |
-| Policy ID              | [`900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724`][cexplorer-preview-policy] |
+| Policy ID              | [`572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244`][cexplorer-preview-policy-2] |
+| First appearance       | 3.9.2024 |
+| Slot no.               | 58,704,470 |
+| Block                  | `e93bebe93fd88d0472f06d0894694d58ead45181e7a1130c59f464532cb75786` |
+
+[cexplorer-preview-policy-2]: https://preview.cexplorer.io/policy/572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244/mint#data
+
+#### Preview policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
+
+[Explorer view][cexplorer-preview-policy-1].
+
+|                        | Details |
+|------------------------|---------|
+| Current                | False |
+| Network                | Preview |
+| Arweave                | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview]|
+| Fact Statement Pointer | [`e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d`][cexplorer-preview-fsp] |
+| Policy ID              | [`900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724`][cexplorer-preview-policy-1] |
 | First appearance       | 26.6.2024 |
 | Slot no.               | 52,764,149 |
 | Block                  | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752` |
 
 [arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
 [cexplorer-preview-fsp]: https://preview.cexplorer.io/policy/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
-[cexplorer-preview-policy]: https://preview.cexplorer.io/policy/900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724/mint#data
+[cexplorer-preview-policy-1]: https://preview.cexplorer.io/policy/900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724/mint#data
 
 > NB. To the extent that preview testnet is static, integrators can make use of
 the FactStatementPointer (FSP) as described in
