@@ -14,17 +14,16 @@ A place for Orcfax to describe the types/properties relevant to a
 
 Orcfax utilizes the following Schema.org types and properties in its Fact
 Statement Datum records. The description provided by [Schema.org][schema-1]
-follows each unless Orcfax maintains a more nuanced understanding-- in these
-cases, the description will be *italicized*. If the term appears in its own
-definition, it will be replaced when possible with a \[synonym\] in order to aid
-understanding.
+follows each; if Orcfax maintains a more nuanced understanding, an additional
+definition will be provided. If the term appears in its own definition, it will
+be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Schema.org Types
 
-| Type     | Description                                                   |
-| ------------ | --------------------------------------------------------------|
-| [`Message`][type-1] | *Information from a sender to one or more entities*.|
-| [`Organization`][type-2] | An \[entity\] such as a school, NGO, corporation, club, etc.|
+| Type     | Schema.org description     | Orcfax description     |
+| -------- | ---------------------------| ---------------------- |
+| [`Message`][type-1] | A single message from a sender to one or more organizations or people. | Information from a sender to one or more entities.|
+| [`Organization`][type-2] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
 
 [schema-1]: https://schema.org/
 [type-1]: https://schema.org/Message
@@ -32,16 +31,16 @@ understanding.
 
 ## Schema.org Properties
 
-| Property     | Type     | Description                                                   |
-| ------------ | ------------ | --------------------------------------------------------------|
-| [`dateCreated`][prop-1] | Message     | The date on which the `CreativeWork` was created or the item was added to a DataFeed.|
-| [`encoding`][prop-2] | Message     | A media object that encodes this `CreativeWork`.|
-| [`identifier`][prop-3] | Message     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|
-| [`messageAttachment`][prop-4] | Message     | A `CreativeWork` attached to the message.|
-| [`name`][prop-5] | Message, Organization     | The name of the item.|
-| [`publisher`][prop-6] | Message     | *The entity responsible for making a resource available, but not necessarily its authorship*.|
-| [`text`][prop-7] | Message     | The textual content of this `CreativeWork`.|
-| [`url`][prop-8] | Organization     | The uniform resource locator of the item.|
+| Property     | Type     | Schema.org description     | Orcfax definition     |
+| ------------ | -------- | ---------------------------| --------------------- |
+| [`dateCreated`][prop-1] | Message     | The date on which the `CreativeWork` was created or the item was added to a DataFeed.|  |
+| [`encoding`][prop-2] | Message     | A media object that encodes this `CreativeWork`.|  |
+| [`identifier`][prop-3] | Message     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
+| [`messageAttachment`][prop-4] | Message     | A `CreativeWork` attached to the message.|  |
+| [`name`][prop-5] | Message, Organization     | The name of the item.|  |
+| [`publisher`][prop-6] | Message     | The publisher of the creative work.| The entity responsible for making a resource available, but not necessarily its authorship. |
+| [`text`][prop-7] | Message     | The textual content of this `CreativeWork`.|  |
+| [`url`][prop-8] | Organization     | The uniform resource locator of the item.|  |
 
 [prop-1]: https://schema.org/dateCreated
 [prop-2]: https://schema.org/encoding
