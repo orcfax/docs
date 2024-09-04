@@ -26,6 +26,79 @@ The Orcfax Explorer allows users to “trust but verify” the oracle data that
 their Cardano dApps use. We will enhance it with visualizations, audit log
 downloads, real-time stats and incident reports.
 
+## Project management
+
+```mermaid
+gantt
+    title Orcfax explorer
+    dateFormat YY-M-D
+    axisFormat %m-%d
+    tickInterval 1week
+    weekday monday
+    excludes    weekends
+    section Milestone 1
+        Create public GitHub           :active,          pt1, 24-8-1, 2d
+        Dev price charts               :active,          pc1, 24-8-1, 24-8-31
+        Test cases (PC)                :                 pc2, after pc1, 5d
+        Publish tests - Github         :crit,            pc3, after pc2, 1d
+        Publish code - Github          :crit,            pc4, after pc3, 2d
+
+        Dev state-change timelines     :                 sct1, 24-8-1, 24-8-31
+        Test cases (SCT)               :                 sct2, after sct1, 5d
+        Publish tests - Github         :crit,            sct3, after sct2, 1d
+        Publish code - Github          :crit,            sct4, after sct3, 2d
+
+        Dev provenance widgets         :                 pw1, 24-8-1, 24-8-31
+        Test cases (PW)                :                 pw2, after pw1, 5d
+        Publish tests - Github         :crit,            pw3, after pw2, 1d
+        Publish code - Github          :crit,            pw4, after pw3, 2d
+
+        Submit evidence                :milestone,       m1, after pw4, 1d
+
+    section Milestone 2
+        Dev downloader                 :                 d1, after pw4, 15d
+        Test cases (D)                 :                 d2, after d1, 5d
+        Publish tests - Github         :crit,            d3, after d2, 1d
+        Publish code - Github          :crit,            d4, after d3, 2d
+
+        Dev static viewer              :                 sv1, after pw4, 15d
+        Test cases (SV)                :                 sv2, after sv1, 5d
+        Publish tests - Github         :crit,            sv3, after sv2, 1d
+        Publish code - Github          :crit,            sv4, after sv3, 2d
+        Publish guide - Github         :crit,            sv5, after sv4, 5d
+
+        Submit evidence                :milestone,       m2, after sv5, 1d
+
+    section Milestone 3
+        Dev node statistics page       :                 ns1, after sv5, 15d
+        Test cases (NS)                :                 ns2, after ns1, 5d
+        Publish tests - Github         :crit,            ns3, after ns2, 1d
+        Publish code - Github          :crit,            ns4, after ns3, 2d
+        Publish guide - Github         :crit,            ns5, after ns4, 5d
+
+        Dev network health page        :                 nh1, after sv5, 15d
+        Test cases (NH)                :                 nh2, after nh1, 5d
+        Publish tests - Github         :crit,            nh3, after nh2, 1d
+        Publish code - Github          :crit,            nh4, after nh3, 2d
+        Publish guide - Github         :crit,            nh5, after nh4, 5d
+
+        Submit evidence                :milestone,       m3, after nh5, 1d
+
+    section Milestone 4
+        Dev network notifications       :                 nn1, after nh5, 15d
+        Test cases (NH)                :                 nn2, after nn1, 5d
+        Publish tests - Github         :crit,            nn3, after nn2, 1d
+        Publish code - Github          :crit,            nn4, after nn3, 2d
+        Publish guide - Github         :crit,            nn5, after nn4, 5d
+
+        Submit evidence                :milestone,       m4, after nn5, 1d
+
+    section Final Milestone
+        Closeout report                :crit,            m5, after m4, 5d
+        Closeout video                 :crit,            m6, after m5, 2d
+        Submit evidence                :milestone,       m7, after m6, 1d
+```
+
 ## Milestone 1
 
 Orcfax will develop a dashboard page on the Orcfax Explorer that utilizes highly

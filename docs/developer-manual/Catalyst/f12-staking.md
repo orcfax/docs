@@ -26,6 +26,55 @@ Orcfax will research staking mechanisms for Web3 networks, design an
 architecture stack of relevant tools and protocols, and develop a proof of
 concept for testing in our validator network.
 
+## Project management
+
+```mermaid
+gantt
+    title Orcfax staking
+    dateFormat YY-M-D
+    axisFormat %m-%d
+    tickInterval 1week
+    weekday monday
+    excludes    weekends
+    section Milestone 1
+        Create public repo             :active,          pt1, 24-9-1, 1d
+        Draft sys. req's               :                 t1, 24-9-1, 5d
+        Identify resources/tools       :                 t2, 24-9-1, 10d
+        Evaluate resources/tools       :                 t3, after t2, 5d
+        Draft research report          :                 t4, after t3, 3d
+        Publish report - Github        :crit,            d1, after t4, 1d
+
+        Submit evidence                :milestone,       m1, after d1, 1d
+
+    section Milestone 2
+        Draft use case desc.           :                 t5, after t4, 3d
+        Draft network arch. diagrams   :                 t6, after t5, 2d
+        Dev economic model/report      :                 t7, after t4, 10d
+        Publish deliverables - Github  :crit,            d2, after t7, 1d
+
+        Submit evidence                :milestone,       m2, after d2, 1d
+
+    section Milestone 3
+        Dev node ability dept. stake   :                 t8, after t7, 15d
+        Test cases (stake)             :                 t9, after t8, 5d
+        Dev sys. ability to award      :                 t10, after t7, 15d
+        Test cases (award)             :                 t11, after t10, 5d
+        Dev sys. ability to slash      :                 t12, after t7, 15d
+        Test cases (award)             :                 t13, after t12, 5d
+        Publish tests - Github         :crit,            d3, after t13, 1d
+        Publish code - Github          :crit,            d4, after t13, 2d
+
+        Submit evidence                :milestone,       m3, after d4, 1d
+
+   section Final Milestone
+        Closeout report                :crit,            d5, after d4, 5d
+        Closeout video                 :crit,            d6, after d5, 2d
+        Announce -- Twitter            :crit,            d7, after d6, 1d
+        Announce -- Twitter            :crit,            d7, after d6, 1d
+
+        Submit evidence                :milestone,       m4, after d7, 1d
+```
+
 ## Milestone 1
 
 Orcfax will produce a qualitative research report which evaluates current Web3
