@@ -13,21 +13,20 @@ A place for Orcfax to describe the types/properties relevant to a
 `fact-statement.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Fact
-Statement records. The description provided by [Schema.org][schema-1] follows
-each unless Orcfax maintains a more nuanced understanding-- in these cases, the
-description will be *italicized*. If the term appears in its own definition,
-it will be replaced when possible with a \[synonym\] in order to aid
-understanding.
+Statement records. The description provided by [Schema.org][schema-1]
+follows each; if Orcfax maintains a more nuanced understanding, an additional
+definition will be provided. If the term appears in its own definition, it will
+be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Schema.org Types
 
-| Type     | Description                                                   |
-| ------------ | --------------------------------------------------------------|
-| [`Claim`][type-1] | used to represent a specific, factually-oriented claim.|
-| [`CreativeWork`][type-2] | *A generic term to encompass a broad spectrum of creative works, including text, images, software programs, their outputs, etc.*|
-| [`ExchangeRateSpecification`][type-3] | A structured value representing exchange rate.|
-| [`Organization`][type-4] | An \[entity\] such as a school, NGO, corporation, club, etc.|
-| [`UnitPriceSpecification`][type-5] | The price asked for a given offer by the respective organization or person.| <!-- should this be more specific to our context? -->
+| Type     | Schema.org description     | Orcfax description     |
+| -------- | ---------------------------| ---------------------- |
+| [`Claim`][type-1] | used to represent a specific, factually-oriented claim.|  |
+| [`CreativeWork`][type-2] | The most generic kind of creative work, including books, movies, photographs, software programs, etc.| A generic term to encompass a broad spectrum of creative works, including text, images, software programs, their outputs, etc.|
+| [`ExchangeRateSpecification`][type-3] | A structured value representing exchange rate.|  |
+| [`Organization`][type-4] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
+| [`UnitPriceSpecification`][type-5] | The price asked for a given offer by the respective organization or person.|  |
 
 [schema-1]: https://schema.org/
 [type-1]: https://schema.org/Claim
@@ -38,24 +37,24 @@ understanding.
 
 ## Schema.org Properties
 
-| Property     | Type     | Description                                                   |
-| ------------ | ------------ | --------------------------------------------------------------|
-| [`about`][prop-1] | Claim     | The subject matter of the content.|
-| [`appearance`][prop-2] | Claim     | Indicates an occurrence of a `Claim` in some `CreativeWork`.|
-| [`claimInterpreter`][prop-3] | Claim     | *An entity that has derived a `Claim`, implied or refined from, the content of one or more `MediaObjects`*.|
-| [`creator`][prop-4] | CreativeWork     | The creator or author of this `CreativeWork`.|
-| [`currency`][prop-5] | ExchangeRateSpecification     | The \[medium\] in which \[a\] monetary amount is expressed.|
-| [`currentExchangeRate`][prop-6] | ExchangeRateSpecification     | *The current value of the quote currency against a base currency*.|
-| [`dateCreated`][prop-7] | Claim     | The date on which the `CreativeWork` was created or the item was added to a DataFeed.|
-| [`description`][prop-8] | Claim     | A description of the item.|
-| [`identifier`][prop-9] | Claim, CreativeWork     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|
-| [`isBasedOn`][prop-10] | Claim     | A resource from which this work is derived or from which it is a modification or adaptation.|
-| [`license`][prop-11] | CreativeWork     | A license document that applies to this content, typically indicated by URL.|
-| [`name`][prop-12] | Organization, CreativeWork     | The name of the item.|
-| [`price`][prop-13] | ExchangeRateSpecification     | *The stated cost of a thing*.|
-| [`priceCurrency`][prop-14] | ExchangeRateSpecification     | *The currency in which the price is expressed*.|
-| [`text`][prop-15] | Claim     | The textual content of this `CreativeWork`.|
-| [`url`][prop-16] | Organization     | The uniform resource locator of the item.|
+| Property     | Type     | Schema.org description     | Orcfax definition     |
+| ------------ | -------- | ---------------------------| --------------------- |
+| [`about`][prop-1] | Claim     | The subject matter of the content.|  |
+| [`appearance`][prop-2] | Claim     | Indicates an occurrence of a `Claim` in some `CreativeWork`.|  |
+| [`claimInterpreter`][prop-3] | Claim     | Used to indicate a claim contained, implied or refined from the content of a MediaObject.| An entity that has derived a `Claim`, implied or refined from, the content of one or more `MediaObjects`.|
+| [`creator`][prop-4] | CreativeWork     | The creator or author of this `CreativeWork`.|  |
+| [`currency`][prop-5] | ExchangeRateSpecification     | The \[medium\] in which \[a\] monetary amount is expressed.|  |
+| [`currentExchangeRate`][prop-6] | ExchangeRateSpecification     | The current price of a currency.| The current value of the quote currency against a base currency.|
+| [`dateCreated`][prop-7] | Claim     | The date on which the `CreativeWork` was created or the item was added to a DataFeed.|  |
+| [`description`][prop-8] | Claim     | A description of the item.|  |
+| [`identifier`][prop-9] | Claim, CreativeWork     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
+| [`isBasedOn`][prop-10] | Claim     | A resource from which this work is derived or from which it is a modification or adaptation.|  |
+| [`license`][prop-11] | CreativeWork     | A license document that applies to this content, typically indicated by URL.|  |
+| [`name`][prop-12] | Organization, CreativeWork     | The name of the item.|  |
+| [`price`][prop-13] | ExchangeRateSpecification     | The offer price of a product.| The stated cost of a thing.|
+| [`priceCurrency`][prop-14] | ExchangeRateSpecification     | The currency of the price.| The currency in which the price is expressed.|
+| [`text`][prop-15] | Claim     | The textual content of this `CreativeWork`.|  |
+| [`url`][prop-16] | Organization     | The uniform resource locator of the item.|  |
 
 [prop-1]: https://schema.org/about
 [prop-2]: https://schema.org/appearance

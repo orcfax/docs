@@ -13,18 +13,17 @@ A place for Orcfax to describe the types/properties relevant to a
 `message.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Message
-records. The description provided by [Schema.org][schema-1] follows each
-unless Orcfax maintains a more nuanced understanding-- in these cases, the
-description will be *italicized*. If the term appears in its own definition,
-it will be replaced when possible with a \[synonym\] in order to aid
-understanding.
+records. The description provided by [Schema.org][schema-1]
+follows each; if Orcfax maintains a more nuanced understanding, an additional
+definition will be provided. If the term appears in its own definition, it will
+be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Schema.org Types
 
-| Type     | Description                                                   |
-| ------------ | --------------------------------------------------------------|
-| [`MediaObject`][type-1] | An object such as an image, video, audio, or text object embedded in a web page or a downloadable dataset.|
-| [`Message`][type-2] | *Information from a sender to one or more entities*.|
+| Type     | Schema.org description     | Orcfax description     |
+| -------- | ---------------------------| ---------------------- |
+| [`MediaObject`][type-1] | An object such as an image, video, audio, or text object embedded in a web page or a downloadable dataset.|  |
+| [`Message`][type-2] | A single message from a sender to one or more organizations or people.| Information from a sender to one or more entities.|
 
 [schema-1]: https://schema.org/
 [type-1]: https://schema.org/MediaObject
@@ -32,19 +31,19 @@ understanding.
 
 ## Schema.org Properties
 
-| Property     | Type     | Description                                                   |
-| ------------ | ------------ | --------------------------------------------------------------|
-| [`additionalType`][prop-1] | MediaObject     | Used to add more specific types from external vocabularies when a schema.org equivalent is not available.|
-| [`dateReceived`][prop-2] | Message     | The date/time the message was received if a single `recipient` exists.|
-| [`description`][prop-3] | MediaObject     | A description of the item.|
-| [`encoding`][prop-4] | Message     | A media object that encodes this `CreativeWork`.|
-| [`identifier`][prop-5] | Message     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|
-| [`isBasedOn`][prop-6] | Message     | A resource from which this work is derived or from which it is a modification or adaptation.|
-| [`messageAttachment`][prop-7] | Message     | A `CreativeWork` attached to the message.|
-| [`name`][prop-8] | MediaObject, Message     | The name of the item.|
-| [`recipient`][prop-9] | Message     | The participant who is at the receiving end of the action.|
-| [`sender`][prop-10] | Message     | The participant who is at the sending end of the action.|
-| [`text`][prop-11] | Message     | The textual content of this `CreativeWork`|
+| Property     | Type     | Schema.org description     | Orcfax definition     |
+| ------------ | -------- | ---------------------------| --------------------- |
+| [`additionalType`][prop-1] | MediaObject     | Used to add more specific types from external vocabularies when a schema.org equivalent is not available.|  |
+| [`dateReceived`][prop-2] | Message     | The date/time the message was received if a single `recipient` exists.|  |
+| [`description`][prop-3] | MediaObject     | A description of the item.|  |
+| [`encoding`][prop-4] | Message     | A media object that encodes this `CreativeWork`.|  |
+| [`identifier`][prop-5] | Message     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
+| [`isBasedOn`][prop-6] | Message     | A resource from which this work is derived or from which it is a modification or adaptation.|  |
+| [`messageAttachment`][prop-7] | Message     | A `CreativeWork` attached to the message.|  |
+| [`name`][prop-8] | MediaObject, Message     | The name of the item.|  |
+| [`recipient`][prop-9] | Message     | The participant who is at the receiving end of the action.|  |
+| [`sender`][prop-10] | Message     | The participant who is at the sending end of the action.|  |
+| [`text`][prop-11] | Message     | The textual content of this `CreativeWork`|  |
 
 [prop-1]: https://schema.org/additionalType
 [prop-2]: https://schema.org/dateReceived
