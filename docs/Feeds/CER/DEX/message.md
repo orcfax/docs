@@ -1,11 +1,11 @@
 ---
-id: cex-3
+id: dex-3
 sidebar_position: 3
-slug: /cex-message
+slug: /dex-message
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import Message from '!!raw-loader!/schema/cer/cex/Message.json';
+import Message from '!!raw-loader!/schema/cer/dex/Message.json';
 
 # Message
 
@@ -61,4 +61,4 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 <CodeBlock language="jsx">{Message}</CodeBlock>
 
-<a target="_blank" href="/schema/cer/cex/Message.json" download="Message.json">Download</a>
+<a target="_blank" href="/schema/cer/dex/Message.json" download="Message.json">Download</a>

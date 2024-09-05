@@ -1,11 +1,11 @@
 ---
-id: cex-1
+id: dex-1
 sidebar_position: 1
-slug: /cex-fact-statement
+slug: /dex-fact-statement
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import factStatement from '!!raw-loader!/schema/cer/cex/fact-statement.json';
+import factStatement from '!!raw-loader!/schema/cer/dex/fact-statement.json';
 
 # Fact Statement
 
@@ -77,4 +77,4 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 <CodeBlock language="jsx">{factStatement}</CodeBlock>
 
-<a target="_blank" href="/schema/cer/cex/fact-statement.json" download="fact-statement.json">Download</a>
+<a target="_blank" href="/schema/cer/dex/fact-statement.json" download="fact-statement.json">Download</a>

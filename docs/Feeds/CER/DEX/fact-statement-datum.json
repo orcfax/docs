@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org",
+    "type": "Message",
+    "name": "CER/FACT-ADA/3",
+    "identifier": "urn:orcfax:982a84e8-f63d-4f43-8f0e-65965e8beb92",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Orcfax",
+      "url": "https://orcfax.io/"
+    },
+    "dateCreated": "2024-08-28T16:20:14Z",
+    "messageAttachment": {
+      "encoding": "application/json:base64",
+      "text": "ewogICJmZWVkX2lkIjogIkNFUi9GQUNULUFEQS8zIiwKICAiY3JlYXRlZF9hdCI6IDE3MjQ4NjIwMTQ3MTcsCiAgImJvZHkiOiB7CiAgICAibnVtZXJhdG9yIjogMTYzODU1OSwKICAgICJkZW5vbWluYXRvciI6IDYyNTAwMDAwCiAgfQp9"
+    }
+  }

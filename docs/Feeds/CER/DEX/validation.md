@@ -1,11 +1,11 @@
 ---
-id: cex-4
+id: dex-4
 sidebar_position: 4
-slug: /cex-validation
+slug: /dex-validation
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import Validation from '!!raw-loader!/schema/cer/cex/validation.json';
+import Validation from '!!raw-loader!/schema/cer/dex/validation.json';
 
 # Validation
 
@@ -104,4 +104,4 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 <CodeBlock language="jsx">{Validation}</CodeBlock>
 
-<a target="_blank" href="/schema/cer/cex/validation.json" download="validation.json">Download</a>
+<a target="_blank" href="/schema/der/cex/validation.json" download="validation.json">Download</a>
