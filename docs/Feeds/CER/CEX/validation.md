@@ -31,9 +31,7 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`Organization`][type-5] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
 | [`PostalAddress`][type-6] | The price asked for a given offer by the respective organization or person.|  |
 | [`PropertyValue`][type-7] | Used to represent a feature of a product or place.|  |
-<!-- Not a schema.org type. Change to StatisticalVariable?
-Make sure to change all instances in the "Type" column below
-| [`StatisticalValue`][type-8] | *A generic term to encompass a broad spectrum of creative works, including text, images, software programs, their outputs, etc.*|  |
+| [`StatisticalVariable`][type-8] | represents any type of statistical metric that can be measured at a place and time.|  |
 -->
 | [`TextObject`][type-9] | A text file. The text can be unformatted or contain markup, html, etc.|  |
 
@@ -47,9 +45,7 @@ Make sure to change all instances in the "Type" column below
 [type-5]: https://schema.org/Organization
 [type-6]: https://schema.org/PostalAddress
 [type-7]: https://schema.org/PropertyValue
-<!-- Update with replacement
-[type-8]: https://schema.org/StatisticalValue
--->
+[type-8]: https://schema.org/StatisticalVariable
 [type-9]: https://schema.org/TextObject
 
 ## Schema.org Properties
@@ -69,8 +65,8 @@ Make sure to change all instances in the "Type" column below
 | [`identifier`][prop-11] | MediaObject     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
 | [`isBasedOn`][prop-12] | MediaObject     | A resource from which this work is derived or from which it is a modification or adaptation.|  |
 | [`locationCreated`][prop-13] | Organization     | The location where the `CreativeWork` was created.|  |
-| [`measurementMethod`][prop-14] | Observation, StatisticalValue     | A subproperty of `measurementTechnique` that can be used for specifying specific methods.|  |
-| [`measurementTechnique`][prop-15] | StatisticalValue     | A technique, method or technology used in an `Observation`, `StatisticalVariable` or `Dataset`, corresponding to the method used for measuring the corresponding variable(s).|  |
+| [`measurementMethod`][prop-14] | Observation, StatisticalVariable     | A subproperty of `measurementTechnique` that can be used for specifying specific methods.|  |
+| [`measurementTechnique`][prop-15] | StatisticalVariable     | A technique, method or technology used in an `Observation`, `StatisticalVariable` or `Dataset`, corresponding to the method used for measuring the corresponding variable(s).|  |
 | [`name`][prop-16] | MediaObject, Organization, PropertyValue     | The name of the item.|  |
 | [`recordedIn`][prop-17] | Event     | The `CreativeWork` that captured all or part of this `Event`.|  |
 | [`sha256`][prop-18] | TextObject     | The SHA-2 SHA256 hash of the content of the item|  |
@@ -78,7 +74,7 @@ Make sure to change all instances in the "Type" column below
 | [`text`][prop-20] | CreativeWork     | The textual content of this `CreativeWork`.|  |
 | [`value`][prop-21] | Observation, PropertyValue     | The value of a `QuantitativeValue` (including `Observation`) or property value.|  |
 | [`valueReference`][prop-22] | Observation     | A secondary value that provides additional information on the original `value`.|  |
-| [`variableMeasured`][prop-23] | StatisticalValue     | The variable(s) measured in some dataset, either described as text or more explicitly as a `StatisticalVariable`.|  |
+| [`variableMeasured`][prop-23] | StatisticalVariable     | The variable(s) measured in some dataset, either described as text or more explicitly as a `StatisticalVariable`.|  |
 
 [prop-1]: https://schema.org/about
 [prop-2]: https://schema.org/additionalType

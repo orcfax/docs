@@ -61,7 +61,7 @@
         "description": "selection of median value from collected node data",
         "startDate": "2024-08-28T16:20:35Z",
         "about": {
-          "@type": "StatisticalValue",
+          "@type": "StatisticalVariable",
           "measurementMethod": "median calculation of a minimum of three data sources from the selected collector node",
           "measurementTechnique": [
             {
