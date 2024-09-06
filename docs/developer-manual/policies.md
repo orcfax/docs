@@ -4,82 +4,72 @@ sidebar_position: 3
 slug: /policies
 ---
 
-# Orcfax policies
+# Orcfax deployments
 
-A list of Orcfax oracle policy IDs and permanent storage addresses to aid with
-historical investigation and reconstruction of Orcfax fact-statements.
+Signposting Orcfax deployments both historical and current.
+The hashes can be used to navigate Orcfax on Cardano and Arweave blockchains
+for statements and archival packages.
 
-## Mainnet summary
+## V1
 
-A summary of current, and previous Orcfax policies on mainnet is shown below.
+Components:
 
-| Version | Network | FSP hash                                                           | Policy                                                             | Date Start | Date End |
-| ------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ---------- | -------- |
-| v1      | mainnet | `TBD` | `TBD` | TBD | TBD |
-| v0      | mainnet | `Not implemented` | `2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b` | 28.09.2023 | 15.05.2024 |
+- FSP script
+- FS script
+- C script
 
-## v1 Detailed policy information
-
-### v1 Mainnet
-
-<!-- Order should run chronologically in descending order, i.e. newest first -->
-
-#### Policy: TBD
-
-> NB. The v1 protocol is currently under development. While mainnet details are
-unavailable, integrators can find details regarding Preprod and Preview below.
-
-|                        | Details |
-|------------------------|---------|
-| Current                | ... |
-| Network                | Mainnet |
-| Arweave                | ... |
-| Fact Statement Pointer | `...` |
-| Policy ID              | `...` |
-| First appearance       | ... |
-| Slot no.               | ... |
-| Block                  | `...` |
-
-#### Preview policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
-
-[Explorer view][cexplorer-preview-policy].
-
-|                        | Details |
-|------------------------|---------|
-| Current                | True |
-| Network                | Preview |
-| Arweave                | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview]|
-| Fact Statement Pointer | [`e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d`][cexplorer-preview-fsp] |
-| Policy ID              | [`900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724`][cexplorer-preview-policy] |
-| First appearance       | 26.6.2024 |
-| Slot no.               | 52,764,149 |
-| Block                  | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752` |
-
-[arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
-[cexplorer-preview-fsp]: https://preview.cexplorer.io/policy/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
-[cexplorer-preview-policy]: https://preview.cexplorer.io/policy/900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724/mint#data
-
-> NB. To the extent that preview testnet is static, integrators can make use of
-the FactStatementPointer (FSP) as described in
-[Consuming Orcfax Statements][consume]. However, because Orcfax v1 is currently
-under active development, we reserve the ability to update the protocol’s
-publishing logic and so preview's details may change and the details will be
-updated here.
+The FSP script will not change in the lifetime of a deployment.
+The FSP is used to record the current FS script hash.
+To each FS script there is an associate C script hash.
+See the [integrator docs][consume] for an explanation on the role of each script.
 
 [consume]: ./consume.md
 
-## Legacy policy information
+### V1:Mainnet
 
-### v0
+- FSP script hash: `TBD`
 
-> NB. v0 used a legacy datum format, see [archived resources][archive-1] for how
-to interpret the data published on-chian using this version.
+- FS script hash: `TBD`
+
+- C script hash: `TBD`
+
+### V1:Preview
+
+#### V1.0
+
+- Status: Live
+- FSP script hash: `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230`
+- Arweave hash: [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview]
+
+[arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
+
+| FSP value | tx | date | slot |
+|-----------|----|------|------|
+| `900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724` | `e06133fc651dccdaedf8f9cb50e5a94fc5d38fd97a7cae9cc81016893dd86f8d` | 2024-06-26 | 52762252 |
+| `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244` | `ee977dc98ee45fd7284b769f0bc34403cd5bc6d9fea6826bc38fdfa8c3f148f8` | 2024-09-03 | 58704655 |
+
+- FS script hash: `900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724`
+- Associated C hash: `4cec7a2b04e8f70e3123305cdb0b3c7424cd3150165832307df3d514`
+
+- FS script hash: `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244`
+- Associated C hash: `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656`
+
+## V0
+
+Components:
+
+- Main script
+
+V0 used a legacy datum format, see [archived resources][archive-1] for how
+to interpret the data published on-chain using this version.
 
 [archive-1]: archived-resources#in-use
 
-<!-- Order should run chronologically in descending order, i.e. newest first -->
+### V0:Mainnet
 
-#### Mainnet policy ID: 900d528f3c1864a1376db1afc065c9b293a2235f39b00a67455a6724
+- Main script hash: `2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b`
+- Start: 2023-09-28
+- End: 2024-05-15
 
 [Explorer view][cexplorer-mainnet-v0-policy].
 
