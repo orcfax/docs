@@ -18,6 +18,8 @@ follows each; if Orcfax maintains a more nuanced understanding, an additional
 definition will be provided. If the term appears in its own definition, it will
 be replaced when possible with a \[synonym\] in order to aid understanding.
 
+[schema-1]: https://schema.org/
+
 ## Schema.org Types
 
 | Type     | Schema.org description     | Orcfax description     |
@@ -28,7 +30,6 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`Organization`][type-4] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
 | [`UnitPriceSpecification`][type-5] | The price asked for a given offer by the respective organization or person.|  |
 
-[schema-1]: https://schema.org/
 [type-1]: https://schema.org/Claim
 [type-2]: https://schema.org/CreativeWork
 [type-3]: https://schema.org/ExchangeRateSpecification
@@ -50,9 +51,9 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`identifier`][prop-9] | Claim, CreativeWork     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
 | [`isBasedOn`][prop-10] | Claim     | A resource from which this work is derived or from which it is a modification or adaptation.|  |
 | [`license`][prop-11] | CreativeWork     | A license document that applies to this content, typically indicated by URL.|  |
-| [`name`][prop-12] | Organization, CreativeWork     | The name of the item.|  |
-| [`price`][prop-13] | ExchangeRateSpecification     | The offer price of a product.| The stated cost of a thing.|
-| [`priceCurrency`][prop-14] | ExchangeRateSpecification     | The currency of the price.| The currency in which the price is expressed.|
+| [`name`][prop-12] | CreativeWork, Organization     | The name of the item.|  |
+| [`price`][prop-13] | UnitPriceSpecification     | The offer price of a product.| The stated cost of a thing.|
+| [`priceCurrency`][prop-14] | UnitPriceSpecification     | The currency of the price.| The currency in which the price is expressed.|
 | [`text`][prop-15] | Claim     | The textual content of this `CreativeWork`.|  |
 | [`url`][prop-16] | Organization     | The uniform resource locator of the item.|  |
 

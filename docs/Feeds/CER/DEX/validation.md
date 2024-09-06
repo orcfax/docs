@@ -18,6 +18,8 @@ follows each; if Orcfax maintains a more nuanced understanding, an additional
 definition will be provided. If the term appears in its own definition, it will
 be replaced when possible with a \[synonym\] in order to aid understanding.
 
+[schema-1]: https://schema.org/
+
 ## Schema.org Types
 
 <!-- markdownlint-disable MD013 -->
@@ -30,23 +32,17 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`Observation`][type-4] | Used to specify observations about an entity at a particular time| Information pertaining to a subject resulting from monitoring.|
 | [`Organization`][type-5] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
 | [`PostalAddress`][type-6] | The price asked for a given offer by the respective organization or person.|  |
-| [`PropertyValue`][type-7] | Used to represent a feature of a product or place.|  |
-| [`StatisticalVariable`][type-8] | represents any type of statistical metric that can be measured at a place and time.|  |
--->
-| [`TextObject`][type-9] | A text file. The text can be unformatted or contain markup, html, etc.|  |
+| [`TextObject`][type-7] | A text file. The text can be unformatted or contain markup, html, etc.|  |
 
 <!-- markdownlint-enable MD013 -->
 
-[schema-1]: https://schema.org/
 [type-1]: https://schema.org/CreativeWork
 [type-2]: https://schema.org/Event
 [type-3]: https://schema.org/MediaObject
 [type-4]: https://schema.org/Observation
 [type-5]: https://schema.org/Organization
 [type-6]: https://schema.org/PostalAddress
-[type-7]: https://schema.org/PropertyValue
-[type-8]: https://schema.org/StatisticalVariable
-[type-9]: https://schema.org/TextObject
+[type-7]: https://schema.org/TextObject
 
 ## Schema.org Properties
 
@@ -65,16 +61,14 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`identifier`][prop-11] | MediaObject     | Used to represent any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc.|  |
 | [`isBasedOn`][prop-12] | MediaObject     | A resource from which this work is derived or from which it is a modification or adaptation.|  |
 | [`locationCreated`][prop-13] | Organization     | The location where the `CreativeWork` was created.|  |
-| [`measurementMethod`][prop-14] | Observation, StatisticalVariable     | A subproperty of `measurementTechnique` that can be used for specifying specific methods.|  |
-| [`measurementTechnique`][prop-15] | StatisticalVariable     | A technique, method or technology used in an `Observation`, `StatisticalVariable` or `Dataset`, corresponding to the method used for measuring the corresponding variable(s).|  |
-| [`name`][prop-16] | MediaObject, Organization, PropertyValue     | The name of the item.|  |
-| [`recordedIn`][prop-17] | Event     | The `CreativeWork` that captured all or part of this `Event`.|  |
-| [`sha256`][prop-18] | TextObject     | The SHA-2 SHA256 hash of the content of the item|  |
-| [`startDate`][prop-19] | Event     | The start date and time of the item.|  |
-| [`text`][prop-20] | CreativeWork     | The textual content of this `CreativeWork`.|  |
-| [`value`][prop-21] | Observation, PropertyValue     | The value of a `QuantitativeValue` (including `Observation`) or property value.|  |
-| [`valueReference`][prop-22] | Observation     | A secondary value that provides additional information on the original `value`.|  |
-| [`variableMeasured`][prop-23] | StatisticalVariable     | The variable(s) measured in some dataset, either described as text or more explicitly as a `StatisticalVariable`.|  |
+| [`measurementMethod`][prop-14] | Observation     | A subproperty of `measurementTechnique` that can be used for specifying specific methods.|  |
+| [`name`][prop-15] | MediaObject, Organization     | The name of the item.|  |
+| [`recordedIn`][prop-16] | Event     | The `CreativeWork` that captured all or part of this `Event`.|  |
+| [`sha256`][prop-17] | TextObject     | The SHA-2 SHA256 hash of the content of the item|  |
+| [`startDate`][prop-18] | Event     | The start date and time of the item.|  |
+| [`text`][prop-19] | CreativeWork     | The textual content of this `CreativeWork`.|  |
+| [`value`][prop-20] | Observation     | The value of a `QuantitativeValue` (including `Observation`) or property value.|  |
+| [`valueReference`][prop-21] | Observation     | A secondary value that provides additional information on the original `value`.|  |
 
 [prop-1]: https://schema.org/about
 [prop-2]: https://schema.org/additionalType
@@ -90,15 +84,13 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 [prop-12]: https://schema.org/isBasedOn
 [prop-13]: https://schema.org/locationCreated
 [prop-14]: https://schema.org/measurementMethod
-[prop-15]: https://schema.org/measurementTechnique
-[prop-16]: https://schema.org/name
-[prop-17]: https://schema.org/recordedIn
-[prop-18]: https://schema.org/sha256
-[prop-19]: https://schema.org/startDate
-[prop-20]: https://schema.org/text
-[prop-21]: https://schema.org/value
-[prop-22]: https://schema.org/valueReference
-[prop-23]: https://schema.org/variableMeasured
+[prop-15]: https://schema.org/name
+[prop-16]: https://schema.org/recordedIn
+[prop-17]: https://schema.org/sha256
+[prop-18]: https://schema.org/startDate
+[prop-19]: https://schema.org/text
+[prop-20]: https://schema.org/value
+[prop-21]: https://schema.org/valueReference
 
 ## Validation example
 

@@ -18,6 +18,8 @@ follows each; if Orcfax maintains a more nuanced understanding, an additional
 definition will be provided. If the term appears in its own definition, it will
 be replaced when possible with a \[synonym\] in order to aid understanding.
 
+[schema-1]: https://schema.org/
+
 ## Schema.org Types
 
 | Type     | Schema.org description     | Orcfax description     |
@@ -25,7 +27,6 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`MediaObject`][type-1] | An object such as an image, video, audio, or text object embedded in a web page or a downloadable dataset.|  |
 | [`Message`][type-2] | A single message from a sender to one or more organizations or people.| Information from a sender to one or more entities.|
 
-[schema-1]: https://schema.org/
 [type-1]: https://schema.org/MediaObject
 [type-2]: https://schema.org/Message
 

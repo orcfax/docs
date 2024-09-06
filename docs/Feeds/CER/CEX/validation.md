@@ -18,6 +18,8 @@ follows each; if Orcfax maintains a more nuanced understanding, an additional
 definition will be provided. If the term appears in its own definition, it will
 be replaced when possible with a \[synonym\] in order to aid understanding.
 
+[schema-1]: https://schema.org/
+
 ## Schema.org Types
 
 <!-- markdownlint-disable MD013 -->
@@ -32,12 +34,10 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`PostalAddress`][type-6] | The price asked for a given offer by the respective organization or person.|  |
 | [`PropertyValue`][type-7] | Used to represent a feature of a product or place.|  |
 | [`StatisticalVariable`][type-8] | represents any type of statistical metric that can be measured at a place and time.|  |
--->
 | [`TextObject`][type-9] | A text file. The text can be unformatted or contain markup, html, etc.|  |
 
 <!-- markdownlint-enable MD013 -->
 
-[schema-1]: https://schema.org/
 [type-1]: https://schema.org/CreativeWork
 [type-2]: https://schema.org/Event
 [type-3]: https://schema.org/MediaObject

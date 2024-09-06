@@ -18,6 +18,8 @@ follows each; if Orcfax maintains a more nuanced understanding, an additional
 definition will be provided. If the term appears in its own definition, it will
 be replaced when possible with a \[synonym\] in order to aid understanding.
 
+[schema-1]: https://schema.org/
+
 ## Schema.org Types
 
 | Type     | Schema.org description     | Orcfax description     |
@@ -25,7 +27,6 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 | [`Message`][type-1] | A single message from a sender to one or more organizations or people. | Information from a sender to one or more entities.|
 | [`Organization`][type-2] | An \[entity\] such as a school, NGO, corporation, club, etc.|  |
 
-[schema-1]: https://schema.org/
 [type-1]: https://schema.org/Message
 [type-2]: https://schema.org/Organization
 
