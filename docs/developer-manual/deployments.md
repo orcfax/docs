@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /deployments
 ---
 
-# Deployments of the Orcfax Protocol
+# Protocol deployments
 
 Signposting current and historical deployments of the Orcfax protocol. The
 hashes can be used to navigate Orcfax fact-statements and archival packages
@@ -37,7 +37,7 @@ A per-FSP breakdown is documented below.
 |                  | Details |
 |------------------|---------|
 | FSP              | -       |
-| Arweave          | -       |
+| Arweave Hash     | -       |
 | First appearance | -       |
 | Slot no.         | -       |
 | Block            | -       |
@@ -62,7 +62,7 @@ A per-FSP breakdown is documented below.
 |                  | Details |
 |------------------|---------|
 | FSP              | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` |
-| Arweave          | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
+| Arweave Hash     | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
 | First appearance | 26.6.2024     |
 | Slot no.         | 52,764,149     |
 | Block            | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752`     |
@@ -89,7 +89,7 @@ listed below.
 |                  | Details |
 |------------------|---------|
 | Primary Script Hash | [`2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b`][cexplorer-primary-script] |
-| Arweave          | [Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ][arweave-mainnet-v0]|
+| Arweave Hash     | [Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ][arweave-mainnet-v0]|
 | First appearance | 28.9.2023 |
 | Slot no.         | 104,327,334 |
 | Block            | `81394cd019daf9d2575b04d902735cbfe5d8b14e33242f6810664b911fe81798` |
