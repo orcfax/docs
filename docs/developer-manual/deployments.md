@@ -6,9 +6,9 @@ slug: /deployments
 
 # Protocol deployments
 
-Signposting current and historical deployments of the Orcfax protocol. The
-hashes can be used to navigate Orcfax fact-statements and archival packages
-on Cardano and Arweave blockchains.
+The following documents current and historical deployments of the Orcfax
+protocol. The hashes can be used to navigate Orcfax Fact Statements and archival
+packages on Cardano and Arweave blockchains.
 
 This document serves as a reference for historical access to Orcfax data.
 Integrators should consult the [integrator docs][consume] for an explanation
@@ -17,9 +17,9 @@ the Orcfax protocol.
 
 ## V1
 
-Orcfax V1 introduces the FSP (fact statement pointer) script. The FSP will not
+Orcfax V1 introduces the FSP (FactStatementPointer) script. The FSP will not
 change in the lifetime of a deployment. The FSP is used to record the current
-FS (fact statement) script hash. The FSP, FS, and C (constitution) script
+FS (FactStatement) script hash. The FSP, FS, and C (Constitution) script
 hashes are documented below for each V1 deployment.
 
 ### V1: Mainnet
