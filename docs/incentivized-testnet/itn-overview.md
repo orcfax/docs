@@ -1,10 +1,10 @@
 ---
-id: overview
+id: ITN overview
 sidebar_position: 1
-slug: /overview
+slug: /itn-overview
 ---
 
-# Incentivized Testnet overview
+# ITN overview
 
 This section will be routinely updated and added to in order to keep our
 validators apprised of the most current information pertaining to the upcoming
@@ -36,7 +36,24 @@ strengthening the Mainnet protocol.
 
 To join the ITN, participants must meet the following:
 
+# Validator model introduction
+
+Orcfax validators are the software nodes run by a decentralized network of
+operators around the world. These Orcfax software nodes collect, validate,
+publish and archive real world data on-chain for Cardano decentralized apps
+(dApps) to use. Instead of having off-chain business deals and contracts with
+hand-picked validators, Orcfax is implementing a permissionless and
+decentralized Oracle pool model for its validator network.
+
+This means that anyone can become an Orcfax validator as long as they are able
+to meet the minimum [requirements](#technical-requirements).
+
 ### Validator license
+
+The Validator License is an NFT that represents the right to operate an Orcfax
+validator node. The NFT is non-redeemable, but tradable on the secondary
+markets. The use of a license and the required deposit is strategically designed
+to provide network security, clarity, and fairness within the Validator Network.
 
 Initially, participants may only be required to hold a validator license on a
 Mainnet wallet. However, as we progress through the more advanced phases of the
@@ -51,9 +68,22 @@ Testnet.
 
 ### 500,000 FACT deposit
 
+On March 1, 2024 The required $FACT deposit for node operation was set at
+500,000 $FACT. This sum was determined through market value, whereby either
+500,000 $FACT or 10,000 USD equivalent in $FACT on March 1st would be required
+(i.e. whichever $FACT amount is larger on that date).
+
 Participants need to maintain this balance in their Mainnet wallet, which will
 later need to be secured in a smart contract on the Testnet with tFACT
 (Testnet FACT).
+
+The Deposit is a redeemable amount of $FACT staked by validators for network
+participation. It ensures validator accountability and is subject to slashing
+(penalty) for actions that harm the oracle network (e.g. poor node network
+response time, contributing non-conformant data, etc). Validators will be able
+to reclaim their deposited $FACT anytime. However, removing the required stake
+amount will result in losing the ability to run their node until a deposit is
+added once again.
 
 ### Technical requirements
 
@@ -91,6 +121,27 @@ For each month of the ITN, a specific amount of FACT tokens will be allocated
 for validator rewards. The first month will make 1,500,000 $FACT available for
 ITN participants to claim. This amount will be adjusted monthly to balance the
 rewards, based on the required effort and actual validator participation.
+
+#### Non-validator rewards
+
+All Orcfax $FACT holders were invited to vote on the first-ever Orcfax proposal:
+the implementation of rewards for $FACT holders. The proposal passed. More than
+28 million $FACT voted in favor of rewarding $FACT holders, and the results can
+be found [here][vote-1].
+
+Orcfax facilitated this community vote in alignment with our decentralization
+goals, and to allow opportunities for community members to participate in
+(and shape) the future of the Orcfax network.
+
+This proposal was requested by community members and introduced rewards for
+$FACT holders who may not have the capacity to join the Orcfax network as a
+validator, yet wish to receive $FACT rewards for locking (and not moving) their
+FACT tokens.
+
+Orcfax is investigating methods to implement non-validator staking for the
+initial version (V1) of the validator network.
+
+[vote]: https://app.summonplatform.io/poll/640336f9-0047-4055-91cf-4238ad4d182f
 
 ### Rewards calculation method
 
