@@ -9,8 +9,7 @@ slug: /auditability
 ## Standards-compliant audit logs
 
 Can oracle solutions be trusted if they cannot, or will not, demonstrate how
-their source data was collected and validated? We at Orcfax strongly believe
-that they should not be.
+their source data was collected and validated? We don't think they should be.
 
 As a response to this question, Orcfax generates standards-compliant archival
 packages that are made available permissionlessly so that anybody has the
@@ -35,7 +34,7 @@ improves digital repository interoperability for digital archival packages.
 
 While navigating through the Explorer, users can click on a Fact Statement card
 to see the detailed summary for that Fact Statement. The Archive Explorer viewer
-loads the archival audit log package from the Arweave network (via Arkly.io) and
+loads the archival package from the Arweave network (via Arkly.io) and
 provides the user with an intuitive view of all the audit log files.
 
 Click on the link below to view a walkthrough of the Orcfax Explorer.
@@ -76,7 +75,7 @@ validated Fact Statements can be used, for example, to train enterprise or
 personal AI models with reliable real-world data.
 
 Some of the most [current research on AI][ai-2]
-progress makes it clear that the in-deterministic nature of Large Language
+makes it clear that the in-deterministic nature of Large Language
 Models (LLM) cannot be relied upon for factual citations; these technologies
 need to be supported and trained by highly structured Fact Statements about the
 real world that humans inhabit. We anticipate that the Orcfax protocol, anchored

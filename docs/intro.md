@@ -18,9 +18,9 @@ network. Just as importantly, Orcfax archives standards-compliant audit log
 packages for the entire oracle publication workflow. This allows Orcfax users to
 "trust but verify" that Orcfax is delivering authentic and accurate data.
 
-The Orcfax solution has launched by offering currency price-pair feeds but will
-expand to report on diverse types of other real-world facts as oracle use cases,
-and their importance beyond blockchain domains, becomes more important to
+The Orcfax solution has launched by offering current exchange rate feeds but
+will expand to report on diverse types of other real-world facts as oracle use
+cases, and their importance beyond blockchain domains, becomes more important to
 society at large.
 
 [oracle-1]: oracle-basics#what-is-an-oracle
@@ -49,8 +49,8 @@ Learn more about the **[tokenomics](tokenomics)** and
 Read our [FAQ](oracle-basics) sections to answer any further questions you may
 have about Orcfax or oracles in general.
 
-You can subscribe to our content on **[Medium][med-1]** to stay up to date on new
-developments and join our **[Discord][Discord-1]** to engage directly
+You can subscribe to our content on **[Medium][med-1]** to stay up to date on
+new developments and join our **[Discord][Discord-1]** to engage directly
 with Orcfax team members.
 
 [med-1]: https://medium.com/@orcfax

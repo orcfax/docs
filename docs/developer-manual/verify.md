@@ -6,8 +6,7 @@ slug: /verify
 
 # Verify fact statements
 
-Orcfax publishes very concise fact statement datum or snippets to the Cardano
-blockchain.
+Orcfax publishes very concise fact statement datum to the Cardano blockchain.
 
 Each of these have an inextricable identifier that links back out to
 an audit log package on the decentralized [Arweave](https://arweave.org) storage
@@ -20,18 +19,18 @@ this makes Orcfax a very **trustworthy** **trustless** data provider.
 
 The Orcfax project provides a convenient [Explorer](https://explorer.orcfax.io)
 to search all the audit packages for its published Mainnet datum. They are
-marked up as [Schema.org](https://schema.org/Claim)
-[JSON-LD](https://json-ld.org/) for machine-readable re-use and
+marked up as [Schema.org](https://schema.org/Claim) compliant
+[JSON-LD](https://json-ld.org/) for machine-readable re-use and packaged with
 [IETF Bagit](https://datatracker.ietf.org/doc/html/rfc8493) for digital
 repository interoperability.
 
-![Orcfax Explorer sample](/img/orcfax-explorer-sample.png)
-
-Click on a fact statement card in the Explorer to see the detailed summary
+Click on any fact statement card in the Explorer to see the detailed summary
 for that fact statement. The Archive Explorer widget loads the archival
 package from the Arweave network (via [Arkly.io](http://arkly.io/about/)) and
 provides a viewer for all the audit log files.
 
-These include the original HTTP responses from the Kraken, Kucoin, and
-Coinbase APIs that the Orcfax validator nodes all queried in unison for live
-ADA/USD order book data.
+![Orcfax Explorer sample](/img/2024-09-09--orcfax-explorer-v2-sample.png)
+
+These archival packages include the original HTTP responses from the primary
+sources queried by the Orcfax collector nodes along with other contextualizing
+records.

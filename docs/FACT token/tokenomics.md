@@ -4,22 +4,22 @@ sidebar_position: 1
 slug: /tokenomics
 ---
 
-# FACT Tokenomics
+# FACT tokenomics
 
 The FACT [utility token](utility-token) has a fixed supply of 1 billion tokens.
 
 The FACT token minting policy ID is
 [a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51][policyid-1].
 
-The FACT token is tradeable on [Cardano DEX markets][dexes-1]. It is listed on
+The FACT token is tradeable on [Cardano DEX markets][dex-1]. It is listed on
 coin tracking sites like [CoinGecko][listing-1] and [CoinMarketCap][listing-2].
 
 [policyid-1]: https://pool.pm/asset1kuwfd0esf9xcxurp2x4f9w65lvz4tkfw5epugq
 [listing-1]: https://www.coingecko.com/en/coins/orcfax
 [listing-2]: https://coinmarketcap.com/currencies/orcfax/
-[dexes-1]: https://www.taptools.io/charts/token?pairID=026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570.2b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604
+[dex-1]: https://www.taptools.io/charts/token?pairID=026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570.2b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604
 
-## Token Distribution
+## Token distribution
 
 Following the token generation event (TGE), the Orcfax team distributed all
 1,000,000,000 $FACT to a series of [ADA Handle][handle-1] wallets. Each of these
@@ -55,16 +55,16 @@ The biggest allocation is reserved to reward our decentralized validators for
 running Orcfax nodes.
 
 500,000,000 (50%) $FACT have been allocated for rewarding Orcfax validator node
-operators for collecting, formatting, validating, publishing and archiving
+operators for collecting, normalizing, validating, publishing and archiving
 real-world data for consumption as eUTXO datum by Cardano dApps and smart
 contracts.
 
 This allocation is meant to subsidize operations long enough for the network to
 become self-sustaining based on fee collection. This allocation is a serious
-signal that Orcfax understands a healthy, thriving validator pool network is
-required for the long-term viability and value of the network.
+signal that Orcfax understands that a healthy validator network is required for
+the long-term viability and value of the network.
 
-This allocation has a cliff date or vesting schedule. However, How it is paid
+This allocation does not have a cliff date or vesting schedule. How it is paid
 out to validators will be made public after the close of the Orcfax Incentivized
 Testnet.
 
@@ -76,14 +76,14 @@ way of $FACT airdrops and giveaways. The project will also leverage this
 allocation in various public relations campaigns going forward.
 
 This allocation has a cliff date of 3 months after the start of the ISPO and a 6
-month vesting period.
+month vesting period (i.e. after 3 months, distributed monthly for 6 months).
 
 ## Team
 
 150,000,000 (15%) $FACT have been allocated for disbursement among the founding
 team; this allocation will be distributed to the founder and team members in
-order to compensate for their significant investments, both in time and effort
-to launch the Orcfax network.
+order to compensate them for their significant investments, both in time and
+effort to launch the Orcfax Network.
 
 This allocation has a cliff date of 3 months after the start of the ISPO and a
 24 month vesting period.
@@ -165,16 +165,15 @@ $FACT by delegating ADA to our ISPO pool.
 
 The cliff date for the first ISPO drops was September 2023, with 10% of the
 total $FACT supply allocated to ISPO participants. This allocation had a cliff
-date of 6 months after the start of the ISPO and a 6 month vesting period (i.e.
-distributed monthly, for 6 months).
+date of 6 months after the start of the ISPO and a 6 month vesting period.
 
 [ispo-1]: https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf
 [ispo-2]: https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf
 
 ## Yield Farming APY
 
-20,000,000 (2%) FACT tokens are used to enhance the appeal of our liquidity
-pool(s) by offering substantial Yield Farming Rewards to our liquidity
+20,000,000 (2%) FACT tokens were used to enhance the appeal of our liquidity
+pool(s) by offering substantial yield farming rewards to our liquidity
 providers.
 
 Yield farming, also called liquidity mining, involves lending or staking
@@ -184,12 +183,13 @@ like WingRiders, or Minswap. In return, users receive (native) tokens or other
 fees as rewards. Rewards vary based on factors like asset type, amount,
 duration, and platform demand.
 
-These tokens received by users as a reward have no cliff and/or vesting
-restrictions.
+The tokens received by users as a reward for their staked $FACT have no cliff
+and/or vesting restrictions.
 
 ### Disclaimer
 
-The information provided above is for educational and informational
-purposes only. Yield farming involves financial risks, and individuals should
-carefully consider their own financial situation, risk tolerance, and investment
-goals before participating in any yield farming program.
+Orcfax does not offer financial advice. The information provided above is for
+educational and informational purposes only. Yield farming involves financial
+risks, and individuals should carefully consider their own financial situation,
+risk tolerance, and investment goals before participating in any yield farming
+program.

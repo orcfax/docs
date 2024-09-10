@@ -6,12 +6,12 @@ slug: /oracle-basics
 
 # Oracle basics
 
-## What is an oracle?
+## What is a blockchain oracle?
 
-Oracles like [Orcfax](https://orcfax.io/), [Chainlink](https://chain.link),
-[Charli3](https://charli3.io), etc. are the technical component in blockchain
-architectures that deliver data about the real-world to on-chain smart
-contracts.
+Blockchain oracles such as [Orcfax][oracle-1], [Chainlink][oracle-2],
+[Charli3][oracle-3], etc. are the technical component in blockchain
+architectures which bring data about the real world on-chain for consumption by
+smart contracts.
 
 The name is derived from people in the ancient world who delivered messages and
 knowledge from the gods to the mortals.
@@ -20,26 +20,30 @@ knowledge from the gods to the mortals.
 
 Software oracles process information from online sources such as website
 content and open datasets but mostly from server-based application programming
-interfaces (API). These are the most common types of oracles and are used, for
-example, by algorithmic stablecoins or automated market maker (AMM) exchanges
-to monitor for changes in currency exchange rates.
+interfaces (API). These are the most common types of oracles and are used by
+algorithmic stablecoins or automated market maker (AMM) exchanges to monitor for
+changes in currency exchange rates.
 
 See [this article](https://cointelegraph.com/learn/what-is-a-blockchain-oracle-and-how-does-it-work)
 for some further information about oracles and their role in blockchain networks
 .
 
+[oracle-1]: https://orcfax.io/
+[oracle-2]: https://chain.link
+[oracle-3]: https://charli3.io
+
 ## What is a smart contract?
 
 Smart contracts are software programs that execute conditional logic on
-next-generation blockchains like Cardano  (e.g. when event X happens, trigger
-action Y).  Because their source code is immutably stored and run on
+next-generation blockchains like Cardano (e.g. when event X happens, trigger
+action Y). Because their source code is immutably stored and run on
 decentralized blockchain networks, they constrain the range of permissible user
 actions and their effects.
 
 This means that they can reasonably be expected to have the same outcome each
-time they are triggered. Therefore smart contracts are often referred to as
-having "trustless" qualities. The term "trustless" is a popular word to
-characterize blockchain technology because its cryptographic proofs and
+time they are triggered. It is for this reason that smart contracts are often
+referred to as having "trustless" qualities. The term "trustless" is a popular
+word to characterize blockchain technology because its cryptographic proofs and
 distributed consensus algorithms ensure that its shared data is authentic,
 accurate, and secure without reliance on a trusted third-party to verify the
 information.
@@ -55,24 +59,24 @@ because the execution of smart contract logic can have significant economic
 and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
-For example:
-
-* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
-smart contract.
-* The final score in a sports event may trigger a payout in a betting dApp
-smart contract.
-* An extreme weather event may trigger a payout for a crop insurance smart
-contract.
-* The words spoken in a political speech and authenticated via blockchain
-notarization may trigger policy changes or protests.
+>Example:
+>
+>* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
+>smart contract.
+>* The final score in a sports event may trigger a payout in a betting dApp
+>smart contract.
+>* An extreme weather event may trigger a payout for a crop insurance smart
+>contract.
+>* The words spoken in a political speech and authenticated via blockchain
+>notarization may trigger policy changes.
 
 ## What is the oracle problem?
 
-The blockchain industry refers to the "oracle problem" to refer to the various
+The blockchain industry uses the "oracle problem" to refer to the various
 issues related to ensuring that on-chain smart contracts can trust real world
 data inputs to be authentic and accurate.
 
-The trillion dollar DeFi industry is critically dependent on real-world data
+The DeFi industry is critically dependent on real-world data
 provided by oracles. However, oracle engineering is still in an early stage.
 There are still many opportunities to introduce false data about real-world
 events into oracle data collection, validation and publication pipelines.
@@ -85,7 +89,7 @@ to smart contracts can be trusted to be authentic and accurate.
 
 Most oracle providers provide little to no traceability on how their
 published, on-chain data is collected and validated to be authentic and
-accurate. Their users simply see a single magic data point appear on chain. The
+accurate. Their users simply see a data point appear on chain. The
 context of creation and use is provided by the on-chain transaction, not the
 oracle datum itself.
 
@@ -100,9 +104,9 @@ often receive data from a single, black box provider. They then might use an
 oracle pool to arrive at a consensus about the *uniformity* of that data and
 not necessarily about its *authenticity* or *accuracy*.
 
-Orcfax was intentionally designed as a
-[second-generation oracle](solution-overview) service that addresses multiple
-layers of the oracle problem in a more comprehensive way.
+Orcfax has been, and continues to be, intentionally designed to addresses
+the multiple layers of the oracle problem and to do so in a more comprehensive
+way than eny other oracle service.
 
 ## What is the real world?
 
@@ -124,13 +128,13 @@ A fact is something that is known to have happened or to exist, especially
 something for which proof exists, or about which there is information.
 (Cambridge Dictionary, 2021)
 
-Truths can be interpretive, opinionated, exclusionary, contextual or personal,
-e.g. "this cylinder makes pretty shadows that are blue and circular".
+Truths can be interpretive, opinionated, exclusionary, contextual or personal
+(e.g. "this cylinder makes pretty shadows that are blue and circular").
 
 ![Facts lead to truths](/img/2023-09-05--Orcfax--The-Nature-Of-Facts.png)
 
-Fact statements are more definitive, e.g.
-"the name of this image file is what-is-true.png". Orcfax publishes fact
-statements about the real world to the Cardano blockchain.
+Fact statements are more definitive
+(e.g."the name of this image file is what-is-true.png"). Orcfax publishes Fact
+Statements about the real world to the Cardano blockchain.
 
 ![The nature of facts](/img/2023-09-06--Orcfax--Nature-of-Facts.png)
