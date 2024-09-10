@@ -191,7 +191,7 @@ More about the testnet can be read in our [ITN](docs/ITN/overview.md) section.
 
 ## Decentralized era
 
-### v2 Phase
+### v2 phase
 
 #### L2 consensus layer
 

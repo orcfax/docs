@@ -1,7 +1,7 @@
 ---
 id: The Orcfax vision
-sidebar_position: 19
-slug: /the-orcfax-vision
+sidebar_position: 5
+slug: /orcfax-vision
 ---
 
 # The Orcfax vision
@@ -57,7 +57,7 @@ context, and to help users further appreciate how important these are, we unpack
 each of the above aspects, their significance, and how the Orcfax solution
 provides an answer.
 
-### Triangulation of data points vs single source data points
+### Triangulation of data points vs Single source data points
 
 To avoid single points of failure or attack, Orcfax has adopted the
 principle of triangulation, which is concerned with the
@@ -75,7 +75,7 @@ leveraged in accordance with this principle; however, updates to this feed and
 additional products benefit from an increased pool of primary source data
 providers, which enhances their reliability and security.
 
-### Decentralized & permissionless pool of validators vs off-chain kyc-ed validators
+### Decentralized & permissionless pool of validators vs Off-chain kyc-ed validators
 
 Requiring data validators to go through regulatory know-your-customer (KYC)
 processes and/or requiring individuals to sign contracts goes against the very
@@ -115,7 +115,7 @@ serious attack vectors. Choosing not to leverage purpose built solutions can
 also result in justifiable mistrust amongst the users of their DeFi products,
 as it is often their assets which are put at risk by these design decisions.
 
-### Heartbeat & on-demand feeds vs heartbeat feeds only
+### Heartbeat & on-demand feeds vs Heartbeat feeds only
 
 The number of potential use cases for oracle feeds are numerous, and they are
 increasing every day as developers create exciting new products, and as
@@ -144,7 +144,7 @@ collection, validation and publication whenever it’s needed by their smart
 contracts. More about this publication model can be found in
 the on-demand [publication model](publication-models#the-on-demand-publication-model)
 
-### Auditable feeds via user friendly explorer vs difficult to audit on-chain data
+### Auditable feeds via user friendly explorer vs Difficult to audit on-chain
 
 When something goes wrong with software, every user, including non-developers,
 should be able to audit all aspects of the processes involved— blockchain
@@ -177,7 +177,7 @@ need is made available at their finger tips.
 
 [explorer-1]: https://explorer.orcfax.io/
 
-### Standards-based interoperable audit trails vs feed only available on-chain
+### Standards-based interoperable audit trails vs Feed only available on-chain
 
 This point complements the previous by focusing on the value of re-use; Orcfax
 strongly believes that there is significant secondary value for real-world data
@@ -203,7 +203,7 @@ and products.
 [standard-3]: https://schema.org/
 [standard-4]: https://datatracker.ietf.org/doc/rfc8493/
 
-### Cost-effective eUTXO model vs cost-intensive eUTXO model
+### Cost-effective UTXO model vs Cost-intensive UTXO model
 
 Cardano was designed to off-load as much transaction processing as possible to
 off-chain components in order to minimize on-chain computations and thereby
