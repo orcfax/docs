@@ -26,9 +26,9 @@ hashes are documented below for each V1 deployment.
 
 A summary of mainnet deployments is listed below.
 
-| Status | TYPE | FSP | FS | Arweave Hash |
-|--------|------|---- |----|--------------|
-| TBD | CER | `TBD` | `TBD` | TBD |
+| Status | FSP | FS | Arweave Hash |
+|--------|---- |----|--------------|
+| TBD | `TBD` | `TBD` | TBD |
 
 #### Mainnet detailed overview
 
@@ -49,9 +49,9 @@ A per-FSP breakdown is documented below.
 
 A summary of preview deployments is listed below.
 
-| Status | TYPE | FSP | FS | C | Arweave Hash |
-|--------|------|---- |----|---|--------------|
-| Active | CER | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` | `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244` | `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656` | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
+| Status | FSP | FS | C | Arweave Hash |
+|--------|---- |----|---|--------------|
+| Active | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` | `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244` | `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656` | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
 
 <br/>
 
