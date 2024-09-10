@@ -1,10 +1,10 @@
 ---
 id: faq-4
 sidebar_position: 4
-slug: /Technical-questions
+slug: /technical-questions
 ---
 
-# Technical Questions
+# Technical questions
 
 ## What are the minimum technical requirements for node operations?
 
