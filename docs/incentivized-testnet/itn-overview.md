@@ -36,7 +36,7 @@ strengthening the Mainnet protocol.
 
 To join the ITN, participants must meet the following:
 
-# Validator model introduction
+## Validator model introduction
 
 Orcfax validators are the software nodes run by a decentralized network of
 operators around the world. These Orcfax software nodes collect, validate,
@@ -141,7 +141,7 @@ FACT tokens.
 Orcfax is investigating methods to implement non-validator staking for the
 initial version (V1) of the validator network.
 
-[vote]: https://app.summonplatform.io/poll/640336f9-0047-4055-91cf-4238ad4d182f
+[vote-1]: https://app.summonplatform.io/poll/640336f9-0047-4055-91cf-4238ad4d182f
 
 ### Rewards calculation method
 
