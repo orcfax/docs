@@ -12,12 +12,10 @@ Incentivized Testnet (ITN). Content will also detail the ITN’s structure,
 requirements for participation, and the rewards system which will be used to
 encourage robust participation and network growth.
 
-## Rationale
-
-Orcfax’s upcoming Incentivized Testnet (ITN) is a major step in enhancing the
-decentralized oracle infrastructure on the Cardano blockchain. This ITN
-initiative prepares the network for a smooth Mainnet launch, offering validators
-a platform to deeply engage with Orcfax.
+Orcfax’s upcoming ITN is a major step in enhancing the decentralized oracle
+infrastructure on the Cardano blockchain. This initiative will prepare the
+network for a smooth mainnet launch, offering validators a platform to engage
+with Orcfax.
 
 ## ITN rollout
 
@@ -29,16 +27,16 @@ validator node functionality; these phases, and their manuals, are listed below:
 * [Phase 3](phase-3-manual): Decentralized validator protocol
 * [Phase 4](phase-4-manual): Decentralized publication & Mainnet soft launch
 
-## Joining the Incentivized Testnet
+## Joining the ITN
 
-Commitment will key for those participating in the ITN. We expect participants
-to engage earnestly with the process, dedicating the necessary time and energy.
-This will include actively providing feedback that will be instrumental in
-refining and strengthening the Mainnet protocol.
+Participants in the ITN should commit to engage earnestly with the process,
+dedicating the necessary time and energy. Tasks expected of participants will
+include actively providing feedback that will be instrumental in refining and
+strengthening the Mainnet protocol.
 
 To join the ITN, participants must meet the following:
 
-### Validator License
+### Validator license
 
 Initially, participants may only be required to hold a validator license on a
 Mainnet wallet. However, as we progress through the more advanced phases of the
@@ -62,11 +60,12 @@ later need to be secured in a smart contract on the Testnet with tFACT
 The minimum hardware requirements for each phase will be published within their
 corresponding manuals; requirements will also be released well in advance of
 rollout so that operators have sufficient time to ensure that they meet the
-necessary requirements. Software requirements will be similarly disclosed as ITN
-phases progress.
+necessary requirements.
 
-With that said, participants should anticipate that these requirements will
-change as development, and ITN phases, progress.
+Software requirements will be similarly disclosed as ITN phases progress.
+
+Participants should anticipate that these requirements will change as
+development, and ITN phases, progress.
 
 ### Knowledge requirements
 
@@ -79,7 +78,7 @@ While it is not a requirement at the outset, having experience operating a
 Cardano Node, with an understanding of its underlying protocols, is recommended
 in order to facilitate a smoother adaptation to the ITN environment.
 
-## ITN Rewards
+## ITN rewards
 
 ITN participants will operate software that initially collects, later validates,
 and ultimately publishes Fact Statements on-chain. The completion of each of
@@ -97,14 +96,14 @@ rewards, based on the required effort and actual validator participation.
 
 Rewards will be calculated based on the daily number of collections,
 validations, and publications, multiplied by each validator’s ITN
-[multiplier](https://status.orcfax.io/validators).
+[multiplier][multi-1].
 
 The actual rewards accrued per validator will be proportional to their
 participation in a given day relative to all other validators.
 
 > Example
 >
-> if a validator has collected 5% of all fact statements on a specific day,
+> if a validator has collected 5% of all Fact Statements on a specific day,
 they will receive 5% of that day’s available rewards (after applying the ITN
 multiplier). This method ensures that optimal uptime and efficient validator
 setup will yield the highest possible rewards.
@@ -113,6 +112,7 @@ Validators will be able to use the Orcfax Validator Dashboard to track their
 metrics and corresponding rewards. You can find a basic ITN rewards calculator
 [here][calc-1].
 
+[multi-1]: https://status.orcfax.io/validators
 [calc-1]: https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit?source=post_page-----9bc1506da743--------------------------------&gid=1978771855#gid=1978771855
 
 ### Maintenance periods
@@ -129,9 +129,9 @@ unexpected issues, they will receive equal rewards for those days.
 >
 > If on a given day there are 60 registered ITN participants, and the network
 experiences unscheduled maintenance or unexpected issues, the available rewards
-for that day will be equally divided among participants.
+for that day will be equally divided among the 60 participants.
 
-### Reward claiming process
+### Claiming rewards
 
 As participants accumulate rewards, they will be able to track them on our
 Validator Dashboard, and will be able to claim their accrued rewards at any
@@ -140,9 +140,9 @@ given time.
 This approach prevents scheduled monthly releases that might affect price action
 and cause more volatility.
 
-To claim rewards:
+To claim rewards, participants will need to:
 
-1. Send small amount of ADA to a given address (covering the minimum UTXO and
+1. Send a small amount of ADA to a given address (covering the minimum UTXO and
 transaction fees)
 1. Shortly after, participants will receive their $FACT rewards.
 

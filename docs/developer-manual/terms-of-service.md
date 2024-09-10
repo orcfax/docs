@@ -4,10 +4,9 @@ sidebar_position: 5
 slug: /terms-of-service
 ---
 
-# TERMS OF SERVICE
+# Terms of service
 
 <!-- markdownlint-disable MD036 -->
-<!-- To be linked to from `"tos":` -->
 
 Valid from: *August 1, 2024*
 

@@ -30,7 +30,9 @@ through decentralized storage and are made easily accessible through the
 Orcfax [Explorer](https://explorer.orcfax.io/).
 
 More can be read about the Explorer in the
-[The Orcfax Explorer](auditability#the-orcfax-explorer) section.
+[Orcfax Explorer](auditability#the-orcfax-explorer) section.
+
+<!-- Reassess the volume of content here. cut to avoid redundancy -->
 
 ## Collection
 
@@ -66,9 +68,6 @@ The upgraded protocol allows Orcfax to streamline its solutions while also
 increasing cost efficiency. The Orcfax Protocol was designed as a purpose-built
 set of software tools and processes to publish datum to the Cardano blockchain.
 
-More about the [Orcfax Protocol](orcfax-protocol) will be published closer to
-its mainnet release.
-
 ## Publication
 
 After the data has been collected, normalized, and validated, the next step is
@@ -94,11 +93,11 @@ More on this topic can be found in [Publication models](publication-models).
 
 The Orcfax Team’s world class experience with information management
 technologies and expertise in other related fields has informed solution
-development at every stage. Orcfax is developing an oracle solution which we
-believe will be the most comprehensive solution to the oracle problem. This will
-be in part because it has been designed to be a standards-compliant
-recordkeeping system that integrates on-chain publication with decentralized
-data collection, validation, and archiving processes.
+development at every stage. Orcfax is developing the most comprehensive solution
+to the oracle problem. This is, at least in part, because Orcfax has been
+designed as a standards-compliant recordkeeping system that integrates on-chain
+publication with decentralized data collection, validation, and archival
+processes.
 
 The Orcfax system requirements were meticulously derived from the extensive
 analysis and review of blockchain, information technology, and legal standards
@@ -113,8 +112,8 @@ Our analysis continues to reveal gaps both in how existing oracle providers
 conceptualize the oracle problem, and in the efficacy of their attempts to
 address it. These service providers have broadly ignored industry standards and
 academic research findings that exist outside of the blockchain industry’s echo
-chamber. Of particular significance are the ISO quality standards that provide
-well-established international guidelines and practices for ensuring the
+chamber. Of particular significance are the [ISO][iso-1] quality standards that
+provide well-established international guidelines and practices for ensuring the
 authenticity and accuracy of digital information– the very thing that oracles
 should be most concerned with.
 
@@ -124,13 +123,13 @@ ground-up as a standards-compliant digital record-keeping system.
 
 More on this topic can be found in [Auditability](auditability).
 
+[iso-1]: https://www.iso.org/standards.html
+
 ## Orcfax beyond DeFi
 
-The oracle problem limited to DeFi and its quest to *truly* decentralized
-finance; society as a whole is experiencing a
-"[trust crisis](https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6)".
-We need better solutions for validating statements of fact about the real
-world.
+The oracle problem is not limited to DeFi and its quest to *truly* decentralized
+finance; society as a whole is experiencing a "[trust crisis][trust-1]". We need
+better solutions for validating statements of fact about the real world.
 
 Orcfax is responding to that call. Our solution is intentionally designed
 to leverage the distributed consensus breakthroughs achieved through
@@ -138,6 +137,7 @@ distributed ledger technologies like blockchain in order to provide
 decentralized, "trustless" fact validation and reference services; What's more,
 the Orcfax solution has been intentionally designed to leverage global
 record keeping and information management standards so that data created through
-its processes will have many use cases and applications beyond DeFi. Our team
-is particularly interested in on-demand, real-world fact validation to counter
-the threat of AI-generated falsehoods.
+its processes will have many use cases and applications beyond DeFi
+(e.g. decentralized journalism, AI training, and more).
+
+[trust-1]: https://medium.com/coinmonks/orcfax-the-trust-machine-revisited-c475dbb0a5d6

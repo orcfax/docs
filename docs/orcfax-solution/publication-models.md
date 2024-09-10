@@ -20,7 +20,7 @@ heartbeat model, and a new on-demand model.
 By providing integrators the ability to choose the publication model, Orcfax
 will enable dApps to increase flexibility and cost efficiency by choosing how
 best to receive their data: hourly, daily or when there’s a real-time
-requirement for the data (e.g. liquidations).
+requirement for the data.
 
 ## The heartbeat publication model
 
@@ -46,7 +46,7 @@ at predefined intervals so long as the feed remains funded.
 The benefits of the heartbeat publication model is that integrators receive data
 continuously. However, if the dApp provides services which only need data inputs
 for specific actions, at unpredictable times, or to verify components of a
-transaction, then this model can be nonoptimal or costly given the rate at which
+transaction, then this model can be suboptimal or costly given the rate at which
 data is received versus instances of data use; this inefficiency for some of our
 integrator's use cases led us to begin development on the Orcfax on-demand
 model.
@@ -59,17 +59,7 @@ validation, and publication whenever it’s needed by their smart contracts.
 
 If an Orcfax feed integrator needs a more current update for a given Orcfax feed
 (e.g. ADA-FACT) than is available on-chain or through an existing heartbeat
-publication schedule, then:
-
-1. A dApp can request an updated datum by posting a utxo with a specific datum
-in an orders smart contract;
-1. This request is observed by the validator scripts;
-1. A validator node will be selected to submit the requested datum to the feeds
-smart contract;
-1. The dApp can then use a script to inspect the requested datum and build a
-dApp transaction.
-
-And all of these actions can happen within the same block.
+publication schedule, then an integrator can request its publication
 
 ![the on-demand model](/img/2024-02--on-demand.gif)
 

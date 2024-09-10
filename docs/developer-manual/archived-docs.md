@@ -1,10 +1,10 @@
 ---
-id: archived resources
+id: archived docs
 sidebar_position: 4
-slug: /archived-resources
+slug: /archived-docs
 ---
 
-# Archived Orcfax resources
+# Archived docs
 
 This section contains instructions, and commentary relating to Orcfax
 solution versions and/or components **which are no longer in operation**. This
@@ -23,7 +23,7 @@ The Orcfax team developed the Cardano Open Oracle Protocol as a Catalyst funded
 research project that aimed to maximize the [eUTXO][utxo-1] model and leveraged
 design principles, [CIP-31][cip-31], and [CIP-32][cip-32] to prioritize a
 cost-sensitive, post-Vasil native method for publishing secure, signed, datums
-on-chain for Reference Input consumption by Cardano dApps.
+on-chain for reference input consumption by Cardano dApps.
 
 The initial version of COOP was developed in collaboration with [MLabs][mlabs-1]
 consultancy. The guidelines and specification in COOP are free, open-source, and
@@ -43,7 +43,7 @@ More information pertaining to this failure can be found in both the
 [public announcement][medium-1] and in the subsequent incident
 [report][incident-35].
 
-Additionally, users and developers may find it informative to review the entire
+Users and developers may find it informative to review the entire
 v0 [Incidents][incidentRepo-1] repository as it contains many critical learnings
 from the implementation of v0.
 
@@ -63,35 +63,35 @@ be found in [Policies](policies).
 
 ### In use
 
-Minting policy identifiers were critical as fact statements were to be verified
+Minting policy identifiers were critical as Fact Statements were to be verified
 as having come from a known source. These identifiers also provided the ability
-to filter all of the UTxO at a given smart contract address and to filter out
+to filter all of the UTXO at a given smart contract address and to filter out
 those sent by others to the same address.
 
 Users were required to use the following information to identify the latest
-facts published.
+Facts published.
 
 * Minting policy ID.
 * Datum format, including:
   * Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
-  largest POSIX timestamp compared to other fact statement datum,
+  largest POSIX timestamp compared to other Fact Statement datum,
   * Feed name, e.g. "ADA-USD".
 
 > Note: Users on preprod will find a volume of test data that was not ever
 > retired as Orcfax previously used this space as a testing sandbox.
 
 In this model, unconsumed reference inputs were those still available for smart
-contracts to use on-chain. Spending a UTxO with a reference input would render
+contracts to use on-chain. Spending a UTXO with a reference input would render
 it unusable in a smart contract (though the data was still visible in the
-historical transaction). This process of consuming reference inputs is also
-referred to as _garbage collection_ or the _retiring_ of fact statements.
+historical transaction). This process of consuming reference inputs was
+referred to as _garbage collection_ or the _retiring_ of Fact Statements.
 
-At the time of this version, Orcfax committed to a mainnet policy whereby two
-unspent fact UTxO would remain on-chain at all times in order to provide
-continuous datum coverage.
+During v0, Orcfax had a mainnet policy stipulating that two unspent Fact UTXO
+should remain on-chain at all times in order to provide users with continuous
+datum coverage.
 
 > Note: maintaining at least two datum on-chain gave smart contracts (and their
-> developers) access to the most current datum and the datum before that for
+> developers) access to the most current datum, and the datum before that, for
 > inspection. The POSIX timestamps denoting a valid-from and valid-through
 > period could be inspected to ensure that they were still within a valid
 > window.
@@ -103,15 +103,18 @@ utilized in COOP v0, see the relevant COOP [design document][coop-design-1].
 
 ### v0 datum structure
 
-All fact statements were structured as [JSON-LD](https://json-ld.org/) objects
+All Fact Statements were structured as [JSON-LD][json-1] objects
 before being serialized into the Concise Binary Object Representation
-([CBOR](https://cbor.io/)) used in Cardano transactions.
+([CBOR][cbor-1] used in Cardano transactions.
 
 ![Fact Statement](/img/2023-09-30--Orcfax--fact-statement.jpg)
 
+[json-1]: https://json-ld.org/
+[cbor-1]: https://cbor.io/
+
 #### v0 JSON-LD schema
 
-The Orcfax V0 datum was translated to on-chain CBOR from the following JSON
+The Orcfax v0 datum was translated to on-chain CBOR from the following JSON
 schema (example given is from Sep 28, 2023):
 
 ```json
@@ -143,20 +146,76 @@ schema (example given is from Sep 28, 2023):
 
 ### Reading v0 datum on-chain
 
-Orcfax fact statement datum were readable on-chain as Cardano
-[Reference Inputs](https://github.com/perturbing/vasil-tests/blob/main/reference-inputs-cip-31.md).
+Orcfax Fact Statement datum were readable on-chain as Cardano
+[Reference Inputs][ri-1].
 
-To have read the `ADA-USD|USD-ADA` Mainnet feed, users were encouraged to check
-the latest transaction issued by the
-[feed smart contract](https://cexplorer.io/address/addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2/tx#data).
+To have read the `ADA-USD|USD-ADA` mainnet feed, users were encouraged to check
+the latest transaction issued by the [feed smart contract][sc-1].
+
+[ri-1]: https://github.com/perturbing/vasil-tests/blob/main/reference-inputs-cip-31.md
+[sc-1]: https://cexplorer.io/address/addr1w8tcecfy7np3sduzn99ffuv8qx2sa8v977l0xql8ca7lgkgq7lqh2/tx#data
+
+#### Where can I find the price data in the datum?
+
+In this example we will use an off-chain datum. We will use this
+[datum][dat-1], within which the price data can be found in the following
+portion:
+
+```"list": [
+                            {
+                                "fields": [
+                                    {
+                                        "int": 2540017902
+                                    },
+                                    {
+                                        "int": 1.8446744073709552e+19
+                                    }
+                                ],
+                                "constructor": 3
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "int": 39369801260558197
+                                    },
+                                    {
+                                        "int": 1.8446744073709552e+19
+                                    }
+                                ],
+                                "constructor": 3
+                            }
+                        ]
+```
+
+The first ```“fields”``` (we’ll call it f1) conveys ADA-USD, the second (f2)
+conveys USD-ADA. Within each of these, the first int (we'll call it int1)
+represents a price pair.
+
+With this in mind, f1, int1 gives the ADA-USD price as an integer (2540017902),
+and the second (f1, int2) gives the number of decimals as ```longint```
+(1.8446744073709552e+19).
+
+The same is true for f2, int1 which gives the price pair for USD-ADA as an
+integer; with f2, int2 giving the number of decimals.
+
+Using Python, you can find out the price by executing the following:
+
+```from ctypes import c_longlong
+price = p1 * pow(10, c_longlong(p2).value)
+```
+
+With the following results:
+
+![Off-chain Datum](/img/2023-10-03--off-chain-datum-walkthrough.png)
+
+[dat-1]: https://preprod.cexplorer.io/datum/9ced750ebbb2c9a9eac2e07a91525cadd3bfab23950089faa3e3a55517d1033f
 
 ### Reading v0 datum off-chain
 
-The [PyCardano](https://pycardano.readthedocs.io/) SDK provided convenient
-helper functions for converting on-chain CBOR.
+The [PyCardano][pycardano-1] SDK provided convenient helper functions for
+converting on-chain CBOR.
 
-The Orcfax team created an open-source PyCardano
-[demo script](https://github.com/orcfax/datum-demo/tree/main#readme) to assist
+The Orcfax team created an open-source PyCardano [demo script][demo-1] to assist
 users in reading and parsing the on-chain Orcfax datum.
 
 This script converted the Cardano transaction's CBOR serialization to human and
@@ -168,7 +227,7 @@ the requirements of another dApp.
 
 This resource was made freely available under an open-source Apache
 v2.0 license so that users could test, integrate, and extend their own solutions
-by integrating Orcfax fact statement feeds.
+by integrating Orcfax Fact Statement feeds.
 
 <!-- markdownlint-disable MD013 -->
 
@@ -225,3 +284,6 @@ _demo script output:_
 ```
 
 <!-- markdownlint-restore -->
+
+[pycardano-1]: https://pycardano.readthedocs.io/
+[demo-1]: https://github.com/orcfax/datum-demo/tree/main#readme

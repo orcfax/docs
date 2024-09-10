@@ -6,8 +6,8 @@ slug: /consume
 
 # Consuming Orcfax Statements
 
-This document aims to explain how dApp developers (ie integrators) can integrate
-Orcfax feeds into their dApp with all the technical details included.
+This document aims to explain how dApp developers (i.e. integrators) can
+integrate Orcfax feeds into their dApp with all the technical details included.
 
 ## Overview
 
@@ -50,14 +50,14 @@ and output another with the same validity token and a new state.
 
 In the case of the FSP, the state is simply the FS script hash. Orcfax reserves
 the ability to update the FS script should business or developmental needs
-require (eg in order to migrate to Plutus V3), and the FS script allows Orcfax
+require (e.g. in order to migrate to Plutus V3), and the FS script allows Orcfax
 to do this without impacting integrators. By first finding the FSP in the
 reference inputs of a script context, a validator can recognize the correct FS
 script hash.
 
-The C script represents the constitution. It holds the current valid pubkey that
+The C script represents the Constitution. It holds the current valid pubkey that
 is permitted to sign statements. The FS script checks that every statement
-published has a valid signature with respect to this pubkey. The constitution is
+published has a valid signature with respect to this pubkey. The Constitution is
 not utilized by integrators, and plays no further part in this document.
 
 ## Details
@@ -184,7 +184,7 @@ One way integrators might choose to do this is as follows:
 ### Coercing the body
 
 <!-- The datatype of the body can be found in the feed definition page. -->
-For exchange rates the body is:
+For feeds of type current exchange rate (CER), the body is:
 
 ```aiken
 pub type Rational {
@@ -196,7 +196,7 @@ pub type Rational {
 ## Notes
 
 In the case that an integrator is expecting only one type of body within
-statements, we can simplify the types. For example, for exchange rates the types
+statements, we can simplify the types. For example, for CER feeds the types
 become:
 
 ```aiken

@@ -18,12 +18,12 @@ solution.
 
 ![Orcfax roadmap](/img/2024-06--Orcfax-Roadmap.png)
 
-## The Stabilization Era
+## The stabilization era
 
 This Era marks Orcfax's first steps towards an oracle solution on Cardano. From
 the initial R&D funded by Cardano’s Catalyst program, to launching our first
 ADA-USD feed on mainnet, and introducing the Orcfax Explorer, this era saw
-Orcfax has focus on creating and stabilizing a sustainable oracle solution.
+Orcfax focused on creating and stabilizing a sustainable oracle solution.
 
 ### Research phase
 
@@ -40,7 +40,7 @@ dApps, and network security.
 Orcfax continued its research on the initial protocol design, and published its
 first iteration of the Orcfax ADA-USD feed on Cardano testnet.
 
-### V0 Phase
+### v0 phase
 
 #### Mainnet ADA-USD
 
@@ -67,15 +67,15 @@ the tools available within the Explorer. These audit log packages document how
 the primary source data was collected and validated, including message signature
 verifications, as part of a robust data provenance trail.
 
-### V1 Phase
+### v1 phase
 
 #### Protocol upgrade
 
-Not only did running our first version of the protocol live on Mainnet provide
+Not only did running our first version of the protocol live on mainnet provide
 the team with valuable experience, it was also an incredible opportunity to
 receive feedback from Cardano projects which tested the v0 ADA-USD feed.
 
-We then used our experience and integrator feedback to upgrade the Orcfax
+We used our experience and integrator feedback to upgrade the Orcfax
 protocol for more efficient on-chain data parsing, reduced transaction costs,
 and to improve the trust and security model.
 
@@ -121,18 +121,17 @@ downloads.
 Oracles provide trusted data inputs to smart contracts that can control
 significant user assets. That reality raises valid concerns about the
 reliability of oracle solutions and their underlying architectures. Because of
-this, Orcfax will pursue an architecture audit to be executed by an external
-technical team; the audit will analyze the security of Orcfax’s on-chain and
-off-chain architecture. We will take remediative action on recommendations that
-result from the audit in order to ensure that the Orcfax oracle service delivers
-the most comprehensive, accurate, and trustworthy real-world data possible to
-Cardano dApps and smart contracts.
+this, Orcfax will pursue an architecture audit; the audit will analyze the
+security of Orcfax’s on-chain and off-chain architecture. We will take
+remediative action on recommendations that result from the audit in order to
+ensure that the Orcfax oracle service delivers the most comprehensive, accurate,
+and trustworthy real-world data possible to Cardano dApps and smart contracts.
 
-## Decentralization Era
+## Decentralization era
 
 ### Continuation of v1 phase
 
-The Decentralization Era marks Orcfax's transition to a decentralized oracle
+The Decentralization era marks Orcfax's transition to a decentralized oracle
 network operated and maintained by a decentralized autonomous organization
 (DAO).
 
@@ -175,7 +174,7 @@ open Cardano NFT exchange markets.
 
 Every validator license holder has the opportunity to participate in our
 Incentivized Testnet (ITN). This process will start with on-ramp training in
-order to familiarize operators with the Orcfax network node architecture and
+order to familiarize operators with the Orcfax Network node architecture and
 data collection processes. We will also take this opportunity to introduce
 participants to our testnet tooling and feedback process so that network
 development benefits from operator feedback.
@@ -190,9 +189,9 @@ calculation, validation, and eventually participating in on-chain publication.
 
 More about the testnet can be read in our [ITN](docs/ITN/overview.md) section.
 
-## Decentralized Era
+## Decentralized era
 
-### V2 Phase
+### v2 Phase
 
 #### L2 consensus layer
 
@@ -209,7 +208,7 @@ to the network.
 
 #### Decentralized Validator Network
 
-Establishing a network of 100 distributed Orcfax Validators will enable the
+Establishing a network of 100 distributed Orcfax validators will enable the
 decentralization of the entire network. By enabling the mainnet operation of our
 node operators, Orcfax will dramatically enhance its resilience, independence,
 and long-term sustainability as Cardano’s most comprehensive decentralized
@@ -250,5 +249,5 @@ many things, will include deciding which contracting firms (e.g. Orcfax Ltd, or
 other) to hire in order to continue operating, monitoring, and/or upgrading the
 Orcfax technical infrastructure, for how long, and for how much.
 
-Five percent of the fixed 1 billion FACT token supply has been allocated to fund
-the Orcfax DAO and to seed its long term success.
+Five percent of the fixed 1 billion FACT token supply has been allocated to
+seed the Orcfax DAO and to ensure its long term success.

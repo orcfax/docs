@@ -29,7 +29,7 @@ given that they meet the threshold for minimum data sources which enables the
 network to maintain data integrity and reliability while being unaffected by
 outliers.
 
-> Example
+> Example:
 >
 > If nodes query 5 sources, but only receive inputs from 4, the nodes can still
 successfully triangulate the data as the received inputs still meet the 3 source
@@ -37,14 +37,15 @@ minimum.
 
 ![Triangulation of primary sources](/img/2024-02--source-triangulation.jpg)
 
-Our adherence to the triangulation policy allows a more thorough response to the
-oracle problem by providing nodes the ability to compare data across multiple
-sources which allows them to assess the authenticity and accuracy of the data.
+Our adherence to the principle of triangulation allows a more thorough response
+to the oracle problem by providing nodes the ability to compare data across
+multiple sources which allows them to assess the authenticity and accuracy of
+the data.
 
 ## Leveraging decentralized data gathering on chain
 
 The same data collection principles and standards used in Orcfax price feeds
-will also be leveraged in Cardano Native token (CNT) feeds. Orcfax has chosen to
+are also leveraged in Cardano Native token (CNT) feeds. Orcfax has chosen to
 leverage DEX Liquidity pools in order to report token pair values. This is
 because liquidity pools provide a unique and efficient price discovery
 mechanism. Within the pool, a token pair derives comparative value according to
