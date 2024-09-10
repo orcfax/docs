@@ -4,6 +4,12 @@ sidebar_position: 3
 slug: /deployments
 ---
 
+<!-- note:
+    Use &#x2011; to replace dashes below, e.g. for datetime stamps.
+
+    2024-01-01 becomes 2024&#x2011;01&#x2011;01.
+-->
+
 # Protocol deployments
 
 The following documents current and historical deployments of the Orcfax
@@ -28,7 +34,7 @@ A summary of mainnet deployments is listed below.
 
 | Status | FSP | FS | Arweave Hash |
 |--------|---- |----|--------------|
-| TBD | `TBD` | `TBD` | TBD |
+| Active | `8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0` | `193ee65211bb3b4e0ea5f751f415269355a650e2e3706f625cdf1a4b` | [JPsW_QzlLTrCdK&#x2011;m8iOhSsV8fTiC0vAoxD9SIQUqzLI][arweave-mainnet] |
 
 #### Mainnet detailed overview
 
@@ -36,11 +42,11 @@ A per-FSP breakdown is documented below.
 
 |                  | Details |
 |------------------|---------|
-| FSP              | -       |
-| Arweave Hash     | -       |
-| First appearance | -       |
-| Slot no.         | -       |
-| Block            | -       |
+| FSP              | `8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0` |
+| Arweave Hash     | [JPsW_QzlLTrCdK&#x2011;m8iOhSsV8fTiC0vAoxD9SIQUqzLI][arweave-mainnet] |
+| First appearance | 2024&#x2011;09&#x2011;09 |
+| Slot no.         | 10,813,855 |
+| Block            | `6e4b3a758cfaba8212c4b81f116688b14fc2663833c602fd19d61e3820bb1b01` |
 | Last appearance  | -       |
 | Slot no.         | -       |
 | Block            | -       |
@@ -63,9 +69,9 @@ A per-FSP breakdown is documented below.
 |------------------|---------|
 | FSP              | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` |
 | Arweave Hash     | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
-| First appearance | 26.6.2024     |
+| First appearance | 2024&#x2011;06&#x2011;26 |
 | Slot no.         | 52,764,149     |
-| Block            | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752`     |
+| Block            | `68bcc600c3c3fef8672a1a96e16a813dd02cd33f6b1eb1c8e464b4b0469dc752` |
 | Last appearance  | -     |
 | Slot no.         | -     |
 | Block            | -     |
@@ -90,10 +96,10 @@ listed below.
 |------------------|---------|
 | Primary Script Hash | [`2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b`][cexplorer-primary-script] |
 | Arweave Hash     | [Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ][arweave-mainnet-v0]|
-| First appearance | 28.9.2023 |
+| First appearance | 2023&#x2011;09&#x2011;28 |
 | Slot no.         | 104,327,334 |
 | Block            | `81394cd019daf9d2575b04d902735cbfe5d8b14e33242f6810664b911fe81798` |
-| Last appearance  | 15.05.2024 |
+| Last appearance  | 2024&#x2011;05&#x2011;15 |
 | Slot no.         | 124,222,696 |
 | Block            | `6212e3e9ac6d969eb6d0d63a865b97c38df8f1ef8220d2340aaa91df25879247` |
 
@@ -102,6 +108,7 @@ listed below.
 [archive-1]: archived-resources#in-use
 [consume]: ./consume.md
 [coop]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol
+[arweave-mainnet]: https://arscan.io/address/JPsW_QzlLTrCdK-m8iOhSsV8fTiC0vAoxD9SIQUqzLI
 [arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
 [arweave-mainnet-v0]: https://arscan.io/address/Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ
 [cexplorer-primary-script]: https://cexplorer.io/policy/2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b
