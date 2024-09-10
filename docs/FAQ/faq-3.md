@@ -1,10 +1,10 @@
 ---
 id: faq-3
 sidebar_position: 3
-slug: /$FACT-launch
+slug: /$fact-launch
 ---
 
-# The $FACT Launch
+# The $FACT launch
 
 On September 8th 2023, Orcfax launched the $FACT utility token in collaboration
 with the Wingriders’ Launchpad, and quickly reached the max contributions,
@@ -20,7 +20,7 @@ came online with Wingriders.
 update -->
 Yield farming rewards are available on both Wingriders and Minswap.
 
-## What is the Fact policy ID?
+## What is the $FACT policy ID?
 
 It has been reported that multiple fake FACT tokens, and pools, have been
 found. **Always** check our FACT Policy ID before making any trades:

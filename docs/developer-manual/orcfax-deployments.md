@@ -1,16 +1,16 @@
 ---
-id: orcfax deployments
+id: protocol deployments
 sidebar_position: 3
 slug: /deployments
 ---
+
+# Protocol deployments
 
 <!-- note:
     Use &#x2011; to replace dashes below, e.g. for datetime stamps.
 
     2024-01-01 becomes 2024&#x2011;01&#x2011;01.
 -->
-
-# Protocol deployments
 
 The following documents current and historical deployments of the Orcfax
 protocol. The hashes can be used to navigate Orcfax Fact Statements and archival
@@ -21,14 +21,14 @@ Integrators should consult the [integrator docs][consume] for an explanation
 an the role of different scripts used in the protocol and how to correctly use
 the Orcfax protocol.
 
-## V1
+## v1
 
-Orcfax V1 introduces the FSP (FactStatementPointer) script. The FSP will not
+Orcfax v1 introduces the FSP (FactStatementPointer) script. The FSP will not
 change in the lifetime of a deployment. The FSP is used to record the current
 FS (FactStatement) script hash. The FSP, FS, and C (Constitution) script
-hashes are documented below for each V1 deployment.
+hashes are documented below for each v1 deployment.
 
-### V1: Mainnet
+### v1: Mainnet
 
 A summary of mainnet deployments is listed below.
 
@@ -51,7 +51,7 @@ A per-FSP breakdown is documented below.
 | Slot no.         | -       |
 | Block            | -       |
 
-### V1: Preview
+### v1: Preview
 
 A summary of preview deployments is listed below.
 
@@ -78,7 +78,7 @@ A per-FSP breakdown is documented below.
 
 <br/>
 
-## V0
+## v0
 
 Orcfax V0 used a series of scripts built in collaboration with MLabs, the
 protocol itself was called the Cardano Open Oracle Protocol (COOP). For more
@@ -90,7 +90,7 @@ to interpret the data published on-chain using this version.
 For brevity, only the primary script hash used for publication using COOP is
 listed below.
 
-### V0: Mainnet
+### v0: Mainnet
 
 |                  | Details |
 |------------------|---------|

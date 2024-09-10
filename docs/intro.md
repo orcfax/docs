@@ -27,7 +27,7 @@ society at large.
 [cardano-1]: https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc
 [smart-1]: oracle-basics#what-is-a-smart-contract
 
-## Getting Started
+## Getting started
 
 Check our developer manual for instructions on how to:
 
