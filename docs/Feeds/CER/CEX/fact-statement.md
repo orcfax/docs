@@ -9,7 +9,7 @@ import factStatement from '!!raw-loader!/schema/cer/cex/fact-statement.json';
 
 # Fact Statement
 
-A place for Orcfax to describe the types/properties relevant to a
+A description of the types/properties relevant to a
 `fact-statement.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Fact
