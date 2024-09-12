@@ -9,7 +9,7 @@ import Message from '!!raw-loader!/schema/cer/dex/message.json';
 
 # Message
 
-A place for Orcfax to describe the types/properties relevant to a
+A description of the types/properties relevant to a
 `message.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Message

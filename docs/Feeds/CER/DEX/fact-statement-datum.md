@@ -9,7 +9,7 @@ import factStatementDatum from '!!raw-loader!/schema/cer/dex/fact-statement-datu
 
 # Fact Statement Datum
 
-A place for Orcfax to describe the types/properties relevant to a
+A description of the types/properties relevant to a
 `fact-statement-datum.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Fact

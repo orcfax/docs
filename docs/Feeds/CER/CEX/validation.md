@@ -9,7 +9,7 @@ import Validation from '!!raw-loader!/schema/cer/cex/validation.json';
 
 # Validation
 
-A place for Orcfax to describe the types/properties relevant to a
+A description of the types/properties relevant to a
 `validation.json`.
 
 Orcfax utilizes the following Schema.org types and properties in its Validation
