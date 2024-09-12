@@ -1,5 +1,5 @@
 ---
-id: current-exchange-rate-feeds
+id: Available feeds
 sidebar_position: 1
 slug: /feed-overview
 ---
