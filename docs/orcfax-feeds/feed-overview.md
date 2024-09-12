@@ -3,7 +3,8 @@ id: Available feeds
 sidebar_position: 1
 slug: /feed-overview
 ---
-**Orcfax currently offers the following feeds**
+
+# Available feeds
 
 | [ADA-USD][adausd] | [ADA-BTC][adabtc] | [ADA-iUSD][adaiusd] | [ADA-DJED][adadjed] | [ADA-USDM][adausdm] |
 | :---------------: | :-----------------: | :-----------------: | :-------------: | :-----------------: |
@@ -34,9 +35,11 @@ slug: /feed-overview
 [snekada]: https://explorer.orcfax.io/feeds/CER/SNEK-ADA/facts/2b320c25-859d-4ca6-a88a-307e2d6b8f27
 [wmtada]: https://explorer.orcfax.io/feeds/CER/WMT-ADA/facts/8ad34386-6be9-4c12-b069-ce2fb38dc681
 
-
 ## Current Exchange Rate feeds
-Orcfax offers Current Exchange Rate ([cer-1]) feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
+
+Orcfax offers Current Exchange Rate ([CER][cer-1]) feeds that publish statements
+regarding the current price of a given currency against another. This includes
+feeds such as ADA-USD and FACT-ADA.
 
 For a feed of type CER, the naming convention is
 [{{base-currency}}-{{quote-currency}}][cer-2].
@@ -74,9 +77,9 @@ as a showcase:
 | [ADA-BTC][adabtc] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [BTC-USD][btcusd] | Sep 12th 2024 17:01:24 UTC | TBA |
 
-\*As these are showcase feeds, Orcfax makes no guarantees as to how long they will
-be offered in this capacity; integrators who would like to take advantage of
-these feeds or are interested in learning more about our services, please
+\*As these are showcase feeds, Orcfax makes no guarantees as to how long they
+will be offered in this capacity; integrators who would like to take advantage
+of these feeds or are interested in learning more about our services, please
 contact Vahid, our Chief Business Officer, via [email][email] or
 [Discord][discord].
 
@@ -118,8 +121,8 @@ as a showcase:
 | [SNEK-ADA][snekada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [WMT-ADA][wmtada] | Sep 12th 2024 17:01:24 UTC | TBA |
 
-\*As these are showcase feeds, Orcfax makes no guarantees as to how long they will
-be offered in this capacity; integrators who would like to take advantage of
-these feeds or are interested in learning more about our services, please
+\*As these are showcase feeds, Orcfax makes no guarantees as to how long they
+will be offered in this capacity; integrators who would like to take advantage
+of these feeds or are interested in learning more about our services, please
 contact Vahid, our Chief Business Officer, via [email][email] or
 [Discord][discord].
