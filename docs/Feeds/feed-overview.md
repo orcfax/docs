@@ -48,6 +48,7 @@ as a showcase:
 
 | Feed name | Start Date | End date\* |
 | --------- | ---------- | ---------- |
+| [ADA-BTC][adabtc] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [ADA-USD][adausd] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [BTC-USD][btcusd] | Sep 12th 2024 17:01:24 UTC | TBA |
 
@@ -57,6 +58,7 @@ these feeds or are interested in learning more about our services, please
 contact Vahid, our Chief Business Officer, via [email][email] or
 [Discord][discord].
 
+[adabtc]: https://explorer.orcfax.io/feeds/CER/ADA-BTC/facts/1003b535-0794-4228-9d6d-917f79ef0f09
 [adausd]: https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/f38091cd-cb8e-447d-8a8b-66d5a3916a47
 [btcusd]: https://explorer.orcfax.io/feeds/CER/BTC-USD/facts/94fa78f2-67d4-4f01-9338-3fe230333da1
 
@@ -77,7 +79,6 @@ as a showcase:
 
 | Feed name | Start Date | End date\* |
 | --------- | ---------- | ---------- |
-| [ADA-BTC][adabtc] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [ADA-DJED][adadjed] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [ADA-iUSD][adaiusd] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [ADA-USDM][adausdm] | Sep 12th 2024 17:01:24 UTC | TBA |
@@ -103,7 +104,6 @@ these feeds or are interested in learning more about our services, please
 contact Vahid, our Chief Business Officer, via [email][email] or
 [Discord][discord].
 
-[adabtc]: https://explorer.orcfax.io/feeds/CER/ADA-BTC/facts/1003b535-0794-4228-9d6d-917f79ef0f09
 [adadjed]: https://explorer.orcfax.io/feeds/CER/ADA-DJED/facts/43661f6a-bb93-41e4-8e7f-b59546202982
 [adaiusd]: https://explorer.orcfax.io/feeds/CER/ADA-iUSD/facts/229fb469-1ab8-4a0b-9f45-a2a46fc59ee4
 [adausdm]: https://explorer.orcfax.io/feeds/CER/ADA-USDM/facts/4848746e-5aca-4896-85bc-ece90b823a24
