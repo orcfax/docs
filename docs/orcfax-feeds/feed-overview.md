@@ -3,13 +3,7 @@ id: feeds-1
 sidebar_position: 1
 slug: /feed-overview
 ---
-
-# Feeds overview
-
-At present Orcfax offers one type of feed. As additional feed types are
-developed, they will be listed here.
-
-**Currently available feeds:**
+**Orcfax currently offers the following feeds**
 
 | [ADA-BTC][adabtc] | [ADA-DJED][adadjed] | [ADA-iUSD][adaiusd] | [ADA-USD][adausd] | [ADA-USDM][adausdm] |
 | :---------------: | :-----------------: | :-----------------: | :-------------: | :-----------------: |
@@ -40,11 +34,9 @@ developed, they will be listed here.
 [snekada]: https://explorer.orcfax.io/feeds/CER/SNEK-ADA/facts/2b320c25-859d-4ca6-a88a-307e2d6b8f27
 [wmtada]: https://explorer.orcfax.io/feeds/CER/WMT-ADA/facts/8ad34386-6be9-4c12-b069-ce2fb38dc681
 
-## CER
 
-The feed type [CER][cer-1], representing Current Exchange Rate, encompasses all
-feeds which present statements regarding the current price of a given currency
-against another. Included in this type are feeds such as ADA-USD and FACT-ADA.
+## Current Exchange Rate feeds
+Orcfax offers Current Exchange Rate (CER)[cer-1] feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
 
 For a feed of type CER, the naming convention is
 [{{base-currency}}-{{quote-currency}}][cer-2].
