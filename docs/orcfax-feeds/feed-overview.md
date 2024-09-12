@@ -1,5 +1,5 @@
 ---
-id: feeds-1
+id: current-exchange-rate-feeds
 sidebar_position: 1
 slug: /feed-overview
 ---
@@ -36,7 +36,7 @@ slug: /feed-overview
 
 
 ## Current Exchange Rate feeds
-Orcfax offers Current Exchange Rate (CER)[cer-1] feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
+Orcfax offers Current Exchange Rate (CER) feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
 
 For a feed of type CER, the naming convention is
 [{{base-currency}}-{{quote-currency}}][cer-2].
