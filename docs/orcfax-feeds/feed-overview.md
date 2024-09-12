@@ -5,7 +5,7 @@ slug: /feed-overview
 ---
 **Orcfax currently offers the following feeds**
 
-| [ADA-BTC][adabtc] | [ADA-DJED][adadjed] | [ADA-iUSD][adaiusd] | [ADA-USD][adausd] | [ADA-USDM][adausdm] |
+| [ADA-USD][adausd] | [ADA-BTC][adabtc] | [ADA-iUSD][adaiusd] | [ADA-DJED][adadjed] | [ADA-USDM][adausdm] |
 | :---------------: | :-----------------: | :-----------------: | :-------------: | :-----------------: |
 | **[AGIX-ADA][agixada]** | **[BOOK-ADA][bookada]** | **[BTC-USD][btcusd]** | **[BTN-ADA][btnada]** | **[CERRA-ADA][cerraada]** |
 | **[COPI-ADA][copiada]** | **[FACT-ADA][factada]** | **[HOSKY-ADA][hoskyada]** | **[HUNT-ADA][huntada]** | **[INDY-ADA][indyada]** |
@@ -36,7 +36,7 @@ slug: /feed-overview
 
 
 ## Current Exchange Rate feeds
-Orcfax offers Current Exchange Rate (CER) feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
+Orcfax offers Current Exchange Rate ([cer-1]) feeds that publish statements regardding the current price of a given currency against another. This includes feeds such as ADA-USD and FACT-ADA
 
 For a feed of type CER, the naming convention is
 [{{base-currency}}-{{quote-currency}}][cer-2].
