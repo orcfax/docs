@@ -60,9 +60,6 @@ contact Vahid, our Chief Business Officer, via [email][email] or
 [adausd]: https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/f38091cd-cb8e-447d-8a8b-66d5a3916a47
 [btcusd]: https://explorer.orcfax.io/feeds/CER/BTC-USD/facts/94fa78f2-67d4-4f01-9338-3fe230333da1
 
-[email]: vahid@orcfax.io
-[discord]: https://discord.com/invite/UbAeRuNzDu
-
 ### Feeds derived from DEXes
 
 The price values published through these feeds are derived entirely from
@@ -91,7 +88,7 @@ as a showcase:
 | [COPI-ADA][copiada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [FACT-ADA][factada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [HOSKY-ADA][hoskyada] | Sep 12th 2024 17:01:24 UTC | TBA |
-| [HUNT-ADA][hoskyada] | Sep 12th 2024 17:01:24 UTC | TBA |
+| [HUNT-ADA][huntada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [INDY-ADA][indyada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [LENFI-ADA][lenfiada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [LQ-ADA][lqada] | Sep 12th 2024 17:01:24 UTC | TBA |
@@ -99,7 +96,6 @@ as a showcase:
 | [SHEN-ADA][shenada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [SNEK-ADA][snekada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [WMT-ADA][wmtada] | Sep 12th 2024 17:01:24 UTC | TBA |
-
 
 \*As these are showcase feeds, Orcfax makes no guarantees as to how long they will
 be offered in this capacity; integrators who would like to take advantage of
@@ -126,6 +122,5 @@ contact Vahid, our Chief Business Officer, via [email][email] or
 [shenada]: https://explorer.orcfax.io/feeds/CER/SHEN-ADA/facts/6eeae531-f79d-4076-83d8-6e8a27b94c05
 [snekada]: https://explorer.orcfax.io/feeds/CER/SNEK-ADA/facts/2b320c25-859d-4ca6-a88a-307e2d6b8f27
 [wmtada]: https://explorer.orcfax.io/feeds/CER/WMT-ADA/facts/8ad34386-6be9-4c12-b069-ce2fb38dc681
-
 [email]: vahid@orcfax.io
 [discord]: https://discord.com/invite/UbAeRuNzDu
