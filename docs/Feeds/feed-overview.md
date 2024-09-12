@@ -49,7 +49,6 @@ as a showcase:
 | Feed name | Start Date | End date\* |
 | --------- | ---------- | ---------- |
 | [ADA-BTC][adabtc] | Sep 12th 2024 17:01:24 UTC | TBA |
-| [ADA-USD][adausd] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [BTC-USD][btcusd] | Sep 12th 2024 17:01:24 UTC | TBA |
 
 \*As these are showcase feeds, Orcfax makes no guarantees as to how long they will
@@ -59,7 +58,6 @@ contact Vahid, our Chief Business Officer, via [email][email] or
 [Discord][discord].
 
 [adabtc]: https://explorer.orcfax.io/feeds/CER/ADA-BTC/facts/1003b535-0794-4228-9d6d-917f79ef0f09
-[adausd]: https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/f38091cd-cb8e-447d-8a8b-66d5a3916a47
 [btcusd]: https://explorer.orcfax.io/feeds/CER/BTC-USD/facts/94fa78f2-67d4-4f01-9338-3fe230333da1
 
 ### Feeds derived from DEXes
@@ -87,7 +85,6 @@ as a showcase:
 | [BTN-ADA][btnada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [CERRA-ADA][cerraada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [COPI-ADA][copiada] | Sep 12th 2024 17:01:24 UTC | TBA |
-| [FACT-ADA][factada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [HOSKY-ADA][hoskyada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [HUNT-ADA][huntada] | Sep 12th 2024 17:01:24 UTC | TBA |
 | [INDY-ADA][indyada] | Sep 12th 2024 17:01:24 UTC | TBA |
@@ -112,7 +109,6 @@ contact Vahid, our Chief Business Officer, via [email][email] or
 [btnada]: https://explorer.orcfax.io/feeds/CER/BTN-ADA/facts/aece723e-3406-4b9f-8ee4-6bb4575439bc
 [cerraada]: https://explorer.orcfax.io/feeds/CER/CERRA-ADA/facts/2dd1a457-3da1-4557-9054-66cad03c80d1
 [copiada]: https://explorer.orcfax.io/feeds/CER/COPI-ADA/facts/8eb42060-2548-47ac-862e-dfe41e9146cc
-[factada]: https://explorer.orcfax.io/feeds/CER/FACT-ADA/facts/d8687792-ab69-46d9-b365-264148c425df
 [hoskyada]: https://explorer.orcfax.io/feeds/CER/HOSKY-ADA/facts/f11abcd1-11d5-4f02-b554-1bf8754b70b8
 [huntada]: https://explorer.orcfax.io/feeds/CER/HUNT-ADA/facts/ef83cad7-5bf9-4c12-89ae-4448182ed015
 [indyada]: https://explorer.orcfax.io/feeds/CER/INDY-ADA/facts/435ad6a5-73de-43d0-b407-ffcd128faaa0
