@@ -247,6 +247,7 @@ Which can be deserialized as:
 | ------- | -------------------- | -----------------------------------------------------------|
 | preview | [cexplorer.io][prev] | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` |
 | preprod | n/a                  |                                                            |
-| mainnet | n/a                  |                                                            |
+| mainnet | [cexplorer.io][main] | `8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0` |
 
 [prev]: https://preview.cexplorer.io/script/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
+[main]: https://cexplorer.io/policy/8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0
