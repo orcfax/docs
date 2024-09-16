@@ -60,6 +60,15 @@ is permitted to sign statements. The FS script checks that every statement
 published has a valid signature with respect to this pubkey. The Constitution is
 not utilized by integrators, and plays no further part in this document.
 
+## Examples
+
+[Orcfax-examples][orcfax-examples]
+contains simple demo dApps that illustrate how to integrate Orcfax oracle feeds.
+It also contains helpers for creating your own mock Orcfax-publish
+to facilitate testing.
+
+[orcfax-examples]: https://github.com/orcfax/orcfax-examples
+
 ## Details
 
 ### Steps
@@ -212,7 +221,7 @@ type RationalDatum {
 }
 ```
 
-## Examples
+## Example datum
 
 Some example hex encoded CBOR:
 
@@ -251,10 +260,3 @@ Which can be deserialized as:
 
 [prev]: https://preview.cexplorer.io/script/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
 [main]: https://cexplorer.io/policy/8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0
-
-## Demo dApp integrations
-
-We provide [Orcfax-examples][repo-1] to further illustrate how to integrate; the
-repo contains a couple of simple demo dApps that utilize Orcfax oracle feeds.
-
-[repo-1]: https://github.com/orcfax/orcfax-examples
