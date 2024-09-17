@@ -16,7 +16,7 @@ more publications, driving up the demand for the FACT token. The generated $FACT
 payments are distributed to entities crucial for network operation and security:
 Orcfax Validators and the Orcfax Network.
 
-![Orcfax Economic Model](/img/2024-02--Orcfax-economic-model2.jpg)
+![Orcfax Economic Model](/img/2024-09-17--orcfax-economic-model.png)
 
 Initially, with a relatively low number of consumers and publications after the
 decentralized network launches on mainnet, validators and the Orcfax Network

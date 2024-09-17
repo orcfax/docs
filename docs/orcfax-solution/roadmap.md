@@ -1,5 +1,5 @@
 ---
-id: Roadmap
+id: roadmap
 sidebar_position: 20
 slug: /roadmap
 ---
@@ -16,7 +16,7 @@ represented, their key milestones explained, and we have provided descriptions
 below which illustrate how each fit into our mission to decentralize our oracle
 solution.
 
-![Orcfax roadmap](/img/2024-06--Orcfax-Roadmap.png)
+![Orcfax roadmap](/img/2024-09-17--orcfax-roadmap.png)
 
 ## The stabilization era
 
@@ -187,7 +187,8 @@ that introduce progressively more complex node functionality. Operators can
 expect to start with processes relating to data collection, progressing to
 calculation, validation, and eventually participating in on-chain publication.
 
-More about the testnet can be read in our [ITN](docs/ITN/overview.md) section.
+More about the testnet can be read in our [ITN](itn-overview)
+section.
 
 ## Decentralized era
 
