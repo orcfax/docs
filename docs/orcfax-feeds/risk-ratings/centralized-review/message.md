@@ -1,0 +1,39 @@
+---
+id: centralized-review-3
+sidebar_position: 3
+slug: /centralized-review-message
+---
+
+import CodeBlock from '@theme/CodeBlock';
+import Message from '!!raw-loader!/schema/risk-rating/centralized-review/message.json';
+
+# Message
+
+A description of the types/properties relevant to a
+`message.json`.
+
+Orcfax utilizes the following Schema.org types and properties in its Message
+records. The description provided by [Schema.org][schema-1]
+follows each; if Orcfax maintains a more nuanced understanding, an additional
+definition will be provided. If the term appears in its own definition, it will
+be replaced when possible with a \[synonym\] in order to aid understanding.
+
+[schema-1]: https://schema.org/
+
+## Schema.org Types
+
+| Type     | Schema.org description     | Orcfax description     |
+| -------- | ---------------------------| ---------------------- |
+| -------- | ---------------------------| ---------------------- |
+
+## Schema.org Properties
+
+| Property     | Type     | Schema.org description     | Orcfax definition     |
+| ------------ | -------- | ---------------------------| --------------------- |
+| ------------ | -------- | ---------------------------| --------------------- |
+
+## Message example
+
+<CodeBlock language="jsx">{Message}</CodeBlock>
+
+<a target="_blank" href="/schema/risk-rating/centralized-review/Message.json" download="Message.json">Download</a>
