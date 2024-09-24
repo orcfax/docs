@@ -40,6 +40,18 @@ Types under review for development
 | ------------ | -------- | ---------------------------| --------------------- |
 | ------------ | -------- | ---------------------------| --------------------- |
 
+The values for `bestRating` and `worstRating` are further described in Xerberus
+[docs][x-1].
+
+| Rating | Explanation |
+| ------ | ----------- |
+| AAA - A | Investment Grade |
+| BBB - B | Speculative |
+| CCC - C | Highly Speculative |
+| D | Junk |
+
+[x-1]: https://xerberus.gitbook.io/documentation/apis/risk-ratings/cardano#risk-scores
+
 ## Fact Statement example
 
 <CodeBlock language="jsx">{factStatement}</CodeBlock>
