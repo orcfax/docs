@@ -28,11 +28,13 @@ report on the audit status and outcomes.
 
 ## Milestone 1
 
-Orcfax will leverage best practice and precedence within the Cardano ecosystem
-to identify auditing firms for and request for the Orcfax architecture audit.
+Because Orcfax has divided the audit into two separate deliverables
+(i.e. on-chain and off-chain architecture audits), Orcfax will leverage best
+practice and precedence within the Cardano ecosystem to identify auditing firms
+and request quotes for each.
 
 Once identified, Orcfax will finalize a Contract for Services with the selected
-audit firm.
+audit firms.
 
 ### On-chain
 
@@ -51,13 +53,18 @@ successfully signed a contract for services in August of 2024.
 
 ### Off-chain
 
-Orcfax contacted institutions in order to receive a quote for performing an
-audit of its off-chain components; one of these firms identified several key
-areas which Orcfax can address in house before moving forward with the audit
-in order to minimize costs.
+Orcfax contacted several auditing firms in order to receive quotes for
+performing an audit of its off-chain architecture.
 
-Our team has begun with a off-chain component analysis and will follow this
-review with component hardening.
+Our team has selected [BlinkLabs][m1-4] to go forward with the audit and
+successfully signed a contract for services in September of 2024.
+
+* Announcement on [X][m1-5]
+* Announcement on [Discord][m1-6]
+
+[m1-4]: https://blinklabs.io/
+[m1-5]: https://x.com/orcfax/status/1840374361695404438
+[m1-6]: https://discord.com/channels/918870284331802674/1082742450268942386/1290427915850350642
 
 ## Milestone 2
 
