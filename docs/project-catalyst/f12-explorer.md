@@ -28,8 +28,47 @@ downloads, real-time stats and incident reports.
 
 ## Milestone 1
 
-Orcfax will develop a dashboard page on the Orcfax Explorer that utilizes highly
-informative visualizations to aid users.
+Orcfax developed a dashboard page on the Orcfax Explorer that utilizes highly
+informative visualizations to aid users in sense making. This dashboard
+highlights several new features that were the direct result of this milestone.
+
+What follows is a mapping of <u>what was promised</u> for Milestone 1 to
+the <u>newly integrated explorer features</u>. Links will direct readers to
+additional context and the relevant code enhancements for each.
+
+* Orcfax feed price charts
+  * [Feeds list page][m1-1]
+  * [Feed details page][m1-2]
+  * [Feed price charts][m1-3]
+* State change timelines
+  * [Show calculation details on UI][m1-4]
+* Data provenance
+  * [Display sources][m1-5]
+  * [Show collection details on UI][m1-6]
+  * [Show validation details on UI][m1-7]
+
+These Orcfax Explorer upgrades give users an enhanced ability to verify the
+authenticity and provenance of the collected data. While this information has
+been present within our archival packages from the beginning, these enhancements
+aid users by surfacing the salient archival details and visualizing them in a
+more accessible manner.
+
+For test cases, we have recorded a walkthrough of the [Orcfax Explorer][m1-8]
+so that users can see how the new features work in tandem to deliver an
+incredible explorer experience. This walkthrough also serves as a resource for
+users looking to better understand the upgrades within the context of the
+explorer UI.
+
+[![Explorer walkthrough](https://img.youtube.com/vi/MVLOBT58PlA/0.jpg)](https://youtu.be/At8AoJ6f_zA?feature=shared)
+
+[m1-1]: https://github.com/orcfax/explorer.orcfax.io/issues/10
+[m1-2]: https://github.com/orcfax/explorer.orcfax.io/issues/9
+[m1-3]: https://github.com/orcfax/explorer.orcfax.io/issues/8
+[m1-4]: https://github.com/orcfax/explorer.orcfax.io/issues/4
+[m1-5]: https://github.com/orcfax/explorer.orcfax.io/issues/2
+[m1-6]: https://github.com/orcfax/explorer.orcfax.io/issues/3
+[m1-7]: https://github.com/orcfax/explorer.orcfax.io/issues/5
+[m1-8]: https://explorer.orcfax.io/
 
 ## Milestone 2
 
