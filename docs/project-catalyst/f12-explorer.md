@@ -34,7 +34,7 @@ highlights several new features that were the direct result of this milestone.
 
 What follows is a mapping of <u>what was promised</u> for Milestone 1 to
 the <u>newly integrated explorer features</u>. Links will direct readers to
-additional context and links to the relevant code enhancements for each.
+additional context and the relevant code enhancements for each.
 
 * Orcfax feed price charts
   * [Feeds list page][m1-1]
