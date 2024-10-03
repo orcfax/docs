@@ -41,13 +41,13 @@ additional context and links to the relevant code enhancements for each.
   * [Feed details page][m1-2]
   * [Feed price charts][m1-3]
 * State change timelines
-  * [show calculation details on UI][m1-4]
+  * [Show calculation details on UI][m1-4]
 * Data provenance
   * [Display sources][m1-5]
-  * [show collection details on UI][m1-6]
+  * [Show collection details on UI][m1-6]
   * [Show validation details on UI][m1-7]
 
-These Orcfax Explorer upgrades give users an enhanced ability to to verify the
+These Orcfax Explorer upgrades give users an enhanced ability to verify the
 authenticity and provenance of the collected data. While this information has
 been present within our archival packages from the beginning, these enhancements
 aid users by surfacing the salient archival details and visualizing them in a
