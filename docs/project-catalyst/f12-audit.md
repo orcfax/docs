@@ -46,7 +46,7 @@ successfully signed a contract for services in August of 2024.
 
 <!-- markdownlint-disable MD013 -->
 
-<iframe src="https://drive.google.com/file/d/1aKiyGWJ_mjKF5pcp8JQgdYzo9b5tnll0/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1aKiyGWJ_mjKF5pcp8JQgdYzo9b5tnll0/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <!-- markdownlint-enable MD013 -->
 
@@ -67,7 +67,7 @@ successfully signed a contract for services in September of 2024.
 
 <!-- markdownlint-disable MD013 -->
 
-<iframe src="https://drive.google.com/file/d/105O8V3EtKTEL6f3hu4_sKRNHNm-VK9Wz/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/105O8V3EtKTEL6f3hu4_sKRNHNm-VK9Wz/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <!-- markdownlint-enable MD013 -->
 
