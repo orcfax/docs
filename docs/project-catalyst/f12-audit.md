@@ -44,6 +44,12 @@ performing an audit of its on-chain components.
 Our team has selected [TxPipe][m1-1] to go forward with the audit and
 successfully signed a contract for services in August of 2024.
 
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://drive.google.com/file/d/1aKiyGWJ_mjKF5pcp8JQgdYzo9b5tnll0/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
 * Announcement on [X][m1-2]
 * Announcement on [Discord][m1-3]
 
@@ -58,6 +64,12 @@ performing an audit of its off-chain architecture.
 
 Our team has selected [BlinkLabs][m1-4] to go forward with the audit and
 successfully signed a contract for services in September of 2024.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://drive.google.com/file/d/105O8V3EtKTEL6f3hu4_sKRNHNm-VK9Wz/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
 
 * Announcement on [X][m1-5]
 * Announcement on [Discord][m1-6]
