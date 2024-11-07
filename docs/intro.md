@@ -1,47 +1,57 @@
 ---
+id: Introduction
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Orcfax is a decentralized **[oracle][oracle-1]** service
+designed to publish data about real world events to the
+**[Cardano][cardano-1]** blockchain. Orcfax data is made available to on-chain
+**[smart contracts][smart-1]** in Cardano's eUTXO native format using the
+Orcfax Protocol.
 
-## Getting Started
+Orcfax collects and validates facts about
+the real world using multiple redundant nodes that are run as a decentralized
+network. Just as importantly, Orcfax archives standards-compliant audit log
+packages for the entire oracle publication workflow. This allows Orcfax users to
+"trust but verify" that Orcfax is delivering authentic and accurate data.
 
-Get started by **creating a new site**.
+The Orcfax solution has launched by offering current exchange rate feeds but
+will expand to report on diverse types of other real-world facts as oracle use
+cases, and their importance beyond blockchain domains, becomes more important to
+society at large.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+[oracle-1]: oracle-basics#what-is-an-oracle
+[cardano-1]: https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc
+[smart-1]: oracle-basics#what-is-a-smart-contract
 
-### What you'll need
+## Getting started
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Check our developer manual for instructions on how to:
 
-## Generate a new site
+1. **[Consume Orcfax data](consume)**: Get your Cardano dApps, smart contracts,
+and scripts consuming data from Orcfax oracle feeds.
 
-Generate a new Docusaurus site using the **classic template**.
+1. **[Verify Orcfax data](verify)**: Using our unique auditing and archiving
+features, you can verify the authenticity and accuracy of every fact statement
+published by Orcfax, including its source data and validation history.
 
-The classic template will automatically be added to your project after you run the command:
+## Learn more
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+The **[Solution Overview](solution-overview)** section provides a high level
+description of the Orcfax technical architecture and its primary components.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Learn more about the **[tokenomics](tokenomics)** and
+**[utility](utility-token)** of the Orcfax service's native FACT token.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Read our [FAQ](oracle-basics) sections to answer any further questions you may
+have about Orcfax or oracles in general.
 
-## Start your site
+You can subscribe to our content on **[Medium][med-1]** to stay up to date on
+new developments and join our **[Discord][Discord-1]** to engage directly
+with Orcfax team members.
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+[med-1]: https://medium.com/@orcfax
+[Discord-1]: https://dsc.gg/orcfax
