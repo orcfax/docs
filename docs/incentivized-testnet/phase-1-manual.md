@@ -25,3 +25,192 @@ minimum requirements:
 
 -   2GB of RAM
 -   A single CPU
+
+### Logging issues
+
+ITN Phase 1 will use a GitHub repository to record issues. You can use this with
+a GitHub account if you have one. You can also send issues to Orcfax via the
+support channels in Discord we will then transpose them to the GitHub Issues for
+the benefit of the Orcfax community.
+
+> NB. the more visible it is that the Orcfax Network is healthy, which includes
+> participation of individuals via GitHub, the better able the network is able
+> to attract and generate revenue, and importantly, provide the best oracle
+> service it can.
+
+### Aliasing your signing key
+
+TODO: ADD LINK HERE (or COPY FROM DOC INTO MARKDOWN)
+
+### Software and setup
+
+There are three components needed for Phase 1 of the ITN. You will need the
+latest versions of each.
+
+-   [collector-node][collector-1]
+-   [cex collector (gofer)][collector-2]
+-   [cer-feeds.json][collector-3]
+
+[collector-1]: https://github.com/orcfax/collector-node/releases
+[collector-2]: https://github.com/orcfax/oracle-suite/releases
+[collector-3]:
+    https://raw.githubusercontent.com/orcfax/cer-feeds/refs/tags/2024.10.30.0001/feeds/mainnet/cer-feeds.json
+
+> KEEPING UP TO DATE: There needs to be some flexibility in the versions of
+> software being run on a decentralized network. That being said, Orcfax will
+> coordinate with ITN partipants to provide them the most up to date information
+> about maintaining their setup and if versions can or need to be upgraded. This
+> page will also be added to as required.
+
+#### Collector node
+
+The latest release of the collector node needs to be installed in a Python
+virtual environment and will be configured to run via cron.
+
+#### Installing in a virtual environment
+
+Assume we download the Python Wheel (\*.whl)
+`collector_node-2.0.0a11-py3-none-any.whl`. The software can be installed with:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install collector_node-2.0.0a11-py3-none-any.whl
+```
+
+> STAYING INFORMED: Take the time to look through the different repositories and
+> their README files to fully understand the software you're running as part of
+> the Orcfax Network.
+
+#### CEX collector (gofer)
+
+Gofer was originally published by [Chronicle-Labs][chronicle-1] and has been
+modified to publish data according to Orcfax's data standard.
+
+[chronicle-1]: https://chroniclelabs.org/
+
+There are multiple releases available, it is likely you will want the
+`gofer_0.4.0_Linux_x86_64` release. When you download this you will need to give
+it executable permissions, i.e. `chmod +x /path/to/gofer`.
+
+##### node-identity.json
+
+A node-identity file will need to be created. The quickest way to do this is to
+run gofer standalone:
+
+```sh
+./gofer data ADA/USD -o orcfax
+```
+
+> NB. you can prettify this data using tools such as [jq][jq-1], e.g. with the
+> command:
+
+```sh
+./gofer data ADA/USD -o orcfax | jq
+```
+
+[jq-1]: https://jqlang.github.io/jq/
+
+The identity file will be output to `/tmp/.node-identity.json` and will be
+referenced in the cron job described below.
+
+#### cer-feeds.json
+
+`cer-feeds.json` is used by Orcfax to coordinate publication. It contains a list
+of CEX and DEX feeds that we publish. DEX publication will not be triggered in
+Phase 1.
+
+### Signing key
+
+Information has been provided about the signing key and signing key aliasing
+protocol, for completeness, you should create your signing key as follows:
+
+<!--markdownlint-disable-->
+
+1. Create verification and signing key pair
+
+```sh
+cardano-cli address key-gen \
+ --verification-key-file payment.vkey \
+ --signing-key-file payment.skey
+```
+
+2. Create address
+
+```sh
+cardano-cli address build \
+ --payment-verification-key-file payment.vkey \
+ --out-file payment.addr \
+ --mainnet
+```
+
+3. Calculate the verification key hash
+
+```sh
+cardano-cli address key-hash \
+  --payment-verification-key-file payment.vkey \
+  --out-file payment.hash
+```
+
+<!--markdownlint-enable-->
+
+You will use a path to your payment.skey in the cron job described below.
+
+### Directory layout
+
+There are different ways to organize the collector code. Orcfax uses a number of
+directories internally, e.g. for the collector, gofer, and signing-key.
+
+```text
+├── collector
+│   └── venv
+├── gofer/
+    └── gofer
+├── signing-key
+    └── payment.skey
+```
+
+These could all be in one directory, e.g.
+
+```text
+.orcfax
+└── collector
+    ├── gofer
+    ├── payment.skey
+    └── venv
+```
+
+And they will be pointed at in the cron job described below. The contents of the
+payment.hash file will be used to alias the wallet in which you hold the Orcfax
+Validator License.
+
+### Cron
+
+Cron is used to schedule collection. The collector uses a number of environment
+variables, and can be configured inside the cron runner. Cron is configured to
+ask for data every minute. The config look as follows:
+
+<!--markdownlint-disable-->
+
+```cron
+ORCFAX_VALIDATOR=
+NODE_IDENTITY_LOC=
+NODE_SIGNING_KEY=
+GOFER=
+
+* * * * * /path/to/collector-node --feeds /path/to/cer-feeds.json 2>&1 | logger -t orcfax_collector
+```
+
+An example that assumes an user called `orcfax` with a virtual environment
+configured to run the Python-based code:
+
+```cron
+ORCFAX_VALIDATOR=wss://itn.0.orcfax.io/ws/node
+NODE_IDENTITY_LOC=/tmp/.node-identity.json
+NODE_SIGNING_KEY=/home/orcfax/signing-key/payment.skey
+GOFER=/home/orcfax/gofer/gofer
+
+* * * * * /home/orcfax/collector/venv/bin/collector-node --feeds /home/orcfax/collector/cer-feeds.json 2>&1 | logger -t orcfax_collector
+```
+
+<!--markdownlint-enable-->
