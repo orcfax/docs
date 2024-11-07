@@ -168,7 +168,7 @@ total $FACT supply allocated to ISPO participants. This allocation had a cliff
 date of 6 months after the start of the ISPO and a 6 month vesting period.
 
 [ispo-1]: https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf
-[ispo-2]: https://docs.orcfax.io/assets/files/2023-07-07--Orcfax-ISPO-reflection-0212f8cd59e995f75fc8d5c0ad2625e7.pdf
+[ispo-2]: /files/2023-07-07--Orcfax-ISPO-reflection.pdf
 
 ## Yield Farming APY
 
