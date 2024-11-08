@@ -1,7 +1,5 @@
 {
     "label": "Orcfax solution",
     "position": 2,
-    "link": {
-        "type": "generated-index"
-    }
+    "link": null
 }

@@ -1,6 +1,6 @@
 ---
 id: glossary
-sidebar_position: 0
+sidebar_position: 999
 slug: /glossary
 pagination_prev: null
 ---

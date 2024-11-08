@@ -109,7 +109,7 @@ const config: Config = {
                         },
                         {
                             label: "FAQ",
-                            to: "/category/faq",
+                            to: "/faq",
                         },
                     ],
                 },
