@@ -85,6 +85,7 @@ const config: Config = {
                     label: "Status",
                 },
             ],
+            hideOnScroll: true,
         },
         footer: {
             logo: {
@@ -157,6 +158,9 @@ const config: Config = {
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Orcfax Ltd.`,
+        },
+        colorMode: {
+            respectPrefersColorScheme: true,
         },
         prism: {
             theme: prismThemes.github,
