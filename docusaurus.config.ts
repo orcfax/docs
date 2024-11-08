@@ -25,8 +25,9 @@ const config: Config = {
     // ending .github.io.
     deploymentBranch: "d2mightysaurus",
 
-    onBrokenLinks: "warn",
-    onBrokenMarkdownLinks: "warn",
+    onBrokenLinks: "throw",
+    onBrokenAnchors: "throw",
+    onBrokenMarkdownLinks: "throw",
     trailingSlash: false,
 
     i18n: {
