@@ -40,20 +40,20 @@ a {
 .navbar {
     --ifm-navbar-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
 
-    .navbar__logo {
-        height: 3rem;
-    }
+.navbar__title {
+    font-family: Mulish, sans-serif;
+    margin-left: -0.4rem;
+    font-size: 1.6rem;
+}
 
-    .navbar__title {
-        font-family: Mulish, sans-serif;
-        margin-left: -0.4rem;
-        font-size: 1.6rem;
-    }
+a.navbar__item.navbar__link:hover {
+    text-decoration: underline;
+}
 
-    a.navbar__item.navbar__link:hover {
-        text-decoration: underline;
-    }
+.navbar__logo {
+    height: 3rem;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
