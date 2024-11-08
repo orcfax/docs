@@ -7,6 +7,11 @@ import { themes as prismThemes } from "prism-react-renderer";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+    markdown: {
+        mermaid: true,
+    },
+    themes: ["@docusaurus/theme-mermaid"],
+
     title: "Orcfax",
     tagline: "Trustworthy Cardano Oracle",
     url: "https://orcfax.github.io",
@@ -22,7 +27,6 @@ const config: Config = {
 
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
-
     trailingSlash: false,
 
     i18n: {
