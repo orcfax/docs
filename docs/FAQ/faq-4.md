@@ -13,8 +13,7 @@ have made design choices which we hope allows a broader range of participation
 within the network, it is still important to be aware of what will be required
 technically from those who choose to participate.
 
-information regarding technical requirements can be found in
-[Node operation](technical-requirements).
+information regarding technical requirements can be found [here](itn-overview#technical-requirements).
 
 ## Phase 1 is federated, what does that mean?
 

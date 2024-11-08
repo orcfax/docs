@@ -23,7 +23,7 @@ will expand to report on diverse types of other real-world facts as oracle use
 cases, and their importance beyond blockchain domains, becomes more important to
 society at large.
 
-[oracle-1]: oracle-basics#what-is-an-oracle
+[oracle-1]: oracle-basics#what-is-a-blockchain-oracle
 [cardano-1]: https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc
 [smart-1]: oracle-basics#what-is-a-smart-contract
 
@@ -32,11 +32,11 @@ society at large.
 Check our developer manual for instructions on how to:
 
 1. **[Consume Orcfax data](consume)**: Get your Cardano dApps, smart contracts,
-and scripts consuming data from Orcfax oracle feeds.
+   and scripts consuming data from Orcfax oracle feeds.
 
 1. **[Verify Orcfax data](verify)**: Using our unique auditing and archiving
-features, you can verify the authenticity and accuracy of every fact statement
-published by Orcfax, including its source data and validation history.
+   features, you can verify the authenticity and accuracy of every fact statement
+   published by Orcfax, including its source data and validation history.
 
 ## Learn more
 

@@ -59,16 +59,16 @@ because the execution of smart contract logic can have significant economic
 and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
->Example:
+> Example:
 >
->* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
->smart contract.
->* The final score in a sports event may trigger a payout in a betting dApp
->smart contract.
->* An extreme weather event may trigger a payout for a crop insurance smart
->contract.
->* The words spoken in a political speech and authenticated via blockchain
->notarization may trigger policy changes.
+> -   A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
+>     smart contract.
+> -   The final score in a sports event may trigger a payout in a betting dApp
+>     smart contract.
+> -   An extreme weather event may trigger a payout for a crop insurance smart
+>     contract.
+> -   The words spoken in a political speech and authenticated via blockchain
+>     notarization may trigger policy changes.
 
 ## What is the oracle problem?
 
@@ -101,8 +101,8 @@ source data before it is published on-chain.
 
 Unfortunately, most current implementations do not go this far. Instead they
 often receive data from a single, black box provider. They then might use an
-oracle pool to arrive at a consensus about the *uniformity* of that data and
-not necessarily about its *authenticity* or *accuracy*.
+oracle pool to arrive at a consensus about the _uniformity_ of that data and
+not necessarily about its _authenticity_ or _accuracy_.
 
 Orcfax has been, and continues to be, intentionally designed to addresses
 the multiple layers of the oracle problem and to do so in a more comprehensive

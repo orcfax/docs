@@ -17,6 +17,7 @@ const config: Config = {
     url: "https://orcfax.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
+    staticDirectories: ["static"],
 
     // GitHub pages deployment config.
     organizationName: "orcfax",
@@ -70,7 +71,7 @@ const config: Config = {
             logo: {
                 alt: "Orcfax Logo",
                 src: "img/orcfax_logo.png",
-                href: "https://orcfax.io",
+                href: "/",
                 target: "_blank",
             },
             items: [
@@ -110,7 +111,7 @@ const config: Config = {
                         },
                         {
                             label: "FAQ",
-                            to: "/faq",
+                            to: "/oracle-basics",
                         },
                     ],
                 },

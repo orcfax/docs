@@ -152,7 +152,7 @@ community. The basic principle is that ADA delegators forgo their ADA staking
 rewards each epoch in return for a proportionate share of a project’s token.
 
 The Orcfax ISPO started on March 15th 2023, within Cardano’s
-[400th epoch][ispo-1]. The Orcfax [reflection][ispo-2] on the process was made
+[400th epoch][ispo-1]. The Orcfax [reflection](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) on the process was made
 available to the public on July 7th, 2023.
 
 As the ISPO approached its saturation point in epoch 405, Orcfax closed the pool
@@ -168,7 +168,6 @@ total $FACT supply allocated to ISPO participants. This allocation had a cliff
 date of 6 months after the start of the ISPO and a 6 month vesting period.
 
 [ispo-1]: https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf
-[ispo-2]: /files/2023-07-07--Orcfax-ISPO-reflection.pdf
 
 ## Yield Farming APY
 

@@ -59,7 +59,7 @@ from the implementation of v0.
 ### Policy details
 
 Links and information pertaining to policy IDs and smart contract addresses can
-be found in [Policies](policies).
+be found in [Protocol Deployments](deployments#v0).
 
 ### In use
 
@@ -71,11 +71,11 @@ those sent by others to the same address.
 Users were required to use the following information to identify the latest
 Facts published.
 
-* Minting policy ID.
-* Datum format, including:
-  * Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
-  largest POSIX timestamp compared to other Fact Statement datum,
-  * Feed name, e.g. "ADA-USD".
+-   Minting policy ID.
+-   Datum format, including:
+    -   Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
+        largest POSIX timestamp compared to other Fact Statement datum,
+    -   Feed name, e.g. "ADA-USD".
 
 > Note: Users on preprod will find a volume of test data that was not ever
 > retired as Orcfax previously used this space as a testing sandbox.
@@ -187,12 +187,12 @@ portion:
                         ]
 ```
 
-The first ```“fields”``` (we’ll call it f1) conveys ADA-USD, the second (f2)
+The first `“fields”` (we’ll call it f1) conveys ADA-USD, the second (f2)
 conveys USD-ADA. Within each of these, the first int (we'll call it int1)
 represents a price pair.
 
 With this in mind, f1, int1 gives the ADA-USD price as an integer (2540017902),
-and the second (f1, int2) gives the number of decimals as ```longint```
+and the second (f1, int2) gives the number of decimals as `longint`
 (1.8446744073709552e+19).
 
 The same is true for f2, int1 which gives the price pair for USD-ADA as an
