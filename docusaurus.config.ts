@@ -61,27 +61,101 @@ const config: Config = {
         // Replace with your project's social card
         image: "img/docusaurus-social-card.jpg",
         navbar: {
+            title: "Orcfax",
             logo: {
                 alt: "Orcfax Logo",
-                src: "img/orcfax-logo-horizontal.png",
-                href: "/",
+                src: "img/orcfax_logo.png",
+                href: "https://orcfax.io",
+                target: "_blank",
             },
             items: [
                 {
-                    to: "https://orcfax.io",
+                    href: "https://orcfax.io",
                     position: "right",
                     label: "Home",
                 },
                 {
-                    to: "https://explorer.orcfax.io",
+                    href: "https://explorer.orcfax.io",
                     position: "right",
                     label: "Explorer",
+                },
+                {
+                    href: "https://status.orcfax.io",
+                    position: "right",
+                    label: "Status",
                 },
             ],
         },
         footer: {
-            style: "dark",
-            links: [],
+            logo: {
+                alt: "Orcfax Logo",
+                src: "img/orcfax_logo.png",
+                href: "https://orcfax.io",
+                height: 100,
+                width: 100,
+            },
+            links: [
+                {
+                    title: "Docs",
+                    items: [
+                        {
+                            label: "Introduction",
+                            to: "/",
+                        },
+                        {
+                            label: "FAQ",
+                            to: "/category/faq",
+                        },
+                    ],
+                },
+                {
+                    title: "Orcfax",
+                    items: [
+                        {
+                            label: "Home",
+                            href: "https://orcfax.io",
+                        },
+                        {
+                            label: "Explorer",
+                            href: "https://explorer.orcfax.io",
+                        },
+                        {
+                            label: "Status",
+                            href: "https://status.orcfax.io",
+                        },
+                    ],
+                },
+                {
+                    title: "Community",
+                    items: [
+                        {
+                            label: "Discord",
+                            href: "https://discord.com/invite/UbAeRuNzDu",
+                        },
+                        {
+                            label: "X",
+                            href: "https://x.com/orcfax",
+                        },
+                        {
+                            label: "Medium",
+                            href: "https://medium.com/@orcfax",
+                        },
+                        {
+                            label: "Github",
+                            href: "https://github.com/orcfax",
+                        },
+                    ],
+                },
+                {
+                    title: "Legal",
+                    items: [
+                        {
+                            label: "Terms of Service",
+                            to: "/terms-of-service",
+                        },
+                    ],
+                },
+            ],
             copyright: `Copyright © ${new Date().getFullYear()} Orcfax Ltd.`,
         },
         prism: {
