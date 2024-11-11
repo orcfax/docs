@@ -14,8 +14,8 @@ Validators will now be able to collect the on-chain data from Cardano DEXes,
 which underpin Orcfax CNT feeds, and will do so by leveraging their own instance
 of a cardano node.
 
-Validators will continue to send all data to the Orcfax federated validator
-and publisher.
+Validators will continue to send all data to the Orcfax federated validator and
+publisher.
 
 ### Hardware and infrastructure
 
@@ -34,8 +34,8 @@ until post-ITN -->
 
 However, participants should anticipate that these requirements will change as
 development, and ITN phases, progress. For this reason, participants should
-consult our [Technical Requirements](itn-overview#technical-requirements) where we
-will update the requirements as development progresses.
+consult our [Technical Requirements](itn-overview#technical-requirements) where
+we will update the requirements as development progresses.
 
 ### Software requirements
 

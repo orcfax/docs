@@ -6,19 +6,21 @@ slug: /orcfax-ispo
 
 # The Orcfax ISPO
 
-Orcfax launched its Initial Stake Pool Offering (ISPO) in
-the Cardano blockchain's 400th epoch. An ISPO is a fund-raising mechanism that
-is popular within the Cardano blockchain community. The basic principle is that
-ADA delegators forgo their ADA staking rewards each epoch (5 days) in return
-for a proportionate share of a particular Cardano native token. In Orcfax's
-case that is $FACT, the utility token used for publication fees, staking,
-rewards, and voting within the Orcfax DAO.
+Orcfax launched its Initial Stake Pool Offering (ISPO) in the Cardano
+blockchain's 400th epoch. An ISPO is a fund-raising mechanism that is popular
+within the Cardano blockchain community. The basic principle is that ADA
+delegators forgo their ADA staking rewards each epoch (5 days) in return for a
+proportionate share of a particular Cardano native token. In Orcfax's case that
+is $FACT, the utility token used for publication fees, staking, rewards, and
+voting within the Orcfax DAO.
 
-The Orcfax ISPO successfully concluded in epoch 413, and the Orcfax pool
-retired in epoch 424. To conclude this phase, Orcfax published both an ISPO
-[Retrospective](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) and a [dashboard][ispo-2] breaking down the ISPO.
+The Orcfax ISPO successfully concluded in epoch 413, and the Orcfax pool retired
+in epoch 424. To conclude this phase, Orcfax published both an ISPO
+[Retrospective](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) and a
+[dashboard][ispo-2] breaking down the ISPO.
 
-[ispo-2]: https://public.tableau.com/app/profile/christian.koch3382/viz/OrcfaxISPO--Vis/OrcfaxISPOBreakdown
+[ispo-2]:
+    https://public.tableau.com/app/profile/christian.koch3382/viz/OrcfaxISPO--Vis/OrcfaxISPOBreakdown
 
 ## How did reward distribution work?
 
@@ -31,9 +33,9 @@ stake address used during the ISPO.
 
 ## How can I calculate my rewards?
 
-Participants can use the Orcfax Rewards
-[Calculator][calc-1] to check the rewards earned by participating in the ISPO.
-Simply enter the stake address used during the ISPO campaign.
+Participants can use the Orcfax Rewards [Calculator][calc-1] to check the
+rewards earned by participating in the ISPO. Simply enter the stake address used
+during the ISPO campaign.
 
 [calc-1]: https://rewards.orcfax.io/
 

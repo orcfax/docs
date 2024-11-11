@@ -5,9 +5,10 @@ slug: /what-is-a-smart-contract
 ---
 
 # What is a smart contract?
+
 Smart contracts are software programs that execute conditional logic on
-next-generation blockchains like Cardano  (e.g. when event X happens, trigger
-action Y).  Because their source code is immutably stored and run on
+next-generation blockchains like Cardano (e.g. when event X happens, trigger
+action Y). Because their source code is immutably stored and run on
 decentralized blockchain networks, they constrain the range of permissible user
 actions and their effects.
 
@@ -26,15 +27,17 @@ small group of oracle service providers.
 
 This is because almost all smart contracts need reliable real-world facts to
 serve as inputs to their application logic. This data must be "trustworthy"
-because the execution of smart contract logic can have significant economic
-and social consequences. Especially considering that the consequences of a
+because the execution of smart contract logic can have significant economic and
+social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
 For example:
-* A change in the Bitcoin to ADA price may trigger a limit order in a DeFi smart
-contract.
-* The final score in a sports event may trigger a payout in a betting dApp smart
-contract.
-* An extreme weather event may trigger a payout for a crop insurance smart contract.
-* The words spoken in a political speech and authenticated via blockchain
-notarization may trigger policy changes or protests.
+
+-   A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
+    smart contract.
+-   The final score in a sports event may trigger a payout in a betting dApp
+    smart contract.
+-   An extreme weather event may trigger a payout for a crop insurance smart
+    contract.
+-   The words spoken in a political speech and authenticated via blockchain
+    notarization may trigger policy changes or protests.

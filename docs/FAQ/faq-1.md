@@ -18,13 +18,14 @@ knowledge from the gods to the mortals.
 
 ![The oracle at Delphi](/img/oracle-of-delphi-bw.png)
 
-Software oracles process information from online sources such as website
-content and open datasets but mostly from server-based application programming
+Software oracles process information from online sources such as website content
+and open datasets but mostly from server-based application programming
 interfaces (API). These are the most common types of oracles and are used by
 algorithmic stablecoins or automated market maker (AMM) exchanges to monitor for
 changes in currency exchange rates.
 
-See [this article](https://cointelegraph.com/learn/what-is-a-blockchain-oracle-and-how-does-it-work)
+See
+[this article](https://cointelegraph.com/learn/what-is-a-blockchain-oracle-and-how-does-it-work)
 for some further information about oracles and their role in blockchain networks
 .
 
@@ -49,14 +50,14 @@ accurate, and secure without reliance on a trusted third-party to verify the
 information.
 
 Smart contracts are the key enabler for the explosion of the trillion-dollar
-DeFi industry. What most people don't realize however, is that the vast
-majority of smart contracts are critically dependent on off-chain data
-provided by a very small group of oracle service providers.
+DeFi industry. What most people don't realize however, is that the vast majority
+of smart contracts are critically dependent on off-chain data provided by a very
+small group of oracle service providers.
 
 This is because almost all smart contracts need reliable real-world facts to
 serve as inputs to their application logic. This data must be "trustworthy"
-because the execution of smart contract logic can have significant economic
-and social consequences. Especially considering that the consequences of a
+because the execution of smart contract logic can have significant economic and
+social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
 
 > Example:
@@ -72,14 +73,14 @@ blockchain transaction are irreversible by their very design.
 
 ## What is the oracle problem?
 
-The blockchain industry uses the "oracle problem" to refer to the various
-issues related to ensuring that on-chain smart contracts can trust real world
-data inputs to be authentic and accurate.
+The blockchain industry uses the "oracle problem" to refer to the various issues
+related to ensuring that on-chain smart contracts can trust real world data
+inputs to be authentic and accurate.
 
-The DeFi industry is critically dependent on real-world data
-provided by oracles. However, oracle engineering is still in an early stage.
-There are still many opportunities to introduce false data about real-world
-events into oracle data collection, validation and publication pipelines.
+The DeFi industry is critically dependent on real-world data provided by
+oracles. However, oracle engineering is still in an early stage. There are still
+many opportunities to introduce false data about real-world events into oracle
+data collection, validation and publication pipelines.
 
 This is a very lucrative attack vector for bad actors as introducing false
 oracle data can trigger large financial payouts from smart contract scripts.
@@ -87,11 +88,10 @@ Unfortunately, there are significant challenges to preventing a so-called
 "man-in-the-middle" attack and proving that external real-world data introduced
 to smart contracts can be trusted to be authentic and accurate.
 
-Most oracle providers provide little to no traceability on how their
-published, on-chain data is collected and validated to be authentic and
-accurate. Their users simply see a data point appear on chain. The
-context of creation and use is provided by the on-chain transaction, not the
-oracle datum itself.
+Most oracle providers provide little to no traceability on how their published,
+on-chain data is collected and validated to be authentic and accurate. Their
+users simply see a data point appear on chain. The context of creation and use
+is provided by the on-chain transaction, not the oracle datum itself.
 
 Most leading oracle platforms are beginning to implement some form of
 decentralized oracle pools as another technique to address the oracle problem.
@@ -101,19 +101,19 @@ source data before it is published on-chain.
 
 Unfortunately, most current implementations do not go this far. Instead they
 often receive data from a single, black box provider. They then might use an
-oracle pool to arrive at a consensus about the _uniformity_ of that data and
-not necessarily about its _authenticity_ or _accuracy_.
+oracle pool to arrive at a consensus about the _uniformity_ of that data and not
+necessarily about its _authenticity_ or _accuracy_.
 
-Orcfax has been, and continues to be, intentionally designed to addresses
-the multiple layers of the oracle problem and to do so in a more comprehensive
-way than eny other oracle service.
+Orcfax has been, and continues to be, intentionally designed to addresses the
+multiple layers of the oracle problem and to do so in a more comprehensive way
+than eny other oracle service.
 
 ## What is the real world?
 
 As a research-driven project, Orcfax adopts symbol grounding from cognitive
 science along with space-time perspective from physics to first define the
-components of the real world and then map these to the applicable standards
-that best describe them.
+components of the real world and then map these to the applicable standards that
+best describe them.
 
 Space-time is a conceptual model at the root of the Theory of Relativity that
 combines three dimensions of space with one dimension of time. Anything that
@@ -133,8 +133,8 @@ Truths can be interpretive, opinionated, exclusionary, contextual or personal
 
 ![Facts lead to truths](/img/2023-09-05--Orcfax--The-Nature-Of-Facts.png)
 
-Fact statements are more definitive
-(e.g."the name of this image file is what-is-true.png"). Orcfax publishes Fact
-Statements about the real world to the Cardano blockchain.
+Fact statements are more definitive (e.g."the name of this image file is
+what-is-true.png"). Orcfax publishes Fact Statements about the real world to the
+Cardano blockchain.
 
 ![The nature of facts](/img/2023-09-06--Orcfax--Nature-of-Facts.png)

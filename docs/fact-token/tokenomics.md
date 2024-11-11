@@ -17,7 +17,8 @@ coin tracking sites like [CoinGecko][listing-1] and [CoinMarketCap][listing-2].
 [policyid-1]: https://pool.pm/asset1kuwfd0esf9xcxurp2x4f9w65lvz4tkfw5epugq
 [listing-1]: https://www.coingecko.com/en/coins/orcfax
 [listing-2]: https://coinmarketcap.com/currencies/orcfax/
-[dex-1]: https://www.taptools.io/charts/token?pairID=026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570.2b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604
+[dex-1]:
+    https://www.taptools.io/charts/token?pairID=026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570.2b4e632bf755fe5e33309a47216aa396106641edd056423e2ef2a08ce30bb604
 
 ## Token distribution
 
@@ -41,8 +42,8 @@ community can monitor activity within these wallets.
 
 As mentioned previously, each of the nine $FACT allocations has rules governing
 how and when their supply of $FACT can be utilized. The vesting schedule
-provided in table above clearly presents the total $FACT allocation for each
-ADA Handle, the cliff date, and when that supply is made available to the
+provided in table above clearly presents the total $FACT allocation for each ADA
+Handle, the cliff date, and when that supply is made available to the
 allocation.
 
 ![FACT tokenomics table](/img/2023-09-02--FACT-tokenomics-table.png)
@@ -132,7 +133,8 @@ achieving this goal. That's why we decided not to sell any FACT tokens via VC,
 seed, or private sale rounds. We believe this has resulted in a more fair
 distribution of our token among our community.
 
-[launch-1]: https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379
+[launch-1]:
+    https://medium.com/@orcfax/orcfax-token-launch-in-collaboration-with-wingriders-launchpad-39d63da2b379
 
 ## Token foundation
 
@@ -151,9 +153,10 @@ Offering (ISPO). An ISPO is a mechanism popular within the Cardano blockchain
 community. The basic principle is that ADA delegators forgo their ADA staking
 rewards each epoch in return for a proportionate share of a project's token.
 
-The Orcfax ISPO started on March 15th 2023, within Cardano's
-[400th epoch][ispo-1]. The Orcfax [reflection](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) on the process was made
-available to the public on July 7th, 2023.
+The Orcfax ISPO started on March 15th 2023, within Cardano's [400th
+epoch][ispo-1]. The Orcfax
+[reflection](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) on the process was
+made available to the public on July 7th, 2023.
 
 As the ISPO approached its saturation point in epoch 405, Orcfax closed the pool
 for new delegators, and the ISPO came to a close in epoch 413. The speed at

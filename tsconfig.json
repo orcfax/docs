@@ -3,6 +3,6 @@
     // @ts-ignore
     "extends": "@docusaurus/tsconfig",
     "compilerOptions": {
-        "baseUrl": ".",
-    },
+        "baseUrl": "."
+    }
 }

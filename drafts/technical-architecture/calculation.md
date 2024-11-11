@@ -5,6 +5,7 @@ slug: /Data calculation
 ---
 
 # Data calculation
+
 <br/>
 The process of triangulation, introduced in the Collection phase, and the
 process of normalization enables the critical step of Calculation.<br/>

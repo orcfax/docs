@@ -5,4 +5,5 @@ slug: /glossary-oracle
 ---
 
 # oracle
+
 ## Definition

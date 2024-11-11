@@ -17,16 +17,16 @@ protocol. The hashes can be used to navigate Orcfax Fact Statements and archival
 packages on Cardano and Arweave blockchains.
 
 This document serves as a reference for historical access to Orcfax data.
-Integrators should consult the [integrator docs][consume] for an explanation
-an the role of different scripts used in the protocol and how to correctly use
-the Orcfax protocol.
+Integrators should consult the [integrator docs][consume] for an explanation an
+the role of different scripts used in the protocol and how to correctly use the
+Orcfax protocol.
 
 ## v1
 
 Orcfax v1 introduces the FSP (FactStatementPointer) script. The FSP will not
-change in the lifetime of a deployment. The FSP is used to record the current
-FS (FactStatement) script hash. The FSP, FS, and C (Constitution) script
-hashes are documented below for each v1 deployment.
+change in the lifetime of a deployment. The FSP is used to record the current FS
+(FactStatement) script hash. The FSP, FS, and C (Constitution) script hashes are
+documented below for each v1 deployment.
 
 ### v1: Mainnet
 
@@ -84,8 +84,8 @@ Orcfax V0 used a series of scripts built in collaboration with MLabs, the
 protocol itself was called the Cardano Open Oracle Protocol (COOP). For more
 information on the scripts used please consult the MLabs [source][coop].
 
-V0 used a legacy datum format, see [archived docs][archive-1] for how
-to interpret the data published on-chain using this version.
+V0 used a legacy datum format, see [archived docs][archive-1] for how to
+interpret the data published on-chain using this version.
 
 For brevity, only the primary script hash used for publication using COOP is
 listed below.
@@ -108,7 +108,11 @@ listed below.
 [archive-1]: archived-docs#in-use
 [consume]: ./consume.md
 [coop]: https://github.com/mlabs-haskell/cardano-open-oracle-protocol
-[arweave-mainnet]: https://arscan.io/address/JPsW_QzlLTrCdK-m8iOhSsV8fTiC0vAoxD9SIQUqzLI
-[arweave-preview]: https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
-[arweave-mainnet-v0]: https://arscan.io/address/Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ
-[cexplorer-primary-script]: https://cexplorer.io/policy/2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b
+[arweave-mainnet]:
+    https://arscan.io/address/JPsW_QzlLTrCdK-m8iOhSsV8fTiC0vAoxD9SIQUqzLI
+[arweave-preview]:
+    https://arscan.io/address/6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs
+[arweave-mainnet-v0]:
+    https://arscan.io/address/Our6d4__QbpvIWDz2GTbnKdyunVcrLSA2OfFxJpXdzQ
+[cexplorer-primary-script]:
+    https://cexplorer.io/policy/2cccc05192920ff1eb02bcfa7bb2a1fc5352ce58391d7ba3c66a555b

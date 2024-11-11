@@ -12,7 +12,8 @@ This page will provide documentation pertaining to the execution of the proposal
 and links to each of the deliverables required for their respective Milestones.
 The full Catalyst proposal can be found [here][cat-1].
 
-[cat-1]: https://projectcatalyst.io/funds/12/f12-cardano-use-cases-product/orcfax-explorer-improving-trust-but-verify
+[cat-1]:
+    https://projectcatalyst.io/funds/12/f12-cardano-use-cases-product/orcfax-explorer-improving-trust-but-verify
 
 ## Problem statement
 
@@ -32,20 +33,20 @@ Orcfax developed a dashboard page on the Orcfax Explorer that utilizes highly
 informative visualizations to aid users in sense making. This dashboard
 highlights several new features that were the direct result of this milestone.
 
-What follows is a mapping of <u>what was promised</u> for Milestone 1 to
-the <u>newly integrated explorer features</u>. Links will direct readers to
+What follows is a mapping of <u>what was promised</u> for Milestone 1 to the
+<u>newly integrated explorer features</u>. Links will direct readers to
 additional context and the relevant code enhancements for each.
 
-* Orcfax feed price charts
-  * [Feeds list page][m1-1]
-  * [Feed details page][m1-2]
-  * [Feed price charts][m1-3]
-* State change timelines
-  * [Show calculation details on UI][m1-4]
-* Data provenance
-  * [Display sources][m1-5]
-  * [Show collection details on UI][m1-6]
-  * [Show validation details on UI][m1-7]
+-   Orcfax feed price charts
+    -   [Feeds list page][m1-1]
+    -   [Feed details page][m1-2]
+    -   [Feed price charts][m1-3]
+-   State change timelines
+    -   [Show calculation details on UI][m1-4]
+-   Data provenance
+    -   [Display sources][m1-5]
+    -   [Show collection details on UI][m1-6]
+    -   [Show validation details on UI][m1-7]
 
 These Orcfax Explorer upgrades give users an enhanced ability to verify the
 authenticity and provenance of the collected data. While this information has
@@ -53,11 +54,10 @@ been present within our archival packages from the beginning, these enhancements
 aid users by surfacing the salient archival details and visualizing them in a
 more accessible manner.
 
-For test cases, we have recorded a walkthrough of the [Orcfax Explorer][m1-8]
-so that users can see how the new features work in tandem to deliver an
-incredible explorer experience. This walkthrough also serves as a resource for
-users looking to better understand the upgrades within the context of the
-explorer UI.
+For test cases, we have recorded a walkthrough of the [Orcfax Explorer][m1-8] so
+that users can see how the new features work in tandem to deliver an incredible
+explorer experience. This walkthrough also serves as a resource for users
+looking to better understand the upgrades within the context of the explorer UI.
 
 [![Explorer walkthrough](https://img.youtube.com/vi/MVLOBT58PlA/0.jpg)](https://youtu.be/At8AoJ6f_zA?feature=shared)
 

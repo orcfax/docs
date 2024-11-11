@@ -23,5 +23,5 @@ During this phase of the ITN, the hardware requirements will be minimal to
 handle the tasks involved. Participants should expect to meet the following
 minimum requirements:
 
-* 2GB of RAM
-* A single CPU
+-   2GB of RAM
+-   A single CPU

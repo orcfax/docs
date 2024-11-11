@@ -25,9 +25,9 @@ requirement for the data.
 ## The heartbeat publication model
 
 The heartbeat publication model gives integrators the ability to access data at
-regular intervals which can be parameterized according to their needs
-(e.g. every 5 minutes, once per hour, etc.). This model can be further enhanced
-when paired with a monitoring feature which adds a deviation formula; heartbeat
+regular intervals which can be parameterized according to their needs (e.g.
+every 5 minutes, once per hour, etc.). This model can be further enhanced when
+paired with a monitoring feature which adds a deviation formula; heartbeat
 publication models with deviation add improved precision by guaranteeing data at
 both a consistent interval and when integrator-stipulated thresholds have been
 met (e.g. publish immediately before the next heartbeat if price changes by x%).
@@ -39,7 +39,7 @@ utilizing the monitoring function in the event of deviations.
 
 ![the heartbeat model](/img/2024-02--heartbeat.gif)
 
-This publication model is often referred to as a *push* based oracle, as the
+This publication model is often referred to as a _push_ based oracle, as the
 oracle service is parameterized to publish (push) data, and does so continuously
 at predefined intervals so long as the feed remains funded.
 
@@ -63,12 +63,12 @@ publication schedule, then an integrator can request its publication
 
 ![the on-demand model](/img/2024-02--on-demand.gif)
 
-This publication model is often referred to as a *pull* based oracle, as the
+This publication model is often referred to as a _pull_ based oracle, as the
 oracle service is directly triggered by requests made through a smart contract.
 
-The benefits of the on-demand publication model is that integrators
-experience greater control over when data is made available. This service
-dramatically increases feed utility for dApps with use cases that can't justify
-a consistent heartbeat. Instead, the on demand publication model allows their
-smart contracts, and/or users to trigger Orcfax publication workflows for the
-data they need, when they need it.
+The benefits of the on-demand publication model is that integrators experience
+greater control over when data is made available. This service dramatically
+increases feed utility for dApps with use cases that can't justify a consistent
+heartbeat. Instead, the on demand publication model allows their smart
+contracts, and/or users to trigger Orcfax publication workflows for the data
+they need, when they need it.

@@ -21,25 +21,26 @@ their staking and rewards. They also use it to select which Orcfax data feeds
 their node will participate (e.g. ADA/USD).
 
 ## Data triangulation
-The fact statements published by each Orcfax feed are based on data that is collected from at least three independent, primary sources.
 
-Orcfax collects raw data from at least three independent sources to triangulate and average the information. For example, to determine the price of ADA to U.S. dollars, Orcfax nodes will query APIs at Kraken, Binance, and CoinGecko.
+The fact statements published by each Orcfax feed are based on data that is
+collected from at least three independent, primary sources.
 
-triangulation of data is a design principle that Orcfax has adopted as a
-method for developing comprehensive understandings of the phenomena which it
-report on;
+Orcfax collects raw data from at least three independent sources to triangulate
+and average the information. For example, to determine the price of ADA to U.S.
+dollars, Orcfax nodes will query APIs at Kraken, Binance, and CoinGecko.
 
-it is a system requirement that each Orcfax feed utilizes a minimum
-of three sources (S1, S2, S3, Sn+1) but can accommodate a dynamic number of
-sources in order to compensate for type or the need for more sources to achieve
-validity.
+triangulation of data is a design principle that Orcfax has adopted as a method
+for developing comprehensive understandings of the phenomena which it report on;
 
-These three sources can comprise of application programming interfaces
-(API's), internet of things (IoT) devices, weather stations, and crowdsourced
-reporting data (eg a series of geotagged photographs).
+it is a system requirement that each Orcfax feed utilizes a minimum of three
+sources (S1, S2, S3, Sn+1) but can accommodate a dynamic number of sources in
+order to compensate for type or the need for more sources to achieve validity.
 
-Example
-If the target data was the outcome or score of a football match between
+These three sources can comprise of application programming interfaces (API's),
+internet of things (IoT) devices, weather stations, and crowdsourced reporting
+data (eg a series of geotagged photographs).
+
+Example If the target data was the outcome or score of a football match between
 Manchester United and Chelsea, Orcfax nodes could hit a sports website and
 scrape the results, do the same for a second, and for the third. At the end, the
 node has received information regarding the target from three independent

@@ -13,9 +13,10 @@ slug: /design
 ## 4. Standardize oracle data formats
 
 ## 5. Archive audit logs
-What our research has shown is that across a wide-variety of disciplines,
-the primary way to prove that information is authentic is by documenting the
-process of data collection, revision, and publication and then protecting that
+
+What our research has shown is that across a wide-variety of disciplines, the
+primary way to prove that information is authentic is by documenting the process
+of data collection, revision, and publication and then protecting that
 information from alteration while making it easily accessible for reference and
 audit.
 

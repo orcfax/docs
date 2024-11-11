@@ -5,6 +5,7 @@ slug: /Data validation
 ---
 
 # Data validation
+
 <br/>
 At launch, the Orcfax Federated Network of nodes on mainnet will consist of five
 independent participants within our side-chain blockchain of validator nodes.

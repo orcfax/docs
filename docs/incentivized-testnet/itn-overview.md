@@ -22,10 +22,10 @@ with Orcfax.
 The ITN will progress through four phases, each adding additional layers of
 validator node functionality; these phases, and their manuals, are listed below:
 
-* [Phase 1](phase-1-manual): Data collection for CEXes
-* [Phase 2](phase-2-manual): Incorporating DEX data
-* [Phase 3](phase-3-manual): Decentralized validator protocol
-* [Phase 4](phase-4-manual): Decentralized publication & Mainnet soft launch
+-   [Phase 1](phase-1-manual): Data collection for CEXes
+-   [Phase 2](phase-2-manual): Incorporating DEX data
+-   [Phase 3](phase-3-manual): Decentralized validator protocol
+-   [Phase 4](phase-4-manual): Decentralized publication & Mainnet soft launch
 
 ## Joining the ITN
 
@@ -74,8 +74,8 @@ On March 1, 2024 The required $FACT deposit for node operation was set at
 (i.e. whichever $FACT amount is larger on that date).
 
 Participants need to maintain this balance in their Mainnet wallet, which will
-later need to be secured in a smart contract on the Testnet with tFACT
-(Testnet FACT).
+later need to be secured in a smart contract on the Testnet with tFACT (Testnet
+FACT).
 
 The Deposit is a redeemable amount of $FACT staked by validators for network
 participation. It ensures validator accountability and is subject to slashing
@@ -130,8 +130,8 @@ the implementation of rewards for $FACT holders. The proposal passed. More than
 be found [here][vote-1].
 
 Orcfax facilitated this community vote in alignment with our decentralization
-goals, and to allow opportunities for community members to participate in
-(and shape) the future of the Orcfax network.
+goals, and to allow opportunities for community members to participate in (and
+shape) the future of the Orcfax network.
 
 This proposal was requested by community members and introduced rewards for
 $FACT holders who may not have the capacity to join the Orcfax network as a
@@ -141,7 +141,8 @@ FACT tokens.
 Orcfax is investigating methods to implement non-validator staking for the
 initial version (V1) of the validator network.
 
-[vote-1]: https://app.summonplatform.io/poll/640336f9-0047-4055-91cf-4238ad4d182f
+[vote-1]:
+    https://app.summonplatform.io/poll/640336f9-0047-4055-91cf-4238ad4d182f
 
 ### Rewards calculation method
 
@@ -154,8 +155,8 @@ participation in a given day relative to all other validators.
 
 > Example
 >
-> if a validator has collected 5% of all Fact Statements on a specific day,
-> they will receive 5% of that day's available rewards (after applying the ITN
+> if a validator has collected 5% of all Fact Statements on a specific day, they
+> will receive 5% of that day's available rewards (after applying the ITN
 > multiplier). This method ensures that optimal uptime and efficient validator
 > setup will yield the highest possible rewards.
 
@@ -164,7 +165,8 @@ metrics and corresponding rewards. You can find a basic ITN rewards calculator
 [here][calc-1].
 
 [multi-1]: https://status.orcfax.io/validators
-[calc-1]: https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit?source=post_page-----9bc1506da743--------------------------------&gid=1978771855#gid=1978771855
+[calc-1]:
+    https://docs.google.com/spreadsheets/d/1aH4Zwtn8KUTtrdzBBZFK1_Kulb7_a4uJGjzLhmPTLFc/edit?source=post_page-----9bc1506da743--------------------------------&gid=1978771855#gid=1978771855
 
 ### Maintenance periods
 
@@ -179,8 +181,8 @@ unexpected issues, they will receive equal rewards for those days.
 > Example
 >
 > If on a given day there are 60 registered ITN participants, and the network
-experiences unscheduled maintenance or unexpected issues, the available rewards
-for that day will be equally divided among the 60 participants.
+> experiences unscheduled maintenance or unexpected issues, the available
+> rewards for that day will be equally divided among the 60 participants.
 
 ### Claiming rewards
 
@@ -194,7 +196,7 @@ and cause more volatility.
 To claim rewards, participants will need to:
 
 1. Send a small amount of ADA to a given address (covering the minimum UTXO and
-transaction fees)
+   transaction fees)
 1. Shortly after, participants will receive their $FACT rewards.
 
 This process can be repeated as often as a validator wishes to claim their

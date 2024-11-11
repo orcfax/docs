@@ -6,9 +6,9 @@ slug: /roadmap
 
 # Roadmap
 
-The following represents the most up-to-date Orcfax Roadmap; it unpacks what
-the Orcfax team has identified as critical Eras in solution development towards
-our ultimate goal of developing Cardano's decentralized oracle solution and
+The following represents the most up-to-date Orcfax Roadmap; it unpacks what the
+Orcfax team has identified as critical Eras in solution development towards our
+ultimate goal of developing Cardano's decentralized oracle solution and
 providing oracle feeds which users can "Trust but Verify".
 
 Within each of these Eras, Orcfax Protocol development phases (e.g. v1) are
@@ -75,9 +75,9 @@ Not only did running our first version of the protocol live on mainnet provide
 the team with valuable experience, it was also an incredible opportunity to
 receive feedback from Cardano projects which tested the v0 ADA-USD feed.
 
-We used our experience and integrator feedback to upgrade the Orcfax
-protocol for more efficient on-chain data parsing, reduced transaction costs,
-and to improve the trust and security model.
+We used our experience and integrator feedback to upgrade the Orcfax protocol
+for more efficient on-chain data parsing, reduced transaction costs, and to
+improve the trust and security model.
 
 #### Decentralized CNT feeds
 
@@ -187,8 +187,7 @@ that introduce progressively more complex node functionality. Operators can
 expect to start with processes relating to data collection, progressing to
 calculation, validation, and eventually participating in on-chain publication.
 
-More about the testnet can be read in our [ITN](itn-overview)
-section.
+More about the testnet can be read in our [ITN](itn-overview) section.
 
 ## Decentralized era
 
@@ -250,5 +249,5 @@ many things, will include deciding which contracting firms (e.g. Orcfax Ltd, or
 other) to hire in order to continue operating, monitoring, and/or upgrading the
 Orcfax technical infrastructure, for how long, and for how much.
 
-Five percent of the fixed 1 billion FACT token supply has been allocated to
-seed the Orcfax DAO and to ensure its long term success.
+Five percent of the fixed 1 billion FACT token supply has been allocated to seed
+the Orcfax DAO and to ensure its long term success.

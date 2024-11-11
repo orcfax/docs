@@ -12,7 +12,8 @@ This page will provide documentation pertaining to the execution of the proposal
 and links to each of the deliverables required for their respective Milestones.
 The full Catalyst proposal can be found [here][cat-1].
 
-[cat-1]: https://projectcatalyst.io/funds/12/f12-cardano-use-cases-product/orcfax-architecture-audit
+[cat-1]:
+    https://projectcatalyst.io/funds/12/f12-cardano-use-cases-product/orcfax-architecture-audit
 
 ## Problem statement
 
@@ -28,10 +29,10 @@ report on the audit status and outcomes.
 
 ## Milestone 1
 
-Because Orcfax has divided the audit into two separate deliverables
-(i.e. on-chain and off-chain architecture audits), Orcfax will leverage best
-practice and precedence within the Cardano ecosystem to identify auditing firms
-and request quotes for each.
+Because Orcfax has divided the audit into two separate deliverables (i.e.
+on-chain and off-chain architecture audits), Orcfax will leverage best practice
+and precedence within the Cardano ecosystem to identify auditing firms and
+request quotes for each.
 
 Once identified, Orcfax will finalize a Contract for Services with the selected
 audit firms.
@@ -50,12 +51,13 @@ successfully signed a contract for services in August of 2024.
 
 <!-- markdownlint-enable MD013 -->
 
-* Announcement on [X][m1-2]
-* Announcement on [Discord][m1-3]
+-   Announcement on [X][m1-2]
+-   Announcement on [Discord][m1-3]
 
 [m1-1]: https://txpipe.io/
 [m1-2]: https://x.com/orcfax/status/1828499168609837088
-[m1-3]: https://discord.com/channels/918870284331802674/1082742450268942386/1278059047571951738
+[m1-3]:
+    https://discord.com/channels/918870284331802674/1082742450268942386/1278059047571951738
 
 ### Off-chain
 
@@ -71,12 +73,13 @@ successfully signed a contract for services in September of 2024.
 
 <!-- markdownlint-enable MD013 -->
 
-* Announcement on [X][m1-5]
-* Announcement on [Discord][m1-6]
+-   Announcement on [X][m1-5]
+-   Announcement on [Discord][m1-6]
 
 [m1-4]: https://blinklabs.io/
 [m1-5]: https://x.com/orcfax/status/1840374361695404438
-[m1-6]: https://discord.com/channels/918870284331802674/1082742450268942386/1290427915850350642
+[m1-6]:
+    https://discord.com/channels/918870284331802674/1082742450268942386/1290427915850350642
 
 ## Milestone 2
 

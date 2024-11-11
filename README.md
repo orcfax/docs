@@ -4,8 +4,8 @@ Orcfax Docs repository.
 
 ## Pre-commit
 
-Pre-commit checks will help maintain the quality of this docs repo. They can
-be run automatically or manually.
+Pre-commit checks will help maintain the quality of this docs repo. They can be
+run automatically or manually.
 
 Ensure that pre-commit is installed with `python3 -m pip install pre-commit`.
 
