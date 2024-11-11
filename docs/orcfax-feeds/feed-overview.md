@@ -6,12 +6,12 @@ slug: /feed-overview
 
 # Available feeds
 
-|     [ADA-USD][adausd]     |    [ADA-BTC][adabtc]    |    [ADA-iUSD][adaiusd]    |   [ADA-DJED][adadjed]   |    [ADA-USDM][adausdm]    |
-| :-----------------------: | :---------------------: | :-----------------------: | :---------------------: | :-----------------------: |
-|  **[AGIX-ADA][agixada]**  | **[BOOK-ADA][bookada]** |   **[BTC-USD][btcusd]**   |  **[BTN-ADA][btnada]**  | **[CERRA-ADA][cerraada]** |
-|  **[COPI-ADA][copiada]**  | **[FACT-ADA][factada]** | **[HOSKY-ADA][hoskyada]** | **[HUNT-ADA][huntada]** |  **[INDY-ADA][indyada]**  |
-| **[LENFI-ADA][lenfiada]** |   **[LQ-ADA][lqada]**   |   **[MIN-ADA][minada]**   | **[SHEN-ADA][shenada]** |  **[SNEK-ADA][snekada]**  |
-|   **[WMT-ADA][wmtada]**   |                         |                           |                         |                           |
+|   [ADA-USD][adausd]   |  [ADA-BTC][adabtc]  |  [ADA-iUSD][adaiusd]  | [ADA-DJED][adadjed] |  [ADA-USDM][adausdm]  |
+| :-------------------: | :-----------------: | :-------------------: | :-----------------: | :-------------------: |
+|  [AGIX-ADA][agixada]  | [BOOK-ADA][bookada] |   [BTC-USD][btcusd]   |  [BTN-ADA][btnada]  | [CERRA-ADA][cerraada] |
+|  [COPI-ADA][copiada]  | [FACT-ADA][factada] | [HOSKY-ADA][hoskyada] | [HUNT-ADA][huntada] |  [INDY-ADA][indyada]  |
+| [LENFI-ADA][lenfiada] |   [LQ-ADA][lqada]   |   [MIN-ADA][minada]   | [SHEN-ADA][shenada] |  [SNEK-ADA][snekada]  |
+|   [WMT-ADA][wmtada]   |                     |                       |                     |                       |
 
 [adabtc]:
     https://explorer.orcfax.io/feeds/CER/ADA-BTC/facts/1003b535-0794-4228-9d6d-917f79ef0f09
