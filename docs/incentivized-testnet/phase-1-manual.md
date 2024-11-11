@@ -30,13 +30,15 @@ minimum requirements:
 
 ITN Phase 1 will use a GitHub repository to record issues. You can use this with
 a GitHub account if you have one. You can also send issues to Orcfax via the
-support channels in Discord we will then transpose them to the GitHub Issues for
-the benefit of the Orcfax community.
+support channels in Discord; Orcfax will then transpose them to the GitHub
+Issues for the benefit of the Orcfax community.
 
-> NB. the more visible it is that the Orcfax Network is healthy, which includes
-> participation of individuals via GitHub, the better able the network is able
-> to attract and generate revenue, and importantly, provide the best oracle
-> service it can.
+> NB
+>
+> The measurable participation of operators, including via GitHub, is one way in
+> which the health of the Orcfax network will be made apparent to integrators,
+> which will be critical to the network's ability to attract and generate
+> revenue.
 
 ### Aliasing your signing key
 
@@ -51,16 +53,18 @@ latest versions of each.
 -   [cex collector (gofer)][collector-2]
 -   [cer-feeds.json][collector-3]
 
+> KEEPING UP TO DATE:
+>
+> There needs to be some flexibility in the versions of software being run on a
+> decentralized network. That being said, Orcfax will coordinate with ITN
+> participants to provide them the most up to date information about maintaining
+> their setup and if versions can or need to be upgraded. This page will also be
+> added to as required.
+
 [collector-1]: https://github.com/orcfax/collector-node/releases
 [collector-2]: https://github.com/orcfax/oracle-suite/releases
 [collector-3]:
     https://raw.githubusercontent.com/orcfax/cer-feeds/refs/tags/2024.10.30.0001/feeds/mainnet/cer-feeds.json
-
-> KEEPING UP TO DATE: There needs to be some flexibility in the versions of
-> software being run on a decentralized network. That being said, Orcfax will
-> coordinate with ITN partipants to provide them the most up to date information
-> about maintaining their setup and if versions can or need to be upgraded. This
-> page will also be added to as required.
 
 #### Collector node
 
@@ -78,20 +82,22 @@ source venv/bin/activate
 python -m pip install collector_node-2.0.0a11-py3-none-any.whl
 ```
 
-> STAYING INFORMED: Take the time to look through the different repositories and
-> their README files to fully understand the software you're running as part of
-> the Orcfax Network.
+> STAYING INFORMED:
+>
+> Take the time to look through the different repositories and their README
+> files to fully understand the software you're running as part of the Orcfax
+> Network.
 
 #### CEX collector (gofer)
 
 Gofer was originally published by [Chronicle-Labs][chronicle-1] and has been
 modified to publish data according to Orcfax's data standard.
 
-[chronicle-1]: https://chroniclelabs.org/
-
 There are multiple releases available, it is likely you will want the
 `gofer_0.4.0_Linux_x86_64` release. When you download this you will need to give
 it executable permissions, i.e. `chmod +x /path/to/gofer`.
+
+[chronicle-1]: https://chroniclelabs.org/
 
 ##### node-identity.json
 
