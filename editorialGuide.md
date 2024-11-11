@@ -246,19 +246,19 @@ Good examples for page titles for instructive documentation are:
 > To integrate an orcfax statement safely in a plutus script, the script must
 > perform the following steps:
 >
-> 1.  Verify FSP UTXO from reference inputs. Extract FS script hash from inline
->     datum.
-> 1.  Verify FS UTXO. Extract the inline datum and parse as a bytearray. The
->     value is the FS script hash, which determines the FS token.
-> 1.  From reference inputs, find the input(s) containing an FS token. These are
->     the FS inputs.
-> 1.  For each FS input, extract the inline datum and parse. The datum will be
->     of type FsDat<t> (described below).
-> 1.  Extract the statement from the datum.
-> 1.  Verify that the statement's feed_id is the one required for the
->     integration.
-> 1.  Verify that the statement's created_at timestamp is within the timeframe
->     established by your specific business rules.
+> 1. Verify FSP UTXO from reference inputs. Extract FS script hash from inline
+>    datum.
+> 2. Verify FS UTXO. Extract the inline datum and parse as a bytearray. The
+>    value is the FS script hash, which determines the FS token.
+> 3. From reference inputs, find the input(s) containing an FS token. These are
+>    the FS inputs.
+> 4. For each FS input, extract the inline datum and parse. The datum will be of
+>    type FsDat<t> (described below).
+> 5. Extract the statement from the datum.
+> 6. Verify that the statement's feed_id is the one required for the
+>    integration.
+> 7. Verify that the statement's created_at timestamp is within the timeframe
+>    established by your specific business rules.
 
 ### Reference documentation
 
