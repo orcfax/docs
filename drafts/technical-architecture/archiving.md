@@ -54,7 +54,7 @@ which would be immediately evident on on-chain; inaccurate data could cause a
 liquidation, or any other kind of event.<br/>
 <br/>
 Unfortunately, in the case of this example, once the smart contract has
-executed, it can’t be reversed. However, because Orcfax has maintained audit
+executed, it can't be reversed. However, because Orcfax has maintained audit
 logs of its workflow for every published fact, anyone can go back in time to
 discern where the liability lies. This has been made possible by the collection
 and validation of not just the target data, but also data relating to context

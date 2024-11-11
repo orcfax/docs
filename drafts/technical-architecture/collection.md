@@ -35,11 +35,8 @@ sources in order to compensate for type or the need for more sources to achieve
 validity.
 
 These three sources can comprise of application programming interfaces
-(API’s), internet of things (IoT) devices, weather stations, and crowdsourced
+(API's), internet of things (IoT) devices, weather stations, and crowdsourced
 reporting data (eg a series of geotagged photographs).
-
-
-
 
 Example
 If the target data was the outcome or score of a football match between

@@ -25,7 +25,7 @@ node will maintain equivalent technical functionality. What this means in
 practice is that each participant will have the exact same technical
 specifications, capabilities, and code; each will be capable of executing all
 Orcfax processes (e.g. Collection, Validation, Publishing, etc). Importantly,
-staking more than the  required $FACT will also not affect a node’s chances of
+staking more than the  required $FACT will also not affect a node's chances of
 being delegated the responsibility for submitting transactions or increase their
 proportional share of pool rewards. These decisions have been made in effort to
 positively affect mass-adoption.<br/>
@@ -57,7 +57,7 @@ creates the incentive to be an honest actor within the Orcfax validator network.
 Additionally, good actors, who continue to participate in the decentralized
 Oracle Pool validation rounds, benefit each time Orcfax publishes an authentic
 fact as every participating node will receive a fractional reward which is then
-added to the operator’s stake. However, if a user's node is responsible (whether
+added to the operator's stake. However, if a user's node is responsible (whether
 intentionally or not) for passing on bad data (bad actor), the network will
 slash the stake of that node.<br/>
 <br/>
@@ -68,7 +68,7 @@ bad actors to to compromise the the data flowing though Orcfax.<br/>
 The need for this system will only increasingly become more critically relevant
 as the world continues to advance and utilize machine learning or other
 technologies with the capacity for generating deep fakes and misinformation. The
-question, “has something really happened in the real world or not?”, will go far
+question, "has something really happened in the real world or not?", will go far
 beyond the DeFi space and smart contracts; Orcfax is going to become a critical
 anchor for the authenticity and veracity of the information we rely on to
 conduct business.<br/>

@@ -31,7 +31,7 @@ below.
 To further understand these allocations, each will be defined, with their
 purpose and use expanded on; the following list of ADA Handle wallets correspond
 to the allocations in the $FACT tokenomics pie chart above. The ability for
-users to monitor the use of these ADA handles, combined with the wallets’ strict
+users to monitor the use of these ADA handles, combined with the wallets' strict
 parameters for use, provides a unique method of accountability which the Orcfax
 project hopes to foster. This is accomplished by ensuring a high level of
 transparency in the distribution and use of $FACT as any member of the Cardano
@@ -101,7 +101,7 @@ This allocation has a cliff date of 3 months after the start of the ISPO and a
 
 50,000,000 (5%) $FACT have been allocated for developing future partnerships,
 marketing campaigns, developer grants, funding research, and for tools that
-contribute to the project’s overall ecosystem.
+contribute to the project's overall ecosystem.
 
 This allocation has a cliff date of 6 months after the start of the ISPO and a 6
 month vesting period.
@@ -114,7 +114,7 @@ funds for continued project development via a decentralized and non-custodial
 process. Decentralized, non-custodial, and fair price discovery were critical
 aspects of the Orcfax launch. This is why we refrained from utilizing a
 centralized initial coin offering (ICO) style public sale. By doing so, we
-empowered the market to set the token’s initial price, avoiding pre-determined
+empowered the market to set the token's initial price, avoiding pre-determined
 prices, promotes decentralization strategies, and provided an opportunity for
 the initial bootstrapping of a liquidity pool. Additionally, this approach also
 enhances regulatory clarity and minimizes future risks.
@@ -128,7 +128,7 @@ can be claimed in full as soon as the launchpad closes.
 
 Orcfax is committed to increasing the footprint of its community. The way we
 decided to distribute the Orcfax utility token is an important step towards
-achieving this goal. That’s why we decided not to sell any FACT tokens via VC,
+achieving this goal. That's why we decided not to sell any FACT tokens via VC,
 seed, or private sale rounds. We believe this has resulted in a more fair
 distribution of our token among our community.
 
@@ -149,16 +149,16 @@ This allocation has a cliff date of 12 months after the start of the ISPO and a
 100,000,000 (10%) $FACT were allocated for use in the Orcfax Initial Stake Pool
 Offering (ISPO). An ISPO is a mechanism popular within the Cardano blockchain
 community. The basic principle is that ADA delegators forgo their ADA staking
-rewards each epoch in return for a proportionate share of a project’s token.
+rewards each epoch in return for a proportionate share of a project's token.
 
-The Orcfax ISPO started on March 15th 2023, within Cardano’s
+The Orcfax ISPO started on March 15th 2023, within Cardano's
 [400th epoch][ispo-1]. The Orcfax [reflection](/files/2023-07-07--Orcfax-ISPO-reflection.pdf) on the process was made
 available to the public on July 7th, 2023.
 
 As the ISPO approached its saturation point in epoch 405, Orcfax closed the pool
 for new delegators, and the ISPO came to a close in epoch 413. The speed at
 which the Orcfax ISPO reached saturation, and came to a successful close, made
-it one of Cardano’s most successful ISPOs at that time.
+it one of Cardano's most successful ISPOs at that time.
 
 The Orcfax ISPO was the first and only way for our early supporters to acquire
 $FACT by delegating ADA to our ISPO pool.

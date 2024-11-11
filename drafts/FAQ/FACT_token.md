@@ -13,7 +13,7 @@ We are in the final stages of the Orcfax whitepaper which will more thoroughly d
 
 It was important to us that the first distribution of $FACT be community focussed, hence the ISPO which was allocated 10% of total supply.
 
-While we have not yet decided whether to leverage the public or private sale routes for our ICO (or what combination of the two), We have allocated 9% of total supply for token sales. The ICO has no current date as we’re waiting for more favorable conditions. However, the sale will be facilitated by [LCX](https://www.lcx.com/) in compliance with Liechtenstein securities regulations.
+While we have not yet decided whether to leverage the public or private sale routes for our ICO (or what combination of the two), We have allocated 9% of total supply for token sales. The ICO has no current date as we're waiting for more favorable conditions. However, the sale will be facilitated by [LCX](https://www.lcx.com/) in compliance with Liechtenstein securities regulations.
 
 ## 3. When will $FACT be available on DEX?
 
@@ -21,8 +21,7 @@ We do not have a fixed date for this at the moment. However, we are aiming to be
 
 ## 4. Is $FACT a utility token?
 
-Yes. $FACT is a true utility token used for staking and rewards in our decentralized oracle pools. It’s also the token used to pay for 1st block access to premium data feeds.
-
+Yes. $FACT is a true utility token used for staking and rewards in our decentralized oracle pools. It's also the token used to pay for 1st block access to premium data feeds.
 
 ## 5. Is there a governance function to $FACT tokens?
 

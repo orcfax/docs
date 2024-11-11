@@ -187,7 +187,7 @@ portion:
                         ]
 ```
 
-The first `“fields”` (we’ll call it f1) conveys ADA-USD, the second (f2)
+The first `"fields"` (we'll call it f1) conveys ADA-USD, the second (f2)
 conveys USD-ADA. Within each of these, the first int (we'll call it int1)
 represents a price pair.
 

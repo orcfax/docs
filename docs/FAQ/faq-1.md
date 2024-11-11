@@ -49,12 +49,12 @@ accurate, and secure without reliance on a trusted third-party to verify the
 information.
 
 Smart contracts are the key enabler for the explosion of the trillion-dollar
-DeFi industry. What most people don’t realize however, is that the vast
+DeFi industry. What most people don't realize however, is that the vast
 majority of smart contracts are critically dependent on off-chain data
 provided by a very small group of oracle service providers.
 
 This is because almost all smart contracts need reliable real-world facts to
-serve as inputs to their application logic. This data must be “trustworthy”
+serve as inputs to their application logic. This data must be "trustworthy"
 because the execution of smart contract logic can have significant economic
 and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
@@ -84,7 +84,7 @@ events into oracle data collection, validation and publication pipelines.
 This is a very lucrative attack vector for bad actors as introducing false
 oracle data can trigger large financial payouts from smart contract scripts.
 Unfortunately, there are significant challenges to preventing a so-called
-“man-in-the-middle” attack and proving that external real-world data introduced
+"man-in-the-middle" attack and proving that external real-world data introduced
 to smart contracts can be trusted to be authentic and accurate.
 
 Most oracle providers provide little to no traceability on how their

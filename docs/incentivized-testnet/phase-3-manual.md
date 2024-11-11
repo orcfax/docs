@@ -17,4 +17,4 @@ federated publisher.
 
 This phase will also see the implementation of a consensus mechanism which will
 enable the network to elect a single validator for submitting a verified Fact
-Statement to the Orcfax’s publisher.
+Statement to the Orcfax's publisher.

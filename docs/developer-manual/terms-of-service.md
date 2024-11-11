@@ -13,10 +13,10 @@ Valid from: *August 1, 2024*
 <!-- markdownlint-restore -->
 
 These Terms of Service, together with any documents and additional terms they
-incorporate by reference (collectively, these “Terms”), are entered into between
-Orcfax Ltd. ("Orcfax”, “we,” “us,” and “our”), a legal entity registered as a
+incorporate by reference (collectively, these "Terms"), are entered into between
+Orcfax Ltd. ("Orcfax", "we," "us," and "our"), a legal entity registered as a
 corporation in the British Virgin Islands and you or the company or
-other legal entity that you represent (“you” or “your”).
+other legal entity that you represent ("you" or "your").
 
 Please read these Terms carefully as they govern your use of the data that
 we (1) publish inline to transactions on the Cardano blockchain ("Oracle data"),
@@ -54,13 +54,13 @@ or using any part of Orcfax's Oracle data, Archival data or Website data you
 agree to become bound by these Terms of Service.
 
 If you use the Services on behalf of a company, organization (including a
-decentralized autonomous organization or “DAO”) or other entity, or if you
+decentralized autonomous organization or "DAO") or other entity, or if you
 are an automated agent acting on behalf of another entity (including "bots" that
 execute actions using artificial intelligence or other technologies for
-autonomous decision-making, such as "smart contracts"), then “you” includes you
+autonomous decision-making, such as "smart contracts"), then "you" includes you
 and that entity. You represent and warrant that (a) you are an authorized
 representative of the entity with the authority and agency to bind the entity to
-these Terms, and (b) you agree to these Terms on the entity’s behalf.
+these Terms, and (b) you agree to these Terms on the entity's behalf.
 
 You must not use any of our Services, if you do not agree to these Terms or if
 you do not have the authority or agency to bind the entity, on whose behalf you
@@ -92,10 +92,10 @@ Services.
 You will defend, indemnify, and hold harmless Orcfax, our directors, officers,
 employees, attorneys, agents, representatives, suppliers, licensors and
 contractors, including those persons and entities operating software that
-contributes Oracle data to Orcfax (collectively, the "Protected Parties” or
+contributes Oracle data to Orcfax (collectively, the "Protected Parties" or
 individually a "Protected Party") from (1) any claim, demand, lawsuit, action,
 proceeding, investigation, liability, damage, loss, cost or expense, including
-without limitation reasonable attorneys’ fees, arising out of or relating to
+without limitation reasonable attorneys' fees, arising out of or relating to
 your use of, or conduct in connection with, Orcfax's Services, including our
 Oracle data, Archival data, the Website, ADA and FACT tokens associated with
 our or your Distributed Ledger Technology Address; (2) your violation of these
@@ -122,7 +122,7 @@ necessary for the protection of our Services.
 
 To the maximum extent permitted under Applicable Law, the Services (including
 any of their content or functionality) is provided by or on behalf of Orcfax on
-an “AS IS” and “AS AVAILABLE” basis. WE EXPRESSLY DISCLAIM, AND YOU HEREBY
+an "AS IS" and "AS AVAILABLE" basis. WE EXPRESSLY DISCLAIM, AND YOU HEREBY
 WAIVE, ANY REPRESENTATION, CONDITIONS, OR WARRANTIES OF ANY KIND, WHETHER
 EXPRESS OR IMPLIED, LEGAL, STATUTORY OR OTHERWISE, OR ARISING FROM STATUTE,
 OTHERWISE IN LAW, COURSE OF DEALING, OR USAGE OF TRADE, INCLUDING WITHOUT

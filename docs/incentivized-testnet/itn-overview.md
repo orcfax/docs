@@ -8,11 +8,11 @@ slug: /itn-overview
 
 This section will be routinely updated and added to in order to keep our
 validators apprised of the most current information pertaining to the upcoming
-Incentivized Testnet (ITN). Content will also detail the ITN’s structure,
+Incentivized Testnet (ITN). Content will also detail the ITN's structure,
 requirements for participation, and the rewards system which will be used to
 encourage robust participation and network growth.
 
-Orcfax’s upcoming ITN is a major step in enhancing the decentralized oracle
+Orcfax's upcoming ITN is a major step in enhancing the decentralized oracle
 infrastructure on the Cardano blockchain. This initiative will prepare the
 network for a smooth mainnet launch, offering validators a platform to engage
 with Orcfax.
@@ -146,7 +146,7 @@ initial version (V1) of the validator network.
 ### Rewards calculation method
 
 Rewards will be calculated based on the daily number of collections,
-validations, and publications, multiplied by each validator’s ITN
+validations, and publications, multiplied by each validator's ITN
 [multiplier][multi-1].
 
 The actual rewards accrued per validator will be proportional to their
@@ -155,9 +155,9 @@ participation in a given day relative to all other validators.
 > Example
 >
 > if a validator has collected 5% of all Fact Statements on a specific day,
-they will receive 5% of that day’s available rewards (after applying the ITN
-multiplier). This method ensures that optimal uptime and efficient validator
-setup will yield the highest possible rewards.
+> they will receive 5% of that day's available rewards (after applying the ITN
+> multiplier). This method ensures that optimal uptime and efficient validator
+> setup will yield the highest possible rewards.
 
 Validators will be able to use the Orcfax Validator Dashboard to track their
 metrics and corresponding rewards. You can find a basic ITN rewards calculator

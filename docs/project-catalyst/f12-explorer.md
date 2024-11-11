@@ -22,7 +22,7 @@ difficult for a human to trace and read.
 
 ### Proposed solution
 
-The Orcfax Explorer allows users to “trust but verify” the oracle data that
+The Orcfax Explorer allows users to "trust but verify" the oracle data that
 their Cardano dApps use. We will enhance it with visualizations, audit log
 downloads, real-time stats and incident reports.
 

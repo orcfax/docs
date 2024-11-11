@@ -63,7 +63,7 @@ the origin minting process, each license cost 100,000 $FACT.
 required in the validator smart contract.
 
 By requiring operators to put up a certain amount of $FACT to run a node,
-operators demonstrate their “skin in the game”. Orcfax decided on the required
+operators demonstrate their "skin in the game". Orcfax decided on the required
 amount of $FACT which simultaneously encourages a diverse community of node
 operators while also discouraging bad actors. If, for whatever reason, a node
 reports irregular data or has persistent networking issues, then their deposited

@@ -56,7 +56,7 @@ as well. We always emphasize short, succinct sentences.
 ## Examples
 
 Examples presented in line should be done in parentheticals precede by "exemplia
-gratia", which will be abbreviated as “e.g.”. Example being this
+gratia", which will be abbreviated as "e.g.". Example being this
 (e.g. an example).
 
 similarly, "id est" which is utilized to present alternative phrasing for the

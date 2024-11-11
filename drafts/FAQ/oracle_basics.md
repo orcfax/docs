@@ -14,7 +14,7 @@ In contrast, Orcfax has been approached by several projects looking to integrate
 
 ## 5. What partnerships has Orcfax Announced?
 
-Orcfax will not be announcing "partnerships”. These kinds of relationships run counter to how we conceptualize decentralization; partnerships require trust where we should be designing trustlessnesss. To that end, we don't want nor will we require data consumers to sign any kind of off-chain deal to use our feeds. Instead, over the next 3 months we will begin announcing the projects and platforms that have approached the Orcfax team to become Orcfax fact statement consumers.
+Orcfax will not be announcing "partnerships". These kinds of relationships run counter to how we conceptualize decentralization; partnerships require trust where we should be designing trustlessnesss. To that end, we don't want nor will we require data consumers to sign any kind of off-chain deal to use our feeds. Instead, over the next 3 months we will begin announcing the projects and platforms that have approached the Orcfax team to become Orcfax fact statement consumers.
 
 ## 6. What does Orcfax bring to Cardano?
 

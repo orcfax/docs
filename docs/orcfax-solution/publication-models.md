@@ -19,7 +19,7 @@ heartbeat model, and a new on-demand model.
 
 By providing integrators the ability to choose the publication model, Orcfax
 will enable dApps to increase flexibility and cost efficiency by choosing how
-best to receive their data: hourly, daily or when there’s a real-time
+best to receive their data: hourly, daily or when there's a real-time
 requirement for the data.
 
 ## The heartbeat publication model
@@ -55,7 +55,7 @@ model.
 
 The on-demand publication model allows complete flexibility and gives dApps even
 more control of data use by allowing them to request data collection,
-validation, and publication whenever it’s needed by their smart contracts.
+validation, and publication whenever it's needed by their smart contracts.
 
 If an Orcfax feed integrator needs a more current update for a given Orcfax feed
 (e.g. ADA-FACT) than is available on-chain or through an existing heartbeat
@@ -68,7 +68,7 @@ oracle service is directly triggered by requests made through a smart contract.
 
 The benefits of the on-demand publication model is that integrators
 experience greater control over when data is made available. This service
-dramatically increases feed utility for dApps with use cases that can’t justify
+dramatically increases feed utility for dApps with use cases that can't justify
 a consistent heartbeat. Instead, the on demand publication model allows their
 smart contracts, and/or users to trigger Orcfax publication workflows for the
 data they need, when they need it.

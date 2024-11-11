@@ -76,9 +76,9 @@ perform the following steps:
 4. For each FS input, extract the inline datum and parse. The datum will be of
    type `FsDat<t>` (described below).
 5. Extract the statement from the datum.
-6. Verify that the statement’s `feed_id` is the one required for the
+6. Verify that the statement's `feed_id` is the one required for the
    integration.
-7. Verify that the statement’s `created_at` timestamp is within the timeframe
+7. Verify that the statement's `created_at` timestamp is within the timeframe
    established by your specific business rules.
 
 ### Verify FSP UTXO

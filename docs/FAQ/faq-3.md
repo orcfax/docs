@@ -7,7 +7,7 @@ slug: /$fact-launch
 # The $FACT launch
 
 On September 8th 2023, Orcfax launched the $FACT utility token in collaboration
-with the Wingriders’ Launchpad, and quickly reached the max contributions,
+with the Wingriders' Launchpad, and quickly reached the max contributions,
 raising 4.5 million ADA! We are grateful to have such an engaged and supportive
 community help us secure the funding that will allows us to make our shared
 vision of decentralization a reality; this funding will be instrumental in our

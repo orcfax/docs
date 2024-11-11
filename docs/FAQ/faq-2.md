@@ -7,10 +7,10 @@ slug: /orcfax-ispo
 # The Orcfax ISPO
 
 Orcfax launched its Initial Stake Pool Offering (ISPO) in
-the Cardano blockchain’s 400th epoch. An ISPO is a fund-raising mechanism that
+the Cardano blockchain's 400th epoch. An ISPO is a fund-raising mechanism that
 is popular within the Cardano blockchain community. The basic principle is that
 ADA delegators forgo their ADA staking rewards each epoch (5 days) in return
-for a proportionate share of a particular Cardano native token. In Orcfax’s
+for a proportionate share of a particular Cardano native token. In Orcfax's
 case that is $FACT, the utility token used for publication fees, staking,
 rewards, and voting within the Orcfax DAO.
 

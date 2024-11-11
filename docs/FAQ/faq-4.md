@@ -20,15 +20,15 @@ information regarding technical requirements can be found [here](itn-overview#te
 Phase 1 is only the first step in realizing Orcfax's decentralization vision,
 while enabling the team to continue developing important components and gaining
 invaluable knowledge for future phases. These incremental development
-thresholds help to move Orcfax data up the “trustless” spectrum, even in this
+thresholds help to move Orcfax data up the "trustless" spectrum, even in this
 initial federated phase.
 
-While our team’s goal for Orcfax is for it to become fully decentralized, phase
+While our team's goal for Orcfax is for it to become fully decentralized, phase
 1 will use our federated node network so that we can continue critical R&D for
 our Incentivized Test Net (ITN) and the decentralized model. Our team
-uses the term “federated” because Orcfax uses 5 geographically dispersed
+uses the term "federated" because Orcfax uses 5 geographically dispersed
 collector nodes; this model incorporates decentralized best practices such as
-the node’s geographical distribution in order to aid in regional consistency
+the node's geographical distribution in order to aid in regional consistency
 and to prevent single sources of failure. Additionally, each of these
 federated nodes queries a minimum of 3 different primary-source data providers
 at the same time, which gives Orcfax a decentralized data collection mechanism.

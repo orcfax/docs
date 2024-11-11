@@ -7,7 +7,7 @@ slug: /solution-overview
 # Solution overview
 
 Orcfax is an oracle designed to publish trustworthy data to smart contracts on
-the Cardano blockchain. The oracle’s architecture consists of a number of
+the Cardano blockchain. The oracle's architecture consists of a number of
 software nodes written predominantly in Python, Haskell, and Plutus v2 code.
 These Orcfax nodes publish datum about the real world
 (e.g. the price of ADA in USD) as CBOR-serialized reference inputs into Cardano
@@ -91,7 +91,7 @@ More on this topic can be found in [Publication models](publication-models).
 
 ## Standards & best practice compliance
 
-The Orcfax Team’s world class experience with information management
+The Orcfax Team's world class experience with information management
 technologies and expertise in other related fields has informed solution
 development at every stage. Orcfax is developing the most comprehensive solution
 to the oracle problem. This is, at least in part, because Orcfax has been
@@ -111,7 +111,7 @@ attempt to guarantee the accuracy and authenticity of their data.
 Our analysis continues to reveal gaps both in how existing oracle providers
 conceptualize the oracle problem, and in the efficacy of their attempts to
 address it. These service providers have broadly ignored industry standards and
-academic research findings that exist outside of the blockchain industry’s echo
+academic research findings that exist outside of the blockchain industry's echo
 chamber. Of particular significance are the [ISO][iso-1] quality standards that
 provide well-established international guidelines and practices for ensuring the
 authenticity and accuracy of digital information– the very thing that oracles

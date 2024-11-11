@@ -20,12 +20,12 @@ accurate, and secure without reliance on a trusted third-party to verify the
 information.
 
 Smart contracts are the key enabler for the explosion of the trillion-dollar
-DeFi industry. What most people don’t realize however, is that the vast majority
+DeFi industry. What most people don't realize however, is that the vast majority
 of smart contracts are critically dependent on off-chain data provided by a very
 small group of oracle service providers.
 
 This is because almost all smart contracts need reliable real-world facts to
-serve as inputs to their application logic. This data must be “trustworthy”
+serve as inputs to their application logic. This data must be "trustworthy"
 because the execution of smart contract logic can have significant economic
 and social consequences. Especially considering that the consequences of a
 blockchain transaction are irreversible by their very design.
