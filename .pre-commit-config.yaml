@@ -4,6 +4,7 @@ repos:
       hooks:
           - id: check-yaml
           - id: check-json
+            exclude: "tsconfig.json"
           - id: check-toml
           - id: end-of-file-fixer
             exclude: ".svg"
