@@ -18,6 +18,18 @@ commit.
 
 ### Manually
 
+To check all files against prettier and eslint, run:
+
+```bash
+npm lint
+```
+
+To manually auto-format all files with prettier, run:
+
+```bash
+npm format
+```
+
 Run pre-commit manually with: `pre-commit run --all-files`.
 
 Check out the local `Makefile` for help running manually by calling `make` from
@@ -25,7 +37,7 @@ the root directory.
 
 ## Docusurus
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern
 static website generator.
 
 ### Installation
@@ -34,22 +46,10 @@ static website generator.
 npm i
 ```
 
-or
-
-```bash
-yarn
-```
-
 ### Local Development
 
 ```bash
 npm start
-```
-
-or
-
-```bash
-yarn start
 ```
 
 This command starts a local development server and opens up a browser window.
@@ -59,12 +59,6 @@ Most changes are reflected live without having to restart the server.
 
 ```bash
 npm build
-```
-
-or
-
-```bash
-yarn build
 ```
 
 This command generates static content into the `build` directory and can be
