@@ -101,10 +101,9 @@ as a showcase:
 \*As these are showcase feeds, Orcfax makes no guarantees as to how long they
 will be offered in this capacity; integrators who would like to take advantage
 of these feeds or are interested in learning more about our services, please
-contact Vahid, our Chief Business Officer, via [email][email] or
-[Discord][discord].
+contact us via [email][email] or [Discord][discord].
 
-[email]: vahid@orcfax.io
+[email]: mailto:info@orcfax.io
 [discord]: https://discord.com/invite/UbAeRuNzDu
 
 ### Feeds derived from DEXes
@@ -145,5 +144,4 @@ as a showcase:
 \*As these are showcase feeds, Orcfax makes no guarantees as to how long they
 will be offered in this capacity; integrators who would like to take advantage
 of these feeds or are interested in learning more about our services, please
-contact Vahid, our Chief Business Officer, via [email][email] or
-[Discord][discord].
+contact us via [email][email] or [Discord][discord].
