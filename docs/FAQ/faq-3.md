@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /$fact-launch
 ---
 
-# The \$FACT launch
+# The $FACT launch
 
 On September 8th 2023, Orcfax launched the \$FACT utility token in collaboration
 with the Wingriders' Launchpad, and quickly reached the max contributions,

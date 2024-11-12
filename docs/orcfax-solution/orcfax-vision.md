@@ -132,13 +132,13 @@ Our ADA-USD feed went live on mainnet by leveraging the first of these
 publication options– an Orcfax hourly heartbeat publication model with deviation
 monitoring.
 
-<u>The heartbeat publication model</u> gives integrators the ability to access
-data at regular intervals which can be set according to their needs (e.g. once
-per hour). More about this publication model can be found in the heartbeat
-[Publication model](publication-models#the-heartbeat-publication-model)
+**The heartbeat publication model** gives integrators the ability to access data
+at regular intervals which can be set according to their needs (e.g. once per
+hour). More about this publication model can be found in the heartbeat
+[publication model](publication-models#the-heartbeat-publication-model)
 
-<u>The on-demand publication model</u> allows complete flexibility and gives
-dApps even more control of data use by allowing them to request data collection,
+**The on-demand publication model** allows complete flexibility and gives dApps
+even more control of data use by allowing them to request data collection,
 validation and publication whenever it's needed by their smart contracts. More
 about this publication model can be found in the on-demand
 [publication model](publication-models#the-on-demand-publication-model)
