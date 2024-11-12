@@ -11,7 +11,7 @@ slug: /feed-overview
 |  [AGIX-ADA][agixada]  | [BOOK-ADA][bookada] |   [BTC-USD][btcusd]   |  [BTN-ADA][btnada]  | [CERRA-ADA][cerraada] |
 |  [COPI-ADA][copiada]  | [FACT-ADA][factada] | [HOSKY-ADA][hoskyada] | [HUNT-ADA][huntada] |  [INDY-ADA][indyada]  |
 | [LENFI-ADA][lenfiada] |   [LQ-ADA][lqada]   |   [MIN-ADA][minada]   | [SHEN-ADA][shenada] |  [SNEK-ADA][snekada]  |
-|   [WMT-ADA][wmtada]   |                     |                       |                     |                       |
+|  [WMTx-ADA][wmtxada]  | [CBLP-ADA][cblpada] |                       |                     |                       |
 
 [adabtc]: https://explorer.orcfax.io/feeds/CER/ADA-BTC
 [adadjed]: https://explorer.orcfax.io/feeds/CER/ADA-DJED
@@ -33,7 +33,8 @@ slug: /feed-overview
 [minada]: https://explorer.orcfax.io/feeds/CER/MIN-ADA
 [shenada]: https://explorer.orcfax.io/feeds/CER/SHEN-ADA
 [snekada]: https://explorer.orcfax.io/feeds/CER/SNEK-ADA
-[wmtada]: https://explorer.orcfax.io/feeds/CER/WMT-ADA
+[wmtxada]: https://explorer.orcfax.io/feeds/CER/WMTx-ADA
+[cblpada]: https://explorer.orcfax.io/feeds/CER/CBLP-ADA
 
 ## Current Exchange Rate feeds
 
@@ -118,7 +119,7 @@ as a showcase:
 | [MIN-ADA][minada]     | Sep 12th 2024 17:01:24 UTC | TBA        |
 | [SHEN-ADA][shenada]   | Sep 12th 2024 17:01:24 UTC | TBA        |
 | [SNEK-ADA][snekada]   | Sep 12th 2024 17:01:24 UTC | TBA        |
-| [WMT-ADA][wmtada]     | Sep 12th 2024 17:01:24 UTC | TBA        |
+| [WMTx-ADA][wmtxada]   | Sep 12th 2024 17:01:24 UTC | TBA        |
 
 \*As these are showcase feeds, Orcfax makes no guarantees as to how long they
 will be offered in this capacity; integrators who would like to take advantage
