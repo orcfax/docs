@@ -13,48 +13,27 @@ slug: /feed-overview
 | [LENFI-ADA][lenfiada] |   [LQ-ADA][lqada]   |   [MIN-ADA][minada]   | [SHEN-ADA][shenada] |  [SNEK-ADA][snekada]  |
 |   [WMT-ADA][wmtada]   |                     |                       |                     |                       |
 
-[adabtc]:
-    https://explorer.orcfax.io/feeds/CER/ADA-BTC/facts/1003b535-0794-4228-9d6d-917f79ef0f09
-[adadjed]:
-    https://explorer.orcfax.io/feeds/CER/ADA-DJED/facts/43661f6a-bb93-41e4-8e7f-b59546202982
-[adaiusd]:
-    https://explorer.orcfax.io/feeds/CER/ADA-iUSD/facts/229fb469-1ab8-4a0b-9f45-a2a46fc59ee4
-[adausd]:
-    https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/5b0faf77-26b8-454f-b23f-a62305a6a96f
-[adausdm]:
-    https://explorer.orcfax.io/feeds/CER/ADA-USDM/facts/4848746e-5aca-4896-85bc-ece90b823a24
-[agixada]:
-    https://explorer.orcfax.io/feeds/CER/AGIX-ADA/facts/6d6f3f78-1c30-48ba-bf73-aa9fc2e3b728
-[bookada]:
-    https://explorer.orcfax.io/feeds/CER/BOOK-ADA/facts/be6a20c4-c407-4cc0-82b6-4f90a50652dc
-[btcusd]:
-    https://explorer.orcfax.io/feeds/CER/BTC-USD/facts/94fa78f2-67d4-4f01-9338-3fe230333da1
-[btnada]:
-    https://explorer.orcfax.io/feeds/CER/BTN-ADA/facts/aece723e-3406-4b9f-8ee4-6bb4575439bc
-[cerraada]:
-    https://explorer.orcfax.io/feeds/CER/CERRA-ADA/facts/2dd1a457-3da1-4557-9054-66cad03c80d1
-[copiada]:
-    https://explorer.orcfax.io/feeds/CER/COPI-ADA/facts/8eb42060-2548-47ac-862e-dfe41e9146cc
-[factada]:
-    https://explorer.orcfax.io/feeds/CER/FACT-ADA/facts/2c69145e-3be7-4067-882b-19251b25d8c3
-[hoskyada]:
-    https://explorer.orcfax.io/feeds/CER/HOSKY-ADA/facts/f11abcd1-11d5-4f02-b554-1bf8754b70b8
-[huntada]:
-    https://explorer.orcfax.io/feeds/CER/HUNT-ADA/facts/ef83cad7-5bf9-4c12-89ae-4448182ed015
-[indyada]:
-    https://explorer.orcfax.io/feeds/CER/INDY-ADA/facts/435ad6a5-73de-43d0-b407-ffcd128faaa0
-[lenfiada]:
-    https://explorer.orcfax.io/feeds/CER/LENFI-ADA/facts/876fae23-4549-40d2-a53d-683273abd3d4
-[lqada]:
-    https://explorer.orcfax.io/feeds/CER/LQ-ADA/facts/c6addb42-9acc-4ab4-aeae-7be80ea240a9
-[minada]:
-    https://explorer.orcfax.io/feeds/CER/MIN-ADA/facts/4c567d5f-2d00-4943-9d51-b5ea94bc333e
-[shenada]:
-    https://explorer.orcfax.io/feeds/CER/SHEN-ADA/facts/6eeae531-f79d-4076-83d8-6e8a27b94c05
-[snekada]:
-    https://explorer.orcfax.io/feeds/CER/SNEK-ADA/facts/2b320c25-859d-4ca6-a88a-307e2d6b8f27
-[wmtada]:
-    https://explorer.orcfax.io/feeds/CER/WMT-ADA/facts/8ad34386-6be9-4c12-b069-ce2fb38dc681
+[adabtc]: https://explorer.orcfax.io/feeds/CER/ADA-BTC
+[adadjed]: https://explorer.orcfax.io/feeds/CER/ADA-DJED
+[adaiusd]: https://explorer.orcfax.io/feeds/CER/ADA-iUSD
+[adausd]: https://explorer.orcfax.io/feeds/CER/ADA-USD
+[adausdm]: https://explorer.orcfax.io/feeds/CER/ADA-USDM
+[agixada]: https://explorer.orcfax.io/feeds/CER/AGIX-ADA
+[bookada]: https://explorer.orcfax.io/feeds/CER/BOOK-ADA
+[btcusd]: https://explorer.orcfax.io/feeds/CER/BTC-USD
+[btnada]: https://explorer.orcfax.io/feeds/CER/BTN-ADA
+[cerraada]: https://explorer.orcfax.io/feeds/CER/CERRA-ADA
+[copiada]: https://explorer.orcfax.io/feeds/CER/COPI-ADA
+[factada]: https://explorer.orcfax.io/feeds/CER/FACT-ADA
+[hoskyada]: https://explorer.orcfax.io/feeds/CER/HOSKY-ADA
+[huntada]: https://explorer.orcfax.io/feeds/CER/HUNT-ADA
+[indyada]: https://explorer.orcfax.io/feeds/CER/INDY-ADA
+[lenfiada]: https://explorer.orcfax.io/feeds/CER/LENFI-ADA
+[lqada]: https://explorer.orcfax.io/feeds/CER/LQ-ADA
+[minada]: https://explorer.orcfax.io/feeds/CER/MIN-ADA
+[shenada]: https://explorer.orcfax.io/feeds/CER/SHEN-ADA
+[snekada]: https://explorer.orcfax.io/feeds/CER/SNEK-ADA
+[wmtada]: https://explorer.orcfax.io/feeds/CER/WMT-ADA
 
 ## Current Exchange Rate feeds
 
