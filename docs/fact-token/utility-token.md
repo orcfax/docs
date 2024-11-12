@@ -7,8 +7,8 @@ slug: /utility-token
 # The FACT utility token
 
 The Orcfax platform includes a Cardano-native utility token which has been named
-$FACT. This utility token has been designed with a limited number of explicit
-uses. $FACT can be used for:
+\$FACT. This utility token has been designed with a limited number of explicit
+uses. \$FACT can be used for:
 
 1. Payment by consumers for data publication, either by a heartbeat publication
    model or an on-demand publication model
@@ -36,7 +36,7 @@ publication quoted in FACT.
 Alternatively, if an Orcfax feed consumer needs a more current update for a
 given datum feed (e.g. ADA-USD) than is available on-chain, then an on-demand
 publication request can be triggered. The cost of publishing this new fact datum
-on-chain will likewise be quoted in $FACT.
+on-chain will likewise be quoted in \$FACT.
 
 While consumers can also use ADA, these payments will be sold for FACT tokens,
 creating a positive feedback loop that boosts demand for the FACT token.
@@ -45,7 +45,7 @@ creating a positive feedback loop that boosts demand for the FACT token.
 
 ## Utility 2: Staking
 
-$FACT will also be used by Orcfax validator node operators as staked collateral
+\$FACT will also be used by Orcfax validator node operators as staked collateral
 to incentivize good performance and trust in the network.
 
 On January 9th, 2024 Orcfax published its [Orcfax Validator License
@@ -54,17 +54,17 @@ non-validators, could look forward to as licenses became available and as the
 Incentivized Testnet (ITN) is being developed.
 
 To become an Orcfax Validator, users are required to 1) mint and/or hold a
-Validator license, and 2) deposit $FACT tokens into the Orcfax validator smart
+Validator license, and 2) deposit \$FACT tokens into the Orcfax validator smart
 contract.
 
 1. There are only 100 validator licenses available for node operation. During
-   the origin minting process, each license cost 100,000 $FACT.
-2. When the validator nodes begin operating, a deposit of 500,000 $FACT will be
+   the origin minting process, each license cost 100,000 \$FACT.
+2. When the validator nodes begin operating, a deposit of 500,000 \$FACT will be
    required in the validator smart contract.
 
-By requiring operators to put up a certain amount of $FACT to run a node,
+By requiring operators to put up a certain amount of \$FACT to run a node,
 operators demonstrate their "skin in the game". Orcfax decided on the required
-amount of $FACT which simultaneously encourages a diverse community of node
+amount of \$FACT which simultaneously encourages a diverse community of node
 operators while also discouraging bad actors. If, for whatever reason, a node
 reports irregular data or has persistent networking issues, then their deposited
 stake may be slashed by the protocol. This is both a penalty for jeopardizing
@@ -84,7 +84,7 @@ more rewards being distributed to each active validator.
 The initial version of the Validator Network (v1) will be designed to select
 validators at random to publish a fact statement, giving all validators an equal
 chance of earning a reward. Future models will weight this random distribution
-by biasing rewards to those with higher $FACT delegation.
+by biasing rewards to those with higher \$FACT delegation.
 
 A full 50% of the FACT token allocation has been reserved to subsidize the
 payment of validator node rewards. This will incentivize network participation

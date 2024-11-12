@@ -16,8 +16,8 @@ Orcfax being, mass adoption to the point that the system will utilize hundreds
 of these independent, geographically and server diverse, nodes.<br/>
 <br/>
 In order to participate as a validator node, operators will be required to stake
-a designated amount of $FACT. In order to drive adoption and equitable access
-for participants, the requisite amount of $FACT will be kept relatively low. In
+a designated amount of \$FACT. In order to drive adoption and equitable access
+for participants, the requisite amount of \$FACT will be kept relatively low. In
 addition to this, the system has been designed not to privilege nodes with stake
 above and beyond this set threshold.<br/>
 <br/>
@@ -26,14 +26,14 @@ node will maintain equivalent technical functionality. What this means in
 practice is that each participant will have the exact same technical
 specifications, capabilities, and code; each will be capable of executing all
 Orcfax processes (e.g. Collection, Validation, Publishing, etc). Importantly,
-staking more than the  required $FACT will also not affect a node's chances of
+staking more than the  required \$FACT will also not affect a node's chances of
 being delegated the responsibility for submitting transactions or increase their
 proportional share of pool rewards. These decisions have been made in effort to
 positively affect mass-adoption.<br/>
 <br/>
 In order to create a robust validation process, we have added economic
 incentives for data validators. Once participants have installed the Orcfax
-Validator Node executables users will be required to stake $FACT to the wallet
+Validator Node executables users will be required to stake \$FACT to the wallet
 created along with their nodes.<br/>
 <br/>
 Once the operator has established their node within the network, it will take
@@ -41,7 +41,7 @@ part in all of the processes outlined within the Technical Architecture section.
 After successfully collecting the source data from each of the APIs assigned to
 the feed, normalizing the data, and reaching network consensus between peers on
 that normalized form, a lottery is held by the oracle protocol to randomly
-assign a publication reward of $FACT tokens to one of the successful oracle
+assign a publication reward of \$FACT tokens to one of the successful oracle
 nodes. This reward is a share of the publication fee paid by the data Consumer
 who requested the publication of a fact statement. This creates the incentive
 structure for oracle nodes to participate in the network.<br/>

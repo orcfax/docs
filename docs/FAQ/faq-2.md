@@ -11,7 +11,7 @@ blockchain's 400th epoch. An ISPO is a fund-raising mechanism that is popular
 within the Cardano blockchain community. The basic principle is that ADA
 delegators forgo their ADA staking rewards each epoch (5 days) in return for a
 proportionate share of a particular Cardano native token. In Orcfax's case that
-is $FACT, the utility token used for publication fees, staking, rewards, and
+is \$FACT, the utility token used for publication fees, staking, rewards, and
 voting within the Orcfax DAO.
 
 The Orcfax ISPO successfully concluded in epoch 413, and the Orcfax pool retired
@@ -24,7 +24,7 @@ in epoch 424. To conclude this phase, Orcfax published both an ISPO
 
 ## How did reward distribution work?
 
-100M $FACT was made available to delegators through a partnership with
+100M \$FACT was made available to delegators through a partnership with
 [TosiDrop][tosi-1] across a 6 month vesting period. Participants were able to
 claim 1/6 of their rewards each month by visiting the site and inputting the
 stake address used during the ISPO.

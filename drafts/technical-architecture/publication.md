@@ -33,7 +33,7 @@ published via the Orcfax network, including use in fact checking services,
 search indexes, and machine-readable datasets for training machine learning
 models.<br/>
 
-The following is an example of an Orcfax $FACT statement with all provenance
+The following is an example of an Orcfax \$FACT statement with all provenance
 information captured for future auditability.
 
 ```
@@ -84,7 +84,7 @@ feed or specific fact sstatement; if that particular fact statement has already
 been published in a previous transaction, an Orcfax node will reply with the
 UTXO identifier that the Consumer can use for free as a CIP-31 Reference Input
 in their script.<br/> <br/> Otherwise the Consumer will submit the applicable
-fee in $FACT tokens. This is used to pay for the Cardano transaction fee and
+fee in \$FACT tokens. This is used to pay for the Cardano transaction fee and
 deposit. The Consumer will receive a signed transaction from Orcfax that they
 will then Submit to the Cardano network. The signed transaction contains the
 fact statement record in the transaction Datum as well as an exclusive security
@@ -103,7 +103,7 @@ interest in maintaining the publication of a given feed. the parties would agree
 to maintain a wallet where funds would be held in escrow to guarantee that a
 feed was kept active.<br/>
 
-An exacmple $FACT datum derived from the Orcfax ADA/USD price feed
+An exacmple \$FACT datum derived from the Orcfax ADA/USD price feed
 
 ```
 {

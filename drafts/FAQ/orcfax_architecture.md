@@ -37,18 +37,18 @@ when at launch.
 
 ## 4. Will I need to purchase a license to run an Orcfax node?
 
-No. Node operators will be required to stake $FACT in order to participate.
+No. Node operators will be required to stake \$FACT in order to participate.
 
-## 5. How much $FACT will be needed per node?
+## 5. How much \$FACT will be needed per node?
 
-The exact amount of $FACT that a node operator is required to stake has not been
-determined yet. However, our goal is to keep the $FACT staking amount relatively
-low in order to promote equitable opportunities for potential node operators.
-Additionally, there will be no advantage to staking more than the minimum
-requirement. Neither will having more than the minimum staked affect your
-chances of winning the boost reward in each publication event or increase your
-proportional share of the pool reward. These decisions have been made in and
-effort to positively affect mass-adoption.
+The exact amount of \$FACT that a node operator is required to stake has not
+been determined yet. However, our goal is to keep the \$FACT staking amount
+relatively low in order to promote equitable opportunities for potential node
+operators. Additionally, there will be no advantage to staking more than the
+minimum requirement. Neither will having more than the minimum staked affect
+your chances of winning the boost reward in each publication event or increase
+your proportional share of the pool reward. These decisions have been made in
+and effort to positively affect mass-adoption.
 
 ## 6. What are the technical requirements to run a node?
 

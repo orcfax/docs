@@ -7,14 +7,14 @@ slug: /economic-model
 # Economic Model
 
 The FACT token lies at the core of Orcfax's economic model. To access Orcfax
-feeds, consumers (e.g. dApps, smart contracts) can use $FACT for payment. While
+feeds, consumers (e.g. dApps, smart contracts) can use \$FACT for payment. While
 consumers can also use ADA, these payments are exchanged for FACT tokens,
 creating a positive feedback loop that boosts demand for the FACT token.
 
 Since consumers pay for on-chain publications, an increase in consumers leads to
-more publications, driving up the demand for the FACT token. The generated $FACT
-payments are distributed to entities crucial for network operation and security:
-Orcfax Validators and the Orcfax Network.
+more publications, driving up the demand for the FACT token. The generated
+\$FACT payments are distributed to entities crucial for network operation and
+security: Orcfax Validators and the Orcfax Network.
 
 ![Orcfax Economic Model](/img/2024-09-17--orcfax-economic-model.png)
 

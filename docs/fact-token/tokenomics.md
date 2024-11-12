@@ -23,27 +23,27 @@ coin tracking sites like [CoinGecko][listing-1] and [CoinMarketCap][listing-2].
 ## Token distribution
 
 Following the token generation event (TGE), the Orcfax team distributed all
-1,000,000,000 $FACT to a series of [ADA Handle][handle-1] wallets. Each of these
-adahandle wallets represents one of the allocations as mentioned in the chart
-below.
+1,000,000,000 \$FACT to a series of [ADA Handle][handle-1] wallets. Each of
+these adahandle wallets represents one of the allocations as mentioned in the
+chart below.
 
 ![FACT tokenomics pie chart](/img/2023-08-30--FACT-tokenomics-pie-chart.jpeg)
 
 To further understand these allocations, each will be defined, with their
 purpose and use expanded on; the following list of ADA Handle wallets correspond
-to the allocations in the $FACT tokenomics pie chart above. The ability for
+to the allocations in the \$FACT tokenomics pie chart above. The ability for
 users to monitor the use of these ADA handles, combined with the wallets' strict
 parameters for use, provides a unique method of accountability which the Orcfax
 project hopes to foster. This is accomplished by ensuring a high level of
-transparency in the distribution and use of $FACT as any member of the Cardano
+transparency in the distribution and use of \$FACT as any member of the Cardano
 community can monitor activity within these wallets.
 
 ![FACT ADA handle wallets](/img/2023-09-01--ADAhandle-FACT-wallets.png)
 
-As mentioned previously, each of the nine $FACT allocations has rules governing
-how and when their supply of $FACT can be utilized. The vesting schedule
-provided in table above clearly presents the total $FACT allocation for each ADA
-Handle, the cliff date, and when that supply is made available to the
+As mentioned previously, each of the nine \$FACT allocations has rules governing
+how and when their supply of \$FACT can be utilized. The vesting schedule
+provided in table above clearly presents the total \$FACT allocation for each
+ADA Handle, the cliff date, and when that supply is made available to the
 allocation.
 
 ![FACT tokenomics table](/img/2023-09-02--FACT-tokenomics-table.png)
@@ -55,7 +55,7 @@ allocation.
 The biggest allocation is reserved to reward our decentralized validators for
 running Orcfax nodes.
 
-500,000,000 (50%) $FACT have been allocated for rewarding Orcfax validator node
+500,000,000 (50%) \$FACT have been allocated for rewarding Orcfax validator node
 operators for collecting, normalizing, validating, publishing and archiving
 real-world data for consumption as eUTXO datum by Cardano dApps and smart
 contracts.
@@ -71,9 +71,9 @@ Testnet.
 
 ## Promotional airdrops
 
-10,000,000 (1%) $FACT have been allocated for raising awareness for our project
+10,000,000 (1%) \$FACT have been allocated for raising awareness for our project
 and to promote Orcfax. This will be done by utilizing the allocated tokens by
-way of $FACT airdrops and giveaways. The project will also leverage this
+way of \$FACT airdrops and giveaways. The project will also leverage this
 allocation in various public relations campaigns going forward.
 
 This allocation has a cliff date of 3 months after the start of the ISPO and a 6
@@ -81,7 +81,7 @@ month vesting period (i.e. after 3 months, distributed monthly for 6 months).
 
 ## Team
 
-150,000,000 (15%) $FACT have been allocated for disbursement among the founding
+150,000,000 (15%) \$FACT have been allocated for disbursement among the founding
 team; this allocation will be distributed to the founder and team members in
 order to compensate them for their significant investments, both in time and
 effort to launch the Orcfax Network.
@@ -91,16 +91,16 @@ This allocation has a cliff date of 3 months after the start of the ISPO and a
 
 ## Advisors
 
-10,000,000 (1%) $FACT have been allocated for external advisors that provide
+10,000,000 (1%) \$FACT have been allocated for external advisors that provide
 guidance and support to the Orcfax project with specialized expertise. These
-advisors will be compensated in $FACT from this allocation.
+advisors will be compensated in \$FACT from this allocation.
 
 This allocation has a cliff date of 3 months after the start of the ISPO and a
 24 month vesting period.
 
 ## Ecosystem
 
-50,000,000 (5%) $FACT have been allocated for developing future partnerships,
+50,000,000 (5%) \$FACT have been allocated for developing future partnerships,
 marketing campaigns, developer grants, funding research, and for tools that
 contribute to the project's overall ecosystem.
 
@@ -120,11 +120,11 @@ prices, promotes decentralization strategies, and provided an opportunity for
 the initial bootstrapping of a liquidity pool. Additionally, this approach also
 enhances regulatory clarity and minimizes future risks.
 
-86,000,000 (8.6%) $FACT was allocated as collateral for ADA contributed by
+86,000,000 (8.6%) \$FACT was allocated as collateral for ADA contributed by
 Launchpad participants. 24,000,000 (2.4%) was allocated for bootstrapping the
 first liquidity pool on the Wingriders DEX which followed the launchpad.
 
-The 86,000,000 Launchpad $FACT have no cliff and/or vesting restrictions. They
+The 86,000,000 Launchpad \$FACT have no cliff and/or vesting restrictions. They
 can be claimed in full as soon as the launchpad closes.
 
 Orcfax is committed to increasing the footprint of its community. The way we
@@ -138,7 +138,7 @@ distribution of our token among our community.
 
 ## Token foundation
 
-50,000,000 (5%) $FACT have been allocated for use in developing and the
+50,000,000 (5%) \$FACT have been allocated for use in developing and the
 subsequent launch of the Orcfax DAO. The allocation will also be utilized to
 seed the initial treasury, which will be used by the Orcfax DAO foundation to
 fund ongoing activities.
@@ -148,7 +148,7 @@ This allocation has a cliff date of 12 months after the start of the ISPO and a
 
 ## ISPO
 
-100,000,000 (10%) $FACT were allocated for use in the Orcfax Initial Stake Pool
+100,000,000 (10%) \$FACT were allocated for use in the Orcfax Initial Stake Pool
 Offering (ISPO). An ISPO is a mechanism popular within the Cardano blockchain
 community. The basic principle is that ADA delegators forgo their ADA staking
 rewards each epoch in return for a proportionate share of a project's token.
@@ -164,10 +164,10 @@ which the Orcfax ISPO reached saturation, and came to a successful close, made
 it one of Cardano's most successful ISPOs at that time.
 
 The Orcfax ISPO was the first and only way for our early supporters to acquire
-$FACT by delegating ADA to our ISPO pool.
+\$FACT by delegating ADA to our ISPO pool.
 
 The cliff date for the first ISPO drops was September 2023, with 10% of the
-total $FACT supply allocated to ISPO participants. This allocation had a cliff
+total \$FACT supply allocated to ISPO participants. This allocation had a cliff
 date of 6 months after the start of the ISPO and a 6 month vesting period.
 
 [ispo-1]: https://orcfax.io/assets/Orcfax-ISPO-Prospectus--March15-2023.pdf
@@ -185,7 +185,7 @@ like WingRiders, or Minswap. In return, users receive (native) tokens or other
 fees as rewards. Rewards vary based on factors like asset type, amount,
 duration, and platform demand.
 
-The tokens received by users as a reward for their staked $FACT have no cliff
+The tokens received by users as a reward for their staked \$FACT have no cliff
 and/or vesting restrictions.
 
 ### Disclaimer

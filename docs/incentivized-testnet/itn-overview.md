@@ -68,20 +68,20 @@ Testnet.
 
 ### 500,000 FACT deposit
 
-On March 1, 2024 The required $FACT deposit for node operation was set at
-500,000 $FACT. This sum was determined through market value, whereby either
-500,000 $FACT or 10,000 USD equivalent in $FACT on March 1st would be required
-(i.e. whichever $FACT amount is larger on that date).
+On March 1, 2024 The required \$FACT deposit for node operation was set at
+500,000 \$FACT. This sum was determined through market value, whereby either
+500,000 \$FACT or 10,000 USD equivalent in \$FACT on March 1st would be required
+(i.e. whichever \$FACT amount is larger on that date).
 
 Participants need to maintain this balance in their Mainnet wallet, which will
 later need to be secured in a smart contract on the Testnet with tFACT (Testnet
 FACT).
 
-The Deposit is a redeemable amount of $FACT staked by validators for network
+The Deposit is a redeemable amount of \$FACT staked by validators for network
 participation. It ensures validator accountability and is subject to slashing
 (penalty) for actions that harm the oracle network (e.g. poor node network
 response time, contributing non-conformant data, etc). Validators will be able
-to reclaim their deposited $FACT anytime. However, removing the required stake
+to reclaim their deposited \$FACT anytime. However, removing the required stake
 amount will result in losing the ability to run their node until a deposit is
 added once again.
 
@@ -113,29 +113,29 @@ in order to facilitate a smoother adaptation to the ITN environment.
 ITN participants will operate software that initially collects, later validates,
 and ultimately publishes Fact Statements on-chain. The completion of each of
 these functions by participants will be recorded and used as metrics for the
-calculation of $FACT rewards throughout the ITN.
+calculation of \$FACT rewards throughout the ITN.
 
 ### Monthly rewards
 
 For each month of the ITN, a specific amount of FACT tokens will be allocated
-for validator rewards. The first month will make 1,500,000 $FACT available for
+for validator rewards. The first month will make 1,500,000 \$FACT available for
 ITN participants to claim. This amount will be adjusted monthly to balance the
 rewards, based on the required effort and actual validator participation.
 
 #### Non-validator rewards
 
-All Orcfax $FACT holders were invited to vote on the first-ever Orcfax proposal:
-the implementation of rewards for $FACT holders. The proposal passed. More than
-28 million $FACT voted in favor of rewarding $FACT holders, and the results can
-be found [here][vote-1].
+All Orcfax \$FACT holders were invited to vote on the first-ever Orcfax
+proposal: the implementation of rewards for \$FACT holders. The proposal passed.
+More than 28 million \$FACT voted in favor of rewarding \$FACT holders, and the
+results can be found [here][vote-1].
 
 Orcfax facilitated this community vote in alignment with our decentralization
 goals, and to allow opportunities for community members to participate in (and
 shape) the future of the Orcfax network.
 
 This proposal was requested by community members and introduced rewards for
-$FACT holders who may not have the capacity to join the Orcfax network as a
-validator, yet wish to receive $FACT rewards for locking (and not moving) their
+\$FACT holders who may not have the capacity to join the Orcfax network as a
+validator, yet wish to receive \$FACT rewards for locking (and not moving) their
 FACT tokens.
 
 Orcfax is investigating methods to implement non-validator staking for the
@@ -197,7 +197,7 @@ To claim rewards, participants will need to:
 
 1. Send a small amount of ADA to a given address (covering the minimum UTXO and
    transaction fees)
-1. Shortly after, participants will receive their $FACT rewards.
+1. Shortly after, participants will receive their \$FACT rewards.
 
 This process can be repeated as often as a validator wishes to claim their
 rewards.

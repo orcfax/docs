@@ -299,7 +299,7 @@ should not need to know anything about its implementation.
 | Rule                    | Rationale                                                                                                                     |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | DEXes & CEXes           | Plural for exchange acronyms are represented by appending -es.                                                                |
-| $FACT & FACT token      | either to be used When referring to the Orcfax utility token; the same convention applies to all other Cardano native tokens. |
+| \$FACT & FACT token     | either to be used When referring to the Orcfax utility token; the same convention applies to all other Cardano native tokens. |
 | Facts & Fact Statements | In the context of Orcfax, a Fact or Fact Statement is a proper noun.                                                          |
 | NB                      | The acronym for Nota Bene is used within a text block to draw attention to salient points.                                    |
 | Orcfax Network          | All networks developed by Orcfax are proper nouns.                                                                            |

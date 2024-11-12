@@ -242,12 +242,12 @@ operations to the Orcfax Foundation, which will be operated as a decentralized
 autonomous organization (DAO).
 
 The Orcfax commitment to DAO governance was enshrined in our tokenomics wherein
-5% of the total $FACT supply was reserved, within its own distinct ada handle,
+5% of the total \$FACT supply was reserved, within its own distinct ada handle,
 for the sole purpose of funding the operations of the Orcfax Foundation. After
 Orcfax Ltd. has delivered the full roadmap and has dissolved itself, the DAO
-will become the recipient of the network share of $FACT data feed fees.
+will become the recipient of the network share of \$FACT data feed fees.
 
-We envision that the DAO will be run via stake-based voting using $FACT to
+We envision that the DAO will be run via stake-based voting using \$FACT to
 decide on housekeeping matters, hiring contractors to monitor daily network
 operations, hiring developers to add new features, to make decisions on network
 parameters such as transaction fee percentages, and whether or not to add or
