@@ -183,8 +183,8 @@ strongly believes that there is significant secondary value for real-world data
 that has gone through vigorous authenticity and accuracy checks, like the
 information that Orcfax publishes to the Cardano blockchain. Therefore, our
 audit trail packages are marked up using a number of key industry standards
-including [IPLD][standard-1], [JSON-LD][standard-2], [Schema.org][standard-3],
-and [IETF Bagit][standard-4].
+including [JSON-LD][standard-1], [Schema.org][standard-2], and [IETF
+Bagit][standard-3].
 
 The archival packages are designed to preserve on-chain data, and their context,
 all while using identifiers which link all associated records and creates a
@@ -197,10 +197,9 @@ Orcfax is committed to continuing its R&D into new ways to reuse feed data and
 to leverage this "data lake of validated facts" for new value-added services and
 products.
 
-[standard-1]: https://ipld.io/
-[standard-2]: https://json-ld.org/
-[standard-3]: https://schema.org/
-[standard-4]: https://datatracker.ietf.org/doc/rfc8493/
+[standard-1]: https://json-ld.org/
+[standard-2]: https://schema.org/
+[standard-3]: https://datatracker.ietf.org/doc/rfc8493/
 
 ### Cost-effective UTXO model vs Cost-intensive UTXO model
 
