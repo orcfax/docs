@@ -28,9 +28,21 @@ the Orcfax validator network.
 
 ## Milestone 1
 
-Orcfax will produce a qualitative research report which evaluates current L2
-protocols and tools available to Cardano projects With the hope of using this
-to inform proof-of-concept development.
+Orcfax produced a research report which evaluated L2 protocols and tools
+available to Cardano projects with the hope that the exercise would inform
+proof-of-concept development in subsequent milestones.
+
+Orcfax conducted limited research which investigates a sample set of consensus
+protocols. This research was executed with a limited initial understanding of
+the consensus landscape, but covers topics such as:
+
+* what might be Orcfax requirements for staking?
+* What consensus resources exist for Cardano developers?
+* How do these resources map to Orcfax requirements?
+
+This research and its findings are made available [here][consensus-research].
+
+[consensus-research]: https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
 
 ## Milestone 2
 
