@@ -42,7 +42,9 @@ Issues for the benefit of the Orcfax community.
 
 ### Aliasing your signing key
 
-TODO: ADD LINK HERE (or COPY FROM DOC INTO MARKDOWN)
+You will need to alias your signing key as described [here][alias-1].
+
+[alias-1]: signing-key-aliasing
 
 ### Software and setup
 
