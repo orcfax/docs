@@ -28,12 +28,17 @@ minimum requirements:
 
 ### Logging issues
 
-ITN Phase 1 will use a GitHub repository to record issues. You can use this with
-a GitHub account if you have one. You can also send issues to Orcfax via the
-support channels in Discord; Orcfax will then transpose them to the GitHub
-Issues for the benefit of the Orcfax community.
+ITN Phase 1 will use a [GitHub repository][issues-0] to record issues. You can
+use this with a GitHub account if you have one. You can also send issues to
+Orcfax via the support channels in Discord; Orcfax will then transpose them to
+the GitHub Issues for the benefit of the Orcfax community.
 
-> NB
+The issues can be found [here][issues-1].
+
+[issues-0]: https://github.com/orcfax/ITN-Phase-1/
+[issues-1]: https://github.com/orcfax/ITN-Phase-1/issues
+
+> NB.
 >
 > The measurable participation of operators, including via GitHub, is one way in
 > which the health of the Orcfax network will be made apparent to integrators,
