@@ -1,9 +1,5 @@
 [codespell]
-skip =
-    *.po,
-    *.ts,
-    tests/*
-count =
+skip = *.po,*.ts,tests/*,package-lock.json
+count = true
 quiet-level = 3
-ignore-words-list =
-    cips
+ignore-words-list = cips

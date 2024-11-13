@@ -1,9 +1,7 @@
 {
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "editor.rulers": [
-        79
-    ],
+    "editor.rulers": [79],
     "editor.detectIndentation": false,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -14,10 +12,7 @@
     "git.inputValidationSubjectLength": 50,
     "git.inputValidationLength": 72,
     "[git-commit]": {
-        "editor.rulers": [
-            50,
-            72
-        ]
+        "editor.rulers": [50, 72]
     },
     "[markdown]": {
         "editor.rulers": [80]

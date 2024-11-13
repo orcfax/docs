@@ -7,6 +7,7 @@ slug: /decentralization
 # Decentralization roadmap
 
 ## Phase 1: Federated Mainnet Feeds
+
 <br/>
 The Orcfax Federated Network of nodes on mainnet will consist of five
 independent participants within our side-chain blockchain of validator nodes.
@@ -28,6 +29,7 @@ This phase of our Development Roadmap is projected to run:<br/>
 Aug 2023 - March 2024<br/>
 
 ## Phase 2: Incentivized Validator Testnet
+
 <br/>
 The Orcfax Incentivized Validator Testnet is an opportunity for our community of
 users and those interested in operating a validator node to roll up their
@@ -43,6 +45,7 @@ This phase of our Development Roadmap is projected to run:<br/>
 Nov 2023 - March 2024<br/>
 
 ## Phase 3: Decentralized Mainnet Feeds
+
 <br/>
 Both the federated node model and the Incentivized Testnet have been purpose
 built to facilitate additional research and development in the Orcfax goal to

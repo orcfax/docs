@@ -1,14 +1,24 @@
 name: pre-commit
 
 on:
-  pull_request:
-  push:
-    branches: [main]
+    pull_request:
+    push:
+        branches: [main]
 
 jobs:
-  pre-commit:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
-    - uses: pre-commit/action@v3.0.0
+    pre-commit:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-python@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: ">=18.0"
+
+            - name: Install dependencies
+              run: npm install
+
+            - uses: pre-commit/action@v3.0.0
+
+            - name: Run lint script (for prettier and eslint checks)
+              run: npm run lint

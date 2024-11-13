@@ -15,9 +15,10 @@ integrate Orcfax feeds into their dApp with all the technical details included.
 
 Orcfax is a Cardano native oracle platform.
 
-Orcfax is organized into feeds. Generally a feed concerns time series data,
-such as the exchange rate from ADA to USD. A feed is a data pipeline that
-specifies how data is sourced, processed, and the format of its outputs.
+Orcfax is organized into feeds. Generally a feed concerns time series data, such
+as the exchange rate from ADA to USD. A feed is a data pipeline that specifies
+how data is sourced, processed, and the format of its outputs.
+
 <!-- FIXME : See the orcfax explorer for more details on the feeds available and
 their definitions. -->
 
@@ -37,8 +38,8 @@ The part of the overall protocol getting the data on-chain is called
 
 The FS script is the main script. It can be employed in both Mint and Spend
 purposes. It can mint only a single asset class we call FS token. An FS token
-can only exist at the FS script address
-(staking credentials are irrelevant here).
+can only exist at the FS script address (staking credentials are irrelevant
+here).
 
 The presence of an FS token in a UTXO verifies that the associated statement is
 authentic.
@@ -62,10 +63,9 @@ not utilized by integrators, and plays no further part in this document.
 
 ## Examples
 
-[Orcfax-examples][orcfax-examples]
-contains simple demo dApps that illustrate how to integrate Orcfax oracle feeds.
-It also contains helpers for creating your own mock Orcfax-publish
-to facilitate testing.
+[Orcfax-examples][orcfax-examples] contains simple demo dApps that illustrate
+how to integrate Orcfax oracle feeds. It also contains helpers for creating your
+own mock Orcfax-publish to facilitate testing.
 
 [orcfax-examples]: https://github.com/orcfax/orcfax-examples
 
@@ -85,16 +85,16 @@ perform the following steps:
 4. For each FS input, extract the inline datum and parse. The datum will be of
    type `FsDat<t>` (described below).
 5. Extract the statement from the datum.
-6. Verify that the statement’s `feed_id` is the one required for the
+6. Verify that the statement's `feed_id` is the one required for the
    integration.
-7. Verify that the statement’s `created_at` timestamp is within the timeframe
+7. Verify that the statement's `created_at` timestamp is within the timeframe
    established by your specific business rules.
 
 ### Verify FSP UTXO
 
 The FSP script hash must first be ascertained from a given deployment (Example
-deployments listed below). This will provide the policy ID part of an FSP
-asset class.
+deployments listed below). This will provide the policy ID part of an FSP asset
+class.
 
 The FSP UTXO will contain the FSP script token. The FSP script token has the
 following token name (expressed in base 16/ hex):
@@ -193,6 +193,7 @@ One way integrators might choose to do this is as follows:
 ### Coercing the body
 
 <!-- The datatype of the body can be found in the feed definition page. -->
+
 For feeds of type current exchange rate (CER), the body is:
 
 ```aiken
@@ -253,10 +254,12 @@ Which can be deserialized as:
 ## Deployments
 
 | Network | Link                 | FSP hash                                                   |
-| ------- | -------------------- | -----------------------------------------------------------|
+| ------- | -------------------- | ---------------------------------------------------------- |
 | preview | [cexplorer.io][prev] | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` |
 | preprod | n/a                  |                                                            |
 | mainnet | [cexplorer.io][main] | `8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0` |
 
-[prev]: https://preview.cexplorer.io/script/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
-[main]: https://cexplorer.io/policy/8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0
+[prev]:
+    https://preview.cexplorer.io/script/0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230
+[main]:
+    https://cexplorer.io/policy/8793893b5dda6a513ba63c80e9d7b2d4f108060c11979bfc7d863ff0

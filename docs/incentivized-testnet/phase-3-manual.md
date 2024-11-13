@@ -12,9 +12,9 @@ slug: /phase-3-manual
 
 During this phase, validators will begin decentralizing the validation function
 of the Orcfax network by running validator software. However, the publication of
-Fact Statements to the blockchain will remain controlled by the Orcfax
-federated publisher.
+Fact Statements to the blockchain will remain controlled by the Orcfax federated
+publisher.
 
 This phase will also see the implementation of a consensus mechanism which will
 enable the network to elect a single validator for submitting a verified Fact
-Statement to the Orcfax’s publisher.
+Statement to the Orcfax's publisher.

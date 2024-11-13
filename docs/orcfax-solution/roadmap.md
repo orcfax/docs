@@ -6,9 +6,9 @@ slug: /roadmap
 
 # Roadmap
 
-The following represents the most up-to-date Orcfax Roadmap; it unpacks what
-the Orcfax team has identified as critical Eras in solution development towards
-our ultimate goal of developing Cardano's decentralized oracle solution and
+The following represents the most up-to-date Orcfax Roadmap; it unpacks what the
+Orcfax team has identified as critical Eras in solution development towards our
+ultimate goal of developing Cardano's decentralized oracle solution and
 providing oracle feeds which users can "Trust but Verify".
 
 Within each of these Eras, Orcfax Protocol development phases (e.g. v1) are
@@ -21,7 +21,7 @@ solution.
 ## The stabilization era
 
 This Era marks Orcfax's first steps towards an oracle solution on Cardano. From
-the initial R&D funded by Cardano’s Catalyst program, to launching our first
+the initial R&D funded by Cardano's Catalyst program, to launching our first
 ADA-USD feed on mainnet, and introducing the Orcfax Explorer, this era saw
 Orcfax focused on creating and stabilizing a sustainable oracle solution.
 
@@ -29,7 +29,7 @@ Orcfax focused on creating and stabilizing a sustainable oracle solution.
 
 #### Catalyst research
 
-Initial R&D completed by Orcfax was made possible through Cardano’s Catalyst
+Initial R&D completed by Orcfax was made possible through Cardano's Catalyst
 program. We designed a Cardano-based oracle solution which took advantage of the
 CIP-31 enhancements introduced in the Vasil hard fork. Our research focused on
 financial sustainability for stakeholders, data accessibility for downstream
@@ -52,7 +52,7 @@ announce the new feed and our presence in the Cardano ecosystem.
 #### Explorer launch
 
 The Orcfax Explorer was released at the same time as our ADA-USD feed. This
-resource provides a powerful demonstration of the “trust but verify” concept to
+resource provides a powerful demonstration of the "trust but verify" concept to
 the Cardano community and other stakeholders interested in the price of ADA.
 
 We recognize that not all those interested in oracle data or even our own
@@ -75,9 +75,9 @@ Not only did running our first version of the protocol live on mainnet provide
 the team with valuable experience, it was also an incredible opportunity to
 receive feedback from Cardano projects which tested the v0 ADA-USD feed.
 
-We used our experience and integrator feedback to upgrade the Orcfax
-protocol for more efficient on-chain data parsing, reduced transaction costs,
-and to improve the trust and security model.
+We used our experience and integrator feedback to upgrade the Orcfax protocol
+for more efficient on-chain data parsing, reduced transaction costs, and to
+improve the trust and security model.
 
 #### Decentralized CNT feeds
 
@@ -85,7 +85,7 @@ After extensive testing on collection and publication processes over Q1 of 2024,
 Orcfax will release its long-anticipated CNT feeds alongside the rollout of the
 upgraded v1 protocol. These feeds will provide more accurate and responsive
 values for Cardano native assets by harnessing the combined value of the
-ecosystem’s DEX liquidity pools and the introduction of an aggregated virtual
+ecosystem's DEX liquidity pools and the introduction of an aggregated virtual
 liquidity pool per CNT feed.
 
 #### Oracle cost reduction
@@ -97,12 +97,12 @@ efficiencies, drive down the cost for consumers, and all while maintaining
 security and reliability.
 
 One of the primary upgrades was to reduce the verbosity of on-chain datum and to
-leverage Cardano’s unique transaction metadata sidecar feature to preserve
+leverage Cardano's unique transaction metadata sidecar feature to preserve
 valuable contextual information pertaining to each transaction.
 
 #### Multi-feed publication
 
-The Orcfax v1 protocol will introduce a new integrator feature called “bundling”
+The Orcfax v1 protocol will introduce a new integrator feature called "bundling"
 which will enable the publication of multiple feeds within a single Cardano
 transaction. This feature will streamline integrator processes without
 sacrificing security or performance for oracle data consumers.
@@ -122,7 +122,7 @@ Oracles provide trusted data inputs to smart contracts that can control
 significant user assets. That reality raises valid concerns about the
 reliability of oracle solutions and their underlying architectures. Because of
 this, Orcfax will pursue an architecture audit; the audit will analyze the
-security of Orcfax’s on-chain and off-chain architecture. We will take
+security of Orcfax's on-chain and off-chain architecture. We will take
 remediative action on recommendations that result from the audit in order to
 ensure that the Orcfax oracle service delivers the most comprehensive, accurate,
 and trustworthy real-world data possible to Cardano dApps and smart contracts.
@@ -138,7 +138,7 @@ network operated and maintained by a decentralized autonomous organization
 #### Community voting
 
 The Orcfax oracle solution is designed to transition its governance and
-decision-making to a DAO as the final milestone of our “Decentralization” era.
+decision-making to a DAO as the final milestone of our "Decentralization" era.
 Until then we will continue to engage with our community to nurture an open
 culture of ideas and active discussion around major decisions.
 
@@ -187,8 +187,7 @@ that introduce progressively more complex node functionality. Operators can
 expect to start with processes relating to data collection, progressing to
 calculation, validation, and eventually participating in on-chain publication.
 
-More about the testnet can be read in our [ITN](itn-overview)
-section.
+More about the testnet can be read in our [ITN](itn-overview) section.
 
 ## Decentralized era
 
@@ -202,7 +201,7 @@ values but also which network nodes will be randomly selected to perform the
 on-chain publication function.
 
 This development is critical as the consensus layer must be secure and
-Sybil-resistant to prevent “man-in-the-middle” attacks for consumers of Orcfax
+Sybil-resistant to prevent "man-in-the-middle" attacks for consumers of Orcfax
 oracle data. It must also leverage game theory to ensure node participants
 remain incentivized to contribute their computing power and trustworthy outputs
 to the network.
@@ -212,14 +211,14 @@ to the network.
 Establishing a network of 100 distributed Orcfax validators will enable the
 decentralization of the entire network. By enabling the mainnet operation of our
 node operators, Orcfax will dramatically enhance its resilience, independence,
-and long-term sustainability as Cardano’s most comprehensive decentralized
+and long-term sustainability as Cardano's most comprehensive decentralized
 oracle solution.
 
 #### Decentralized protocol upgrade
 
 Achieving consensus quickly, yet securely, in a distributed system remains an
 ongoing challenge in the Web3 space. This is often referred to as the
-“blockchain trilemma” where the achievement of security, decentralization, or
+"blockchain trilemma" where the achievement of security, decentralization, or
 scalability come at the cost of another.
 
 Orcfax will remain at the forefront of decentralization R&D in the Cardano space
@@ -229,7 +228,7 @@ protocol that solve these challenges.
 #### Staking protocol design
 
 The Orcfax oracle network will employ a network of validator nodes to collect
-and verify source data. One of blockchain’s major breakthroughs was to employ
+and verify source data. One of blockchain's major breakthroughs was to employ
 game theory to incentivize the operation and maintenance of a decentralized
 network in the absence of a central, coordinating party.
 
@@ -239,7 +238,7 @@ while performing network compute functions (e.g. Collect, Validate, Publish).
 Operators will be rewarded with additional FACT tokens if their node
 participates as expected during Orcfax block by block publication cycles.
 Otherwise, if a node reports irregular data, or has networking issues, their
-stake will be deducted or “slashed” from their deposit balance.
+stake will be deducted or "slashed" from their deposit balance.
 
 #### DAO governance
 
@@ -250,5 +249,5 @@ many things, will include deciding which contracting firms (e.g. Orcfax Ltd, or
 other) to hire in order to continue operating, monitoring, and/or upgrading the
 Orcfax technical infrastructure, for how long, and for how much.
 
-Five percent of the fixed 1 billion FACT token supply has been allocated to
-seed the Orcfax DAO and to ensure its long term success.
+Five percent of the fixed 1 billion FACT token supply has been allocated to seed
+the Orcfax DAO and to ensure its long term success.

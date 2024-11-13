@@ -9,22 +9,22 @@ style and tone when creating documentation for Orcfax.
 
 All acronyms capitalized unless never capitalized.
 
->Examples:
+> Examples:
 >
->* CER
->* ID
->* eUTXO
+> -   CER
+> -   ID
+> -   eUTXO
 >
->Exceptions:
+> Exceptions:
 >
->* dApp
->* DeFi
+> -   dApp
+> -   DeFi
 
 Rules regarding acronyms extends to currencies.
 
->Example:
+> Example:
 >
->* ADA-USD
+> -   ADA-USD
 
 ### Titles
 
@@ -42,13 +42,13 @@ Dashes refers to the en dash (e.g. "-") and the em dash (e.g. "-—").
 An en dash should be used to connect smaller grammatical units such as words,
 numbers, or to illustrate a range.
 
->Example:
+> Example:
 >
->* on-chain
->* between 1-10
+> -   on-chain
+> -   between 1-10
 
-Usage Example: This is an example of a PhoneGap client – which uses the Big Widget
-to run – and does x, y, and z.
+Usage Example: This is an example of a PhoneGap client – which uses the Big
+Widget to run – and does x, y, and z.
 
 Use dashes cautiously and consider whether commas or parentheses would work just
 as well. We always emphasize short, succinct sentences.
@@ -56,8 +56,8 @@ as well. We always emphasize short, succinct sentences.
 ## Examples
 
 Examples presented in line should be done in parentheticals precede by "exemplia
-gratia", which will be abbreviated as “e.g.”. Example being this
-(e.g. an example).
+gratia", which will be abbreviated as "e.g.". Example being this (e.g. an
+example).
 
 similarly, "id est" which is utilized to present alternative phrasing for the
 purpose of clarity, will be abbreviated as "i.e" and will follow the same
@@ -65,15 +65,15 @@ convention.
 
 Examples presented in blocks should be done using the following convention:
 
->Example
+> Example
 >
->The body of the example
+> The body of the example
 
 This same convention is used for "Nota Bene" which will be abbreviated as "NB".
 
->NB
+> NB
 >
->Parenthaticals should not be split over lines
+> Parenthaticals should not be split over lines
 
 ## Links
 
@@ -94,9 +94,9 @@ being: a, b, c, and d.
 
 Bulleted lists should use an asterisk and follow the following convention:
 
-* The first
-* The second
-* And so on
+-   The first
+-   The second
+-   And so on
 
 If the items within a bulleted list are complete sentences, use appropriate
 punctuation.
@@ -116,11 +116,11 @@ consumed bit by bit.
 
 Documents that fall within this style are:
 
-* Specs
-* Glossary
-* Editorial guide
-* Integrator communications
-* Third party solicitations
+-   Specs
+-   Glossary
+-   Editorial guide
+-   Integrator communications
+-   Third party solicitations
 
 The narrative style is intended for aggregate documents which can be read and
 understood as one document, to be read in parts or in whole. While a reader may
@@ -129,9 +129,9 @@ in fuller understanding.
 
 Documents that fall within this style are:
 
-* Orcfax updates
-* Orcfax docs content
-* Other Orcfax public relations documents
+-   Orcfax updates
+-   Orcfax docs content
+-   Other Orcfax public relations documents
 
 These two styles are further styled by their intended purpose.
 
@@ -141,9 +141,8 @@ This kind of documentation is best used for explaining ideas more broadly or for
 presenting the big picture. These documents may be used to introduce technical
 components, but detailed technical description should be given elsewhere.
 
-The first appearance of an acronym should always be followed by its
-explanation. Thereafter, the use of the acronym without description is
-appropriate.
+The first appearance of an acronym should always be followed by its explanation.
+Thereafter, the use of the acronym without description is appropriate.
 
 This style is suitable for the broadest audience and should therefore take care
 not to delve in to technical specificities; if technical components are the
@@ -164,27 +163,27 @@ should also include the name of the technical component being introduced.
 
 Good page titles are:
 
-* Understanding Orcfax validation
-* Orcfax update # -- The subject of the update
-* Orcfax architecture overview
+-   Understanding Orcfax validation
+-   Orcfax update # -- The subject of the update
+-   Orcfax architecture overview
 
->Sample
+> Sample
 >
->As we draw closer to the mainnet launch of the Orcfax v1 solution, our team has
->been working hard to ensure that the upgraded protocol delivers some exciting
->new features.
+> As we draw closer to the mainnet launch of the Orcfax v1 solution, our team
+> has been working hard to ensure that the upgraded protocol delivers some
+> exciting new features.
 >
->Not only will the v1 protocol leverage a new streamlined datum, but Orcfax will
->also be able to bundle multiple feeds within a single transaction. The new
->on-chain datum prioritizes integrator needs by limiting its size to the bare
->minimum needed for oracle feed consumption by their smart contracts and
->scripts. At the same time, this structure still provides the highest quality
->provenance and contextual data within the oracle industry by leveraging
->Cardano’s unique transaction metadata sidecar (aka. txMetadata) feature and
->links out to each datum’s full audit log package stored on the Arweave network.
->Furthermore, Orcfax allows integrators to request custom bundles of feeds, and
->for those feeds to be published in the same transaction. This results in
->significant transaction fee savings.
+> Not only will the v1 protocol leverage a new streamlined datum, but Orcfax
+> will also be able to bundle multiple feeds within a single transaction. The
+> new on-chain datum prioritizes integrator needs by limiting its size to the
+> bare minimum needed for oracle feed consumption by their smart contracts and
+> scripts. At the same time, this structure still provides the highest quality
+> provenance and contextual data within the oracle industry by leveraging
+> Cardano's unique transaction metadata sidecar (aka. txMetadata) feature and
+> links out to each datum's full audit log package stored on the Arweave
+> network. Furthermore, Orcfax allows integrators to request custom bundles of
+> feeds, and for those feeds to be published in the same transaction. This
+> results in significant transaction fee savings.
 
 ### Instructive documentation
 
@@ -240,25 +239,26 @@ keep titles shorter by leaving off extraneous language such as "how to".
 
 Good examples for page titles for instructive documentation are:
 
-* Consuming Orcfax Statements
+-   Consuming Orcfax Statements
 
->Sample
+> Sample
 >
->To integrate an orcfax statement safely in a plutus script, the script must
->perform the following steps:
+> To integrate an orcfax statement safely in a plutus script, the script must
+> perform the following steps:
 >
->1. Verify FSP UTXO from reference inputs. Extract FS script hash from inline
->datum.
->1. Verify FS UTXO. Extract the inline datum and parse as a bytearray. The value
->is the FS script hash, which determines the FS token.
->1. From reference inputs, find the input(s) containing an FS token. These are
->the FS inputs.
->1. For each FS input, extract the inline datum and parse. The datum will be of
->type FsDat<t> (described below).
->1. Extract the statement from the datum.
->1. Verify that the statement’s feed_id is the one required for the integration.
->1. Verify that the statement’s created_at timestamp is within the timeframe
->established by your specific business rules.
+> 1. Verify FSP UTXO from reference inputs. Extract FS script hash from inline
+>    datum.
+> 2. Verify FS UTXO. Extract the inline datum and parse as a bytearray. The
+>    value is the FS script hash, which determines the FS token.
+> 3. From reference inputs, find the input(s) containing an FS token. These are
+>    the FS inputs.
+> 4. For each FS input, extract the inline datum and parse. The datum will be of
+>    type FsDat<t> (described below).
+> 5. Extract the statement from the datum.
+> 6. Verify that the statement's feed_id is the one required for the
+>    integration.
+> 7. Verify that the statement's created_at timestamp is within the timeframe
+>    established by your specific business rules.
 
 ### Reference documentation
 
@@ -279,11 +279,11 @@ it, not from the perspective of the developer that built it. Contributors should
 assume that the The consuming developer is not familiar with the component, and
 should not need to know anything about its implementation.
 
->Sample
+> Sample
 >
->```@prefix : <http://glossary.orcfax.io/#> .
->@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
->:baseQuote
+> ```@prefix : <http://glossary.orcfax.io/#> .
+> @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+> :baseQuote
 >    skos:prefLabel "base-quote"@en;
 >    skos:definition '''
 >      Describes a currency exchange rate.
@@ -292,29 +292,31 @@ should not need to know anything about its implementation.
 >    skos:note: '''
 >      <a href="https://tradenation.com/en-bs/articles/base-currency-and-quote-currency/">Ref</a>
 >    '''.
->```
+> ```
 
 ## General Notes
 
-| Rule | Rationale |
-| ---- | --------- |
-| DEXes & CEXes | Plural for exchange acronyms are represented by appending -es. |
-| $FACT & FACT token | either to be used When referring to the Orcfax utility token; the same convention applies to all other Cardano native tokens. |
-| Facts & Fact Statements | In the context of Orcfax, a Fact or Fact Statement is a proper noun. |
-| NB |  The acronym for Nota Bene is used within a text block to draw attention to salient points. |
-| Orcfax Network | All networks developed by Orcfax are proper nouns. |
+| Rule                    | Rationale                                                                                                                     |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| DEXes & CEXes           | Plural for exchange acronyms are represented by appending -es.                                                                |
+| \$FACT & FACT token     | either to be used When referring to the Orcfax utility token; the same convention applies to all other Cardano native tokens. |
+| Facts & Fact Statements | In the context of Orcfax, a Fact or Fact Statement is a proper noun.                                                          |
+| NB                      | The acronym for Nota Bene is used within a text block to draw attention to salient points.                                    |
+| Orcfax Network          | All networks developed by Orcfax are proper nouns.                                                                            |
 
 ## General styling
 
-* If a max line length is stipulated in a repositories config, then contributors
-should ensure their adherence.
+-   If a max line length is stipulated in a repositories config, then
+    contributors should ensure their adherence.
 
 ## Resources
 
 This guide has been informed by the following editorial guides:
 
-* [Adobe style guide][res-1]
-* [Diátaxis][res-2]: A semantical approach to technical documentation authoring
+-   [Adobe style guide][res-1]
+-   [Diátaxis][res-2]: A semantical approach to technical documentation
+    authoring
 
-[res-1]: https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md
+[res-1]:
+    https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md
 [res-2]: https://diataxis.fr/

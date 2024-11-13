@@ -12,7 +12,8 @@ This page will provide documentation pertaining to the execution of the proposal
 and links to each of the deliverables required for their respective Milestones.
 The full Catalyst proposal can be found [here][cat-1].
 
-[cat-1]: https://projectcatalyst.io/funds/12/f12-cardano-use-cases-concept/orcfax-validators-reaching-l2-consensus
+[cat-1]:
+    https://projectcatalyst.io/funds/12/f12-cardano-use-cases-concept/orcfax-validators-reaching-l2-consensus
 
 ## Problem statement
 
@@ -36,30 +37,31 @@ Orcfax conducted limited research which investigates a sample set of consensus
 protocols. This research was executed with a limited initial understanding of
 the consensus landscape, but covers topics such as:
 
-* what might be Orcfax requirements for staking?
-* What consensus resources exist for Cardano developers?
-* How do these resources map to Orcfax requirements?
+-   what might be Orcfax requirements for staking?
+-   what consensus resources exist for Cardano developers?
+-   how do these resources map to Orcfax requirements?
 
 This research and its findings are made available [here][consensus-research].
 
-[consensus-research]: https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
+[consensus-research]:
+    https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
 
 ## Milestone 2
 
 Orcfax will produce the following:
 
-* economic model report
-* use case descriptions
-* network architecture diagrams
+-   economic model report
+-   use case descriptions
+-   network architecture diagrams
 
 ## Milestone 3
 
 Orcfax will produce software code that demonstrates how a validator node
 operator can:
 
-* receive external source data
-* apply validation logic
-* compare results with other nodes in the L2 network
-* arrive at consensus on datum value
+-   receive external source data
+-   apply validation logic
+-   compare results with other nodes in the L2 network
+-   arrive at consensus on datum value
 
 ## Final Milestone
