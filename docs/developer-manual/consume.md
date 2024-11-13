@@ -63,10 +63,9 @@ not utilized by integrators, and plays no further part in this document.
 
 ## Examples
 
-[Orcfax-examples][orcfax-examples]
-contains simple demo dApps that illustrate how to integrate Orcfax oracle feeds.
-It also contains helpers for creating your own mock Orcfax-publish
-to facilitate testing.
+[Orcfax-examples][orcfax-examples] contains simple demo dApps that illustrate
+how to integrate Orcfax oracle feeds. It also contains helpers for creating your
+own mock Orcfax-publish to facilitate testing.
 
 [orcfax-examples]: https://github.com/orcfax/orcfax-examples
 

@@ -80,8 +80,8 @@ The upgrades which enable this functionality are now included in the public
 github explorer [repo][m2-1], along with additional context, source code, tests,
 and user documentation to aid in use.
 
-Orcfax published the announcement for our explorer feature upgrade on
-[X][m2-2] and [Discord][m2-3].
+Orcfax published the announcement for our explorer feature upgrade on [X][m2-2]
+and [Discord][m2-3].
 
 For test cases, we recorded a walkthrough of the explorer so that users can see
 how the new features work in tandem to deliver an incredible Explorer Viewer
@@ -92,7 +92,8 @@ better understand the upgrades within the context of the explorer UI.
 
 [m2-1]: https://github.com/orcfax/explorer.orcfax.io/issues/13
 [m2-2]: https://x.com/orcfax/status/1854221701849997411
-[m2-3]: https://discord.com/channels/918870284331802674/1082742450268942386/1305649489478160454
+[m2-3]:
+    https://discord.com/channels/918870284331802674/1082742450268942386/1305649489478160454
 
 ## Milestone 3
 

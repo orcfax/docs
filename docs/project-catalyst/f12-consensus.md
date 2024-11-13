@@ -43,7 +43,8 @@ the consensus landscape, but covers topics such as:
 
 This research and its findings are made available [here][consensus-research].
 
-[consensus-research]: https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
+[consensus-research]:
+    https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
 
 ## Milestone 2
 

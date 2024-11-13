@@ -39,7 +39,8 @@ exercise would inform future development by Orcfax.
 
 This research and its findings can be found [here][staking-research]
 
-[staking-research]: https://drive.google.com/file/d/1-UCrRKkdYnFZ0Wt1Eq4dw_7xAqJVs8J-/view?usp=sharing
+[staking-research]:
+    https://drive.google.com/file/d/1-UCrRKkdYnFZ0Wt1Eq4dw_7xAqJVs8J-/view?usp=sharing
 
 ## Milestone 2
 
