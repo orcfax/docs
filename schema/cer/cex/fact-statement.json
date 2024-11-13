@@ -6,31 +6,31 @@
     "dateCreated": "2024-08-28T16:20:35Z",
     "text": "The price of 1 ADA at 2024-08-28T16:20:35Z is 0.342465 USD",
     "about": {
-      "@type": "ExchangeRateSpecification",
-      "currency": "ADA",
-      "currentExchangeRate": {
-        "@type": "UnitPriceSpecification",
-        "price": 0.342465,
-        "priceCurrency": "USD"
-      }
+        "@type": "ExchangeRateSpecification",
+        "currency": "ADA",
+        "currentExchangeRate": {
+            "@type": "UnitPriceSpecification",
+            "price": 0.342465,
+            "priceCurrency": "USD"
+        }
     },
     "claimInterpreter": {
-      "@type": "Organization",
-      "name": "Orcfax",
-      "url": "https://orcfax.io/"
+        "@type": "Organization",
+        "name": "Orcfax",
+        "url": "https://orcfax.io/"
     },
     "appearance": [
-      "message-ADA-USD-bitstamp.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
-      "message-ADA-USD-coinbase.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-20Z.json",
-      "message-ADA-USD-kraken.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
-      "message-ADA-USD-kucoin_prices_simple.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
-      "message-ADA-USD-bitfinex_simple.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json"
+        "message-ADA-USD-bitstamp.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
+        "message-ADA-USD-coinbase.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-20Z.json",
+        "message-ADA-USD-kraken.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
+        "message-ADA-USD-kucoin_prices_simple.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json",
+        "message-ADA-USD-bitfinex_simple.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e-2024-08-28T16-20-26Z.json"
     ],
     "isBasedOn": {
-      "@type": "CreativeWork",
-      "name": "validation-ADA-USD-2024-08-28T16-20-35Z.json",
-      "creator": "Orcfax Validator Node: 1.0.0rc23",
-      "identifier": "urn:orcfax:11ceadf4-69d6-4b96-9401-c0a1e7e5d3eb",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+        "@type": "CreativeWork",
+        "name": "validation-ADA-USD-2024-08-28T16-20-35Z.json",
+        "creator": "Orcfax Validator Node: 1.0.0rc23",
+        "identifier": "urn:orcfax:11ceadf4-69d6-4b96-9401-c0a1e7e5d3eb",
+        "license": "https://creativecommons.org/licenses/by/4.0/"
     }
-  }
+}
