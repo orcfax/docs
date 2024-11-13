@@ -30,9 +30,22 @@ verification key-hash with the wallet NFT attached.
 
 ### Example process and transaction
 
-#### Create a new dAPP (secondary) wallet
+#### Create a new dAPP address  (secondary address)
 
-Operators will need to install the `cardano-cli`.
+##### Install the cardano-cli
+
+Operators will need to install the `cardano-cli`. The `cardano-cli` is
+distributed as part of the [cardano-node][cardano-node-1] and accessed from the
+node's `bin` folder, e.g. if installed in your home directory:
+`/home/<user>/cardano-node/bin/cardano-cli`. It is idiomatic to add the `bin`
+directory to your local `$PATH`, e.g. in the example below, replacing `<user>`
+with the name of your user's home folder.
+
+```sh
+export PATH=$PATH:/home/<user>/cardano-node/bin/
+```
+
+[cardano-node-1]: https://github.com/IntersectMBO/cardano-node/releases
 
 ##### Create verification and signing key pair
 
