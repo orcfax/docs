@@ -29,8 +29,17 @@ concept for testing in our validator network.
 
 ## Milestone 1
 
-Orcfax will produce a qualitative research report which evaluates current Web3
-staking protocols and tools available to Cardano projects.
+Orcfax produced a research report which evaluated current Web3 staking protocols
+and tools available to Cardano projects With the hope that the exercise would
+inform proof-of-concept development in subsequent milestones.
+
+Orcfax conducted research over a sample set of staking protocols with a limited
+initial understanding of the staking protocol landscape with the hope that the
+exercise would inform future development by Orcfax.
+
+This research and its findings can be found [here][staking-research]
+
+[staking-research]: https://drive.google.com/file/d/1-UCrRKkdYnFZ0Wt1Eq4dw_7xAqJVs8J-/view?usp=sharing
 
 ## Milestone 2
 
