@@ -11,11 +11,14 @@ slug: /phase-1-manual
 ## Data collection for CEXes
 
 During this phase, validators will begin decentralizing the collection function
-of the Orcfax Network. Validators will initially run a limited suite of software
-responsible for the collection of data from centralized exchanges which have
-been identified as primary sources of information. Validators will then
-participate in funneling that data to the Orcfax federated validator and
-publisher.
+of the Orcfax Network.
+
+Validators will initially run a limited suite of software responsible for the
+collection of data from centralized exchanges which have been identified as
+primary sources of information.
+
+Validators will then participate in funneling that data to the Orcfax federated
+validator and publisher.
 
 ### Hardware and infrastructure
 
@@ -29,9 +32,11 @@ minimum requirements:
 ### Logging issues
 
 ITN Phase 1 will use a [GitHub repository][issues-0] to record issues. You can
-use this with a GitHub account if you have one. You can also send issues to
-Orcfax via the support channels in Discord; Orcfax will then transpose them to
-the GitHub Issues for the benefit of the Orcfax community.
+use this with a GitHub account if you have one.
+
+You can also send issues to Orcfax via the support channels in Discord; Orcfax
+will then transpose them to the GitHub Issues for the benefit of the Orcfax
+community.
 
 The issues can be found [here][issues-1].
 
@@ -48,7 +53,8 @@ which will be critical to the network's ability to attract and generate revenue.
 
 ### Aliasing your signing key
 
-You will need to alias your signing key as described [here][alias-1].
+Before you continue, you will need to alias your signing key by following the
+guide [here][alias-1].
 
 [alias-1]: signing-key-aliasing
 
@@ -64,10 +70,11 @@ latest versions of each.
 :::info[KEEPING UP TO DATE:]
 
 There needs to be some flexibility in the versions of software being run on a
-decentralized network. That being said, Orcfax will coordinate with ITN
-participants to provide them the most up to date information about maintaining
-their setup and if versions can or need to be upgraded. This page will also be
-added to as required.
+decentralized network.
+
+That being said, Orcfax will coordinate with ITN participants to provide them
+the most up to date information about maintaining their setup and if versions
+can or need to be upgraded. This page will also be added to as required.
 
 :::
 
@@ -143,12 +150,13 @@ Phase 1.
 
 ### Signing key
 
-Information has been provided about the signing key and signing key aliasing
-protocol, for completeness, you should create your signing key as follows:
+Information has been provided about the [signing key and signing key aliasing
+protocol][alias-1] which you should have already done. For completeness, the
+process is as follows:
 
 <!--markdownlint-disable-->
 
-1. Create verification and signing key pair
+1. Create a new verification (`vkey`) and signing (`skey`) key pair:
 
 ```sh
 cardano-cli address key-gen \
@@ -156,7 +164,7 @@ cardano-cli address key-gen \
  --signing-key-file payment.skey
 ```
 
-2. Create address
+2. Build the new payment address:
 
 ```sh
 cardano-cli address build \
@@ -165,7 +173,7 @@ cardano-cli address build \
  --mainnet
 ```
 
-3. Calculate the verification key hash
+3. Calculate the `vkey` hash:
 
 ```sh
 cardano-cli address key-hash \
@@ -175,7 +183,7 @@ cardano-cli address key-hash \
 
 <!--markdownlint-enable-->
 
-You will use a path to your payment.skey in the cron job described below.
+You will use a path to your `payment.skey` in the cron job described below.
 
 ### Directory layout
 
