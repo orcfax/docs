@@ -38,12 +38,13 @@ The issues can be found [here][issues-1].
 [issues-0]: https://github.com/orcfax/ITN-Phase-1/
 [issues-1]: https://github.com/orcfax/ITN-Phase-1/issues
 
-> NB.
->
-> The measurable participation of operators, including via GitHub, is one way in
-> which the health of the Orcfax network will be made apparent to integrators,
-> which will be critical to the network's ability to attract and generate
-> revenue.
+:::info[NB.]
+
+The measurable participation of operators, including via GitHub, is one way in
+which the health of the Orcfax network will be made apparent to integrators,
+which will be critical to the network's ability to attract and generate revenue.
+
+:::
 
 ### Aliasing your signing key
 
@@ -60,13 +61,15 @@ latest versions of each.
 -   [cex collector (gofer)][collector-2]
 -   [cer-feeds.json][collector-3]
 
-> KEEPING UP TO DATE:
->
-> There needs to be some flexibility in the versions of software being run on a
-> decentralized network. That being said, Orcfax will coordinate with ITN
-> participants to provide them the most up to date information about maintaining
-> their setup and if versions can or need to be upgraded. This page will also be
-> added to as required.
+:::info[KEEPING UP TO DATE:]
+
+There needs to be some flexibility in the versions of software being run on a
+decentralized network. That being said, Orcfax will coordinate with ITN
+participants to provide them the most up to date information about maintaining
+their setup and if versions can or need to be upgraded. This page will also be
+added to as required.
+
+:::
 
 [collector-1]: https://github.com/orcfax/collector-node/releases
 [collector-2]: https://github.com/orcfax/oracle-suite/releases
@@ -89,11 +92,12 @@ source venv/bin/activate
 python -m pip install collector_node-2.0.0a11-py3-none-any.whl
 ```
 
-> STAYING INFORMED:
->
-> Take the time to look through the different repositories and their README
-> files to fully understand the software you're running as part of the Orcfax
-> Network.
+:::info[STAYING INFORMED:]
+
+Take the time to look through the different repositories and their README files
+to fully understand the software you're running as part of the Orcfax Network.
+
+:::
 
 #### CEX collector (gofer)
 
@@ -115,12 +119,16 @@ run gofer standalone:
 ./gofer data ADA/USD -o orcfax
 ```
 
-> NB. you can prettify this data using tools such as [jq][jq-1], e.g. with the
-> command:
+:::note
+
+You can prettify this data using tools such as [jq][jq-1], e.g. with the
+command:
 
 ```sh
 ./gofer data ADA/USD -o orcfax | jq
 ```
+
+:::
 
 [jq-1]: https://jqlang.github.io/jq/
 

@@ -15,6 +15,12 @@
     --ifm-color-primary-lightest: #64a19d;
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+    /* For the "Note" admonition */
+    .alert--secondary {
+        --ifm-alert-background-color: #eaebec;
+        --ifm-alert-border-color: var(--ifm-color-secondary-darker);
+    }
 }
 
 [data-theme="dark"] {
@@ -26,6 +32,14 @@
     --ifm-color-primary-lighter: #32d8b4;
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+    /* For the "Note" admonition */
+    .alert--secondary {
+        --ifm-alert-background-color: var(
+            --ifm-color-secondary-contrast-background
+        );
+        --ifm-alert-border-color: var(--ifm-color-secondary-dark);
+    }
 }
 
 @font-face {

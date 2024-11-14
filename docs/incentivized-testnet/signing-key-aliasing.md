@@ -105,14 +105,16 @@ NFT policy ID (`0c6f22bfabcb055927ca3235eac387945b6017f15223d9365e6e4e43`). When
 a transaction is registered, metadata is expected, the message will be
 processed, and the sending address compared against all known license holders.
 
-> NB
->
-> If the wallet holds a validator license and the correct amount of staked $FACT
-> it will be eligible for participation in the ITN. There is no need to
-> deregister an address as this process only needs to be done to claim ITN
-> rewards. If you find you have a need to change your secondary (aliased)
-> address then you can submit a new transaction and it will not affect your
-> ability to participate in the ITN.
+:::info[NB.]
+
+If the wallet holds a validator license and the correct amount of staked $FACT
+it will be eligible for participation in the ITN. There is no need to deregister
+an address as this process only needs to be done to claim ITN rewards. If you
+find you have a need to change your secondary (aliased) address then you can
+submit a new transaction and it will not affect your ability to participate in
+the ITN.
+
+:::
 
 Secondary (aliased) addresses, validator license wallets, and staked $FACT will
 be checked at runtime at all times and so information about participation will
