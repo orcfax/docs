@@ -84,7 +84,7 @@ const config: Config = {
                 alt: "Orcfax Logo",
                 src: "img/orcfax_logo.png",
                 href: "/",
-                target: "_blank",
+                target: "_self",
             },
             items: [
                 {
