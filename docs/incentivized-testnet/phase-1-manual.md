@@ -43,7 +43,7 @@ The issues can be found [here][issues-1].
 [issues-0]: https://github.com/orcfax/ITN-Phase-1/
 [issues-1]: https://github.com/orcfax/ITN-Phase-1/issues
 
-:::info[NB.]
+:::info[N.B.]
 
 The measurable participation of operators, including via GitHub, is one way in
 which the health of the Orcfax network will be made apparent to integrators,

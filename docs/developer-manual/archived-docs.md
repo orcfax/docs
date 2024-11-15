@@ -79,8 +79,12 @@ Facts published.
         largest POSIX timestamp compared to other Fact Statement datum,
     -   Feed name, e.g. "ADA-USD".
 
-> Note: Users on preprod will find a volume of test data that was not ever
-> retired as Orcfax previously used this space as a testing sandbox.
+:::note
+
+Users on preprod will find a volume of test data that was not ever retired as
+Orcfax previously used this space as a testing sandbox.
+
+:::
 
 In this model, unconsumed reference inputs were those still available for smart
 contracts to use on-chain. Spending a UTXO with a reference input would render
@@ -92,11 +96,14 @@ During v0, Orcfax had a mainnet policy stipulating that two unspent Fact UTXO
 should remain on-chain at all times in order to provide users with continuous
 datum coverage.
 
-> Note: maintaining at least two datum on-chain gave smart contracts (and their
-> developers) access to the most current datum, and the datum before that, for
-> inspection. The POSIX timestamps denoting a valid-from and valid-through
-> period could be inspected to ensure that they were still within a valid
-> window.
+:::info[N.B.]
+
+Maintaining at least two datum on-chain gave smart contracts (and their
+developers) access to the most current datum, and the datum before that, for
+inspection. The POSIX timestamps denoting a valid-from and valid-through period
+could be inspected to ensure that they were still within a valid window.
+
+:::
 
 For more information about the use of reference inputs and the inline datum
 utilized in COOP v0, see the relevant COOP [design document][coop-design-1].
