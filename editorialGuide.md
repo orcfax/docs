@@ -63,17 +63,94 @@ similarly, "id est" which is utilized to present alternative phrasing for the
 purpose of clarity, will be abbreviated as "i.e" and will follow the same
 convention.
 
-Examples presented in blocks should be done using the following convention:
+## Callouts
 
-> Example
->
-> The body of the example
+Callouts are used to briefly break out of the flow of the document to draw
+attention to necessary and or useful supplementary context.
 
-This same convention is used for "Nota Bene" which will be abbreviated as "NB".
+They should be used when there is a need to highlight important information,
+offer suggestions / helpful tips, and draw attention to important warnings and
+pitfalls.
 
-> NB
->
-> Parenthaticals should not be split over lines
+[Admonitions][admonitions] should be used for this purpose. They greatly aid in
+readability and skimmability as they have clear semantics and stand out from the
+rest of the document.
+
+### Note Callouts
+
+For extra general information that complements the main content in some way but
+is not necessarily critical to understanding, use the note admonition eg. :
+
+:::note
+
+Markdown supports a variety of formatting options. Experiment with different
+styles to find what works best.
+
+:::
+
+### Tip Callouts
+
+For helpful suggestions, best practices, or useful advice, use the tip
+admonition eg. :
+
+:::tip
+
+For faster performance, try to minimize the number of third-party plugins used.
+
+:::
+
+### Info Callouts
+
+For information that requires particular attention, is important to
+understanding the main content, or is worth remembering, the info admonition
+should be used with the title of "N.B." (the abbreviation for ["Nota
+Bene"][nota-bene]), e.g. :
+
+:::info[N.B.]
+
+Parenthaticals should not be split over lines
+
+:::
+
+### Example Callouts
+
+Examples presented in blocks should use the note admonition with the title of
+"Example:" e.g. :
+
+:::note[Example:]
+
+1. Step one
+2. Step two
+3. Step three
+
+:::
+
+### Warning Callouts
+
+When there's a potential risk or something readers should be generally cautious
+about if not followed carefully, the warning admonition should be used, e.g. :
+
+:::warning
+
+Be careful when using the `rm -rf` command. It can delete all files in a
+directory and its subdirectories.
+
+:::
+
+### Danger Callouts
+
+For critical warnings about actions that could cause significant issues, such as
+security risks, data corruption, or irreversible consequences, the danger
+admonition should be used, e.g. :
+
+:::danger
+
+Do not share your password with anyone. It is a security risk.
+
+:::
+
+[admonitions]: https://docusaurus.io/docs/markdown-features/admonitions
+[nota-bene]: https://en.wikipedia.org/wiki/Nota_bene
 
 ## Links
 
@@ -92,7 +169,7 @@ being made:
 In line lists should have each listed item followed by a comma. An example list
 being: a, b, c, and d.
 
-Bulleted lists should use an asterisk and follow the following convention:
+Bulleted lists should use a single dash and follow the following convention:
 
 -   The first
 -   The second
