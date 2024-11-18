@@ -14,7 +14,8 @@
         "write-heading-ids": "docusaurus write-heading-ids",
         "typecheck": "tsc",
         "lint": "prettier --check . && eslint .",
-        "format": "prettier  --write ."
+        "format": "prettier  --write .",
+        "pre-commit": "pre-commit run --all-files"
     },
     "dependencies": {
         "@docusaurus/core": "^3.6.1",
