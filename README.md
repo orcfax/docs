@@ -30,7 +30,7 @@ To manually auto-format all files with prettier, run:
 npm run format
 ```
 
-Run pre-commit manually with:
+To manually run pre-commit checks, run:
 
 ```bash
 npm run pre-commit
