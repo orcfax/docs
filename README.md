@@ -21,16 +21,20 @@ commit.
 To check all files against prettier and eslint, run:
 
 ```bash
-npm lint
+npm run lint
 ```
 
 To manually auto-format all files with prettier, run:
 
 ```bash
-npm format
+npm run format
 ```
 
-Run pre-commit manually with: `pre-commit run --all-files`.
+Run pre-commit manually with:
+
+```bash
+npm run pre-commit
+```
 
 Check out the local `Makefile` for help running manually by calling `make` from
 the root directory.
