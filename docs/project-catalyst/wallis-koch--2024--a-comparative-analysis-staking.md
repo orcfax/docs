@@ -136,12 +136,12 @@ through its staking mechanism.
    participants with a shared goal, requiring mechanisms to reward good service
    and discourage malfeasance.
 1. Staking Mechanism:
-    -   Slashing: Participants must lock certain assets as stake. If their
-        behavior is deemed malicious, they forfeit a portion or all of their
-        stake.
-    -   Rewards: Participants earn rewards proportional to their good service,
-        promoting healthy competition without leading to centralization or
-        rewarding poor performance.
+    - Slashing: Participants must lock certain assets as stake. If their
+      behavior is deemed malicious, they forfeit a portion or all of their
+      stake.
+    - Rewards: Participants earn rewards proportional to their good service,
+      promoting healthy competition without leading to centralization or
+      rewarding poor performance.
 
 ### 2.2 Participant requirements
 
@@ -708,22 +708,22 @@ protocol's staking mechanism could be furthered by the incorporation of
 alternative research methods such as the following:
 
 1. Empirical Analysis
-    -   Data Collection: Gather real-time data on staking rewards, participation
-        rates, and network performance for each protocol. This would involve
-        monitoring blockchain explorers and staking analytics platforms.
-    -   User Surveys: Conduct surveys or interviews with users of different
-        protocols to understand their experiences, challenges, and motivations for
-        participating in staking.
+    - Data Collection: Gather real-time data on staking rewards, participation
+      rates, and network performance for each protocol. This would involve
+      monitoring blockchain explorers and staking analytics platforms.
+    - User Surveys: Conduct surveys or interviews with users of different
+      protocols to understand their experiences, challenges, and motivations for
+      participating in staking.
 2. Case Studies
-    -   In-Depth Case Studies: Choose specific projects or use cases within each
-        protocol and analyze their staking dynamics. For example, examining how
-        different stake pools operate in Cardano or how delegation works in
-        Avalanche.
+    - In-Depth Case Studies: Choose specific projects or use cases within each
+      protocol and analyze their staking dynamics. For example, examining how
+      different stake pools operate in Cardano or how delegation works in
+      Avalanche.
 3. Comparative Metrics Development
-    -   Key Performance Indicators (KPIs): Develop KPIs to quantitatively compare
-        protocols. This could include metrics like average staking rewards,
-        decentralization levels, network uptime, and the impact of slashing on
-        validators.
+    - Key Performance Indicators (KPIs): Develop KPIs to quantitatively compare
+      protocols. This could include metrics like average staking rewards,
+      decentralization levels, network uptime, and the impact of slashing on
+      validators.
 
 ### 5.2 Key observations
 
