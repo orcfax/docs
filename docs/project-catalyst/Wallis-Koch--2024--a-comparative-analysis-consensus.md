@@ -81,8 +81,7 @@ assumption that most but not all participants are honest and competent while
 some participants of the network may be malicious or incompetent.
 
 [int-1]: https://orcfax.io/
-[int-2]:
-    https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/9a61d41b-fc3b-4ca1-965f-5e7eb4d2b7af
+[int-2]: https://explorer.orcfax.io/feeds/CER/ADA-USD
 
 ### 1.3 The role of the validator
 
