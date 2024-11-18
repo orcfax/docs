@@ -62,11 +62,17 @@ Most changes are reflected live without having to restart the server.
 ### Build
 
 ```bash
-npm build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be
 served using any static contents hosting service.
+
+To preview the build locally, run:
+
+```bash
+npm run serve
+```
 
 ### Deployment
 
