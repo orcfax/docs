@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-project-catalyst/wallis-koch--2024--a-comparative-analysis-staking" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.1">
+<title data-rh="true">A Comparative Analysis of Staking Protocols in Blockchain Networks | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="A Comparative Analysis of Staking Protocols in Blockchain Networks | Orcfax"><meta data-rh="true" name="description" content="Dominic Wallis Ph.d, Christian Koch M.A."><meta data-rh="true" property="og:description" content="Dominic Wallis Ph.d, Christian Koch M.A."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking" hreflang="x-default"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.62c0e784.css">
+<script src="/assets/js/runtime~main.719e40f0.js" defer="defer"></script>
+<script src="/assets/js/main.5ac1ca60.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/"><div class="navbar__logo"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Orcfax</b></a></div><div class="navbar__items navbar__items--right"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd sidebarWithHideableNavbar_wUlq"><a tabindex="-1" class="sidebarLogo_isFc" target="_self" href="/"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"><b>Orcfax</b></a><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/solution-overview">Orcfax solution</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/feed-overview">Orcfax feeds</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/consume">Developer manual</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/itn-overview">Incentivized Testnet (ITN)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/tokenomics">FACT token</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/project-catalyst">Project Catalyst</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/project-catalyst">Proposal overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-audit">Orcfax architecture audit</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-explorer">Orcfax Explorer: Improving &quot;Trust But Verify</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-staking">Orcfax staking: rewarding good behaviour</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-consensus">Orcfax validators: reaching L2 consensus</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking">A Comparative Analysis of Staking Protocols in Blockchain Networks</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/oracle-basics">FAQ</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/glossary">Glossary</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Project Catalyst</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">A Comparative Analysis of Staking Protocols in Blockchain Networks</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>A Comparative Analysis of Staking Protocols in Blockchain Networks</h1></header>
+<p>Dominic Wallis Ph.d, Christian Koch M.A.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="abstract">Abstract<a href="#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract">​</a></h2>
+<p>This paper provides a brief comparison of various staking protocols across
+different blockchain networks and an assessment of each against an initial
+understanding of system requirements identified by Orcfax, which seeks to
+ascertain whether an existing solution, as a drop in solution for Orcfax,
+adequately meets its needs. However, it was found that no single staking
+protocol from the sample set fully meets all requirements outlined in the Orcfax
+Staking Protocol Requirements; each protocol was found to have its strengths,
+but they collectively fall short of the preliminary system requirements in one
+or more critical areas.</p>
+<p>While there are a multitude of staking protocols in operation, this paper has
+analyzed a limited sample which is meant to be representative; included in this
+assessment are the staking protocols utilized by: Algorand, Avalanche, Bitcoin
+Lightning, Cardano, Cosmos, and Ethereum. Each protocol&#x27;s mechanism for staking,
+rewards, and penalties are examined in light of Orcfax priorities for network
+security, equitable participation, and long term decentralization in order to
+better understand each protocol&#x27;s features and the implications of use for
+Orcfax participants.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-introduction">1. Introduction<a href="#1-introduction" class="hash-link" aria-label="Direct link to 1. Introduction" title="Direct link to 1. Introduction">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="what-is-staking">What is staking<a href="#what-is-staking" class="hash-link" aria-label="Direct link to What is staking" title="Direct link to What is staking">​</a></h3>
+<p>In the context of blockchains and crypto currency, the original use of the term
+&quot;staking&quot; is credited to <a href="https://www.peercoin.net/" target="_blank" rel="noopener noreferrer">Peercoin</a>. Peercoin introduced a Proof of stake
+consensus protocol as an alternative to Bitcoin&#x27;s proof of work. The protocol
+requires those participating in consensus to &#x27;lock up&#x27; their native currency
+PPC. By doing so, the likelihood of a participant having the ability to mint the
+next block is determined by the relative &#x27;coin age&#x27; of their stake. Coin age
+being determined by the length of time those assets had been locked.</p>
+<p>The authors of the protocol claim that this mechanism is too expensive to be
+abused for an attackers financial advantage.</p>
+<p>Since Peercoin&#x27;s inception, the term &#x27;staking&#x27; has been used by many different
+protocols to describe mechanisms in their own protocol that share some
+characteristics with that of Peercoin. However, there is significant divergence
+in what these mechanisms are to the extent that they have overlap. For example,
+staking on Cardano refers to participants using their funds to aid the health of
+the network (like Peercoin), but it is delegated and not locked (unlike
+Peercoin). In contrast, staking on Ethereum 2.0 is done only by those actively
+participating in consensus, and this stake is locked and slashable.</p>
+<p>In further contrast, the term is also employed when only referring to assets
+being &#x27;locked&#x27;, and not always when related to participation.</p>
+<p><a href="https://cobie.substack.com/p/apecoin-and-the-death-of-staking" target="_blank" rel="noopener noreferrer">source</a></p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="what-does-orcfax-mean-by-staking">What does Orcfax mean by staking?<a href="#what-does-orcfax-mean-by-staking" class="hash-link" aria-label="Direct link to What does Orcfax mean by staking?" title="Direct link to What does Orcfax mean by staking?">​</a></h4>
+<p>While the previous section illustrates how the term &quot;staking&quot; has been used
+inconsistently after its inception, Orcfax takes staking to mean:</p>
+<p>The &#x27;financial&#x27; incentive structure aimed at encouraging good and/or
+discouraging bad behaviour of the participants of a decentralised network. The
+ultimate goal of staking being to ensure the network remains active in a
+sustainable way.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="what-is-orcfax-and-what-is-its-need-for-staking">What is Orcfax and what is its need for staking?<a href="#what-is-orcfax-and-what-is-its-need-for-staking" class="hash-link" aria-label="Direct link to What is Orcfax and what is its need for staking?" title="Direct link to What is Orcfax and what is its need for staking?">​</a></h3>
+<p>Orcfax is an aspiring decentralized oracle protocol built on top of Cardano. As
+Orcfax prepares to transition to a fully decentralized service provider, it will
+begin by distributing oracle tasks across a network of node operators. The
+collection of these participants providing oracle services form a decentralized
+network. These participants must produce &#x27;statements&#x27; for those whose protocols
+require the consumption of oracle data (i.e. consumers).</p>
+<p>An important feature of this network will be the use of staking. Orcfax wishes
+to construct a staking mechanism that aids its long term health, and inspires
+confidence in their consumers that statements will be accurately and promptly
+produced now and into the future.</p>
+<p>By nature of being an oracle, much of the Orcfax protocol does not and cannot
+operate within the context of a blockchain. The staking mechanism implemented
+must reflect this.</p>
+<p>Furthermore, the participants of the service provision must be holders of an NFT
+token series on Cardano, the Orcfax Validator Licenses. There are 100 of these
+licenses.</p>
+<p>Orcfax will require participants to maintain a specified stake and be holders of
+one Orcfax Validator License NFT, of which there are 100, in order to prove
+their &quot;skin in the game&quot; and to participate in oracle related tasks. Should
+operators perform as desired, they will be rewarded proportionate to their
+performance. If operators perform in undesirable ways, some staking protocols
+utilize &quot;slashing&quot; as a punishment whereby some, or all, of the staked assets
+may be removed from the participant. However, care must be taken; the wrong
+incentive structure may either: cause a race to the top, where rewards only go
+to a few participants which eventually leads to centralization; or, cause a race
+to the bottom, where participants are rewarded even if they are poor service
+providers. Both of which are bad for the long term health of the service.</p>
+<p>As the integration of any staking mechanism will dramatically affect how
+operators participate within the network, it is imperative that Orcfax
+understands the implications of staking mechanism design choices. As such, this
+paper seeks to understand the current state of staking protocols across
+blockchain networks and whether any may be of use to Orcfax. This paper uses a
+qualitative research method and has primarily used the publicly available
+documentation and publications provided by each protocol.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-context">2. Context<a href="#2-context" class="hash-link" aria-label="Direct link to 2. Context" title="Direct link to 2. Context">​</a></h2>
+<p>In order to develop a critical framework by which staking mechanism could be
+compared, Orcfax combined a preliminary vision for the mechanism, a draft set of
+system requirements, and participant requirements. The combination of these
+serve the sole purpose of providing Orcfax with a foundation and structure by
+which the sample set could be assessed.</p>
+<p>Additionally, each staking mechanism is examined in light of Orcfax priorities
+for network security, the degree of or opportunity for equitable participation,
+and how each might contribute to the long term decentralization goals of the
+Orcfax network.</p>
+<p>The Orcfax staking protocol should operate within a decentralized service
+framework, where participants, both competent and potentially malicious, must
+work together to provide reliable service. The system&#x27;s design must seek to
+emphasize the incentivization of good behavior and penalization of bad actions
+through its staking mechanism.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="21-key-components-of-the-staking-mechanism">2.1 Key components of the staking mechanism<a href="#21-key-components-of-the-staking-mechanism" class="hash-link" aria-label="Direct link to 2.1 Key components of the staking mechanism" title="Direct link to 2.1 Key components of the staking mechanism">​</a></h3>
+<ol>
+<li>Decentralized Service: The protocol relies on a network of autonomous
+participants with a shared goal, requiring mechanisms to reward good service
+and discourage malfeasance.</li>
+<li>Staking Mechanism:<!-- -->
+<ul>
+<li>Slashing: Participants must lock certain assets as stake. If their
+behavior is deemed malicious, they forfeit a portion or all of their
+stake.</li>
+<li>Rewards: Participants earn rewards proportional to their good service,
+promoting healthy competition without leading to centralization or
+rewarding poor performance.</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="22-participant-requirements">2.2 Participant requirements<a href="#22-participant-requirements" class="hash-link" aria-label="Direct link to 2.2 Participant requirements" title="Direct link to 2.2 Participant requirements">​</a></h3>
+<p>In order for network operators to participate, Orcfax requires each to stake the
+following:</p>
+<ul>
+<li>Orcfax Validator License: One of 100 NFTs.</li>
+<li>Minimum stake: 500,000 FACT tokens.</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="23-system-components">2.3 System components<a href="#23-system-components" class="hash-link" aria-label="Direct link to 2.3 System components" title="Direct link to 2.3 System components">​</a></h3>
+<p>Orcfax anticipates that regardless of staking protocol, it will consist of the
+following components:</p>
+<ol>
+<li>Smart Contracts: Enabling locking, unlocking, rewarding, and slashing of
+assets.</li>
+<li>Participant Interface: Allowing actions such as locking and unlocking stake.</li>
+<li>Decentralized Service Platform: A black box model for assessing participant
+behavior.</li>
+<li>Reward and Slashing Management Interface: Facilitating the distribution of
+rewards and penalties.</li>
+</ol>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="24-must-have-requirements">2.4 Must Have requirements<a href="#24-must-have-requirements" class="hash-link" aria-label="Direct link to 2.4 Must Have requirements" title="Direct link to 2.4 Must Have requirements">​</a></h3>
+<p>Orcfax has identified the following as staking protocol Must haves:</p>
+<ol>
+<li>A participant can deposit native assets, FT and an NFT, as stake</li>
+<li>A participant can withdraw their stake, with a cooling-off period</li>
+<li>A participant with live stake receives rewards for good behaviour</li>
+<li>A participant with stake is slashed if they behave badly</li>
+<li>The mechanisms for rewarding and slashing are controlled by a majority</li>
+<li>Rewards are paid out from a treasury</li>
+<li>Forfeit funds are paid into the treasury</li>
+<li>Forfeit funds are redistributed to an Orcfax wallet</li>
+<li>The system is efficient when the vast majority of participants are honest and
+while most participants are competent</li>
+<li>The system is resistant to abuse by a minority of malicious nodes eg good
+participants are protected from slashing</li>
+<li>The network must bee able to accommodate ~100 nodes.</li>
+</ol>
+<p>In addition to this initial draft of system requirements, each staking mechanism
+assessed within this paper will be evaluated against Orcfax priorities for:</p>
+<ul>
+<li>Security: to what degree is it apparent that the design choices for each
+staking mechanism impact the overall security of the network?</li>
+<li>Participation: to what degree does the staking mechanism provide
+opportunities for equitable participation within the network?</li>
+<li>Decentralization: Given the previous two, to what degree do choices
+influencing network security and participation have on the degree of
+decentralization or any risks towards centralization of the network?</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3-overview-of-staking-protocols">3. Overview of staking Protocols<a href="#3-overview-of-staking-protocols" class="hash-link" aria-label="Direct link to 3. Overview of staking Protocols" title="Direct link to 3. Overview of staking Protocols">​</a></h2>
+<p>While this paper does not cover the breadth of staking protocols being used
+across the multitude of blockchain networks, care was taken to select protocols
+which together are representative of the different methods for implementing
+staking. The following protocols are discussed in alphabetical order: Algorand,
+Avalanche, Bitcoin Lightning, Cardano, Cosmos, and Ethereum.</p>
+<p>These protocols have been assessed against the requirements outlined in the
+&quot;Orcfax staking protocol requirements&quot; and in light of Orcfax priorities for
+network security, equitable participation, and long term goals for
+decentralization.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="31-algorand">3.1 Algorand<a href="#31-algorand" class="hash-link" aria-label="Direct link to 3.1 Algorand" title="Direct link to 3.1 Algorand">​</a></h3>
+<p>Algorand is a proof-of-stake blockchain that requires users to hold its native
+token, Algo, to participate within the network. The minimum stake to participate
+is effectively 1 Algo. This staking mechanism is notable in that it allows users
+to retain control of their staked Algo even while participating in consensus.
+However, participation does not yield rewards currently, which raises concerns
+about user incentives to run nodes. In addition to the absence of rewards, there
+are not yet any penalties for bad behavior.</p>
+<blockquote>
+<p>Participation in consensus currently does not affect the proportion of
+participation rewards an account receives. Participation rewards are based on
+the amount of stake an account has, irrespective of whether the account is
+marked online or offline. Furthermore, currently there are no participation
+rewards on MainNet.</p>
+</blockquote>
+<p><a href="https://developer.algorand.org/docs/run-a-node/participate/#online-participation" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>While there is no minimum threshold, the probability in actively participating
+is proportional to the stake, which is not locked and is not slashable.</p>
+<p>The protocol has some limited support for rewards. However it is currently not
+utilised - rewards are effectively set to 0.</p>
+<p>The architects of Algorand have raised concerns about the levels of
+participation in consensus. Moreover, there is a suggestion that lack of rewards
+contributes to the problem. The following quote is taken from <em>Algorand
+Consensus Incentivisation: An Algorand foundation discussion paper</em> (Woods,
+Treccani, Jannotti, 2023).</p>
+<blockquote>
+<p>Algorand’s original thesis contended, a priori, that a sufficient number of
+end-users would naturally be incentivised to run a node and contribute to
+online stake, motivated by the desire to secure their own funds, and as a
+corollary the network. However, a posteriori, it has been observed that as a
+consequence of the cost to run a participation node with high uptime, and
+indeed the technical expertise required to both instantiate and maintain a
+node, a critical mass of end-user contribution has not been reached.</p>
+</blockquote>
+<p><a href="https://26119259.fs1.hubspotusercontent-eu1.net/hubfs/26119259/Website-2024/PDFs/Algorand%20-%20Consensus%20Incentivisation.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Given the above, an assessment of Algorand <a href="https://developer.algorand.org/docs/" target="_blank" rel="noopener noreferrer">documentation</a> against Orcfax
+system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> Algorand employs a consensus mechanism with the aim to enhance
+network security without compromising decentralization, however it does not
+currently employ an incentive structure to promote goof behavior or
+disincentives to discourage bad behavior; our limited research did not reveal
+whether this posed a potential security risk for the network.</li>
+<li><strong>Participation:</strong> The lack of rewards for participation on the mainnet may
+result in low engagement. While the staking mechanism allows users to
+maintain control over their funds during staking, the absence of incentives
+may hinder broader participation.</li>
+<li><strong>Decentralization:</strong> Algorand’s model promotes decentralization by allowing
+all holders of Algo to participate in consensus. However, the technical
+complexity and costs associated with maintaining high uptime for nodes
+without an incentive to do so may discourage potential validators, leading to
+centralization risks.</li>
+</ol>
+<p>Taken together, the staking protocol used by Alogrand as a drop in solution for
+Orcfax partially meets the requirements, particularly in security and
+decentralization, but falls short in providing effective incentives for
+participation, which is crucial for a robust staking ecosystem. An additional
+strength of the protocol is its emphasis on accessibility; Algorand allows any
+user to participate in securing the network by allowing any holder of Algo (of
+any amount) to participate and users maintain control of their assets at all
+times, making it user-friendly for those in diverse financial situations and for
+those who prefer non-custodial solutions.</p>
+<p>However, the absence of participation rewards is assessed as a design weakness
+and one which if incorporated into an Orcfax solution could lead to low user
+motivation to run participation nodes. This is a significant gap in meeting the
+requirement for robust incentives. Additionally, the lack of penalties for bad
+behavior is assessed as a risk which may reduce the overall security of the
+network as there is no deterrent against malicious activity.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="32-avalanche">3.2 Avalanche<a href="#32-avalanche" class="hash-link" aria-label="Direct link to 3.2 Avalanche" title="Direct link to 3.2 Avalanche">​</a></h3>
+<p>Avalanche is a PoS blockchain which employs a validation mechanism where
+participants must stake AVAX tokens in order to validate transactions. A minimum
+stake of 2,000 AVAX is required to participate on mainnet while 1 AVAX is
+required to participate on their testnet (Fuji); when it comes to participation,
+validators are sampled for consensus based on the proportion of their stake,
+which means that participants may be incentivized to increase their stake.</p>
+<p>While the minimum stake could prove a challenge to entry, the network justifies
+it as a security feature.</p>
+<p>&quot;To resist sybil attacks, a decentralized network must require that network
+influence is paid with a scarce resource. This makes it infeasibly expensive for
+an attacker to gain enough influence over the network to compromise its
+security.&quot;</p>
+<p><a href="https://docs.avax.network/nodes/validate/what-is-staking#:~:text=To%20resist%20sybil%20attacks%2C%20a%20decentralized%20network%20must%20require%20that%20network%20influence%20is%20paid%20with%20a%20scarce%20resource.%20This%20makes%20it%20infeasibly%20expensive%20for%20an%20attacker%20to%20gain%20enough%20influence%20over%20the%20network%20to%20compromise%20its%20security." target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Avalanche also enables holders to delegate their AVAX to validators; a
+validator&#x27;s influence therefore is increased not only by their own stake above
+the minimum, but may be increased through delegation up to a maximum of 3
+million AVAX. This ability to delegate to validators enables holders to assist
+in securing the network, receive rewards for their delegations, and do so
+without the overhead of being their own validator. However, delegators are
+required to hold a minimum of 25 AVAX on mainnet in order to delegate.</p>
+<p><a href="https://docs.avax.network/nodes/validate/validate-vs-delegate#:~:text=To%20delegate%20on%20the%20Avalanche%20network%2C%20a%20minimum%20of%2025%20AVAX%20tokens%20is%20required%20on%20the%20Mainnet%20(1%20AVAX%20on%20the%20Fuji%20Testnet)." target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Participation as a validator is incentivized by rewarding uptime. Validators are
+eligible for rewards for their efforts securing the network, which is measured
+through the total time their node is active and participating within the
+network. Through random sampling executed by their peers, a validator&#x27;s node
+must be found to be active or responsive more than 80% of any given validation
+period.</p>
+<p><a href="https://docs.avax.network/nodes/validate/how-to-stake#:~:text=A%20validator%20will%20receive%20a%20staking%20reward%20if%20they%20are%20online%20and%20response%20for%20more%20than%2080%25%20of%20their%20validation%20period%2C%20as%20measured%20by%20a%20majority%20of%20validators%2C%20weighted%20by%20stake.%20You%20should%20aim%20for%20your%20validator%20be%20online%20and%20responsive%20100%25%20of%20the%20time." target="_blank" rel="noopener noreferrer">source</a></p>
+<p>With that said, there are no penalties or slashing for bad behavior committed by
+validators. The only risk that participants face is becoming ineligible for
+rewards by failing to meet specified parameters.</p>
+<p>Given the above, an assessment of the Avalanche <a href="https://docs.avax.network/nodes/validate/what-is-staking" target="_blank" rel="noopener noreferrer">documentation</a> against
+Orcfax system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> Avalanche’s high minimum stake threshold for participation and
+incentive structure through random sampling of validator node uptime promotes
+security of the network and may enhance resilience against attacks. And while
+this aspect of the model aligns well with the Orcfax requirement for a secure
+staking environment, the absence of penalties leaves something to be desired.</li>
+<li><strong>Participation:</strong> Broad participation as a validator may be limited by a
+minimum stake which could be perceived as a high cost to entry; Avalanche may
+have tempered this criticism by enabling the option for delegation, which
+thereby allows users with smaller stakes to engage without needing to run a
+full node.</li>
+<li><strong>Decentralization:</strong> The difference between the minimum stake for validators
+(2,000 AVAX), the maximum combined stake and delegation (2m AVAX), and
+weighted validator influence mechanic may pose centralization risks if
+reaching the maximum is competitive and results in a few validators holding
+increased influence over the network. Conversely, the delegation feature may
+help to mitigate this risk by allowing a more distributed participation
+model.</li>
+</ol>
+<p>Taken together, the staking protocol used by Avalanche as a drop in solution for
+Orcfax partially meets the requirements regarding security and incentives for
+participation; the simplification of incentivizing uptime conveys a clear reward
+structure based on the amount staked, which may effectively motivating users to
+participate actively. The lack of penalties or slashing is notable. While
+limiting the scope of the incentive structure to whether a node is eligible or
+ineligible may not sufficiently deter negligence or bad behavior.</p>
+<p>Additionally, security as a strength appears to come at the cost of
+participation; the minimum stake to participate in the network may prevent broad
+participation from holders, although it is acknowledged that enabling delegation
+may work to address this shortcoming. With that said, care may need to be taken
+to deter potential centralization risks.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="33-bitcoin-lightning">3.3 Bitcoin Lightning<a href="#33-bitcoin-lightning" class="hash-link" aria-label="Direct link to 3.3 Bitcoin Lightning" title="Direct link to 3.3 Bitcoin Lightning">​</a></h3>
+<p>As a layer-2 solution on Bitcoin, the Lightning Network is comprised of
+bidirectional payment channels between participants which facilitate off-chain
+transactions. In this system Bitcoin is locked in order to open an LN payment
+channel. LN, in its original conception, the network introduced an incentive
+structure whereby users locked funds as stake in the sense that if one
+participant of a channel were to behave badly in a provable way, the other
+participant of the channel would be able to take the locked stake.</p>
+<p>However, more recent iterations (e.g. eltoo aka LN-symmetry) have opted to
+remove this penalty centric incentive structure on the grounds that it
+complicates the design, and can result in unintentional penalties for
+participants.</p>
+<p><a href="https://bitcoinops.org/en/topics/eltoo/" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Given the above, an assessment of the Bitcoin Lightning <a href="https://lightning.network/lightning-network-paper.pdf" target="_blank" rel="noopener noreferrer">paper</a> against
+Orcfax system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> The Lightning Network’s design inherently deters malicious
+behavior through the risk of losing locked funds. However, the current
+penalty system may require careful enforcement to maintain trust among
+participants.</li>
+<li><strong>Participation:</strong> The LN&#x27;s unique model allows for rapid transactions
+between participants, however, the complexity of managing channels and the
+potential for penalties could deter participation.</li>
+<li><strong>Decentralization:</strong> As a layer two solution, the LN depends on the
+underlying network for security. This dependency can lead to varying levels
+of decentralization.</li>
+</ol>
+<p>Taken together, the staking protocol used by Bitcoin lighting as a drop in
+solution for Orcfax partially meets the requirements. While it offers a secure
+and innovative model for transaction processing which inherently deters
+malicious behavior through the risk of lost stake and thereby creates a strong
+disincentive for dishonest actions within payment channels, the complexities and
+potential penalties involved may limit broader participation. Additionally,
+while efforts have been made to create iterations which remove penalties, this
+may undermine the incentive for participants to maintain honest behavior, which
+is a critical requirement for staking protocols.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="34-cardano">3.4 Cardano<a href="#34-cardano" class="hash-link" aria-label="Direct link to 3.4 Cardano" title="Direct link to 3.4 Cardano">​</a></h3>
+<p>Cardano is another prominent proof-of-stake blockchain utilizing its native
+token, ADA. Stake pool operators (SPOs) are block producers and are required to
+stake 500 ADA in order to operate their nodes. SPO&#x27;s are incentivized to
+participate through block producing rewards, and there are no penalties or
+slashing for bad behavior.</p>
+<p>Holders have the ability to delegate their ADA to these SPOs and may be rewarded
+by doing so; the ADA which these users delegate is not locked and is not
+slashable. The likelihood of any given node producing a block is, in part,
+determined by the amount of stake and volume of delegation attributed to it. A
+block producing node receives rewards for their services in securing the
+network. Generally some of the awards received by the SPO&#x27;s are ultimately
+shared with those who delegated to the pool, but each SPO can adjust whether,
+and to what degree, this is done.</p>
+<p>Given the above, an assessment of the Cardano <a href="https://docs.cardano.org/about-cardano/learn/stake-pools/" target="_blank" rel="noopener noreferrer">documentation</a> against
+Orcfax system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> The design of Cardano’s Ouroboros consensus algorithm
+incentivizes SPOs to actively participate in block production. However, the
+absence of slashing penalties is noteworthy as there does not appear to be an
+effective way of disincentivizing malicious behavior.</li>
+<li><strong>Participation:</strong> The stake and delegation model encourages increased user
+participation by allowing non-SPOs delegators to earn rewards without needing
+technical expertise. The competitive nature of stake pools promotes active
+engagement, which meets the Orcfax requirement for incentivized
+participation.</li>
+<li><strong>Decentralization:</strong> By setting the minimum stake for SPO&#x27;s relatively low
+and by allowing other holders to leverage their ADA through its delegation
+system Cardano prioritizes decentralization of network participation through
+user choices in terms of where they delegate.</li>
+</ol>
+<p>Taken together, the staking protocol used by Cardano as a drop in solution for
+Orcfax effectively meets the requirements across incentives, and
+decentralization, positioning itself as a strong contender in the staking
+landscape. The ability for users to delegate without locking funds encourages
+broad participation while the competitive nature of those delegations may
+influence SPO performance in order to maintain them.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="35-cosmos">3.5 Cosmos<a href="#35-cosmos" class="hash-link" aria-label="Direct link to 3.5 Cosmos" title="Direct link to 3.5 Cosmos">​</a></h3>
+<p>Cosmos facilitates a network of interconnected blockchains, utilizing the PoS
+Tendermint consensus mechanism and its native currency ATOM; with that said, the
+current fork that is used is &quot;CometBFT&quot;, which notably is a BFT based algorithm.</p>
+<p>Any holder of ATOM may either declare their intention of becoming a Validators,
+or choose to delegate their ATOM to one of these validators in order to earn
+rewards. For those seeking to become validators, the total number of active
+validators on the network is limited. At the time of this writing, the total
+number of validators is limited to 180, but this number can be adjusted through
+governance protocols; in order to secure the ability to operate as a validator
+and participate in the network by committing blocks, validators must compete for
+the highest volume of total stake &amp; delegations; those with volumes in the top
+180 are then designated validators.</p>
+<p><a href="https://hub.cosmos.network/main/validators/validator-faq.html#becoming-a-validator" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Notably, the stake and delegations are locked and can be slashed. The following
+is an excerpt from their whitepaper:</p>
+<blockquote>
+<p>Validators in Cosmos have a similar role to Bitcoin miners, but instead use
+cryptographic signatures to vote. Validators ... are responsible for
+committing blocks. Non-validators can delegate their staking tokens (called
+&quot;atoms&quot;) to any validator to earn a portion of block fees and atom rewards,
+but they incur the risk of getting punished (slashed) if the delegate
+validator gets hacked or violates the protocol.</p>
+</blockquote>
+<p><a href="https://v1.cosmos.network/resources/whitepaper#:~:text=Validators%20in%20Cosmos,and%20light%20clients." target="_blank" rel="noopener noreferrer">source</a></p>
+<p>This is similar to Cardano, in that users can delegate to dedicated validators,
+and then take a share of rewards. However, a key distinction in Cosmos is that
+(non-validator) users may also <em>lose</em> their stake if the validator behaves
+badly. This dual structure incentivizes users to choose reliable validators to
+mitigate their risk of slashing, and the competitive nature of delegation, in
+order for validators to maintain their privileges, may work to further
+incentivize good behavior on the part of the validator.</p>
+<p>Cosmos&#x27;s focus on interchain interoperability appears to necessitate a focus on
+bridges. Whereby Participants validating txs across a bridge are <em>bridge-zone
+validators</em>. However, the details of this role are not fleshed out in the
+original whitepaper; the whitepaper says only that validators should stake
+collateral to be forfeit in the event of bad behavior in order to disincentivize
+it.</p>
+<p>Given the above, an assessment of Cosmos <a href="https://hub.cosmos.network/main/validators/validator-faq.html" target="_blank" rel="noopener noreferrer">documentation</a> against Orcfax
+system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> The high minimum stake threshold for participation, that
+inevitably occurs through the competitive nature of maintaining the role of a
+validator, combined with the Cosmos incentive structure promotes security of
+the network and may enhance resilience against attacks. This aspect of the
+model aligns well with the Orcfax requirement for a secure staking
+environment and includes slashing as a penalty for bad behavior.</li>
+<li><strong>Participation:</strong> The absence of an explicit minimum stake threshold for
+validators may have broadened participation early on, but the competitive
+nature of maintaining a large total volume of both stake and delegations my
+create barriers for entry as the network grows. However, the incentives for
+holders to delegate their ATOM and receive rewards allows for multiple
+avenues for users to participate in securing the network. It is unclear
+whether the risks related to slashing deter broader participation in
+delegation.</li>
+<li><strong>Decentralization:</strong> Cosmos promotes decentralization through its
+multi-chain architecture, allowing various independent blockchains to
+interact. However, the competitive nature of securing total stake and
+delegation volume in order to provide collateral for cross-chain transactions
+could result in a centralization risk if few participants ran many nodes.
+Possibly as a response to this criticism, Cosmos does have the ability to
+increase the total number of validators through governance actions.</li>
+</ol>
+<p>Taken together, the staking protocol used by Cosmos as a drop in solution for
+Orcfax meets several requirements but faces challenges related to its incentive
+structure and potential centralization risks. While Orcfax has identified
+slashing as a requirement in order to disincentivize malicious behavior, we had
+not considered slashing non-validator delegations. Additionally, the absence of
+a maximum stake and delegation volume combined with the need for validators to
+compete in securing delegation volumes, while potentially adding to an incentive
+structure, may provide a centralization risk. It would be essential for Orcfax
+to address these issues prior to implementation in order to align with its
+requirements and to strengthen its own network.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="36-ethereum">3.6 Ethereum<a href="#36-ethereum" class="hash-link" aria-label="Direct link to 3.6 Ethereum" title="Direct link to 3.6 Ethereum">​</a></h3>
+<p>Ethereum is the largest blockchain based on total value locked (TVL) and has
+recently transitioned away from a proof-of-work consensus mechanism to its
+current PoS mechanism. Those looking to participate in securing the network must
+stake a minimum of 32 ETH to become validators; And while non-validator holders
+do not have the ability to delegate to validators for a share in rewards, as
+some of the other chains in this paper allow, participants have multiple methods
+by which they may operate validator nodes:</p>
+<ul>
+<li>as an independent (i.e. Home staking)</li>
+<li>by leveraging cloud compute (i.e. Staking as a Service)</li>
+<li>by pooling (which allows multiple holders to mutually participate)</li>
+<li>or by staking through a CEX (i.e. Centralized Exchange)</li>
+</ul>
+<p><a href="https://ethereum.org/en/staking/" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>And each of these methods varies in terms of expected rewards for the
+participant.</p>
+<p>Ethereum has deployed an incentive structure in order to reward participants for
+helping in securing the network. Rewards are given for actions that help the
+network reach consensus. Validators may receive rewards for running software
+that properly batches transactions into new blocks, and when they check the work
+of other validators.</p>
+<p><a href="https://ethereum.org/en/staking/#:~:text=Rewards%20are%20given,consensus" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>The Ethereum FAQ page suggests that because these tasks are constantly being
+executed, validators are essentially incentivized for their uptime and that
+validators may expect their services to be net profitable so long as the
+validator&#x27;s uptime is greater than 50%.</p>
+<p><a href="https://holesky.launchpad.ethereum.org/en/faq#responsibilities:~:text=expect%20your%20validator%20to%20be%20net%20profitable%20as%20long%20as%20your%20uptime%20is%20greater%20than%2050%25" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>But the Ethereum incentive structure isn&#x27;t limited to just incentives, the
+staking protocol also utilizes penalties or slashing for bad behavior. Ethereum
+defines slashing as follows:</p>
+<blockquote>
+<p>Slashing has two purposes: (1) to make it prohibitively expensive to attack
+the network, and (2) to stop validators from being lazy by checking that they
+actually perform their duties. If you&#x27;re slashed because you&#x27;ve acted in a
+provably destructive manner, a portion of your stake will be destroyed.</p>
+</blockquote>
+<p><a href="https://blog.ethereum.org/2020/01/13/validated-staking-on-eth2-1-incentives" target="_blank" rel="noopener noreferrer">source</a></p>
+<p>Accordingly, being offline for brief periods of time results in small inactivity
+penalties to accrue against validators, however, validators may annul these
+penalties through uptime. With that said, Ethereum adjusts these penalties based
+on how many validators are operating, with more severe penalties being executed
+when large number sof validators are down at the same time.</p>
+<p>It&#x27;s important to note that the minimum amount that is slashed is 1 ETH and that
+validators may not participate so long as their stake is below the required 32
+ETH.</p>
+<p>Given the above, an assessment of the Ethereum <a href="https://ethereum.org/en/staking/" target="_blank" rel="noopener noreferrer">documentation</a> against
+Orcfax system requirements results in the following:</p>
+<ol>
+<li><strong>Security:</strong> Ethereum’s transition to a proof-of-stake model enhances
+security through its rigorous validator requirements and slashing penalties
+for malicious behavior. This approach aligns well with the need for a secure
+staking protocol.</li>
+<li><strong>Participation:</strong> The varied staking options—solo, pooled, and
+staking-as-a-service—provide flexibility for users, catering to different
+technical expertise levels. However, the requirement for 32 ETH to become a
+solo validator may limit participation for smaller holders, creating a
+barrier to entry.</li>
+<li><strong>Decentralization:</strong> Ethereum&#x27;s reliance on slashing penalties aims to
+promote accountability among validators. However, the complexity of its
+staking mechanism could inadvertently favor larger participants, posing risks
+to decentralization.</li>
+</ol>
+<p>Taken together, the staking protocol used by Ethereum as a drop in solution for
+Orcfax generally meets the requirements, particularly in security and
+participation incentives, but falls short when it comes to methods for
+participation, barriers to entry, and the resulting potential centralization;
+the requirement of 32 ETH, at its current pricing, may exclude smaller holders
+from direct participation, although pooled staking options exist. Regarding the
+incentive structure, the ability for validators to both earn rewards for good
+behavior and face slashing penalties for malicious actions or prolonged
+inactivity, making it a high-stakes environment, aligns with Orcfax
+requirements.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="4-comparative-analysis">4. Comparative Analysis<a href="#4-comparative-analysis" class="hash-link" aria-label="Direct link to 4. Comparative Analysis" title="Direct link to 4. Comparative Analysis">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="41-incentives-for-good-behavior">4.1 Incentives for Good Behavior<a href="#41-incentives-for-good-behavior" class="hash-link" aria-label="Direct link to 4.1 Incentives for Good Behavior" title="Direct link to 4.1 Incentives for Good Behavior">​</a></h3>
+<p>All of the reviewed protocols aside from Algorand incentivize active
+participation through rewards. In contrast, Algorand&#x27;s lack of participation
+rewards raises concerns about user engagement. Cardano and Bitcoin Lightning
+provide unique approaches to user incentives without penalties, but the lack of
+disincentive for malicious behavior could be seen as a network security risk.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="42-penalties-for-malicious-behavior">4.2 Penalties for Malicious Behavior<a href="#42-penalties-for-malicious-behavior" class="hash-link" aria-label="Direct link to 4.2 Penalties for Malicious Behavior" title="Direct link to 4.2 Penalties for Malicious Behavior">​</a></h3>
+<p>Owing to the mixed use of penalties or a slashing mechanism in the staking
+mechanisms reviewed, it is not clear whether the presence or absence of slashing
+significantly impacts network security. Ethereum and Cosmos employ slashing to
+deter malicious actions, whereas Avalanche, Algorand, and cardano have more
+lenient approaches. Bitcoin Lightning’s penalty mechanism depends on channel
+disputes but could be quite severe; however, this penalty mechanism may evolve
+in future iterations or be removed entirely.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="43-user-participation-and-network-security">4.3 User participation and network security<a href="#43-user-participation-and-network-security" class="hash-link" aria-label="Direct link to 4.3 User participation and network security" title="Direct link to 4.3 User participation and network security">​</a></h3>
+<p>Protocols requiring higher stakes, like Ethereum and Avalanche may encourage
+good behavior from participants but doing so creates barriers to entry which
+restricts participation. In contrast, Cardano&#x27;s low minimum stake and flexible
+delegation withdrawal policies may attract more participants.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="44-findings">4.4 Findings<a href="#44-findings" class="hash-link" aria-label="Direct link to 4.4 Findings" title="Direct link to 4.4 Findings">​</a></h2>
+<p>This comparative analysis highlights the diverse approaches to staking across
+different blockchain protocols. Each mechanism&#x27;s design choices reflect the
+underlying philosophy of its network, influencing user participation, network
+security, and overall decentralization. As Orcfax seeks to solve its own need
+for a staking mechanism, understanding these distinctions and how these design
+choices affect key design goals will be crucial for network success.</p>
+<p>From the staking protocols reviewed, each exhibited unique strengths and
+weaknesses when measured against the Orcfax Staking Protocol Requirements.</p>
+<ul>
+<li><strong>Algorand and Avalanche</strong> struggle with incentives and security, limiting
+their appeal and robustness.</li>
+<li><strong>Bitcoin Lightning&#x27;s</strong> complexity and potential removal of penalties may
+hinder user engagement.</li>
+<li><strong>Cardano and Cosmos</strong> offer accessible models but vary in terms of risk,
+particularly regarding slashing.</li>
+<li><strong>Ethereum&#x27;s</strong> comprehensive incentive and security structure are
+commendable, though its high entry barrier remains a concern.</li>
+</ul>
+<p>Ultimately, the protocol used by Orcfax must balance accessibility, security,
+and incentives to meet the evolving needs of staking participants.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5-conclusion">5. Conclusion<a href="#5-conclusion" class="hash-link" aria-label="Direct link to 5. Conclusion" title="Direct link to 5. Conclusion">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="51-limitations">5.1 Limitations<a href="#51-limitations" class="hash-link" aria-label="Direct link to 5.1 Limitations" title="Direct link to 5.1 Limitations">​</a></h3>
+<p>As stated at the outset, this paper did not attempt to cover the breadth of
+staking protocols which have been deployed across the numerous blockchain
+networks active at the time of its writing. Instead, a limited sample was
+selected which was meant to be representative.</p>
+<p>Additionally, the analysis of each of the selected proposals was premised on the
+documentation and publications readily accessible through each of the blockchain
+networks&#x27; public facing sites.</p>
+<p>Further research into the differences, advantages, or downsides to each
+protocol&#x27;s staking mechanism could be furthered by the incorporation of
+alternative research methods such as the following:</p>
+<ol>
+<li>Empirical Analysis<!-- -->
+<ul>
+<li>Data Collection: Gather real-time data on staking rewards, participation
+rates, and network performance for each protocol. This would involve
+monitoring blockchain explorers and staking analytics platforms.</li>
+<li>User Surveys: Conduct surveys or interviews with users of different
+protocols to understand their experiences, challenges, and motivations for
+participating in staking.</li>
+</ul>
+</li>
+<li>Case Studies<!-- -->
+<ul>
+<li>In-Depth Case Studies: Choose specific projects or use cases within each
+protocol and analyze their staking dynamics. For example, examining how
+different stake pools operate in Cardano or how delegation works in
+Avalanche.</li>
+</ul>
+</li>
+<li>Comparative Metrics Development<!-- -->
+<ul>
+<li>Key Performance Indicators (KPIs): Develop KPIs to quantitatively compare
+protocols. This could include metrics like average staking rewards,
+decentralization levels, network uptime, and the impact of slashing on
+validators.</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="52-key-observations">5.2 Key observations<a href="#52-key-observations" class="hash-link" aria-label="Direct link to 5.2 Key observations" title="Direct link to 5.2 Key observations">​</a></h3>
+<ol>
+<li><strong>Incentives</strong>: While protocols like <strong>Cardano</strong> and <strong>Avalanche</strong> offer
+rewarding systems, they lack robust mechanisms that ensure active
+participation and engagement, particularly when compared to Ethereum’s strict
+penalties for negligence.</li>
+<li><strong>Security</strong>: Protocols like <strong>Ethereum</strong> provide strong security through
+slashing, but this comes at the cost of accessibility, as the entry barrier
+is quite high. Conversely, <strong>Algorand</strong> maintains user control but lacks
+penalties, which can undermine its security integrity.</li>
+<li><strong>Accessibility</strong>: <strong>Avalanche</strong> has a relatively low minimum stake
+requirement, promoting participation. Conversely, <strong>Ethereum</strong>&#x27;s 32 ETH
+requirement limits access, making it less inclusive.</li>
+<li><strong>Risk Management</strong>: Protocols like <strong>Cosmos</strong> introduce slashing risks that
+can deter participants. <strong>Bitcoin Lightning</strong>&#x27;s evolution towards removing
+penalties could weaken its trustworthiness and security model.</li>
+</ol>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="53-closing-thoughts">5.3 Closing Thoughts<a href="#53-closing-thoughts" class="hash-link" aria-label="Direct link to 5.3 Closing Thoughts" title="Direct link to 5.3 Closing Thoughts">​</a></h3>
+<p>No single staking protocol from the reviewed list fully meets all the
+requirements outlined in the Orcfax Staking Protocol Requirements. Each protocol
+has its strengths and weaknesses, but they collectively fall short of the
+preliminary system requirements and in one or more critical areas relating to
+Orcfax priorities.</p>
+<p>These results signal some important conclusions. First, that given current
+understandings of Orcfax network needs, there is no one staking protocol from
+the sample set which can serve as a drop in solution. Second, that given the
+discrepancies between Orcfax identified system requirements and the sample set,
+Orcfax may need to reassess the system requirements developed at the outset of
+this research.</p>
+<p>A revision to system requirements could result in closer alignment with a
+staking mechanism from the sample set, but this would invariably lead to
+compromises which could have profound impacts on one or more of the key areas
+(participation, security, decentralization).</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/oracle-basics"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Oracle basics</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#abstract" class="table-of-contents__link toc-highlight">Abstract</a></li><li><a href="#1-introduction" class="table-of-contents__link toc-highlight">1. Introduction</a><ul><li><a href="#what-is-staking" class="table-of-contents__link toc-highlight">What is staking</a></li><li><a href="#what-is-orcfax-and-what-is-its-need-for-staking" class="table-of-contents__link toc-highlight">What is Orcfax and what is its need for staking?</a></li></ul></li><li><a href="#2-context" class="table-of-contents__link toc-highlight">2. Context</a><ul><li><a href="#21-key-components-of-the-staking-mechanism" class="table-of-contents__link toc-highlight">2.1 Key components of the staking mechanism</a></li><li><a href="#22-participant-requirements" class="table-of-contents__link toc-highlight">2.2 Participant requirements</a></li><li><a href="#23-system-components" class="table-of-contents__link toc-highlight">2.3 System components</a></li><li><a href="#24-must-have-requirements" class="table-of-contents__link toc-highlight">2.4 Must Have requirements</a></li></ul></li><li><a href="#3-overview-of-staking-protocols" class="table-of-contents__link toc-highlight">3. Overview of staking Protocols</a><ul><li><a href="#31-algorand" class="table-of-contents__link toc-highlight">3.1 Algorand</a></li><li><a href="#32-avalanche" class="table-of-contents__link toc-highlight">3.2 Avalanche</a></li><li><a href="#33-bitcoin-lightning" class="table-of-contents__link toc-highlight">3.3 Bitcoin Lightning</a></li><li><a href="#34-cardano" class="table-of-contents__link toc-highlight">3.4 Cardano</a></li><li><a href="#35-cosmos" class="table-of-contents__link toc-highlight">3.5 Cosmos</a></li><li><a href="#36-ethereum" class="table-of-contents__link toc-highlight">3.6 Ethereum</a></li></ul></li><li><a href="#4-comparative-analysis" class="table-of-contents__link toc-highlight">4. Comparative Analysis</a><ul><li><a href="#41-incentives-for-good-behavior" class="table-of-contents__link toc-highlight">4.1 Incentives for Good Behavior</a></li><li><a href="#42-penalties-for-malicious-behavior" class="table-of-contents__link toc-highlight">4.2 Penalties for Malicious Behavior</a></li><li><a href="#43-user-participation-and-network-security" class="table-of-contents__link toc-highlight">4.3 User participation and network security</a></li></ul></li><li><a href="#44-findings" class="table-of-contents__link toc-highlight">4.4 Findings</a></li><li><a href="#5-conclusion" class="table-of-contents__link toc-highlight">5. Conclusion</a><ul><li><a href="#51-limitations" class="table-of-contents__link toc-highlight">5.1 Limitations</a></li><li><a href="#52-key-observations" class="table-of-contents__link toc-highlight">5.2 Key observations</a></li><li><a href="#53-closing-thoughts" class="table-of-contents__link toc-highlight">5.3 Closing Thoughts</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/oracle-basics">FAQ</a></li></ul></div><div class="col footer__col"><div class="footer__title">Orcfax</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.com/invite/UbAeRuNzDu" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://medium.com/@orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Github<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Legal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/terms-of-service">Terms of Service</a></li></ul></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://orcfax.io" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width="100" height="100"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width="100" height="100"></a></div><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
+</body>
+</html>

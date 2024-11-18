@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.1">
+<title data-rh="true">A Comparative Analysis of Consensus Protocols used in Blockchain Networks | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="A Comparative Analysis of Consensus Protocols used in Blockchain Networks | Orcfax"><meta data-rh="true" name="description" content="Dominic Wallis Ph.d, Christian Koch M.A."><meta data-rh="true" property="og:description" content="Dominic Wallis Ph.d, Christian Koch M.A."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus" hreflang="x-default"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.62c0e784.css">
+<script src="/assets/js/runtime~main.719e40f0.js" defer="defer"></script>
+<script src="/assets/js/main.5ac1ca60.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/"><div class="navbar__logo"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Orcfax</b></a></div><div class="navbar__items navbar__items--right"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd sidebarWithHideableNavbar_wUlq"><a tabindex="-1" class="sidebarLogo_isFc" target="_self" href="/"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"><b>Orcfax</b></a><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/solution-overview">Orcfax solution</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/feed-overview">Orcfax feeds</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/consume">Developer manual</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/itn-overview">Incentivized Testnet (ITN)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/tokenomics">FACT token</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/project-catalyst">Project Catalyst</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/project-catalyst">Proposal overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-audit">Orcfax architecture audit</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-explorer">Orcfax Explorer: Improving &quot;Trust But Verify</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-staking">Orcfax staking: rewarding good behaviour</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-consensus">Orcfax validators: reaching L2 consensus</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking">A Comparative Analysis of Staking Protocols in Blockchain Networks</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/oracle-basics">FAQ</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/glossary">Glossary</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Project Catalyst</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>A Comparative Analysis of Consensus Protocols used in Blockchain Networks</h1></header>
+<p>Dominic Wallis Ph.d, Christian Koch M.A.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="abstract">Abstract<a href="#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract">​</a></h2>
+<p>This paper provides a brief comparison of various consensus protocols which were
+assessed against an initial understanding of consensus requirements and purpose
+being for Orcfax to ascertain whether an existing consensus protocol, as a drop
+in solution for Orcfax, adequately meets its needs for: high throughput, low
+latency, fault tolerance, and scalability in a multi-validator environment.
+Based on the analysis of each consensus protocol and the initial <em>Must Have</em>
+requirements identified by Orcfax, none of the reviewed consensus protocols
+fully meets the needs of EchoNet. However, the most interesting line for
+additional inquiry is CometBFT which aligned with several of the core Orcfax
+requirements for a consensus protocol.</p>
+<p>The other consensus protocols examined in this paper were: Hydra, Hydrozoa,
+Iagon, Lodestar, Midgard, NEM, Raft, Snowball, CometBFT, and VeChainThor. Each
+was assessed for its efficiency, reliability, scalability, as well as its
+capacity to support a decentralized, real-time data validation network.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-introduction">1. Introduction<a href="#1-introduction" class="hash-link" aria-label="Direct link to 1. Introduction" title="Direct link to 1. Introduction">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="11-what-is-consensus">1.1 What is consensus<a href="#11-what-is-consensus" class="hash-link" aria-label="Direct link to 1.1 What is consensus" title="Direct link to 1.1 What is consensus">​</a></h3>
+<p>In the context of decentralized networks, consensus is the process by which
+network participants (or validators) reach an agreement on the validity of
+transactions and the state of the blockchain, without the need for a central
+authority. Validators are tasked with collectively verifying, approving, and
+adding new transactions to the blockchain, ensuring the integrity and
+consistency of the distributed ledger. In PoS networks, consensus relies on
+validators who are chosen to create new blocks or validate transactions based on
+their stake.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="12-what-is-orcfax-and-what-is-its-need-for-consensus">1.2 What is Orcfax and what is its need for consensus?<a href="#12-what-is-orcfax-and-what-is-its-need-for-consensus" class="hash-link" aria-label="Direct link to 1.2 What is Orcfax and what is its need for consensus?" title="Direct link to 1.2 What is Orcfax and what is its need for consensus?">​</a></h3>
+<p><a href="https://orcfax.io/" target="_blank" rel="noopener noreferrer">Orcfax</a> is an aspiring decentralized oracle on the Cardano blockchain.
+An oracle is a service that makes information available to the context of code
+executing within the blockchain. This information is used to determine whether
+transactions may be deemed valid. Thus those effected by such transactions need
+to have trust in the oracle system. By its nature the information from an oracle
+does not come with the guarantees of the blockchain, and so to be useful the
+oracle must present its own integrity model. This model serves as the
+justification of why anyone should have confidence the oracle service provider
+is accurate and reliable.</p>
+<p>The data Orcfax provides is arranged into feeds. A feed is generally time series
+data. For example the <a href="https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/9a61d41b-fc3b-4ca1-965f-5e7eb4d2b7af" target="_blank" rel="noopener noreferrer">ADA/USD</a> exchange rate.</p>
+<p>A feed can be thought of as a data pipeline. Data is periodically collected from
+numerous sources. This data is then subjected to a normalization and aggregation
+process which outputs a statement belonging to a feed. Each execution of the
+data pipeline results in a statement.</p>
+<p>Currently, the Orcfax network is centralized. This means that at present, the
+integrity model presented by Orcfax is one of authority; this is where a single
+centralized authority provides information. This integrity model argues that the
+combination of legal repercussions, and financial and reputation damage ensures
+the data provider (Orcfax) is highly motivated to report information accurately
+and reliably.</p>
+<p>An advantage of this approach is that it is relatively simple. A disadvantage of
+the approach is that it has a single point of corruption and or failure; it
+relies solely on a single entity to be honest and competent.</p>
+<p>The goal of Orcfax since its inception has been to develop towards a
+decentralized network. The decentralized Orcfax network will be EchoNet, it&#x27;s
+participants will be referred to as &quot;Orcfax validators&quot;, and these validators
+will be recognized as such through their ownership of specific assets on the
+Cardano L1. The integrity model presented through this network will be one of
+consensus; If a decentralized set of participants are to provide a service such
+as an oracle service, they must first agree on the information they provide.
+That is, they must find consensus; this must be accomplished given the
+assumption that most but not all participants are honest and competent while
+some participants of the network may be malicious or incompetent.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="13-the-role-of-the-validator">1.3 The role of the validator<a href="#13-the-role-of-the-validator" class="hash-link" aria-label="Direct link to 1.3 The role of the validator" title="Direct link to 1.3 The role of the validator">​</a></h3>
+<p>Orcfax Validators will be expected to execute a number of tasks, many of which
+require consensus. A non-exhaustive list of the tasks that validators must do
+includes:</p>
+<ul>
+<li>running the existing data collectors and feeds</li>
+<li>ensuring maintenance of existing code base</li>
+<li>ensuring health of data sources / definitions of feeds</li>
+<li>sunsetting and discontinuing underused feeds</li>
+<li>defining and developing new feeds</li>
+<li>ensuring the health of the network (removing bad validators and collectors)</li>
+<li>maintaining optimal remuneration parameters</li>
+</ul>
+<p>In the present proposal we are mostly concerned with consensus as it is involved
+in the running of existing feeds. We hope that the underlying techniques can be
+directly extended to the other tasks contexts.</p>
+<p>The running of the existing collectors and feeds is synonymous with the task of
+producing statements.</p>
+<p>A statement is the interface between Orcfax and its consumers. Consumers are the
+users of Cardano who are in some way implicated in transactions that consume
+Orcfax data. For example, an individual who took a collateralized loan via a
+dApp that integrated Orcfax price feeds, and that was liquidated when exchange
+rates changed is a consumer.</p>
+<p>A statement is <em>published</em> on the L1 only if it has a valid signature. Currently
+a single signer is used. It is envisioned that a FROST-like method would allow
+the transition from a single signer to a multi-signature (k of n) arrangement.
+However, FROST is a multisig scheme, not a consensus algorithm; FROST does not
+address the question of how consensus was reached. For these reasons, FROST is
+not discussed further in this paper beyond the following: Orcfax may be able to
+use FROST in the future to cheaply check that consensus was reached for a given
+statement. However, Orcfax is not committed to this design and this aspect may
+be change if it is deemed desirable.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="14-securing-the-network">1.4 Securing the network<a href="#14-securing-the-network" class="hash-link" aria-label="Direct link to 1.4 Securing the network" title="Direct link to 1.4 Securing the network">​</a></h3>
+<p>One aim that Orcfax has for its implementation of consensus is to uphold or
+secure the health of the network in spite of participants behaving badly: either
+by incompetence or with malicious intent. For this reason It may be helpful to
+flesh out <em>What actions are deemed bad for the health or security of the
+network?</em> the following is a non-exhaustive list demonstrating our current
+understanding.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="141-an-unresponsive-participant">1.4.1 An unresponsive participant<a href="#141-an-unresponsive-participant" class="hash-link" aria-label="Direct link to 1.4.1 An unresponsive participant" title="Direct link to 1.4.1 An unresponsive participant">​</a></h4>
+<p>We cannot know if this is due to malice, incompetence, or wider network failure
+beyond what is reasonable to expect is within the participants control.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="142-collectors-reporting-spurious-information">1.4.2 Collectors reporting spurious information<a href="#142-collectors-reporting-spurious-information" class="hash-link" aria-label="Direct link to 1.4.2 Collectors reporting spurious information" title="Direct link to 1.4.2 Collectors reporting spurious information">​</a></h4>
+<p>For example, were it possible for a collector to simply copy and repeat anther
+collectors&#x27; output then they add no additional integrity to the network.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="143-biased-aggregators">1.4.3 Biased aggregators<a href="#143-biased-aggregators" class="hash-link" aria-label="Direct link to 1.4.3 Biased aggregators" title="Direct link to 1.4.3 Biased aggregators">​</a></h4>
+<p>Depending on the design, there may be the possibility of an aggregator perform
+selection bias, ignoring collectors with unfavorable outputs.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="144-copycat-participants">1.4.4 Copycat participants<a href="#144-copycat-participants" class="hash-link" aria-label="Direct link to 1.4.4 Copycat participants" title="Direct link to 1.4.4 Copycat participants">​</a></h4>
+<p>Depending on the design, it maybe possible for a participant to simply copy the
+results of another participant. This makes the network less robust and reliable.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="145-half-hearted-participants">1.4.5 Half hearted Participants<a href="#145-half-hearted-participants" class="hash-link" aria-label="Direct link to 1.4.5 Half hearted Participants" title="Direct link to 1.4.5 Half hearted Participants">​</a></h4>
+<p>Suppose there is no check on publishing the data trace then a participant will
+begin ignoring a stipulation.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="146-considerations">1.4.6 Considerations<a href="#146-considerations" class="hash-link" aria-label="Direct link to 1.4.6 Considerations" title="Direct link to 1.4.6 Considerations">​</a></h4>
+<p>We don&#x27;t yet have complete answers to how the design addresses these issues.
+Such design decisions will likely have a bearing on who is reaching consensus
+how and over precisely what.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="15-consensus-requirements">1.5 Consensus requirements<a href="#15-consensus-requirements" class="hash-link" aria-label="Direct link to 1.5 Consensus requirements" title="Direct link to 1.5 Consensus requirements">​</a></h3>
+<p>The framing of the requirements is partly based on assumptions on the form of
+the output.</p>
+<ul>
+<li>The software is, or mimics, a service on a computer.</li>
+<li>Each participant is running an instance of the software.</li>
+<li>State must be communicated between participants.</li>
+<li>If relevant, assume participants can communicate via TCP or UDP based.</li>
+</ul>
+<p>Given these, Orcfax has identified the following as a preliminary list of Must
+Have requirements (parameters outlined below):</p>
+<ol>
+<li>Participants efficiently communicate their state</li>
+<li>Participants run validity checks on any data they receive. If appropriate,
+they will stop communicating with a participant providing bad data. *</li>
+<li>N participants reach consensus.</li>
+<li>In normal conditions, time &lt; T seconds between an atom being sent from an
+external source to it being included in consensus by most participants. If
+finality is not a property of the consensus mechanism, then replace this with
+an analogous condition (eg high probability etc.).</li>
+<li>In normal conditions, throughput averaging &gt; V statements per second</li>
+<li>Impossible to publish a bad statement with K number of malicious nodes</li>
+<li>Impossible to crash the system with K number of malicious nodes</li>
+</ol>
+<p>Parameters:</p>
+<ul>
+<li>N = number of nodes in the network: 100</li>
+<li>K = number of malicious or incompetent nodes: 30</li>
+<li>T = time of delivery: 60s</li>
+<li>V = velocity of statements: 10 tps</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>*</div><div class="admonitionContent_BuS1"><p>The threshold for determining what constitutes bad data is out of scope for this
+research and merits its own attention. We know there will be a set of functions
+that will validate incoming data; some will lead to a peer being dropped, others
+that will lead to the data being rejected, but the peer kept. However beyond
+this initial understanding we do not yet know what these functions will look
+like.</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-overview-of-consensus-protocols">2. Overview of consensus protocols<a href="#2-overview-of-consensus-protocols" class="hash-link" aria-label="Direct link to 2. Overview of consensus protocols" title="Direct link to 2. Overview of consensus protocols">​</a></h2>
+<p>As stated previously, this paper does not begin to cover the breadth of
+consensus protocols being used across the multitude of blockchain networks.
+Instead, a sample set of consensus implementations were selected which primarily
+utilize Proof of Stake (PoS) as this is an Orcfax network requirement, but some
+alternative consensus mechanisms are also explored.</p>
+<p>These protocols have been assessed against a preliminary understanding of Orcfax
+needs for consensus within EchoNet, the role of Orcfax validators, the
+identified Must Have requirements, their efficiency, and reliability.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="21-hydra">2.1 Hydra<a href="#21-hydra" class="hash-link" aria-label="Direct link to 2.1 Hydra" title="Direct link to 2.1 Hydra">​</a></h3>
+<p>Hydra is an L2 scaling solution designed specifically for the Cardano
+blockchain. Its purpose is to enhance transaction throughput and reduce latency
+by creating “Hydra heads,” which are separate, parallelized mini-ledgers that
+allow for fast and efficient transaction processing independently of the main
+Cardano blockchain <a href="https://hydra.family/head-protocol/docs" target="_blank" rel="noopener noreferrer">Hydra Protocol, 2023</a>.</p>
+<p>Each Hydra head is presented as a scalable, parallel processing environment that
+maintains strong connections to Cardano’s primary chain, ensuring secure and
+synchronized state transitions without burdening the main network. The Hydra
+protocol functions by offloading transaction processing to these Hydra heads.
+Each Hydra head can be thought of as a decentralized, mini consensus environment
+where nodes execute transactions and reach consensus independently, but
+unanimously within the head. These transactions are later aggregated back to the
+Cardano main chain.</p>
+<p>At the time of writing, the largest number of participants demonstrated in a tx
+is 57. Presumably, this is the most that are able to participate before some tx
+limit is reached.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="211-hydra-against-requirements">2.1.1 Hydra against requirements<a href="#211-hydra-against-requirements" class="hash-link" aria-label="Direct link to 2.1.1 Hydra against requirements" title="Direct link to 2.1.1 Hydra against requirements">​</a></h4>
+<p><strong>Challenges</strong>: Hydra as an out of the box solution for Orcfax is immediately
+ruled out. The reliance of heads on unanimous consent means that one malicious
+actor could have significant impacts on network reliability and efficacy.
+However, it might be possible to adapt Hydra by relaxing unanimous consent.
+Otherwise, Hydra is not too far off meeting the core design requirements; Issues
+with participation count being limited to 57 might be circumvented for Orcfax&#x27;s
+needs. It may also be possible that hydra brings additional benefits of
+alignment with the L1.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="22-hydrozoa">2.2 Hydrozoa<a href="#22-hydrozoa" class="hash-link" aria-label="Direct link to 2.2 Hydrozoa" title="Direct link to 2.2 Hydrozoa">​</a></h3>
+<p>Hydrozoa is presented as a consensus protocol within the Cardano ecosystem
+developed to address scalability, particularly for decentralized applications
+(dApps) requiring high levels of throughput and fault tolerance <a href="https://github.com/GeorgeFlerovsky/cardano-hydrozoa" target="_blank" rel="noopener noreferrer">Hydrozoa,
+2023</a>.</p>
+<p>While no working implementation could be found, Hydrozoa claims to be
+specifically designed to improve the performance and reliability of consensus in
+environments with a large number of validators. It is aimed at enhancing
+Cardano’s decentralized application layer by offering a framework for handling
+high-frequency, multi-node validation, which is a core requirement for real-time
+data oracles like Orcfax.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="221-hydrozoa-against-requirements">2.2.1 Hydrozoa against requirements<a href="#221-hydrozoa-against-requirements" class="hash-link" aria-label="Direct link to 2.2.1 Hydrozoa against requirements" title="Direct link to 2.2.1 Hydrozoa against requirements">​</a></h4>
+<p><strong>Challenges</strong>: While Hydroza presents itself as a compelling solution, and one
+which seems to address many of the key requirements addressed by Orcfax, the
+lack of any working code or implementations immediately rules out Hydroza as a
+solution.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="23-iagon">2.3 Iagon<a href="#23-iagon" class="hash-link" aria-label="Direct link to 2.3 Iagon" title="Direct link to 2.3 Iagon">​</a></h3>
+<p>Iagon is a decentralized cloud computing and storage platform, built to leverage
+blockchain technology for distributed storage and compute resource management
+<a href="https://docs.iagon.com/developers/developers-guide/developer" target="_blank" rel="noopener noreferrer">Iagon, 2023</a>.</p>
+<p>Iagon uses decentralized network infrastructure to store data in a secure,
+distributed manner. Its primary use case is in cloud-based applications where
+decentralized data storage and processing are prioritized over real-time
+consensus. This decentralized approach enables Iagon to deliver reliable storage
+services across a network without requiring a traditional high-speed consensus
+protocol, making it more suited to applications requiring data integrity and
+accessibility over rapid, consensus-driven data validation.</p>
+<p>Iagon operates by distributing data across a network of decentralized nodes, and
+claims to be effective at protecting against data loss or tampering, by
+redundantly storing and managing data across the network <a href="https://docs.iagon.com/developers/developers-guide/developer" target="_blank" rel="noopener noreferrer">Iagon, 2023</a>.</p>
+<p>However, a lack of available resources and information constrain the ability to
+say more about the solution; at the time of writing many links presented in the
+docs that would be helpful to explain iagon do not seem to exist. It is not
+entirely clear if it is, or will be, a sidechain or L2.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="231-iagon-against-requirements">2.3.1 Iagon against requirements<a href="#231-iagon-against-requirements" class="hash-link" aria-label="Direct link to 2.3.1 Iagon against requirements" title="Direct link to 2.3.1 Iagon against requirements">​</a></h4>
+<p><strong>Challenges</strong>: While Iagon presents itself as a compelling consensus solution
+utilizing a unique proof of storage architecture, the ability for Orcfax to
+assess Iagon&#x27;s architecture and design against its own needs is highly
+constrained by the lack of documentation and working code. While the available
+docs are informative as to the solution&#x27;s purpose, they are insufficiently
+technical or insightful.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="24-lodestar">2.4 Lodestar<a href="#24-lodestar" class="hash-link" aria-label="Direct link to 2.4 Lodestar" title="Direct link to 2.4 Lodestar">​</a></h3>
+<p>Lodestar is a JavaScript-based consensus client for the Ethereum 2.0
+<a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/" target="_blank" rel="noopener noreferrer">Gasper</a> consensus mechanism developed to implement Ethereum’s
+Proof-of-Stake (PoS) consensus model through the Beacon chain <a href="https://chainsafe.github.io/lodestar/introduction" target="_blank" rel="noopener noreferrer">Lodestar,
+2023</a>. As an Ethereum client, Lodestar enables nodes to participate in
+the Ethereum 2.0 PoS ecosystem, enhancing scalability and security while
+supporting Ethereum’s transition from Proof-of-Work (PoW) to PoS. Lodestar
+primarily serves as a foundational client for Ethereum’s staking and consensus
+layers, designed to handle transactions securely and efficiently in a
+decentralized network environment.</p>
+<p>Lodestar operates within Ethereum’s PoS framework, where validators secure the
+network by staking ETH and performing consensus duties. Lodestar’s JavaScript
+architecture makes it accessible and versatile, although it is fundamentally
+tailored to Ethereum’s ecosystem rather than cross-chain or for Cardano
+integrations. <a href="https://chainsafe.github.io/lodestar/introduction" target="_blank" rel="noopener noreferrer">Lodestar, 2023</a>.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="241-loadstar-against-requirements">2.4.1 Loadstar against requirements<a href="#241-loadstar-against-requirements" class="hash-link" aria-label="Direct link to 2.4.1 Loadstar against requirements" title="Direct link to 2.4.1 Loadstar against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: Lodestar’s PoS model on Ethereum is effective in supporting
+moderate transaction throughput, with some benchmarks showing between 1000 to
+1250 TPS (<a href="https://migalabs.io/blog/post/ethereum-hardware-resource-analysis-update" target="_blank" rel="noopener noreferrer">Ethereum Hardware Resource Analysis Update, 2024</a>), but its
+throughput capacity is limited by Ethereum’s network constraints, which are
+different from Cardano’s capabilities. The Beacon chain, while efficient within
+Ethereum, would require additional adaptation to meet the low-latency (T) and
+high-throughput (V) demands of Orcfax.</p>
+<p><strong>Reliability</strong>: Ethereum 2.0’s PoS consensus model provides network security by
+requiring block finality to reach 2/3 consensus among nodes (<a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/#what-is-finality" target="_blank" rel="noopener noreferrer">What is
+Finality</a>), which exceeds Orcfax’s security and fault tolerance needs.
+However, its reliance on Ethereum’s staking mechanisms and reward systems means
+that its security model is tightly linked to Ethereum’s staking protocol, which
+may not fully translate to an Orcfax use case.</p>
+<p><strong>Challenges</strong>: The primary challenges with adapting Lodestar for Orcfax are its
+dependency on Ethereum’s PoS structure and its limited throughput compared to
+Cardano’s capabilities. While Lodestar’s JavaScript-based design offers
+flexibility, its reliance on Ethereum’s Beacon chain constrains its
+applicability for Orcfax, which requires faster and more flexible data consensus
+within the Cardano ecosystem. Integrating Lodestar might require developing
+custom bridge or cross-chain protocols and potentially redesigning aspects of
+its staking incentives.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="25-midgard">2.5 Midgard<a href="#25-midgard" class="hash-link" aria-label="Direct link to 2.5 Midgard" title="Direct link to 2.5 Midgard">​</a></h3>
+<p>Midgard is presented as a protocol used within decentralized liquidity networks
+like Thorchain to manage and update liquidity states in real-time. The solution
+claims to be designed to facilitate high-throughput data handling in DeFi
+environments and for processing rapid liquidity changes across distributed
+pools, all while maintaining up-to-date state information for liquidity
+providers <a href="https://midgardprotocol.com/what-is-midgard/#" target="_blank" rel="noopener noreferrer">Midgard, 2023</a>. Midgard also claims to implement byzantine
+fault tolerance (BFT), ensuring stability and consensus even in environments
+with malicious nodes.</p>
+<p>However, a lack of available resources and information constrain the ability to
+ascertain how well the solution meets the needs of Orcfax; at the time of
+writing many links such as those for documentation and the whitepaper resolve to
+&quot;what is Mitgard?&quot;, which provides insufficient information to say more.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="251-midgard-against-requirements">2.5.1 Midgard against requirements<a href="#251-midgard-against-requirements" class="hash-link" aria-label="Direct link to 2.5.1 Midgard against requirements" title="Direct link to 2.5.1 Midgard against requirements">​</a></h4>
+<p><strong>Challenges</strong>: While Mitgard presents itself as a compelling consensus
+solution, the ability for Orcfax to assess Mitgard&#x27;s architecture and design
+against its own needs is highly constrained by the lack of documentation and
+working code. While the available docs are informative as to the solution&#x27;s
+purpose, they are insufficiently technical or insightful.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="26-nem">2.6 NEM<a href="#26-nem" class="hash-link" aria-label="Direct link to 2.6 NEM" title="Direct link to 2.6 NEM">​</a></h3>
+<p>NEM (New Economy Movement) utilizes a unique consensus mechanism called
+Proof-of-Importance (PoI), designed to reward participants based on their
+activity and contribution within the network <a href="https://github.com/NemProject/" target="_blank" rel="noopener noreferrer">NEM Project, 2023</a>. Unlike
+traditional PoW or PoS models, PoI evaluates network importance by factoring in
+a participant’s transaction history, frequency of transactions, and network
+holdings, promoting active engagement and network utility. NEM’s PoI model is
+primarily used within its ecosystem for facilitating transactions, but its
+unique activity-based approach to consensus offers an alternative to traditional
+staking mechanisms, prioritizing network participation over token holding.</p>
+<p>In NEM’s PoI model, participants earn rewards based on their calculated
+importance score, which is determined by an algorithmic assessment of
+transaction activity, account age, and other engagement metrics. This approach
+claims to discourages centralization by rewarding activity and connectivity
+within the network rather than relying on volume-based staking, as seen in some
+PoS models.</p>
+<p>NEM’s PoI nodes validate transactions and reach consensus without requiring
+significant computational resources, claiming that it&#x27;s efficient for moderate
+throughput applications; however, specific figures to back this claim could not
+be found. The system’s activity-based scoring method is intended to encourage
+nodes to remain active and to contribute consistently, thereby fostering a
+stable network with distributed validator incentives <a href="https://github.com/NemProject/" target="_blank" rel="noopener noreferrer">NEM Project, 2023</a>.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="261-nem-against-requirements">2.6.1 NEM against requirements<a href="#261-nem-against-requirements" class="hash-link" aria-label="Direct link to 2.6.1 NEM against requirements" title="Direct link to 2.6.1 NEM against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: NEM’s PoI model is optimized for moderate transaction
+throughput, performing well for applications requiring steady transaction
+handling without the resource intensity of PoW or the latency which its docs
+associate with high-volume PoS networks. However, for Orcfax, which has
+identified high-throughput validation for real-time data as a requirement, NEM’s
+capabilities may not fully align, as its focus on engagement-based incentives
+could limit its transaction speed and scalability in high-frequency scenarios
+<a href="https://github.com/NemProject/" target="_blank" rel="noopener noreferrer">NEM Project, 2023</a>.</p>
+<p><strong>Reliability</strong>: By encouraging active participation over token staking, NEM’s
+PoI model provides an alternative structure for data integrity. However, the
+reliability of NEM’s PoI is highly contingent on user activity and engagement,
+making it less ideal for applications where consistent, rapid consensus is
+necessary regardless of participation patterns.</p>
+<p><strong>Challenges</strong>: The main challenge with NEM’s PoI for Orcfax is its reliance on
+engagement-based incentives, which may not adequately support the
+high-throughput and continuous validation needs of a decentralized oracle
+network.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="27-raft-rs">2.7 Raft-rs<a href="#27-raft-rs" class="hash-link" aria-label="Direct link to 2.7 Raft-rs" title="Direct link to 2.7 Raft-rs">​</a></h3>
+<p>Raft-rs is the rust implementation of the Raft consensus protocol, which is
+primarily used in distributed systems where consistency and reliability are
+prioritized over throughput and scalability <a href="https://github.com/tikv/raft-rs" target="_blank" rel="noopener noreferrer">Raft, 2023</a>. Raft is
+designed for use in closed networks where trusted nodes operate cooperatively.
+The network elects a single leader among nodes, who then coordinates the
+validation and replication of data entries across follower nodes, ensuring
+consistency and data integrity. If the leader fails, a new one is elected to
+take over the validation and data coordination duties.</p>
+<p>Raft’s simplicity and leader-based model make it suitable for smaller networks
+where high levels of trust exist among nodes, but it may be less resilient in
+environments where malicious nodes must be accounted for.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="271-raft-against-requirements">2.7.1 Raft against requirements<a href="#271-raft-against-requirements" class="hash-link" aria-label="Direct link to 2.7.1 Raft against requirements" title="Direct link to 2.7.1 Raft against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: Raft is highly efficient in terms of latency and resource use
+within small, closed networks where it can maintain high levels of consistency
+without the complexity of large-scale byzantine fault tolerance <a href="https://raft.github.io/" target="_blank" rel="noopener noreferrer">Raft,
+2023</a>.</p>
+<p><strong>Reliability</strong>: Raft is reliable for smaller networks where nodes trusted and
+cooperative, as its leader-election process ensures data consistency. However,
+in a decentralized oracle network with potentially adversarial participants,
+Raft’s inability to accommodate malicious actors presents a vulnerability,
+especially where resilience against malicious nodes is essential.</p>
+<p><strong>Challenges</strong>: Raft’s primary challenge as a drop in solution for Orcfax
+adapting lies in its closed, leader-based consensus model, which is incompatible
+with decentralized oracle requirements; the Orcfax network is being designed as
+a decentralized network and must be able to deal with malicious nodes</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="28-avalanche">2.8 Avalanche<a href="#28-avalanche" class="hash-link" aria-label="Direct link to 2.8 Avalanche" title="Direct link to 2.8 Avalanche">​</a></h3>
+<p>The Avalanche consensus protocol, utilizing the Snowball consensus algorithm,
+boasts a probabilistic, high-throughput consensus that emphasizes rapid, secure
+agreement despite adversarial conditions <a href="https://docs.avax.network/learn/avalanche-consensus" target="_blank" rel="noopener noreferrer">Avalanche, 2023</a>.</p>
+<p>Avalanche consensus, which includes Snowball, is designed to achieve consensus
+across a large number of validators by relying on repeated probabilistic
+sampling and gossip protocols. This structure makes it resilient, scalable, and
+well-suited to environments where high transaction rates and fast finality are
+critical, such as decentralized finance and data validation in oracle systems.</p>
+<p>Snowball works through a process called metastable consensus, where nodes
+repeatedly sample one another to reach agreement on data validity. Nodes query
+others in the network to confirm decisions, using probabilistic algorithms to
+ensure convergence on a single outcome. This process allows Snowball to achieve
+consensus without requiring all nodes to agree simultaneously, reducing latency
+and enabling high throughput. The probabilistic nature of Snowball’s consensus
+claims to allow the network to scale to thousands of validators without
+compromising security or speed <a href="https://salemal.medium.com/snowflake-to-avalanche-a-novel-metastable-consensus-protocol-family-for-cryptocurrencies-961f2b32ee94" target="_blank" rel="noopener noreferrer">Avalanche, 2023</a>; this exceeds the
+requirements identified by Orcfax for throughput and scalability.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="281-snowball-against-requirements">2.8.1 Snowball against requirements<a href="#281-snowball-against-requirements" class="hash-link" aria-label="Direct link to 2.8.1 Snowball against requirements" title="Direct link to 2.8.1 Snowball against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: Snowball’s consensus mechanism is highly efficient, achieving
+fast transaction processing and finality with low latency. Its ability to handle
+thousands of TPS and its rapid consensus through probabilistic sampling exceeds
+Orcfax’s high-throughput needs. Snowball’s low-latency processing also aligns
+well with the requirements for rapid data updates in real-time oracle systems,
+as it allows data to be processed and validated almost instantaneously across a
+decentralized network <a href="https://docs.avax.network/learn/avalanche-consensus" target="_blank" rel="noopener noreferrer">Avalanche, 2023</a>.</p>
+<p><strong>Reliability</strong>: Snowball’s design includes resilience against adversarial
+environments, enabling it to handle up to one-third malicious nodes without
+compromising consensus integrity. This fault tolerance capability meets Orcfax
+requirements where maintaining secure data validation in an open network is a
+priority. The probabilistic sampling method Snowball uses reduces the impact of
+malicious actors by making it difficult for any small group of nodes to
+influence the network’s consensus direction, ensuring reliable and secure data
+handling <a href="https://docs.avax.network/learn/avalanche-consensus" target="_blank" rel="noopener noreferrer">Avalanche, 2023</a>.</p>
+<p><strong>Challenges</strong>: While Snowball exceeds many of the orcfax requirements, an
+Orcfax implementation could be labour intensive. Not only is the Snowball design
+in itself complicated, its operation within the Avalanche’s network could mean
+additional complexities relating to bridging protocols.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="29-cometbft">2.9 CometBFT<a href="#29-cometbft" class="hash-link" aria-label="Direct link to 2.9 CometBFT" title="Direct link to 2.9 CometBFT">​</a></h3>
+<p>CometBFT, formerly known as Tendermint Core, is the GO implementation of the BFT
+consensus protocol which is primarily used within the Cosmos ecosystem
+<a href="https://github.com/cometbft" target="_blank" rel="noopener noreferrer">CometBFT, 2023</a>. Known for achieving low-latency finality and high
+throughput, CometBFT is designed for blockchains requiring quick transaction
+finality, making it popular among interoperable and multi-chain ecosystems. It
+combines BFT consensus with PoS incentives to create a secure, decentralized
+structure capable of handling moderate-to-high transaction volumes in
+adversarial environments.</p>
+<p>CometBFT operates through a two-phase BFT consensus model that allows validator
+nodes to reach agreement on the inclusion of transactions. Each validator
+proposes and votes on blocks, and transactions are finalized within seconds,
+ensuring quick data validation and low-latency processing. CometBFT is
+structured to handle both inter-chain and intra-chain communication, making it
+adaptable to multi-chain environments. Its implementation of BFT enables it to
+tolerate a significant portion of malicious nodes while maintaining consensus
+integrity <a href="https://github.com/cometbft" target="_blank" rel="noopener noreferrer">CometBFT, 2023</a>.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="291-cometbft-against-requirements">2.9.1 CometBFT against requirements<a href="#291-cometbft-against-requirements" class="hash-link" aria-label="Direct link to 2.9.1 CometBFT against requirements" title="Direct link to 2.9.1 CometBFT against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: CometBFT is known for meeting low-latency (T) and
+high-throughput (V) demands of systems like Orcfax and can accommodate up to 180
+nodes within a network(<a href="https://hub.cosmos.network/main/validators/overview#introduction" target="_blank" rel="noopener noreferrer">Validator Overview</a>). With an optimized structure
+for block finality, CometBFT can handle moderate to high transaction rates while
+maintaining stability. This combination of efficiency and network size aligns
+well with Orcfax’s core requirements.</p>
+<p><strong>Reliability</strong>: CometBFT’s BFT consensus model provides robustness against
+adversarial conditions, enabling it to handle environments where up to one-third
+of nodes may act maliciously <a href="https://github.com/cometbft" target="_blank" rel="noopener noreferrer">CometBFT, 2023</a>. This level of fault
+tolerance is crucial for decentralized oracle services, where data integrity and
+resistance to malicious actors are paramount. CometBFT’s resilience aligns with
+Orcfax’s requirements for security and reliability.</p>
+<p><strong>Challenges</strong>: Integrating CometBFT with Orcfax may require adapting its block
+proposal and voting structure to align with the data validation and consensus
+needs of Orcfax. These adaptations are feasible within CometBFT’s flexible
+design, but careful configuration would be necessary to optimize performance
+within Orcfax’s real-time data processing framework.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="292-cardano-ibc">2.9.2 Cardano-IBC<a href="#292-cardano-ibc" class="hash-link" aria-label="Direct link to 2.9.2 Cardano-IBC" title="Direct link to 2.9.2 Cardano-IBC">​</a></h4>
+<p>An implementation of CometBFT by Orcfax could provide future opportunities to
+leverage Cardano native tooling. The Cardano Foundation is developing
+Cardano-IBC as a framework for enabling Inter-Blockchain Communication (IBC) on
+the Cardano blockchain; Cardano-IBC focuses on creating secure, cross-chain
+interactions, specifically aiming for interoperability with ecosystems like
+Cosmos, which uses IBC protocols for secure cross-chain data and asset transfers
+<a href="https://github.com/cardano-foundation/cardano-ibc-incubator/tree/main" target="_blank" rel="noopener noreferrer">Cardano Foundation, 2023</a>.</p>
+<p>IBC&#x27;s claims regarding its capability of enabling efficient data exchange across
+networks with low latency, could be useful in the event of a CometBFT
+implementation by EchoNet. However, this solution requires further research to
+better understand how its implementation would affect an Orcfax implementation
+of CometBFT within EchoNet.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="210-vechainthor">2.10 VeChainThor<a href="#210-vechainthor" class="hash-link" aria-label="Direct link to 2.10 VeChainThor" title="Direct link to 2.10 VeChainThor">​</a></h3>
+<p>VeChainThor uses Proof of Authority (PoA) for low-latency, high-throughput
+transaction finality, primarily in controlled environments <a href="https://docs.vechain.org/" target="_blank" rel="noopener noreferrer">VeChain, 2023</a>
+PoA enables fast transaction processing by relying on a limited number of
+trusted validators who are pre-approved, making it more efficient but less
+decentralized than PoS or PoW models. VeChainThor’s PoA model is designed for
+enterprise applications, such as supply chain tracking, where rapid finality and
+controlled validator networks are prioritized over decentralization.</p>
+<p>The VeChainThor network achieves consensus through selected validators who have
+authority within the network. These validators verify transactions and add
+blocks to the chain, enabling near-instant finality and high transaction
+throughput <a href="https://docs.vechain.org/" target="_blank" rel="noopener noreferrer">VeChain, 2023</a>. However, PoA’s reliance on a fixed set of
+validators introduces centralization risks, making it less suited for open,
+decentralized applications like Orcfax.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2101-vechainthor-against-requirements">2.10.1 VeChainThor against requirements<a href="#2101-vechainthor-against-requirements" class="hash-link" aria-label="Direct link to 2.10.1 VeChainThor against requirements" title="Direct link to 2.10.1 VeChainThor against requirements">​</a></h4>
+<p><strong>Efficiency</strong>: VeChainThor’s PoA model enables rapid transaction processing,
+allowing the network to handle high transaction volumes with minimal latency.
+This efficiency aligns with Orcfax’s low-latency requirements but falls short in
+scalability within a highly decentralized environment, as PoA’s performance
+depends on a restricted number of trusted validators. Therefore, while
+VeChainThor could meet Orcfax’s throughput and latency requirements, its
+structure limits scalability and broader decentralization <a href="https://docs.vechain.org/" target="_blank" rel="noopener noreferrer">VeChain, 2023</a>.</p>
+<p><strong>Reliability</strong>: PoA provides reliability through a fixed set of known
+validators, reducing the risk of malicious actors in a controlled environment.
+However, for a decentralized oracle, this model is less robust, as it lacks
+byzantine fault tolerance and is vulnerable if the trusted validators become
+compromised. For Orcfax, which requires resilience against adversarial behavior,
+VeChainThor’s PoA may not provide the required reliability in an open network
+setting <a href="https://docs.vechain.org/" target="_blank" rel="noopener noreferrer">VeChain, 2023</a>.</p>
+<p><strong>Challenges</strong>: VeChainThor faces numerous challenges for implementation by
+Orcfax. Adapting VeChainThor’s PoA model to Orcfax’s requirements could involve
+significant modification of validator selection and consensus structure.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3-comparative-assessment">3. Comparative assessment<a href="#3-comparative-assessment" class="hash-link" aria-label="Direct link to 3. Comparative assessment" title="Direct link to 3. Comparative assessment">​</a></h2>
+<p>The assessment of each consensus protocol has been organized in thee following
+table in order to aid in further comparison across Efficiency, Reliability,
+Scalability, and Challenges &amp; Adaptions:</p>
+<table><thead><tr><th>Protocol</th><th>Purpose</th><th>Strengths</th><th>Challenges</th></tr></thead><tbody><tr><td>Hydra</td><td>L2 scaling for Cardano; enhances throughput and reduces latency through parallelized mini-ledgers (&quot;Hydra heads&quot;).</td><td>Efficient transaction processing in parallel; connects to Cardano main chain for synchronized state transitions.</td><td>Relies on unanimous consent, vulnerable to a single malicious actor; participant count limit (57) does not meet Orcfax requirements</td></tr><tr><td>Hydrozoa</td><td>Designed for high throughput and fault tolerance in dApp environments on Cardano.</td><td>Aims to support high-frequency, multi-node validation, enhancing decentralized application performance.</td><td>No working implementation currently; claims not yet proven in live environments.</td></tr><tr><td>Iagon</td><td>Decentralized cloud computing and storage, focusing on data integrity and accessibility.</td><td>Decentralized data storage and processing, with protection against data loss and tampering.</td><td>Limited documentation and lack of implementation make it difficult to assess compatibility with Orcfax’s needs.</td></tr><tr><td>Lodestar</td><td>JavaScript-based consensus client for Ethereum 2.0, supporting PoS and scalability.</td><td>supports 1000 to 1250 TPS and enhances security by requiring 2/3 consensus for finality.</td><td>Primarily serves Ethereum; may not align directly with Orcfax&#x27;s specific requirements and complexity may inhibit implementation.</td></tr><tr><td>Midgard</td><td>Used in decentralized liquidity networks (e.g., Thorchain) for real-time liquidity management in DeFi.</td><td>Supports high-throughput data handling and byzantine fault tolerance for stability in DeFi contexts.</td><td>Insufficient documentation limits assessment; unclear applicability to Orcfax’s real-time consensus needs.</td></tr><tr><td>NEM</td><td>Uses Proof-of-Importance (PoI), rewarding participants based on network activity and engagement.</td><td>Encourages active engagement and utility within the network, potentially fostering decentralization.</td><td>May not meet Orcfax’s high-throughput needs; PoI model depends on user activity, possibly limiting speed and scalability.</td></tr><tr><td>Raft</td><td>Leader-based consensus model prioritizing consistency in closed, trusted networks.</td><td>Low latency and efficient resource use within small networks; ensures data consistency.</td><td>Not suitable for decentralized, adversarial environments; vulnerable to malicious nodes due to leader-based structure.</td></tr><tr><td>Avalanche</td><td>High-throughput probabilistic consensus using Snowball for scalability and resilience.</td><td>Scalable, resilient against adversarial conditions, suitable for high transaction rates.</td><td>Complex implementation may challenge direct application; requires adaptation for specific needs in Orcfax.</td></tr><tr><td>CometBFT</td><td>GO implementation of BFT consensus used within the Cosmos ecosystem for low-latency finality.</td><td>Quick transaction finality, supports inter-chain and intra-chain communication.</td><td>Primarily designed for Cosmos; adaptation needed for Orcfax-specific requirements.</td></tr><tr><td>VeChainThor</td><td>Enterprise-focused PoA consensus for supply chain and controlled environments.</td><td>High throughput and low latency, suitable for environments with trusted validators.</td><td>Limited decentralization; PoA may not align with Orcfax’s decentralized requirements.</td></tr></tbody></table>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="4-conclusion">4. Conclusion<a href="#4-conclusion" class="hash-link" aria-label="Direct link to 4. Conclusion" title="Direct link to 4. Conclusion">​</a></h2>
+<p>Based on the analysis of each consensus protocol and the initial Must Have
+requirements identified by Orcfax, none of the reviewed consensus protocols
+fully meets all of Orcfax&#x27;s needs out-of-the-box. The most protocol that seems
+to best align with the requirements is Cosmos&#x27;s CometBFT. In particular:</p>
+<ul>
+<li>Simplicity-(ish). Limiting the participants to 180 nodes allowed
+Cosmos/CometBFT to be simpler, than some of the alternatives. EchoNet is
+targeting only 100 nodes.</li>
+<li>Built as SDK. What for other solutions maybe considered &quot;internal APIs&quot;, are
+external for CometBFT. This means the code and the ideas behind the code are
+much more accessible.</li>
+<li>Synergies. The development of the IBC by the Cardano Foundation provides a
+hope that there will be other tooling that we can take advantage of and
+contribute to.</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="41-limitations">4.1 Limitations<a href="#41-limitations" class="hash-link" aria-label="Direct link to 4.1 Limitations" title="Direct link to 4.1 Limitations">​</a></h3>
+<p>As stated at the outset, this paper did not attempt to cover the breadth of
+consensus protocols which have been deployed across the numerous blockchain
+networks active at the time of its writing. Instead, a limited sample of
+consensus protocols used by PoS blockchains were was selected.</p>
+<p>Additionally, the analysis of each of the selected protocols was premised on the
+documentation readily accessible through each of the blockchain networks&#x27; public
+facing sites.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="42-closing-thoughts">4.2 Closing Thoughts<a href="#42-closing-thoughts" class="hash-link" aria-label="Direct link to 4.2 Closing Thoughts" title="Direct link to 4.2 Closing Thoughts">​</a></h2>
+<p>After assessing the limited sample set of consensus protocols against an initial
+understanding of Orcfax network requirements for EchoNet, several key takeaways
+became clear.</p>
+<p>The most interesting lines of inquiry are with the CometBFT implementation of
+the Cosmos consensus protocol.</p>
+<ul>
+<li>CometBFT meets requirements on node count; it demonstrably handles at least
+180 nodes which is more than enough as EchoNet will accommodate 100
+Validators with licenses.</li>
+<li>Finality is faster than Ouroboros and exceeds our current understanding of
+EchoNet requirements.</li>
+<li>The tooling lacks the significant complexity that would impair an Orcfax
+implementation of another solution; this makes CometBFT a much more feasible
+starting point given time constraints.</li>
+</ul>
+<p>An Orcfax implementation of a Cosmos consensus solution could make future
+Cardano-IBC tooling from the Cardano Foundation available and relevant to
+EchoNet design.</p>
+<p>Additional research and analysis is needed to further appreciate the interplay
+between the implementation of a consensus protocol by Orcfax and its staking
+mechanism.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/f12-consensus"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Orcfax validators: reaching L2 consensus</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">A Comparative Analysis of Staking Protocols in Blockchain Networks</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#abstract" class="table-of-contents__link toc-highlight">Abstract</a></li><li><a href="#1-introduction" class="table-of-contents__link toc-highlight">1. Introduction</a><ul><li><a href="#11-what-is-consensus" class="table-of-contents__link toc-highlight">1.1 What is consensus</a></li><li><a href="#12-what-is-orcfax-and-what-is-its-need-for-consensus" class="table-of-contents__link toc-highlight">1.2 What is Orcfax and what is its need for consensus?</a></li><li><a href="#13-the-role-of-the-validator" class="table-of-contents__link toc-highlight">1.3 The role of the validator</a></li><li><a href="#14-securing-the-network" class="table-of-contents__link toc-highlight">1.4 Securing the network</a></li><li><a href="#15-consensus-requirements" class="table-of-contents__link toc-highlight">1.5 Consensus requirements</a></li></ul></li><li><a href="#2-overview-of-consensus-protocols" class="table-of-contents__link toc-highlight">2. Overview of consensus protocols</a><ul><li><a href="#21-hydra" class="table-of-contents__link toc-highlight">2.1 Hydra</a></li><li><a href="#22-hydrozoa" class="table-of-contents__link toc-highlight">2.2 Hydrozoa</a></li><li><a href="#23-iagon" class="table-of-contents__link toc-highlight">2.3 Iagon</a></li><li><a href="#24-lodestar" class="table-of-contents__link toc-highlight">2.4 Lodestar</a></li><li><a href="#25-midgard" class="table-of-contents__link toc-highlight">2.5 Midgard</a></li><li><a href="#26-nem" class="table-of-contents__link toc-highlight">2.6 NEM</a></li><li><a href="#27-raft-rs" class="table-of-contents__link toc-highlight">2.7 Raft-rs</a></li><li><a href="#28-avalanche" class="table-of-contents__link toc-highlight">2.8 Avalanche</a></li><li><a href="#29-cometbft" class="table-of-contents__link toc-highlight">2.9 CometBFT</a></li><li><a href="#210-vechainthor" class="table-of-contents__link toc-highlight">2.10 VeChainThor</a></li></ul></li><li><a href="#3-comparative-assessment" class="table-of-contents__link toc-highlight">3. Comparative assessment</a></li><li><a href="#4-conclusion" class="table-of-contents__link toc-highlight">4. Conclusion</a><ul><li><a href="#41-limitations" class="table-of-contents__link toc-highlight">4.1 Limitations</a></li></ul></li><li><a href="#42-closing-thoughts" class="table-of-contents__link toc-highlight">4.2 Closing Thoughts</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/oracle-basics">FAQ</a></li></ul></div><div class="col footer__col"><div class="footer__title">Orcfax</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.com/invite/UbAeRuNzDu" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://medium.com/@orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Github<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Legal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/terms-of-service">Terms of Service</a></li></ul></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://orcfax.io" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width="100" height="100"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width="100" height="100"></a></div><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
+</body>
+</html>
