@@ -123,8 +123,12 @@ while the FSP script will remain the same.
 An FS UTXO must contain an FS token. The FS token is the only asset class of the
 FS script, and has token name of the empty bytearray.
 
-> Note: Integrators must verify an FS UTXO via an FS token. Anyone can put a
-> UTXO at the FS script address with any data they like.
+:::info[N.B.]
+
+Integrators must verify an FS UTXO via an FS token. Anyone can put a UTXO at the
+FS script address with any data they like.
+
+:::
 
 ### Coercing FS data
 
@@ -151,8 +155,12 @@ pub type Context {
 }
 ```
 
-> Note: only the statement part of the datum is relevant to integrators. The
-> `Context` part can be treated simply as `Data`.
+:::note
+
+Only the statement part of the datum is relevant to integrators. The `Context`
+part can be treated simply as `Data`.
+
+:::
 
 ### Verifying the feed ID
 
