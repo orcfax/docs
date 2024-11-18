@@ -20,5 +20,8 @@ jobs:
 
             - uses: pre-commit/action@v3.0.0
 
-            - name: Run lint script (for prettier and eslint checks)
+            - name: Run prettier formatting
+              run: npm run format
+
+            - name: Run eslint and prettier linting checks
               run: npm run lint
