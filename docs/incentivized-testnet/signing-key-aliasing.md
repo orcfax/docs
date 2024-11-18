@@ -128,7 +128,7 @@ order:
 -   `"ITN"`
 -   `"<YOUR_PAYMENT_HASH>"`
 
-:::info[NB.]
+:::info[N.B.]
 
 The metadata fields will need to be on separate lines so as to fit within the
 Cardano metadata character limit (max-length: 64 bytes).
@@ -142,7 +142,7 @@ specifications:
 
 :::
 
-:::note
+:::tip
 
 If using eternl wallet, you will need to click `options` and then
 `Custom Metadata` to add the metadata. `NoConversions` should be selected.
@@ -177,7 +177,7 @@ NFT policy ID (`0c6f22bfabcb055927ca3235eac387945b6017f15223d9365e6e4e43`).
 When a transaction is registered, metadata is expected, the message will be
 processed, and the sending address compared against all known license holders.
 
-:::info[NB.]
+:::info[N.B.]
 
 If the wallet holds a validator license and the correct amount of staked $FACT
 it will be eligible for participation in the ITN.

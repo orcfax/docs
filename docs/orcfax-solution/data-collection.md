@@ -29,11 +29,13 @@ given that they meet the threshold for minimum data sources which enables the
 network to maintain data integrity and reliability while being unaffected by
 outliers.
 
-> Example:
->
-> If nodes query 5 sources, but only receive inputs from 4, the nodes can still
-> successfully triangulate the data as the received inputs still meet the 3
-> source minimum.
+:::note[Example:]
+
+If nodes query 5 sources, but only receive inputs from 4, the nodes can still
+successfully triangulate the data as the received inputs still meet the 3 source
+minimum.
+
+:::
 
 ![Triangulation of primary sources](/img/2024-02--source-triangulation.jpg)
 

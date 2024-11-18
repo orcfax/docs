@@ -45,11 +45,13 @@ feeds such as ADA-USD and FACT-ADA.
 For a feed of type CER, the naming convention is
 [\{\{base-currency\}\}-\{\{quote-currency\}\}][cer-2].
 
-> Examples:
->
-> -   crypto-fiat: ADA-USD
-> -   crypto-stable: ADA-iUSD
-> -   crypto and another native asset: FACT-ADA
+:::note[Examples:]
+
+-   crypto-fiat: ADA-USD
+-   crypto-stable: ADA-iUSD
+-   crypto and another native asset: FACT-ADA
+
+:::
 
 [cer-1]: https://glossary.orcfax.io/#cer
 [cer-2]: https://glossary.orcfax.io/#baseQuote
