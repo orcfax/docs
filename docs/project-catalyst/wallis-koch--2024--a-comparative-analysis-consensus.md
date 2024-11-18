@@ -9,11 +9,10 @@ Dominic Wallis Ph.d, Christian Koch M.A.
 ## Abstract
 
 This paper provides a brief comparison of various consensus protocols which were
-assessed against an initial understanding of consensus requirements and
-identified validator roles for the decentralized validator network, EchoNet. The
-purpose being for Orcfax to ascertain whether an existing consensus protocol, as
-a drop in solution for Orcfax, adequately meets its needs for: high throughput,
-low latency, fault tolerance, and scalability in a multi-validator environment.
+assessed against an initial understanding of consensus requirements and purpose
+being for Orcfax to ascertain whether an existing consensus protocol, as a drop
+in solution for Orcfax, adequately meets its needs for: high throughput, low
+latency, fault tolerance, and scalability in a multi-validator environment.
 Based on the analysis of each consensus protocol and the initial _Must Have_
 requirements identified by Orcfax, none of the reviewed consensus protocols
 fully meets the needs of EchoNet. However, the most interesting line for
@@ -81,7 +80,8 @@ assumption that most but not all participants are honest and competent while
 some participants of the network may be malicious or incompetent.
 
 [int-1]: https://orcfax.io/
-[int-2]: https://explorer.orcfax.io/feeds/CER/ADA-USD
+[int-2]:
+    https://explorer.orcfax.io/feeds/CER/ADA-USD/facts/9a61d41b-fc3b-4ca1-965f-5e7eb4d2b7af
 
 ### 1.3 The role of the validator
 
@@ -113,8 +113,12 @@ rates changed is a consumer.
 A statement is _published_ on the L1 only if it has a valid signature. Currently
 a single signer is used. It is envisioned that a FROST-like method would allow
 the transition from a single signer to a multi-signature (k of n) arrangement.
-However, Orcfax is not committed to this design and this aspect can be change if
-it is deemed desirable.
+However, FROST is a multisig scheme, not a consensus algorithm; FROST does not
+address the question of how consensus was reached. For these reasons, FROST is
+not discussed further in this paper beyond the following: Orcfax may be able to
+use FROST in the future to cheaply check that consensus was reached for a given
+statement. However, Orcfax is not committed to this design and this aspect may
+be change if it is deemed desirable.
 
 ### 1.4 Securing the network
 
@@ -171,7 +175,7 @@ Have requirements (parameters outlined below):
 
 1. Participants efficiently communicate their state
 1. Participants run validity checks on any data they receive. If appropriate,
-   they will stop communicating with a participant providing bad data.
+   they will stop communicating with a participant providing bad data. \*
 1. N participants reach consensus.
 1. In normal conditions, time < T seconds between an atom being sent from an
    external source to it being included in consensus by most participants. If
@@ -187,6 +191,17 @@ Parameters:
 -   K = number of malicious or incompetent nodes: 30
 -   T = time of delivery: 60s
 -   V = velocity of statements: 10 tps
+
+:::info[\*]
+
+The threshold for determining what constitutes bad data is out of scope for this
+research and merits its own attention. We know there will be a set of functions
+that will validate incoming data; some will lead to a peer being dropped, others
+that will lead to the data being rejected, but the peer kept. However beyond
+this initial understanding we do not yet know what these functions will look
+like.
+
+:::
 
 ## 2. Overview of consensus protocols
 
