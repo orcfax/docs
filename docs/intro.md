@@ -33,7 +33,7 @@ Check our developer manual for instructions on how to:
 1. [Consume Orcfax data](consume): Get your Cardano dApps, smart contracts, and
    scripts consuming data from Orcfax oracle feeds.
 
-1. [Verify Orcfax data](verify): Using our unique auditing and archiving
+1.   [Verify Orcfax data](verify): Using our unique auditing and archiving
    features, you can verify the authenticity and accuracy of every fact
    statement published by Orcfax, including its source data and validation
    history.
