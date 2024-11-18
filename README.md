@@ -21,16 +21,20 @@ commit.
 To check all files against prettier and eslint, run:
 
 ```bash
-npm lint
+npm run lint
 ```
 
 To manually auto-format all files with prettier, run:
 
 ```bash
-npm format
+npm run format
 ```
 
-Run pre-commit manually with: `pre-commit run --all-files`.
+To manually run pre-commit checks, run:
+
+```bash
+npm run pre-commit
+```
 
 Check out the local `Makefile` for help running manually by calling `make` from
 the root directory.
@@ -58,11 +62,17 @@ Most changes are reflected live without having to restart the server.
 ### Build
 
 ```bash
-npm build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be
 served using any static contents hosting service.
+
+To preview the build locally, run:
+
+```bash
+npm run serve
+```
 
 ### Deployment
 

@@ -37,10 +37,11 @@ Orcfax conducted research over a sample set of staking protocols with a limited
 initial understanding of the staking protocol landscape with the hope that the
 exercise would inform future development by Orcfax.
 
-This research and its findings can be found [here][staking-research]
+This research and its findings are made available in _A Comparative Analysis of
+Staking Protocols used in Blockchain Networks_ [(Wallis &
+Koch, 2024)][staking-paper]
 
-[staking-research]:
-    https://drive.google.com/file/d/1-UCrRKkdYnFZ0Wt1Eq4dw_7xAqJVs8J-/view?usp=sharing
+[staking-paper]: ./wallis-koch--2024--a-comparative-analysis-staking.md
 
 ## Milestone 2
 

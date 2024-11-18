@@ -41,10 +41,11 @@ the consensus landscape, but covers topics such as:
 -   what consensus resources exist for Cardano developers?
 -   how do these resources map to Orcfax requirements?
 
-This research and its findings are made available [here][consensus-research].
+This research and its findings are made available in _A Comparative Analysis of
+Consensus Protocols used in Blockchain Networks_ [(Wallis &
+Koch, 2024)][consensus-paper]
 
-[consensus-research]:
-    https://drive.google.com/file/d/1QGrI9xwH7Xz-EUyCklvFPaqsIZH39z7p/view?usp=drive_link
+[consensus-paper]: ./wallis-koch--2024--a-comparative-analysis-consensus.md
 
 ## Milestone 2
 
