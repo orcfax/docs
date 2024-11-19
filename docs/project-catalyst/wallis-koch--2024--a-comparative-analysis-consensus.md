@@ -373,12 +373,12 @@ with malicious nodes.
 However, a lack of available resources and information constrain the ability to
 ascertain how well the solution meets the needs of Orcfax; at the time of
 writing many links such as those for documentation and the whitepaper resolve to
-"what is Mitgard?", which provides insufficient information to say more.
+"what is Midgard?", which provides insufficient information to say more.
 
 #### 2.5.1 Midgard against requirements
 
-**Challenges**: While Mitgard presents itself as a compelling consensus
-solution, the ability for Orcfax to assess Mitgard's architecture and design
+**Challenges**: While Midgard presents itself as a compelling consensus
+solution, the ability for Orcfax to assess Midgard's architecture and design
 against its own needs is highly constrained by the lack of documentation and
 working code. While the available docs are informative as to the solution's
 purpose, they are insufficiently technical or insightful.
