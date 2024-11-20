@@ -116,7 +116,7 @@ if you need to alias your address again.
 
 The transaction **must** be constructed as follows:
 
-1. Send exactly `1.24601` in ADA
+1. Send exactly `1.246010` in ADA
 2. Attach your Orcfax Validator License to the transaction <br/> **(IMPORTANT:
    this allows Orcfax to index the transaction using the policy ID.)**
 3. Add the custom metadata
@@ -171,7 +171,7 @@ If all looks good, sign and complete the transaction.
 
 ## What Orcfax will see
 
-Orcfax will be monitoring the Cardano network for the ADA value (`1.24601`) and
+Orcfax will be monitoring the Cardano network for the ADA value (`1.246010`) and
 NFT policy ID (`0c6f22bfabcb055927ca3235eac387945b6017f15223d9365e6e4e43`).
 
 When a transaction is registered, metadata is expected, the message will be
