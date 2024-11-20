@@ -148,6 +148,21 @@ referenced in the cron job described below.
 of CEX and DEX feeds that we publish. DEX publication will not be triggered in
 Phase 1.
 
+`cer-feeds.json` will be provided to the collector as a command line argument.
+It can be downloaded from [GitHub][cer-feeds-1].
+
+The latest feeds for the preview network can be downloaded from this
+[link][cer-feeds-2], or alternatviely on the command line using a tool like
+`wget`.
+
+```sh
+wget https://raw.githubusercontent.com/orcfax/cer-feeds/refs/heads/main/feeds/preview/cer-feeds.json
+```
+
+[cer-feeds-1]: https://github.com/orcfax/cer-feeds
+[cer-feeds-2]:
+    https://raw.githubusercontent.com/orcfax/cer-feeds/refs/heads/main/feeds/preview/cer-feeds.json
+
 ### Signing key
 
 Information has been provided about the [signing key and signing key aliasing
@@ -183,7 +198,8 @@ cardano-cli address key-hash \
 
 <!--markdownlint-enable-->
 
-You will use a path to your `payment.skey` in the cron job described below.
+You will use a path to your `payment.skey` in the environment variables and the
+cron job described below.
 
 ### Directory layout
 
@@ -213,6 +229,84 @@ And they will be pointed at in the cron job described below. The contents of the
 payment.hash file will be used to alias the wallet in which you hold the Orcfax
 Validator License.
 
+### Environment variables
+
+When configuring the Orcfax collector node you will need a set of environment
+variables, these are:
+
+```sh
+# example layout for a .env file.
+
+## variables used in ITN Phase 1.
+export ORCFAX_VALIDATOR=
+export NODE_IDENTITY_LOC=
+export NODE_SIGNING_KEY=
+export GOFER=
+
+# variables not used in ITN Phase 1 but cannot be null.
+export CNT_DB_NAME=/var/tmp/notused.db
+export OGMIOS_URL=ws://example.com/ogmios
+```
+
+If you run the Orcfax collector standalone, e.g. to get a feel for how it works
+you can set these before hand. You can store them in an environment file, e.g.
+`node.env` and on the command line run:
+
+```sh
+source node.env
+```
+
+:::info
+
+The variables will only remain in-scope in a given session window. They will
+need to be set each time you run the collector-node in a different command-line
+window. For the cron task (below) we set them within the scope of a cron job.
+
+:::
+
+#### Configuring unused variables
+
+Because ITN Phase 1 collectors do not yet collect CNT prices there are some
+excess configuration values that need to be set, but remain unused.
+
+For ogmios, we can just use a non-existent url, e.g.
+
+```text
+export OGMIOS_URL=ws://example.com
+```
+
+For the database, we need to point to a path that does exist, but we can do this
+using `touch` as follows:
+
+```sh
+touch /var/tmp/noused.db
+```
+
+We can then set the path as follows:
+
+```text
+export CNT_DB_NAME=/var/tmp/notused.db
+```
+
+:::note
+
+`/var/tmp` is a good location to use for this value as it won't delete itself
+when a node is rebooted.
+
+:::
+
+:::info[COMMUNITY LEARNING]
+
+While the settings in this document are required, their implementation here are
+largely informational. The more advanced you are at configuring nix-based
+systems, the more you may want to customise what you are doing. If you believe
+your optimisations will be beneficial to someone else, please do feel free to
+share in Discord or in GitHub [discussions][discussions-1].
+
+:::
+
+[discussions-1]: https://github.com/orcfax/ITN-Phase-1/discussions
+
 ### Cron
 
 Cron is used to schedule collection. The collector uses a number of environment
@@ -226,6 +320,8 @@ ORCFAX_VALIDATOR=
 NODE_IDENTITY_LOC=
 NODE_SIGNING_KEY=
 GOFER=
+CNT_DB_NAME=/var/tmp/notused.db
+OGMIOS_URL=ws://example.com/ogmios
 
 * * * * * /path/to/collector-node --feeds /path/to/cer-feeds.json 2>&1 | logger -t orcfax_collector
 ```
@@ -238,6 +334,8 @@ ORCFAX_VALIDATOR=wss://itn.0.orcfax.io/ws/node
 NODE_IDENTITY_LOC=/tmp/.node-identity.json
 NODE_SIGNING_KEY=/home/orcfax/signing-key/payment.skey
 GOFER=/home/orcfax/gofer/gofer
+CNT_DB_NAME=/var/tmp/notused.db
+OGMIOS_URL=ws://example.com/ogmios
 
 * * * * * /home/orcfax/collector/venv/bin/collector-node --feeds /home/orcfax/collector/cer-feeds.json 2>&1 | logger -t orcfax_collector
 ```
