@@ -67,7 +67,7 @@ latest versions of each.
 -   [cex collector (gofer)][collector-2]
 -   [cer-feeds.json][collector-3]
 
-:::info[KEEPING UP TO DATE:]
+:::info[KEEPING UP TO DATE]
 
 There needs to be some flexibility in the versions of software being run on a
 decentralized network.
@@ -99,7 +99,7 @@ source venv/bin/activate
 python -m pip install collector_node-2.0.0a11-py3-none-any.whl
 ```
 
-:::info[STAYING INFORMED:]
+:::info[STAYING INFORMED]
 
 Take the time to look through the different repositories and their README files
 to fully understand the software you're running as part of the Orcfax Network.
