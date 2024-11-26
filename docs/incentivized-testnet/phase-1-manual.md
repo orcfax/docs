@@ -279,7 +279,7 @@ For the database, we need to point to a path that does exist, but we can do this
 using `touch` as follows:
 
 ```sh
-touch /var/tmp/noused.db
+touch /var/tmp/notused.db
 ```
 
 We can then set the path as follows:
