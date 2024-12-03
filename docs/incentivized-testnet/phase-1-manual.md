@@ -341,3 +341,20 @@ OGMIOS_URL=ws://example.com/ogmios
 ```
 
 <!--markdownlint-enable-->
+
+### Monitoring logs
+
+Logs can be monitored with the command:
+
+```sh
+sudo tail -f /var/log/syslog | grep "orcfax_collector
+```
+
+:::tip
+
+Not every log message is important for users of the ITN. Output needs to be read
+and understood critically. Primarily, we need to use the output if collection
+halts entirely (not partially) although some output might be interesting to
+observe and learn from.
+
+:::
