@@ -1,0 +1,41 @@
+---
+id: decentralized-review-2
+sidebar_position: 2
+slug: /decentralized-review-fact-statement-datum
+---
+
+import CodeBlock from '@theme/CodeBlock';
+import factStatementDatum from '!!raw-loader!/schema/risk-rating/decentralized-review/fact-statement-datum.json';
+
+# Fact Statement Datum
+
+A description of the types/properties relevant to a
+`fact-statement-datum.json`.
+
+Orcfax utilizes the following Schema.org types and properties in its Fact
+Statement Datum records. The description provided by [Schema.org][schema-1]
+follows each; if Orcfax maintains a more nuanced understanding, an additional
+definition will be provided. If the term appears in its own definition, it will
+be replaced when possible with a \[synonym\] in order to aid understanding.
+
+[schema-1]: https://schema.org/
+
+## Schema.org Types
+
+| Type     | Schema.org description     | Orcfax description     |
+| -------- | ---------------------------| ---------------------- |
+| -------- | ---------------------------| ---------------------- |
+
+## Schema.org Properties
+
+| Property     | Type     | Schema.org description     | Orcfax definition     |
+| ------------ | -------- | ---------------------------| --------------------- |
+| ------------ | -------- | ---------------------------| --------------------- |
+
+## Fact Statement Datum example
+
+<CodeBlock language="jsx">{factStatementDatum}</CodeBlock>
+
+<!-- markdownlint-disable MD013 -->
+<a target="_blank" href="/schema/risk-rating/decentralized-review/fact-statement-datum.json" download="fact-statement-datum.json">Download</a>
+<!-- markdownlint-enable MD013 -->
