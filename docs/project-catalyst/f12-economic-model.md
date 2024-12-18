@@ -7,11 +7,12 @@ sidebar_class_name: hidden
 ## Context
 
 A decentralized service is a service provided by a set of separate autonomous
-participants that are not subject to a hierarchy. Of the network of
-participants, the majority share a common purpose of providing a good service.
-However, some participants may be incompetent or even have malign intent. This
-network of mutually suspicious participants must coordinate the running of a
-distributed service.
+participants that are not subject to a hierarchy. Within the network of
+participants, the majority share the common purpose of providing a good service.
+However, some participants may be incompetent or even have malign intent.
+Because of this possibility, each is suspicious of the others. This network of
+mutually suspicious participants must coordinate the running of a distributed
+service.
 
 Part of an overall design of such a system is providing tooling which enables
 them to reach agreement over various network related tasks; this is consensus.
@@ -24,18 +25,26 @@ The following will seek to assess the economic implications for Orcfax as it
 continues research and development into maturing its decentralized network of
 validator nodes, known as EchoNet, through the integration of staking and
 consensus mechanisms. Where necessary, specific considerations relating to
-staking and consensus in terms of economic impacts will be addressed separately.
+staking and consensus in terms of economic impacts will be addressed separately,
+however the two mechanisms share considerable overlap in terms of economic
+considerations; for this reason, unless addressed separately, the following
+applies to both.
 
 ## Use cases
 
 Projects which may benefit from the catalyst project deliverables, from either
-consensus or staking, may be any which require a set of participants to provide
-a service on behalf of the project in a decentralized manner; the design of the
-consensus and staking proof of concepts continue to be executed in such a way
-that while in context of this proposal, the service provision is an oracle, it
-need not be as this aspect is off-chain.
+the consensus or staking proposals, may be any which require a set of
+participants to provide a service on behalf of the project in a decentralized
+manner; the design of the consensus and staking proof of concepts continue to be
+executed in such a way that while in context of this proposal, the service
+provision is an oracle, it need not be as this aspect is off-chain.
 
-The deliverables from these projects have broad utility and may be used by
+Each PoC also black-boxes the other, so while the Orcfax use case will utilize
+both a staking and consensus mechanism, others may choose to leverage them
+independently.
+
+Our team has elected to design these PoC's in this fashion because we understand
+that The deliverables from these projects have broad utility and may be used by
 projects offering diverse services to their users.
 
 ### Specific considerations for Staking
@@ -55,19 +64,20 @@ participants are able to reach consensus on these accounts and produce a
 signature/signatures as proof of general acceptance. This happens periodically -
 say once every 24 hours.
 
-The rewards are paid out from a 'treasury' and forfeit funds are paid to the
-treasury. The currency is a native asset. The project output should include the
-scripts governing these aspects of the treasury. Other funding of the treasury
-is beyond project scope. We will assume the treasury is sufficiently funded to
-meet the burden of conveying rewards.
+The rewards for good behaviour and service are paid out from a 'treasury' and
+forfeit funds are paid to the treasury. The currency will be a native asset. The
+project output should include the scripts governing these aspects of the
+treasury. Other funding of the treasury is beyond project scope. We will assume
+the treasury is sufficiently funded to meet the burden of conveying rewards.
 
-## Staking
+## Orcfax staking: rewarding good behaviour
 
 Orcfax is an aspiring decentralized Oracle service. To participate within the
 network, a participant must be in possession of two types of Cardano native
 assets:
 
-One Orcfax Validator License, one of 100 NFTs At least 500,000 \$FACT
+-   One Orcfax Validator License, one of 100 NFTs
+-   At least 500,000 \$FACT
 
 Participants are strongly discouraged from behaving badly through the use of
 slashing. A participant must first put 'at stake' some asset(s). If the
@@ -77,24 +87,32 @@ through a slashing mechanism.
 To incentivize good behavior, a participant receives rewards proportionate to
 their good service.
 
-However, when balancing incentives and penalties for participants care must be
+However, when balancing incentives and penalties for participants, care must be
 taken. The wrong incentive structure may either:
 
-cause a race to the top. Rewards only go to a few participants. Eventually this
-leads to centralization which degrades robustness. cause a race to the bottom.
-Participants are rewarded even if they are poor service providers.
+-   cause a race to the top. Rewards only go to a few participants. Eventually
+    this leads to centralization which degrades robustness.
+-   cause a race to the bottom. Participants are rewarded even if they are poor
+    service providers.
 
 Both are bad for the long term health of the service.
 
 ### Components overview
 
-There are the following key components of the consensus PoC:
+The following are the key components of the consensus PoC:
 
 1. Constitution - holds the signing key.
 1. Hold - rewards awaiting collection.
 1. Safe - locks a participants funds.
 1. Treasury - holds funds awaiting dispensing.
 1. Dispenser - manages the dispensing of rewards.
+
+:::info[N.B.]
+
+The following sections will be updated to reflect final design decisions made in
+milestone 3.
+
+:::
 
 #### The Constitution
 
@@ -176,13 +194,13 @@ it belongs.
 
 The dispenser facilitates the dispensing of rewards to the `Hold`.
 
-## Consensus
+## Orcfax validators: reaching L2 consensus
 
 The economics of consensus look quite different. The focus here is in
 understanding the cost of validator participation, the cost to a validator when
 slashed, and the potential benefits of performing maliciously. If the potential
-profit of providing bad information outweighs the cost, validator nodes would be
-financially advantageous to act badly and there would be significant risk to
+profit of providing bad information outweighs the cost, validator nodes become
+financially incentivized to act badly, which would result in significant risk to
 network integrity.
 
 At the time of this writing, the cost of acquiring 500,000 FACT tokens is
@@ -191,7 +209,7 @@ License is 10,500 ADA or 11,653 USD. This means that the cumulative stake
 required to participate has a value of approximately 17,230 USD.
 
 In order to combat the risks associated with validators having financial
-advantage to act badly, Orcfax is tasked with devising a strategy by which
+incentive to act badly, Orcfax is tasked with devising a strategy by which
 malicious behavior becomes cost prohibitive or disadvantageous. However, at this
 stage of research and development, Orcfax has not yet decided on the process
 through which consensus will be reached over a given fact statement; the
@@ -201,21 +219,22 @@ behavior may need to be addressed. For this reason, we will explore two options:
 the network verifies that statement; 2.) where all nodes within a randomly
 selected subset propose a statement, and the median entry is selected.
 
-In the first, where a proposer has their statements verified by a subset of n
-nodes, then the cost of the lie (using the values given above) becomes
-$n * 17,230$ USD. So, in a system where the threshold for verification was 10
-nodes, then the cost of the lie is more than 170,000 USD.
+In the first, where a proposer has their statements verified by a subset of $n$
+nodes, the cost of the lie (using the values given above) becomes $n * 17,230$
+USD. So, in a system where the threshold for verification was 10 nodes, the cost
+of the lie is more than 170,000 USD.
 
-However, if instead of requiring any subset for verification we had the n nodes
-selected at random, then the lie becomes significantly more expensive as even If
-the bad actor corrupted 10 of the total 100 nodes, it would be very unlikely
-those 10 would be randomly selected.
+However, if instead of requiring any subset for verification we had the $n$
+nodes selected at random, then the lie becomes significantly more expensive.
+With random selection of subset nodes, even If the bad actor corrupted 10 of the
+total 100 nodes, it still becomes very unlikely that those 10 would be randomly
+selected.
 
-In the second where a subset of nodes is randomly selected, each proposes a
-statement, and the median is selected, then the cost of the lie at a minimum is
-$((n + 1) / 2) * 17,230$ USD or the value of half the selected nodes +1. So in a
-case where, from 100 nodes, a subset of 21 are selected at random, the cost of
-the lie would be nearly 190,000 USD.
+In the second scenario where a subset of nodes is randomly selected, each
+proposes a statement, and the median is selected, the cost of the lie at a
+minimum is $((n + 1) / 2) * 17,230$ USD or the value of half the selected nodes
++1. So in a case where, from 100 nodes, a subset of 21 are selected at random,
+the cost of the lie would be nearly 190,000 USD.
 
 But again, the fact that this subset of nodes is selected at random means that
 these costs are the minimum. Even with a bad actor having at least 11 licenses,
@@ -224,13 +243,20 @@ propose within the subset is very slim.
 
 For either of the above scenarios, the value of \$FACT and cost of acquiring a
 Validator License have immense impact on the appropriate size of the subset of
-nodes; It could very well be that, using the values given previously, it's
+nodes; it could very well be that, using the values given previously, it's
 necessary to select a subset of 21 (or more) nodes in order to adequately reduce
-the risk of bad actors and to make bad data cost prohibitive. However, this
+the risk of bad actors and to make bad bahaviour cost prohibitive. However, this
 narrative dramatically changes should \$FACT halve in value, or increase 10x.
 
-These are all considerations thatOrcfax must weigh as we continue to develop a
+These are all considerations that Orcfax must weigh as we continue to develop a
 consensus solution.
+
+:::info[N.B.]
+
+This section will be updated to reflect final design decisions made in
+milestone 3.
+
+:::
 
 ## Participation costs
 
@@ -247,9 +273,9 @@ the total cost of participation for validators.
 :::info[N.B.]
 
 The cost of implementing and running staking and consensus mechanisms remains
-unknown because design choices relating to either can have significant impacts.
-This section will be updated after the next milestone and the completion of the
-PoC's.
+unknown because design choices relating to either can have significant impacts;
+final design takes place in the following milestone. This section will be
+updated after the next milestone and the completion of the PoC's.
 
 :::
 
