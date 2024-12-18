@@ -4,7 +4,7 @@ sidebar_class_name: hidden
 
 # EchoNet: considerations for the economy of a decentralized network
 
-# Context
+## Context
 
 A decentralized service is a service provided by a set of separate autonomous
 participants that are not subject to a hierarchy. Of the network of
