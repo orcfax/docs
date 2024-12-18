@@ -45,11 +45,18 @@ Koch, 2024)][staking-paper]
 
 ## Milestone 2
 
-Orcfax will produce the following:
+After the successful completion of milestone 1 and its research objectives, work
+on the staking PoC can begin; however, a number of considerations must be be
+assessed which are quite impactful on design. Some of these consideration are
+economical.
 
--   Economic model report
--   Use case descriptions
--   Network architecture diagrams
+As Orcfax prepares to for milestone 3 which will conclude with the completion of
+a staking PoC, we have documented the economic considerations and their
+relationship to our other proposal (i.e. implementing a consensus mechanism);
+our findings are made available [here][m2-1] along with a use case description,
+and diagrams where appropriate.
+
+[m2-1]: ./f12-economic-model.md
 
 ## Milestone 3
 
