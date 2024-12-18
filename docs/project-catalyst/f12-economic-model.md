@@ -245,7 +245,7 @@ For either of the above scenarios, the value of \$FACT and cost of acquiring a
 Validator License have immense impact on the appropriate size of the subset of
 nodes; it could very well be that, using the values given previously, it's
 necessary to select a subset of 21 (or more) nodes in order to adequately reduce
-the risk of bad actors and to make bad bahaviour cost prohibitive. However, this
+the risk of bad actors and to make bad behaviour cost prohibitive. However, this
 narrative dramatically changes should \$FACT halve in value, or increase 10x.
 
 These are all considerations that Orcfax must weigh as we continue to develop a
