@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-project-catalyst/f12-economic-model" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.1">
+<title data-rh="true">EchoNet: considerations for the economy of a decentralized network | Orcfax</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://orcfax.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://orcfax.github.io/project-catalyst/f12-economic-model"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="EchoNet: considerations for the economy of a decentralized network | Orcfax"><meta data-rh="true" name="description" content="Context"><meta data-rh="true" property="og:description" content="Context"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://orcfax.github.io/project-catalyst/f12-economic-model"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/f12-economic-model" hreflang="en"><link data-rh="true" rel="alternate" href="https://orcfax.github.io/project-catalyst/f12-economic-model" hreflang="x-default"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.62c0e784.css">
+<script src="/assets/js/runtime~main.94b120aa.js" defer="defer"></script>
+<script src="/assets/js/main.37100d25.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/"><div class="navbar__logo"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Orcfax</b></a></div><div class="navbar__items navbar__items--right"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd sidebarWithHideableNavbar_wUlq"><a tabindex="-1" class="sidebarLogo_isFc" target="_self" href="/"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"><b>Orcfax</b></a><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/solution-overview">Orcfax solution</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/feed-overview">Orcfax feeds</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/consume">Developer manual</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/itn-overview">Incentivized Testnet (ITN)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/tokenomics">FACT token</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/project-catalyst">Project Catalyst</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/project-catalyst">Proposal overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-audit">Orcfax architecture audit</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-explorer">Orcfax Explorer: Improving &quot;Trust But Verify</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-staking">Orcfax staking: rewarding good behaviour</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/f12-consensus">Orcfax validators: reaching L2 consensus</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/project-catalyst/f12-economic-model">EchoNet: considerations for the economy of a decentralized network</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item hidden"><a class="menu__link" tabindex="0" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-staking">A Comparative Analysis of Staking Protocols in Blockchain Networks</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/oracle-basics">FAQ</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/glossary">Glossary</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Project Catalyst</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">EchoNet: considerations for the economy of a decentralized network</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>EchoNet: considerations for the economy of a decentralized network</h1></header>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="context">Context<a href="#context" class="hash-link" aria-label="Direct link to Context" title="Direct link to Context">​</a></h2>
+<p>A decentralized service is a service provided by a set of separate autonomous
+participants that are not subject to a hierarchy. Within the network of
+participants, the majority share the common purpose of providing a good service.
+However, some participants may be incompetent or even have malign intent.
+Because of this possibility, each is suspicious of the others. This network of
+mutually suspicious participants must coordinate the running of a distributed
+service.</p>
+<p>Part of an overall design of such a system is providing tooling which enables
+them to reach agreement over various network related tasks; this is consensus.
+The design must also ensure that participants in that process are rewarded for
+the good service they provide and are strongly discouraged from behaving badly;
+staking is the term we use to encapsulate the process governing this aspect of a
+decentralized service.</p>
+<p>The following will seek to assess the economic implications for Orcfax as it
+continues research and development into maturing its decentralized network of
+validator nodes, known as EchoNet, through the integration of staking and
+consensus mechanisms. Where necessary, specific considerations relating to
+staking and consensus in terms of economic impacts will be addressed separately,
+however the two mechanisms share considerable overlap in terms of economic
+considerations; for this reason, unless addressed separately, the following
+applies to both.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="use-cases">Use cases<a href="#use-cases" class="hash-link" aria-label="Direct link to Use cases" title="Direct link to Use cases">​</a></h2>
+<p>Projects which may benefit from the catalyst project deliverables, from either
+the consensus or staking proposals, may be any which require a set of
+participants to provide a service on behalf of the project in a decentralized
+manner; the design of the consensus and staking proof of concepts continue to be
+executed in such a way that while in context of this proposal, the service
+provision is an oracle, it need not be as this aspect is off-chain.</p>
+<p>Each PoC also black-boxes the other, so while the Orcfax use case will utilize
+both a staking and consensus mechanism, others may choose to leverage them
+independently.</p>
+<p>Our team has elected to design these PoC&#x27;s in this fashion because we understand
+that The deliverables from these projects have broad utility and may be used by
+projects offering diverse services to their users.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="specific-considerations-for-staking">Specific considerations for Staking<a href="#specific-considerations-for-staking" class="hash-link" aria-label="Direct link to Specific considerations for Staking" title="Direct link to Specific considerations for Staking">​</a></h3>
+<p>Projects assessing the implementation of a decentralized network may assume that
+most participants will be honest and competent, and that they will continue to
+participate honestly and with competence providing participation is
+straightforward and financially neutral. However, they are without hierarchy or
+a priori obligation to provide this service or cooperate with one another.</p>
+<p>This is why the output system must provide the incentive structure that, under
+these assumptions, will result in good service provision.</p>
+<p>A participant&#x27;s behaviour is accounted for: good behaviour that aids the quality
+of service provision is measured, as is bad behaviour. We can assume that the
+participants are able to reach consensus on these accounts and produce a
+signature/signatures as proof of general acceptance. This happens periodically -
+say once every 24 hours.</p>
+<p>The rewards for good behaviour and service are paid out from a &#x27;treasury&#x27; and
+forfeit funds are paid to the treasury. The currency will be a native asset. The
+project output should include the scripts governing these aspects of the
+treasury. Other funding of the treasury is beyond project scope. We will assume
+the treasury is sufficiently funded to meet the burden of conveying rewards.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="orcfax-staking-rewarding-good-behaviour">Orcfax staking: rewarding good behaviour<a href="#orcfax-staking-rewarding-good-behaviour" class="hash-link" aria-label="Direct link to Orcfax staking: rewarding good behaviour" title="Direct link to Orcfax staking: rewarding good behaviour">​</a></h2>
+<p>Orcfax is an aspiring decentralized Oracle service. To participate within the
+network, a participant must be in possession of two types of Cardano native
+assets:</p>
+<ul>
+<li>One Orcfax Validator License, one of 100 NFTs</li>
+<li>At least 500,000 $FACT</li>
+</ul>
+<p>Participants are strongly discouraged from behaving badly through the use of
+slashing. A participant must first put &#x27;at stake&#x27; some asset(s). If the
+participant&#x27;s actions are deemed bad, some or all of their assets are forfeit
+through a slashing mechanism.</p>
+<p>To incentivize good behavior, a participant receives rewards proportionate to
+their good service.</p>
+<p>However, when balancing incentives and penalties for participants, care must be
+taken. The wrong incentive structure may either:</p>
+<ul>
+<li>cause a race to the top. Rewards only go to a few participants. Eventually
+this leads to centralization which degrades robustness.</li>
+<li>cause a race to the bottom. Participants are rewarded even if they are poor
+service providers.</li>
+</ul>
+<p>Both are bad for the long term health of the service.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="components-overview">Components overview<a href="#components-overview" class="hash-link" aria-label="Direct link to Components overview" title="Direct link to Components overview">​</a></h3>
+<p>The following are the key components of the consensus PoC:</p>
+<ol>
+<li>Constitution - holds the signing key.</li>
+<li>Hold - rewards awaiting collection.</li>
+<li>Safe - locks a participants funds.</li>
+<li>Treasury - holds funds awaiting dispensing.</li>
+<li>Dispenser - manages the dispensing of rewards.</li>
+</ol>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>N.B.</div><div class="admonitionContent_BuS1"><p>The following sections will be updated to reflect final design decisions made in
+milestone 3.</p></div></div>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="the-constitution">The Constitution<a href="#the-constitution" class="hash-link" aria-label="Direct link to The Constitution" title="Direct link to The Constitution">​</a></h4>
+<p>The constitution holds any dynamic data required by the protocol. This is a
+simple, classic design consisting of a multipurpose script with spend and mint
+purpose. The script is seeded so that it can only be initiated once.</p>
+<p>A validity token (NFT) is locked at the script, its utxo&#x27;s inlined datum
+contains the pubkey. It can be spent only if the pubkey signs the transaction.</p>
+<p>If the tokens are not burnt in the transaction, then the validity token must be
+output to the same address.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="the-safe">The Safe<a href="#the-safe" class="hash-link" aria-label="Direct link to The Safe" title="Direct link to The Safe">​</a></h4>
+<p>The safe holds participants&#x27; funds. These are at risk if the participant is
+deemed to behave badly. It is also required to claim rewards.</p>
+<p>A participant locks funds in (an instance of) a <strong>safe</strong>. While it exists, it is
+represented on the L1 tip by a single utxo.</p>
+<!-- -->
+<p>This is the basic lifecycle of a safe.</p>
+<p>First, participants take part in a decentralized key generation (DKG) process.
+The output of the DKG is one key pair for each participant as well as a single
+collective pubkey. The signature generation procedure requires multiple
+coordinated rounds. We&#x27;ll call this the &#x27;signature dance&#x27;. The output of the
+signature dance is a single signature. On-chain verification of the signature
+with the collective pubkey is indistinguishable from that of a &#x27;vanilla&#x27;
+signature.</p>
+<p>We may assume that off-chain, the participants are able to organise a DKG, and
+will organise FROST style signing of the rewards and slashing data. Each
+individual pubkey can then be used to identify the participant. The collective
+pubkey is used to verify the signature.</p>
+<p>If the participant is satisfied with the DKG step they perform a <code>lock</code> step.
+This initialises the safe. It is now <code>Locked</code> with the owners keys in the datum.</p>
+<p>While <code>Locked</code> the owner may <code>update</code> the safe with new keys.</p>
+<p>If the participant wishes to no longer participate, they <code>renounce</code>. The safe is
+now <code>Renounced</code>.</p>
+<p>All participants should be watching the chain for <code>renounce</code> actions, as they
+should no longer accept signatures associated with the renouncer. The <code>renounce</code>
+begins a limited period of time where the other participants can still apply
+penalties.</p>
+<p>Once this time period has elapsed, the participant may <code>free</code> their locked
+funds. All funds are again at the participants disposal.</p>
+<p>If sufficient participants deem a participant with either a <code>Locked</code> or
+<code>Renounced</code> safe to have acted badly, they can produce a slash transaction. This
+empties the contents of the safe into the treasury. The script ensures this is
+permitted only when signed by the constitution.</p>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="the-hold">The Hold<a href="#the-hold" class="hash-link" aria-label="Direct link to The Hold" title="Direct link to The Hold">​</a></h4>
+<p>The <code>Hold</code> is a simple script which &quot;holds&quot; rewards until they are claimed.</p>
+<p>A utxo at the <code>Hold</code> address has an inline datum indicating to which safe owner
+it belongs.</p>
+<h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="the-dispenser">The Dispenser<a href="#the-dispenser" class="hash-link" aria-label="Direct link to The Dispenser" title="Direct link to The Dispenser">​</a></h5>
+<p>The dispenser facilitates the dispensing of rewards to the <code>Hold</code>.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="orcfax-validators-reaching-l2-consensus">Orcfax validators: reaching L2 consensus<a href="#orcfax-validators-reaching-l2-consensus" class="hash-link" aria-label="Direct link to Orcfax validators: reaching L2 consensus" title="Direct link to Orcfax validators: reaching L2 consensus">​</a></h2>
+<p>The economics of consensus look quite different. The focus here is in
+understanding the cost of validator participation, the cost to a validator when
+slashed, and the potential benefits of performing maliciously. If the potential
+profit of providing bad information outweighs the cost, validator nodes become
+financially incentivized to act badly, which would result in significant risk to
+network integrity.</p>
+<p>At the time of this writing, the cost of acquiring 500,000 FACT tokens is
+approximately 5,025 ADA or 5,577 USD. The floor price for a Orcfax Validator
+License is 10,500 ADA or 11,653 USD. This means that the cumulative stake
+required to participate has a value of approximately 17,230 USD.</p>
+<p>In order to combat the risks associated with validators having financial
+incentive to act badly, Orcfax is tasked with devising a strategy by which
+malicious behavior becomes cost prohibitive or disadvantageous. However, at this
+stage of research and development, Orcfax has not yet decided on the process
+through which consensus will be reached over a given fact statement; the
+different ways this might be orchestrated have implications on how malicious
+behavior may need to be addressed. For this reason, we will explore two options:
+1.) where one node proposes a statement, and a subset of the 100 nodes within
+the network verifies that statement; 2.) where all nodes within a randomly
+selected subset propose a statement, and the median entry is selected.</p>
+<p>In the first, where a proposer has their statements verified by a subset of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em"></span><span class="mord mathnormal">n</span></span></span></span>
+nodes, the cost of the lie (using the values given above) becomes <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>∗</mo><mn>17</mn><mo separator="true">,</mo><mn>230</mn></mrow><annotation encoding="application/x-tex">n * 17,230</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em"></span><span class="mord">17</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em"></span><span class="mord">230</span></span></span></span>
+USD. So, in a system where the threshold for verification was 10 nodes, the cost
+of the lie is more than 170,000 USD.</p>
+<p>However, if instead of requiring any subset for verification we had the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em"></span><span class="mord mathnormal">n</span></span></span></span>
+nodes selected at random, then the lie becomes significantly more expensive.
+With random selection of subset nodes, even If the bad actor corrupted 10 of the
+total 100 nodes, it still becomes very unlikely that those 10 would be randomly
+selected.</p>
+<p>In the second scenario where a subset of nodes is randomly selected, each
+proposes a statement, and the median is selected, the cost of the lie at a
+minimum is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mo stretchy="false">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mi mathvariant="normal">/</mi><mn>2</mn><mo stretchy="false">)</mo><mo>∗</mo><mn>17</mn><mo separator="true">,</mo><mn>230</mn></mrow><annotation encoding="application/x-tex">((n + 1) / 2) * 17,230</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mopen">((</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord">1</span><span class="mclose">)</span><span class="mord">/2</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em"></span><span class="mord">17</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em"></span><span class="mord">230</span></span></span></span> USD or the value of half the selected nodes
++1. So in a case where, from 100 nodes, a subset of 21 are selected at random,
+the cost of the lie would be nearly 190,000 USD.</p>
+<p>But again, the fact that this subset of nodes is selected at random means that
+these costs are the minimum. Even with a bad actor having at least 11 licenses,
+and the corresponding fact, the probability of them all being selected to
+propose within the subset is very slim.</p>
+<p>For either of the above scenarios, the value of $FACT and cost of acquiring a
+Validator License have immense impact on the appropriate size of the subset of
+nodes; it could very well be that, using the values given previously, it&#x27;s
+necessary to select a subset of 21 (or more) nodes in order to adequately reduce
+the risk of bad actors and to make bad behaviour cost prohibitive. However, this
+narrative dramatically changes should $FACT halve in value, or increase 10x.</p>
+<p>These are all considerations that Orcfax must weigh as we continue to develop a
+consensus solution.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>N.B.</div><div class="admonitionContent_BuS1"><p>This section will be updated to reflect final design decisions made in
+milestone 3.</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="participation-costs">Participation costs<a href="#participation-costs" class="hash-link" aria-label="Direct link to Participation costs" title="Direct link to Participation costs">​</a></h2>
+<p>Participants will need to shoulder the cost of either acquiring their own
+equipment by which they will participate in the network, or the cost of
+maintaining a subscription to cloud infrastructure. While the cost of
+implementing the software responsible for consensus and staking is unknown at
+this time, the current cost of running a mainnet node within the Orcfax
+federated network is approximately 200 USD per month, which should serve as a
+basic understanding of costs for network participants; its important to
+understand that this approximation of cost is an estimate and may not reflect
+the total cost of participation for validators.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>N.B.</div><div class="admonitionContent_BuS1"><p>The cost of implementing and running staking and consensus mechanisms remains
+unknown because design choices relating to either can have significant impacts;
+final design takes place in the following milestone. This section will be
+updated after the next milestone and the completion of the PoC&#x27;s.</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rewards">Rewards<a href="#rewards" class="hash-link" aria-label="Direct link to Rewards" title="Direct link to Rewards">​</a></h2>
+<p>Early on in Orcfax development, we established the mechanisms by which
+Validators would be onboarded and rewarded for their participation in the
+network. Our <a href="/tokenomics">tokenomics</a> ensured that the biggest allocation of $FACT was
+reserved to reward our decentralized validators for running Orcfax nodes.</p>
+<p>Initially, with a relatively low number of integrators, validators will be
+rewarded for their participation in the network with $FACT from the <a href="/tokenomics#validator-rewards">Validator
+Rewards Allocation</a>, which contains 50% of the total FACT token supply, or
+500,000,000 (50%) $FACT.</p>
+<p>The amount of FACT tokens rewarded from this allocation per publication will
+decrease over time. As more consumers start using Orcfax oracle feeds, the
+increasing $FACT payments from these customers will compensate for the reduced
+emission from the Validator Rewards Allocation, and will eventually replace them
+completely.</p>
+<p>The following demonstrates how having integrators pay for feeds in FACT (or ADA)
+creates a positive feedback loop and buy pressure for $FACT. The generated
+$FACT payments from integrators are then distributed to entities crucial for
+network operation like Orcfax Validators.</p>
+<p><img decoding="async" loading="lazy" alt="Orcfax Economic Model" src="/assets/images/2024-09-17--orcfax-economic-model-64bd59a1c7af8e98aaa8938f42fa47cb.png" width="2624" height="1524" class="img_ev3q"></p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="beyond-the-poc">Beyond the PoC<a href="#beyond-the-poc" class="hash-link" aria-label="Direct link to Beyond the PoC" title="Direct link to Beyond the PoC">​</a></h2>
+<p>While research for both consensus and staking was completed within budget,
+systems analysis and development have, to date, exceeded initial estimates; this
+has largely been due to complexities which while foreseen, their scope was not
+entirely appreciated. The difference between the budget and actual costs is
+being covered by Orcfax.</p>
+<p>Going forward, the reality of these cost discrepancies is useful for better
+understanding the real cost of any work which may be needed after the successful
+completion of catalyst closeout to move both the consensus and staking PoC’s
+towards mature software and beyond with the integration of consensus and staking
+mechanisms into EchoNet.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/f12-consensus"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Orcfax validators: reaching L2 consensus</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/project-catalyst/wallis-koch--2024--a-comparative-analysis-consensus"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">A Comparative Analysis of Consensus Protocols used in Blockchain Networks</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#context" class="table-of-contents__link toc-highlight">Context</a></li><li><a href="#use-cases" class="table-of-contents__link toc-highlight">Use cases</a><ul><li><a href="#specific-considerations-for-staking" class="table-of-contents__link toc-highlight">Specific considerations for Staking</a></li></ul></li><li><a href="#orcfax-staking-rewarding-good-behaviour" class="table-of-contents__link toc-highlight">Orcfax staking: rewarding good behaviour</a><ul><li><a href="#components-overview" class="table-of-contents__link toc-highlight">Components overview</a></li></ul></li><li><a href="#orcfax-validators-reaching-l2-consensus" class="table-of-contents__link toc-highlight">Orcfax validators: reaching L2 consensus</a></li><li><a href="#participation-costs" class="table-of-contents__link toc-highlight">Participation costs</a></li><li><a href="#rewards" class="table-of-contents__link toc-highlight">Rewards</a></li><li><a href="#beyond-the-poc" class="table-of-contents__link toc-highlight">Beyond the PoC</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/oracle-basics">FAQ</a></li></ul></div><div class="col footer__col"><div class="footer__title">Orcfax</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Home<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://explorer.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://status.orcfax.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Status<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.com/invite/UbAeRuNzDu" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://medium.com/@orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/orcfax" target="_blank" rel="noopener noreferrer" class="footer__link-item">Github<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Legal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/terms-of-service">Terms of Service</a></li></ul></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://orcfax.io" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width="100" height="100"><img src="/img/orcfax_logo.png" alt="Orcfax Logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width="100" height="100"></a></div><div class="footer__copyright">Copyright © 2024 Orcfax Ltd.</div></div></div></footer></div>
+</body>
+</html>
