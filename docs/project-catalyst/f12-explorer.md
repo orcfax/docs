@@ -97,8 +97,27 @@ better understand the upgrades within the context of the explorer UI.
 
 ## Milestone 3
 
-Orcfax will develop a dashboard page on the Orcfax Explorer that displays
-information about Orcfax network activity in real time
+Orcfax has developed new features for the Orcfax Explorer which results in new
+dynamic displays; the new features enhance the existing dashboard page on the
+Orcfax Explorer so that it now displays information about Orcfax network
+activity in real time.
+
+The new feature set for the explorer brings the following changes:
+
+-   The dashboard now has a section which dynamically displays statistics
+    relating to node participation
+    -   Identifies when each node last published.
+    -   Identifies the feed each node last published to.
+    -   Identifies the total number of publications (i.e. Facts) for each node.
+    -   Provides the status/health of each node.
+
+The upgrades which enable this functionality are now included in the public
+github explorer [repo][m3-1], along with additional context, source code, tests,
+and user documentation to aid in use.
+
+[![Explorer walkthrough](https://img.youtube.com/vi/MVLOBT58PlA/0.jpg)](https://youtu.be/8kPMwpoXhN0?feature=shared)
+
+[m3-1]: https://github.com/orcfax/explorer.orcfax.io/milestone/3?closed=1
 
 ## Milestone 4
 
