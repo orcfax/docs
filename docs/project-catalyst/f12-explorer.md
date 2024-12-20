@@ -98,9 +98,8 @@ better understand the upgrades within the context of the explorer UI.
 ## Milestone 3
 
 Orcfax has developed new features for the Orcfax Explorer which results in new
-dynamic displays; the new features enhance the existing dashboard page on the
-Orcfax Explorer so that it now displays information about Orcfax network
-activity in real time.
+dynamic displays; the new features enhance the existing dashboard page so that
+it now displays information about Orcfax network activity in real time.
 
 The new feature set for the explorer brings the following changes:
 
@@ -112,8 +111,12 @@ The new feature set for the explorer brings the following changes:
     -   Provides the status/health of each node.
 
 The upgrades which enable this functionality are now included in the public
-github explorer [repo][m3-1], along with additional context, source code, tests,
-and user documentation to aid in use.
+github explorer [repo][m3-1] along with additional context.
+
+For test cases, we recorded a walkthrough of the explorer so that users can see
+how the new features work in tandem to deliver an incredible Explorer Viewer
+experience. This walkthrough also serves as a resource for users looking to
+better understand the upgrades within the context of the explorer UI.
 
 [![Explorer walkthrough](https://img.youtube.com/vi/MVLOBT58PlA/0.jpg)](https://youtu.be/8kPMwpoXhN0?feature=shared)
 
