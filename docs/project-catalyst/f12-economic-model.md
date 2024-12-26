@@ -293,6 +293,8 @@ to highlight the staking requirements and the connections to each nodes through
 the consensus mechanism. The diagram also unpacks the relationships between
 components and how they are expected to operate.
 
+<!-- markdownlint-disable MD013 -->
+
 ```mermaid
 C4Component
 title A Component diagram for Consensus
@@ -348,6 +350,8 @@ Rel(Tx, Fsps, "Pushes to FS plutus script")
 Rel(E, O, "Uses")
 Rel(E, K, "Uses")
 ```
+
+<!-- markdownlint-restore -->
 
 :::note
 
