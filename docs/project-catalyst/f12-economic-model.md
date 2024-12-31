@@ -228,6 +228,13 @@ profit of providing bad information outweighs the cost, validator nodes become
 financially incentivized to act badly, which would result in significant risk to
 network integrity.
 
+The mechanics of slashing is covered in [The Safe](#312-the-safe). For this
+section, all that is relevant is that malicious activity results in the loss of
+participants' stake; whether the loss is entire or a portion is undecided and
+will likely depend on the ability to define a spectrum of bad behaviour in code.
+For the purposes of this section, we will assume that being slashed results in
+the entire loss of participants' stake.
+
 At the time of this writing, the cost of acquiring 500,000 FACT tokens is
 approximately 5,025 ADA or 5,577 USD. The floor price for a Orcfax Validator
 License is 10,500 ADA or 11,653 USD. This means that the cumulative stake
@@ -235,9 +242,16 @@ required to participate has a value of approximately 17,230 USD.
 
 In order to combat the risks associated with validators having financial
 incentive to act badly, Orcfax is tasked with devising a strategy by which
-malicious behavior becomes cost prohibitive or disadvantageous. However, at this
-stage of research and development, Orcfax has not yet decided on the process
-through which consensus will be reached over a given fact statement; the
+malicious behavior becomes cost prohibitive or disadvantageous. Put another way,
+the total cost incurred to the bad actor for their behaviour must be greater
+than the reward they might receive by undermining the system; to use the example
+of a loan liquidation, the cost of operating the number of nodes necessary to
+submit erroneous data, which would result in the liquidation of a target loan,
+must cost more than the liquidation would reward the bad actor. It is this cost
+relationship which makes malicious actions disadvantageous.
+
+At this stage of research and development, Orcfax has not yet decided on the
+process through which consensus will be reached over a given fact statement; the
 different ways this might be orchestrated have implications on how malicious
 behavior may need to be addressed. For this reason, we will explore two options:
 1.) where one node proposes a statement, and a subset of the 100 nodes within
@@ -293,72 +307,7 @@ to highlight the staking requirements and the connections to each nodes through
 the consensus mechanism. The diagram also unpacks the relationships between
 components and how they are expected to operate.
 
-<!-- markdownlint-disable MD013 -->
-
-```mermaid
-C4Component
-title A Component diagram for Consensus
-
-System_Boundary(V1, "Validator Node-1") {
-        Component(Cn, "Cardano node", , "Allows Collector to query historical at tip")
-        Component(Cm, "Consensus Mechanism", , "Verifies consensus")
-        Component(S, "Stake", , "The required stake held at address")
-        Component(Cr, "Collectors", , "Scripts responsible for querying sources")
-        Component(Vscript, "Validator", , "Allows node to use validation logic against Collector data")
-        Component(Db, "Local SQL database", , "Used to temporarily cache data received from Collectors")
-        Component(P, "Publisher", , "Responsible for administration of publish")
-        Component(E, "Explorer", , "The distributed front end resource providing access to Orcfax archival packages")
-        Component(M, "Monitor", , "Responsible for monitoring network and feeds status")
-        Component(K, "Kupo", , "Allows Publisher to query on-chain data")
-        Component(O, "Ogmios", , "Allows Publisher to query on-chain data")
-        Component(Tx, "Transaction builder", , "Allows Publisher to construct transactions")
-        }
-
-Container_Boundary(V2, "Validator Node-2") {
-        Component(Cm2, "Consensus Mechanism", , "Verifies consensus")
-        Component(S2, "Stake", , "The required stake held at address")
-        }
-
-Container_Boundary(Vn, "Validator Node-n") {
-        Component(Cmn, "Consensus Mechanism", , "Verifies consensus")
-        Component(Sn, "Stake", , "The required stake held at address")
-        }
-
-System_Ext(S, "Source", "HTTP", "A public source of primary information.")
-System_Ext(Ar, "Arweave", , "A decentralized storage solution")
-System_Ext(Fsps, "Fact Statement plutus script", , "Verifies consensus")
-System_Ext(Ak, "Arkly", , "A decentralized digital archive and permanent storage solution")
-
-BiRel(Cr, S, "Queries/Receives")
-Rel(O, Cn, "Uses")
-Rel(Cr, Vscript, "Pushes CBOR")
-BiRel(Vscript, Db, "Reads/Writes")
-Rel(M, Db, "Reads")
-Rel(M, Vscript, "Triggers")
-Rel(Vscript, Ak, "Pushes POST request")
-Rel(Ak, Ar, "Pushes archival pkg")
-Rel(Ar, Db, "Pushes Arweave Tx ID")
-Rel(Vscript, Cm, "Pushes Datum")
-BiRel(Cm, Cm2, "Statement proposal & response")
-BiRel(Cm, Cmn, "Statement proposal & response")
-BiRel(Cmn, Cm2, "confirmation of proposed statement")
-Rel(Cm, Tx, "Pushes signed Datum")
-Rel(Tx, Cn, "Uses")
-Rel(Tx, K, "Uses")
-Rel(Tx, O, "Uses")
-Rel(Tx, Fsps, "Pushes to FS plutus script")
-Rel(E, O, "Uses")
-Rel(E, K, "Uses")
-```
-
-<!-- markdownlint-restore -->
-
-:::note
-
-If the diagram is not rendering clearly, or if the text is difficult to read,
-viewing the raw content of the page can be very helpful.
-
-:::
+![PoC component diagram](/img/2024-12-f12-component-diagram.jpg)
 
 ## 5. Participation costs
 
@@ -383,34 +332,30 @@ after the next milestone and the completion of the PoC's.
 
 ## 6. Rewards
 
-Early on in Orcfax development, we established the mechanisms by which
+Early on in Orcfax development, Orcfax established the mechanisms by which
 Validators would be onboarded and rewarded for their participation in the
 network. Our [tokenomics][r-1] ensured that the biggest allocation of \$FACT was
 reserved to reward our decentralized validators for running Orcfax nodes.
 
-Initially, with a relatively low number of integrators, validators will be
-rewarded for their participation in the network with \$FACT from the [Validator
-Rewards Allocation][r-2] (referred to previously as the "treasury"), which
-contains 50% of the total FACT token supply, or 500,000,000 (50%) \$FACT.
+During early stages of the Incentivized testnet, and integration of Staking and
+Consensus mechanisms, we can assume that there may be a relatively low number of
+integrators. Because of this, validators will be rewarded for their
+participation in the network with \$FACT from the [Validator Rewards
+Allocation][r-2] (hereafter referred to as the "treasury"), which contains 50%
+of the total FACT token supply, or 500,000,000 (50%) \$FACT. It can also be
+assumed that the value of \$FACT will be impacted by the number of integrators
+so that as integrators increase, the value of the \$FACT emissions from the
+Orcfax treasury will also increase.
 
-However, since consumers (i.e. integrators) pay for on-chain publications in
-\$FACT, an increase in the number of integrators will lead to more publications,
-thereby driving up the demand for the FACT token. The generated \$FACT payments
-will then be distributed to entities crucial for network operation and security,
-namely Orcfax Validators.
+An increase in the number of integrators which request and consume Orcfax
+statements will lead to more publications; as these integrators buy \$FACT in
+order to complete these transactions, the demand for \$FACT and its value will
+increase thereby creating a positive feedback loop.
 
-This means that while validators will be rewarded from the treasury, as the
-number of consumers increases, the amount of FACT tokens rewarded from this
-allocation per publication will decrease over time Orcfax will reduce emissions
-from the treasury and use instead the funds being generated from integrators as
-more consumers start using Orcfax oracle feeds; increasing \$FACT payments from
-these customers will compensate for the reduced emission from the Validator
-Rewards Allocation, and will eventually replace them completely.
-
-The following demonstrates how having integrators pay for feeds in FACT (or ADA)
-creates a positive feedback loop and buy pressure for \$FACT. The generated
-\$FACT payments from integrators are then distributed to entities crucial for
-network operation like Orcfax Validators.
+The following demonstrates this positive feedback loop and how having
+integrators pay for feeds in FACT (or ADA) creates positive buy pressure for
+\$FACT. The generated \$FACT payments from integrators are then distributed to
+entities crucial for network operation like Orcfax Validators.
 
 ![Orcfax Economic Model](/img/2024-09-17--orcfax-economic-model.png)
 
@@ -421,18 +366,53 @@ will sell these funds for \$FACT so as to have the same result.
 
 :::
 
+SO while in the beginning, validators will be compensated from the Orcfax
+treasury, as the \$FACT payments generated from integrators outpaces \$FACT
+emissions from the treasury, Orcfax will be able to transition to compensating
+validators with revenue from these transactions.
+
+This means that the amount of FACT tokens rewarded from the treasury per
+publication will decrease over time as the fees from transactions increase; the
+increasing \$FACT payments to validators from these transactions will compensate
+for the reduced emission from the treasury, and will eventually replace them
+completely.
+
 The above is demonstrated in this [model][r-3] which allows for the manipulation
 of key variables such as the value of ADA in USD, the value of \$FACT in ADA,
 the number of integrators the network services; what results is a projection as
-to the rate of treasury emission and how long it takes for funds from
-integrators to replace those emissions. For added accessibility, graphs have
-been added which demonstrate how these variables and the emission rate decreases
-over time as customer fees increase. The model also shows how these calculations
-play out over a 10 years span as we are cognizant that the model depends in
-large part on the widespread adoption of Orcfax services, which could take
-time-- the model takes this possibility into account and demonstrates how the
-significant allocation of \$FACT to the treasury allows Orcfax to meet the
-burden of paying validators even if the value of \$FACT is volatile.
+to the rate of treasury emission, the value of those emissions, and how they
+will be paid out to validators and Orcfax over time. The far right column breaks
+down what percentage and what value these emissions are projected to have.
+
+Graphs have also been added which demonstrate how these variables and the
+emission rate decreases over a 10 years span; The economic model depends on the
+critical assumptions identified previously: that the number of integrators will
+increase over time, that the value of \$FACT will increase as integrators
+increase, and that this happens before treasury emissions are unable to sustain
+the network.
+
+The right side of the model also shows how Orcfax will pay itself during this
+period. Of the emissions from the treasury, $35\%$ go to Orcfax, and of the
+integrator transaction fees (while still executing emissions from the treasury),
+$90\%$ goes to Orcfax. This combination means that Orcfax can fund its
+operations over the course of the 10 year period with as few as $7$ paid feeds
+while supporting $21$ subsidized feeds.
+
+This is possible in large part because Orcfax has been designed in such a way
+that the cost of running the Orcfax network in the federated model is relatively
+modest at less than 10,000 USD monthly; these costs allow the team to maintain
+redundancy, test environments, and support development. The low cost of the
+network also means that Orcfax operation
+
+However, our team anticipates that these costs will decrease over time as
+validators continue to absorb the tasks and roles currently held by Orcfax. In
+the fully decentralized network, the costs of running the network will be
+entirely shouldered by the network.
+
+Orcfax is cognizant that that the widespread adoption of Orcfax services could
+take time-- the model takes this possibility into account and demonstrates how
+the significant allocation of \$FACT to the treasury allows Orcfax to meet the
+burden of paying validators and itself even if the value of \$FACT is volatile.
 
 [r-1]: docs/fact-token/tokenomics.md
 [r-2]: docs/fact-token/tokenomics.md#validator-rewards
