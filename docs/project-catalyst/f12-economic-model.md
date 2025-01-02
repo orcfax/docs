@@ -298,7 +298,96 @@ milestone 3.
 
 :::
 
-### 4.1 Contextualizing consensus components
+### 4.1 Probability of selection
+
+In the previous section we speculated as to the total cost for an attacker to
+secure all of the nodes necessary to publish erroneous data. In this section we
+will investigate the probability of those corrupted nodes being selected to
+reach consensus over a given statement.
+
+The first example was of a proposer which has their statement verified by a
+subset of 10 nodes. The probability of having a specific combination of nodes
+(i.e. the 10 corrupted nodes) selected can be determined using the following
+formula:
+
+$
+P = \frac{1}{{\binom{n}{r}}}
+$
+
+Where $\binom{n}{r}$, pronounced "n choose r," is the number of ways to choose
+$r$ from $n$. In the specific use case of Orcfax, $r$ represents the number of
+ways to choose 10 individuals from the 100 total nodes ($n$) without regard to
+order.
+
+-   $n = 100$
+-   $r = 10$
+
+This can be represented as:
+
+$
+\binom{100}{10} = \frac{100!}{10!(100 - 10)!} = \frac{100!}{10! \cdot 90!}
+$
+
+:::info[Explanation]
+
+1. $100!$: The factorial of 100, representing all possible arrangements of 100
+   nodes.
+2. $10!$: The factorial of 10, representing the arrangements of the selected 10
+   nodes.
+3. $90!$: The factorial of 90, representing the remainder of arrangements after
+   the removal of permutations.
+
+:::
+
+Thus, the probability $P$ is:
+
+$
+P = \frac{1}{\frac{100!}{10! \cdot 90!}}
+$
+
+This gives the probability of a specific set of 10 nodes being selected from a
+total of 100 nodes, which is
+
+$
+5.78 \times 10^{-14} = 0.0000000000000578
+$
+
+In the second example where a subset of nodes is selected, each proposes a
+statement, and the median is selected, the bad actor needs 11 of their corrupted
+nodes to participate in consensus in order to ensure that 10 of their nodes will
+make the 11th the median.
+
+The probability of their 11 nodes being selected within a subset of 21 nodes can
+be expressed in the following equation:
+
+$
+P = \frac{\binom{11}{11} \cdot \binom{89}{10}}{\binom{100}{21}}
+$
+
+:::info[Explanation]
+
+1. $\binom{11}{11}$: The number of ways to choose all 11 of the corrupted nodes
+   (this is 1, as there's only one way to choose all 11 of them).
+2. $\binom{89}{10}$: The number of ways to choose the remaining 10 nodes from
+   the remaining 89.
+3. $\binom{100}{21}$: The total number of ways to choose 21 nodes out of the
+   total 100.
+
+:::
+
+Thus, the probability of all 11 corrupted nodes being selected within a subset
+of 21 nodes is approximately:
+
+$
+2.4904 \times 10^{-9} = 0.00000000249
+$
+
+This section is for purposes of illustration only. Specific design choices to be
+made in milestone 3 can have significant impacts on how randomness is
+implemented and thereby the probable chance of a bad actor being able to
+influence consensus.
+
+### 4.2 Contextualizing consensus components
 
 The following demonstrates the various components of a fully decentralized node
 within the EchoNet network; "Validator Node-1" shows each of its components
