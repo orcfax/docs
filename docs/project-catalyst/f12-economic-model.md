@@ -56,7 +56,7 @@ The incorporation of either of these components by other projects would also
 mark their commitment to decentralization and the desire to increase overall
 transparency, both of which are valued qualities among the Cardano community.
 
-The number of potential use cases are numerous and as projects on cardano
+The number of potential use cases are numerous and as projects on Cardano
 continue to innovate, the number will continue to increase. Knowing this, the
 design of the consensus and staking proof of concepts continue to be executed in
 such a way that while in context of this proposal, the service provision is an
@@ -277,7 +277,7 @@ the cost of the lie would be nearly 190,000 USD.
 
 But again, the fact that this subset of nodes is selected at random means that
 these costs are the minimum. Even with a bad actor having at least 11 licenses,
-and the corresponding fact, the probability of them all being selected to
+and the corresponding \$FACT, the probability of them all being selected to
 propose within the subset is very slim.
 
 For either of the above scenarios, the value of \$FACT and cost of acquiring a
@@ -396,7 +396,7 @@ to highlight the staking requirements and the connections to each nodes through
 the consensus mechanism. The diagram also unpacks the relationships between
 components and how they are expected to operate.
 
-![PoC component diagram](/img/2024-12-f12-component-diagram.jpg)
+![PoC component diagram](/img/2025-01-f12-component-diagram.jpg)
 
 ## 5. Participation costs
 
@@ -406,7 +406,7 @@ maintaining a subscription to cloud infrastructure. While the cost of
 implementing the software responsible for consensus and staking is unknown at
 this time, the current cost of running a mainnet node within the Orcfax
 federated network is approximately 200 USD per month, which should serve as a
-basic understanding of costs for network participants; its important to
+basic understanding of costs for network participants; it's important to
 understand that this approximation of cost is an estimate and may not reflect
 the total cost of participation for validators.
 
@@ -442,7 +442,7 @@ order to complete these transactions, the demand for \$FACT and its value will
 increase thereby creating a positive feedback loop.
 
 The following demonstrates this positive feedback loop and how having
-integrators pay for feeds in FACT (or ADA) creates positive buy pressure for
+integrators pay for feeds in \$FACT (or ADA) creates positive buy pressure for
 \$FACT. The generated \$FACT payments from integrators are then distributed to
 entities crucial for network operation like Orcfax Validators.
 
@@ -491,16 +491,17 @@ This is possible in large part because Orcfax has been designed in such a way
 that the cost of running the Orcfax network in the federated model is relatively
 modest at less than 10,000 USD monthly; these costs allow the team to maintain
 redundancy, test environments, and support development. The low cost of the
-network also means that Orcfax operation
+network also means that Orcfax operation can continue well into the future even
+with modest success in selling its oracle feeds.
 
-However, our team anticipates that these costs will decrease over time as
+With that said, our team anticipates that these costs will decrease over time as
 validators continue to absorb the tasks and roles currently held by Orcfax. In
 the fully decentralized network, the costs of running the network will be
 entirely shouldered by the network.
 
-Orcfax is cognizant that that the widespread adoption of Orcfax services could
-take time-- the model takes this possibility into account and demonstrates how
-the significant allocation of \$FACT to the treasury allows Orcfax to meet the
+Orcfax is cognizant that the widespread adoption of Orcfax services could take
+time-- the model takes this possibility into account and demonstrates how the
+significant allocation of \$FACT to the treasury allows Orcfax to meet the
 burden of paying validators and itself even if the value of \$FACT is volatile.
 
 [r-1]: docs/fact-token/tokenomics.md
