@@ -170,7 +170,7 @@ Integrators should establish the expected feed ID from Orcfax documentation on
 the feed definition. The feed ID is a human readable label and decomposes as:
 
 ```sample
-<feed_type>/<feed_name>
+<feed_type>/<feed_name>/
 ```
 
 Warning: Orcfax reserves the possibility to use a `versioned_feed_id` as the
@@ -181,7 +181,9 @@ value in the statement. A versioned feed ID has the following form:
 ```
 
 For this reason integrators must check that the `feed_id` value begins with the
-expected bytes, rather than assume that there is equality.
+expected bytes, rather than assume that there is equality. Its also important to
+include the trailing `/` after the feed name. Including the slash prevents, say,
+a `ADA-USDM` being used when only `ADA-USD` is desired.
 
 ### Verifying the created at
 
