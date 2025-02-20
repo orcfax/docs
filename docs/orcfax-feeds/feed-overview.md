@@ -68,7 +68,7 @@ As these are showcase feeds, Orcfax makes no guarantees as to how long they will
 be offered in this capacity; Orcfax may change or remove support for showcase
 feeds at its discretion and may do so without notice. Integrators who would like
 to take advantage of these feeds or are interested in learning more about our
-services should contact us via [Discord][discord] or info@orcfax.io.
+services should contact us via [Discord][discord] or <info@orcfax.io>.
 
 :::
 
@@ -133,7 +133,7 @@ As these are showcase feeds, Orcfax makes no guarantees as to how long they will
 be offered in this capacity; Orcfax may change or remove support for showcase
 feeds at its discretion and may do so without notice. Integrators who would like
 to take advantage of these feeds or are interested in learning more about our
-services should contact us via [Discord][discord] or info@orcfax.io.
+services should contact us via [Discord][discord] or <info@orcfax.io>.
 
 :::
 
