@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint", // Markdown linting
+        "esbenp.prettier-vscode" // General formatting
+    ]
+}
