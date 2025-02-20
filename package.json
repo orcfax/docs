@@ -16,7 +16,7 @@
         "lint": "prettier --check . && eslint .",
         "format": "prettier  --write .",
         "pre-commit": "pre-commit run --all-files",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "dependencies": {
         "@docusaurus/core": "^3.6.1",
