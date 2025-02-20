@@ -5,7 +5,7 @@ slug: /decentralized-review-message
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import Message from '!!raw-loader!/schema/risk-rating/decentralized-review/message.json';
+import Message from '/schema/risk-rating/decentralized-review/message.json';
 
 # Message
 
@@ -34,6 +34,12 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Message example
 
-<CodeBlock language="jsx">{Message}</CodeBlock>
+<CodeBlock language="json">{JSON.stringify(factStatement, null, 2)}</CodeBlock>
 
-<a target="_blank" href="/schema/risk-rating/decentralized-review/Message.json" download="Message.json">Download</a>
+<a
+    target="_blank"
+    href="/schema/risk-rating/decentralized-review/Message.json"
+    download="Message.json"
+>
+    Download
+</a>

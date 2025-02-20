@@ -5,7 +5,7 @@ slug: /decentralized-review-fact-statement-datum
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import factStatementDatum from '!!raw-loader!/schema/risk-rating/decentralized-review/fact-statement-datum.json';
+import factStatementDatum from '/schema/risk-rating/decentralized-review/fact-statement-datum.json';
 
 # Fact Statement Datum
 
@@ -34,8 +34,13 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Fact Statement Datum example
 
-<CodeBlock language="jsx">{factStatementDatum}</CodeBlock>
 
-<!-- markdownlint-disable MD013 -->
-<a target="_blank" href="/schema/risk-rating/decentralized-review/fact-statement-datum.json" download="fact-statement-datum.json">Download</a>
-<!-- markdownlint-enable MD013 -->
+<CodeBlock language="json">{JSON.stringify(factStatement, null, 2)}</CodeBlock>
+
+<a
+    target="_blank"
+    href="/schema/risk-rating/decentralized-review/fact-statement-datum.json"
+    download="fact-statement-datum.json"
+>
+    Download
+</a>

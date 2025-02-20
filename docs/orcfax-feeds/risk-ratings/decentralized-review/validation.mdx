@@ -5,7 +5,7 @@ slug: /decentralized-review-validation
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import Validation from '!!raw-loader!/schema/risk-rating/decentralized-review/validation.json';
+import Validation from '/schema/risk-rating/decentralized-review/validation.json';
 
 # Validation
 
@@ -34,8 +34,12 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Validation example
 
-<CodeBlock language="jsx">{Validation}</CodeBlock>
+<CodeBlock language="json">{JSON.stringify(factStatement, null, 2)}</CodeBlock>
 
-<!-- markdownlint-disable MD013 -->
-<a target="_blank" href="/schema/risk-rating/decentralized-review/validation.json" download="validation.json">Download</a>
-<!-- markdownlint-enable MD013 -->
+<a
+    target="_blank"
+    href="/schema/risk-rating/decentralized-review/validation.json"
+    download="validation.json"
+>
+    Download
+</a>

@@ -5,7 +5,7 @@ slug: /decentralized-review-fact-statement
 ---
 
 import CodeBlock from '@theme/CodeBlock';
-import factStatement from '!!raw-loader!/schema/risk-rating/decentralized-review/fact-statement.json';
+import factStatement from '/schema/risk-rating/decentralized-review/fact-statement.json';
 
 # Fact Statement
 
@@ -41,8 +41,12 @@ be replaced when possible with a \[synonym\] in order to aid understanding.
 
 ## Fact Statement example
 
-<CodeBlock language="jsx">{factStatement}</CodeBlock>
+<CodeBlock language="json">{JSON.stringify(factStatement, null, 2)}</CodeBlock>
 
-<!-- markdownlint-disable MD013 -->
-<a target="_blank" href="/schema/risk-rating/decentralized-review/fact-statement.json" download="fact-statement.json">Download</a>
-<!-- markdownlint-enable MD013 -->
+<a
+    target="_blank"
+    href="/schema/risk-rating/decentralized-review/fact-statement.json"
+    download="fact-statement.json"
+>
+    Download
+</a>
