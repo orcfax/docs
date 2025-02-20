@@ -10,7 +10,8 @@ Currently, Orcfax provides support for CER type feeds. Integrators may review
 the full list of available feeds for both [mainnet][mainnet] and
 [preview][preview].
 
-<!-- we should also consider where we might point integrators to if available feeds becomes different from what is being showcased or subsidized -->
+<!-- we should also consider where we might point integrators to if available
+feeds becomes different from what is being showcased or subsidized -->
 
 [mainnet]:
     https://github.com/orcfax/cer-feeds/blob/main/feeds/mainnet/cer-feeds.json
