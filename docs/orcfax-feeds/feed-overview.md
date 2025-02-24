@@ -20,9 +20,9 @@ feeds becomes different from what is being showcased or subsidized -->
 
 ## Current Exchange Rate feeds
 
-Orcfax offers Current Exchange Rate ([CER][cer-1]) feeds that publish statements
-regarding the current price of a given currency against another. This includes
-feeds such as ADA-USD and FACT-ADA.
+Current Exchange Rate ([CER][cer-1]) feeds publish statements relating to the
+current price of a given currency against another. Feeds of this type include
+ADA-USD and FACT-ADA.
 
 For a feed of type CER, the naming convention is
 [\{\{base-currency\}\}-\{\{quote-currency\}\}][cer-2].
@@ -35,75 +35,104 @@ For a feed of type CER, the naming convention is
 
 :::
 
+The price values published by these feeds are derived from centralized exchange
+([CEX][cex-1]) data or decentralized exchange ([DEX][dex-1]) data.
+
+For CEX based feeds, fiat currency names follow ISO [4217][cex-2] and ordering
+follows [forex][cex-3] conventions where applicable. In other cases, such as for
+crypto base currencies, ordering defers to how the pairs appear on CEXes.
+
+For DEX based feeds, ordering defers to how pairs appear on DEXes.
+
 [cer-1]: https://glossary.orcfax.io/#cer
 [cer-2]: https://glossary.orcfax.io/#baseQuote
-
-### Feeds derived from CEXes
-
-The price values published by these feeds are derived entirely from centralized
-exchange ([CEX][cex-1]) data.
-
-Fiat currency names follow ISO [4217][cex-2] and Ordering follows [forex][cex-3]
-convention where applicable. In other cases, such as for crypto base currencies,
-ordering defers to how the pairs appear on CEXes.
-
 [cex-1]: https://glossary.orcfax.io/#cex
+[dex-1]: https://glossary.orcfax.io/#dex
 [cex-2]: https://en.wikipedia.org/wiki/ISO_4217
 [cex-3]: https://tradenation.com/articles/base-currency-and-quote-currency/
 
-#### CEX showcase feeds
+## Subsidized feeds
 
-In order to demonstrate the kinds of feeds derived from CEXes which integrators
-can utilize in their dApps, Orcfax is currently offering the following CEX
-showcase feeds:
-
-| Feed name | Start Date                 | End date\* |
-| --------- | -------------------------- | ---------- |
-| ADA-BTC   | Sep 12th 2024 17:01:24 UTC | TBA        |
-| BTC-USD   | Sep 12th 2024 17:01:24 UTC | TBA        |
-
-:::warning
-
-As these are showcase feeds, Orcfax makes no guarantees as to how long they will
-be offered in this capacity; Orcfax may change or remove support for showcase
-feeds at its discretion and may do so without notice. Integrators who would like
-to take advantage of these feeds or are interested in learning more about our
-services should contact us via [Discord][discord] or <info@orcfax.io>.
-
-:::
-
-[discord]: https://discord.com/invite/UbAeRuNzDu
-
-#### CEX subsidized feeds
+There are feeds which Orcfax has identified for their broad utility across
+Cardano projects and has therefore committed to supporting their publication in
+order to aid in development initiatives. These feeds have been selected in an
+effort to provide developers with opportunities to design their solutions from
+the beginning with authentic and verifiable data as a foundation.
 
 A subsidized feed is one which Orcfax has committed to maintaining even without
-an integrator subscription. when an integrator activates a subscription for a
-subsidized feed it will no longer be identified as such.
+a sponsor.
 
 Orcfax is currently offering the following CEX subsidized feeds:
 
-| Feed name | Start Date                 | End date\* |
-| --------- | -------------------------- | ---------- |
-| ADA-USD   | Sep 12th 2024 17:01:24 UTC | TBA        |
+| Feed name | Start Date                 | End date |
+| --------- | -------------------------- | -------- |
+| ADA-USD   | Sep 12th 2024 17:01:24 UTC | TBA      |
 
-In contrast to showcase feeds, subsidized feeds can be used in production. While
-Orcfax has committed to maintaining access to these feeds, integrators who wish
-to utilize these feeds without a subscription should do so at their own risk;
-Orcfax still reserves the right to adjust or remove support for these feeds as
-business needs dictate. However, any change to service relating to subsidized
-feeds will be announced three months in advance in order to provide integrators
-with adequate forewarning.
+Orcfax is currently offering the following DEX subsidized feeds:
 
-### Feeds derived from DEXes
+| Feed name | Start Date                 | End date |
+| --------- | -------------------------- | -------- |
+| FACT-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
 
-The price values published through these feeds are derived entirely from
-decentralized exchange ([DEX][dex-1]) data.
+when an integrator activates a subscription for a subsidized feed it will no
+longer be identified as such and will instead be labeled a
+[sponsored][sponsored] feed.
 
-For these feeds, ordering defers to how pairs appear on DEXes.
+[sponsored]: #sponsored-feeds
 
-[dex-1]: https://glossary.orcfax.io/#dex
+### Sunsetting subsidized feeds
 
-#### DEX showcase feeds
+In contrast to [showcase][showcase] feeds, subsidized feeds can be used in
+production because Orcfax has agreed to cover the cost of their support.
+
+While Orcfax has committed to maintaining access to these feeds, integrators who
+wish to utilize these feeds without a subscription should do so at their own
+risk; Orcfax still reserves the right to adjust or remove support for these
+feeds as business needs dictate. However, any change to service relating to
+subsidized feeds will be announced three months in advance in order to provide
+integrators with adequate forewarning.
+
+[showcase]: #showcase-feeds
+
+## Sponsored feeds
+
+When an integrator agrees to support a given feed through a heartbeat
+publication subscription, that feed will be designated as a sponsored feed for
+the duration of that agreement.
+
+While the integrator has committed to supporting the sponsored feed, and thereby
+facilitating its publication, projects which are not participating in the feed's
+sponsorship and yet utilize the on-chain data should do so at their own risk;
+feed sponsors may change or remove feed support at their own discretion and are
+not required to communicate these intentions to external parties.
+
+Orcfax has the following sponsored feeds:
+
+| Feed name | Start Date |
+| --------- | ---------- |
+| TBA       | TBA        |
+
+## Sunsetting sponsored feeds
+
+Projects which fail to adhere to subscription agreements risk disruptions to
+their feeds.
+
+Integrators will be given a two week window to come current on balances owing,
+afterwhich unpaid feeds will have publication suspended.
+
+## Showcase feeds
+
+In order to demonstrate the kinds of feeds which integrators can utilize in
+their dApps, Orcfax will periodically select feeds from its catalogue and
+highlight them through publication as showcase feeds. Orcfax sets no minimum or
+maximum number of showcase feeds that it may support.
+
+Orcfax is currently offering the following CEX showcase feeds:
+
+| Feed name | Start Date                 | End date |
+| --------- | -------------------------- | -------- |
+| ADA-BTC   | Sep 12th 2024 17:01:24 UTC | TBA      |
+| BTC-USD   | Sep 12th 2024 17:01:24 UTC | TBA      |
 
 Orcfax is currently offering the following DEX showcase feeds:
 
@@ -129,36 +158,21 @@ Orcfax is currently offering the following DEX showcase feeds:
 
 :::warning
 
-As these are showcase feeds, Orcfax makes no guarantees as to how long they will
-be offered in this capacity; Orcfax may change or remove support for showcase
-feeds at its discretion and may do so without notice. Integrators who would like
-to take advantage of these feeds or are interested in learning more about our
-services should contact us via [Discord][discord] or <info@orcfax.io>.
+Unless otherwise specified, Orcfax makes no guarantees as to how long showcase
+feeds will be offered in this capacity; Orcfax may change or remove support for
+showcase feeds at its discretion and may do so without notice. Integrators who
+would like to take advantage of these feeds or are interested in learning more
+about our services should contact us via [Discord][discord] or <info@orcfax.io>.
 
 :::
 
-#### DEX subsidized feeds
+[discord]: https://discord.com/invite/UbAeRuNzDu
 
-Orcfax is currently offering the following CEX subsidized feeds:
-
-| Feed name | Start Date                 | End date\* |
-| --------- | -------------------------- | ---------- |
-| FACT-ADA  | Sep 12th 2024 17:01:24 UTC | TBA        |
-
-In contrast to showcase feeds, subsidized feeds can be used in production. While
-Orcfax has committed to maintaining access to these feeds, integrators who wish
-to utilize these feeds without a subscription should do so at their own risk;
-Orcfax still reserves the right to adjust or remove support for these feeds as
-business needs dictate. However, any change to service relating to subsidized
-feeds will be announced three months in advance in order to provide integrators
-with adequate forewarning.
-
-## Sunsetting feeds
+## Removal of feed support
 
 In the absence of a subscription to support a feed's publication or business
 decisions which may incentivize subsidization, Orcfax may suspend or remove
-technical support at its discretion. This process is referred to as sunsetting a
-feed.
+technical support for feeds at its discretion.
 
 Unless otherwise required (e.g. in the case of subsidized feeds) Orcfax may
-sunset a feed without notice.
+remove support for such a feed without notice.
