@@ -14,3 +14,10 @@ liquidation event.
 
 Orcfax believes that providing these values through its oracle service as inline
 datum can better support DeFi use cases.
+
+:::note
+
+This feed type is under active development. Additional documentation and
+developer resources will be made available as development progresses.
+
+:::
