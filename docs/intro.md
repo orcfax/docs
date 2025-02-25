@@ -49,9 +49,12 @@ the Orcfax service's native FACT token.
 Read our [FAQ](oracle-basics) sections to answer any further questions you may
 have about Orcfax or oracles in general.
 
-You can subscribe to our content on [Medium][med-1] to stay up to date on new
-developments and join our [Discord][Discord-1] to engage directly with Orcfax
-team members.
+## Stay updated
+
+-   Follow our [Medium][med-1] for project and community updates
+-   Subscribe to our [RSS Feed][rss-1] for important network status alerts
+-   Join our [Discord][Discord-1] to engage directly with the team and community
 
 [med-1]: https://medium.com/@orcfax
 [Discord-1]: https://dsc.gg/orcfax
+[rss-1]: https://status.orcfax.com/rss.xml
