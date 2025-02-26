@@ -1,0 +1,35 @@
+{
+    "context": "https://schema.org",
+    "type": "Review",
+    "reviewBody": {
+        "@type": "CreativeWork",
+        "creator": "Xerberus Node: 1.0.0rc23",
+        "about": "The Xerberus review of the {ASSET-NAME} risk rating",
+        "identifier": "urn:",
+        "dateCreated": "2024-08-28T16:20:14Z",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "description": {
+            "@type": "Claim",
+            "appearance": "message-{ASSET-NAME}-xerberus.tick_generic.json",
+            "claimInterpreter": {
+                "@type": "Organization",
+                "name": "Orcfax",
+                "url": "https://orcfax.io/"
+            }
+        }
+    },
+    "itemReviewed": {
+        "additionalType": "CardanoNativeToken",
+        "name": "{ASSET-NAME",
+        "description": "{ASSET-SUBJECT}",
+        "identifier": "{ASSET-FINGERPRINT}"
+    },
+    "reviewRating": {
+        "@type": "Rating",
+        "author": "Xerberus",
+        "ratingValue": "{AAA}",
+        "worstRating": "D",
+        "bestRating": "AAA",
+        "reviewAspect": "Risk"
+    }
+}
