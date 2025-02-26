@@ -55,9 +55,10 @@ A per-FSP breakdown is documented below.
 
 A summary of preview deployments is listed below.
 
-| Status | FSP                                                        | FS                                                         | C                                                          | Arweave Hash                                                   |
-| ------ | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
-| Active | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` | `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244` | `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656` | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
+| Status   | FSP                                                        | FS                                                         | C                                                          | Arweave Hash                                                   |
+| -------- | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
+| Active   | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` | `e6c8a314ae942401619460f00c69de3d1b996db588d4042243a4b259` | `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656` | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
+| Inactive | `0690081bc113f74e04640ea78a87d88abbd2f18831c44c4064524230` | `572f979076428566452f5c22bc98f58d49f237d4f53b86d37b147244` | `3a81e444b7b88e41d421551d056ce1e7701948236251019d6fdce656` | [6KymaAPWd3JNyMT0B7EPYij4TWxehhMrzRD8qifCSLs][arweave-preview] |
 
 <br/>
 
