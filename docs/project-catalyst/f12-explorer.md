@@ -124,7 +124,37 @@ better understand the upgrades within the context of the explorer UI.
 
 ## Milestone 4
 
-Orcfax will develop a new Orcfax Explorer feature which notifies users in the
-event of a network issue, and provides users with links to incident reports.
+Orcfax has developed new features for the Orcfax Explorer which enables viewers
+to access real-time network health statistics and allows them to subscribe to
+network updates. These features were developed to provide users and integrators
+access to network notifications and to provide enhanced access to incident
+reports during network events.
+
+The new feature set for the explorer brings the following changes:
+
+-   Adds a [landing page to a Status Dashboard with key statistics][m4-1]
+-   Adds [“Incidents” to Status Dashboard][m4-2]
+-   Adds [“Network Updates” to Status Dashboard][m4-3]
+-   Adds an [RSS Feed Url Builder to Status Dashboard][m4-4]
+    -   Allows Orcfax to [Serve Orcfax RSS Feed from Status App][m4-5]
+-   Provides an [index of Sources for the Orcfax RSS Feed][m4-6]
+
+These new features are now included in the public github [explorer repo][m4-7]
+where we provide additional context and the relevant code enhancements for each.
+
+For test cases, we have recorded a walkthrough of explorer.orcfax.io so that
+users can see how the new features work in tandem to deliver an incredible
+Explorer Viewer experience. This walkthrough also serves as a resource for users
+looking to better understand the upgrades within the context of the explorer UI.
+
+[![Explorer walkthrough](https://img.youtube.com/vi/MVLOBT58PlA/0.jpg)](https://youtu.be/fjjgkOZrNnk?si=y4TwO2e3sCqOzE1l)
+
+[m4-1]: https://github.com/orcfax/status.orcfax.io/issues/3
+[m4-2]: https://github.com/orcfax/status.orcfax.io/issues/4
+[m4-3]: https://github.com/orcfax/status.orcfax.io/issues/4
+[m4-4]: https://github.com/orcfax/status.orcfax.io/issues/5
+[m4-5]: https://github.com/orcfax/status.orcfax.io/issues/2
+[m4-6]: https://github.com/orcfax/status.orcfax.io/issues/1
+[m4-7]: https://github.com/orcfax/explorer.orcfax.io/milestone/4?closed=1
 
 ## Final Milestone
