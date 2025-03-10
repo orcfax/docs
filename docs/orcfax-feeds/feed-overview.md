@@ -38,11 +38,17 @@ For a feed of type CER, the naming convention is
 The price values published by these feeds are derived from centralized exchange
 ([CEX][cex-1]) data or decentralized exchange ([DEX][dex-1]) data.
 
-For CEX based feeds, fiat currency names follow ISO [4217][cex-2] and ordering
-follows [forex][cex-3] conventions where applicable. In other cases, such as for
-crypto base currencies, ordering defers to how the pairs appear on CEXes.
+For CEX based feeds, fiat currency names follow [ISO 4217][cex-2] and ordering
+follows [forex][cex-3] conventions where applicable. In all other cases,
+ordering defers to how pairs appear on the centralized or decentralized
+exchanges.
 
-For DEX based feeds, ordering defers to how pairs appear on DEXes.
+:::info
+
+The [Glossary][glossary] provides more information on the terminology and
+standard adopted by Orcfax.
+
+:::
 
 [cer-1]: https://glossary.orcfax.io/#cer
 [cer-2]: https://glossary.orcfax.io/#baseQuote
@@ -50,6 +56,7 @@ For DEX based feeds, ordering defers to how pairs appear on DEXes.
 [dex-1]: https://glossary.orcfax.io/#dex
 [cex-2]: https://en.wikipedia.org/wiki/ISO_4217
 [cex-3]: https://tradenation.com/articles/base-currency-and-quote-currency/
+[glossary]: https://glossary.orcfax.io
 
 ## Subsidized feeds
 
@@ -127,34 +134,8 @@ their dApps, Orcfax will periodically select feeds from its catalogue and
 highlight them through publication as showcase feeds. Orcfax sets no minimum or
 maximum number of showcase feeds that it may support.
 
-Orcfax is currently offering the following CEX showcase feeds:
-
-| Feed name | Start Date                 | End date |
-| --------- | -------------------------- | -------- |
-| ADA-BTC   | Sep 12th 2024 17:01:24 UTC | TBA      |
-| BTC-USD   | Sep 12th 2024 17:01:24 UTC | TBA      |
-
-Orcfax is currently offering the following DEX showcase feeds:
-
-| Feed name | Start Date                 | End date |
-| --------- | -------------------------- | -------- |
-| ADA-DJED  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| ADA-iUSD  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| ADA-USDM  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| AGIX-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| BOOK-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| BTN-ADA   | Sep 12th 2024 17:01:24 UTC | TBA      |
-| CERRA-ADA | Sep 12th 2024 17:01:24 UTC | TBA      |
-| COPI-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| HOSKY-ADA | Sep 12th 2024 17:01:24 UTC | TBA      |
-| HUNT-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| INDY-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| LENFI-ADA | Sep 12th 2024 17:01:24 UTC | TBA      |
-| LQ-ADA    | Sep 12th 2024 17:01:24 UTC | TBA      |
-| MIN-ADA   | Sep 12th 2024 17:01:24 UTC | TBA      |
-| SHEN-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| SNEK-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-| WMTx-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
+Feeds being published and not currently listed as subsidized or sponsored are
+showcase feeds.
 
 :::warning
 
@@ -162,11 +143,12 @@ Unless otherwise specified, Orcfax makes no guarantees as to how long showcase
 feeds will be offered in this capacity; Orcfax may change or remove support for
 showcase feeds at its discretion and may do so without notice. Integrators who
 would like to take advantage of these feeds or are interested in learning more
-about our services should contact us via [Discord][discord] or <info@orcfax.io>.
+about our services should contact us via [Discord][discord] or [email][email].
 
 :::
 
 [discord]: https://discord.com/invite/UbAeRuNzDu
+[email]: mailto:info@orcfax.io
 
 ## Removal of feed support
 
