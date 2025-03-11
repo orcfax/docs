@@ -145,9 +145,6 @@ via [Discord][discord] or [email][email].
 
 ## Removal of feed support
 
-In the absence of a subscription to support a feed's publication or business
-decisions which may incentivize subsidization, Orcfax may suspend or remove
-technical support for feeds at its discretion.
-
-Unless otherwise required (e.g. in the case of subsidized feeds) Orcfax may
-remove support for such a feed without notice.
+Unless a feed is sponsored and paid for by a third-party, or subsidized through
+Orcfax, we may suspend or remove technical support for feeds at our own
+discretion.
