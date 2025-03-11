@@ -69,16 +69,11 @@ the beginning with authentic and verifiable data as a foundation.
 A subsidized feed is one which Orcfax has committed to maintaining even without
 a sponsor.
 
-Orcfax is currently offering the following CEX subsidized feeds:
+Orcfax is currently offering the following subsidized feeds:
 
 | Feed name | Start Date                 | End date |
 | --------- | -------------------------- | -------- |
 | ADA-USD   | Sep 12th 2024 17:01:24 UTC | TBA      |
-
-Orcfax is currently offering the following DEX subsidized feeds:
-
-| Feed name | Start Date                 | End date |
-| --------- | -------------------------- | -------- |
 | FACT-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
 
 when an integrator activates a subscription for a subsidized feed it will no
@@ -95,9 +90,10 @@ production because Orcfax has agreed to cover the cost of their support.
 While Orcfax has committed to maintaining access to these feeds, integrators who
 wish to utilize these feeds without a subscription should do so at their own
 risk; Orcfax still reserves the right to adjust or remove support for these
-feeds as business needs dictate. However, any change to service relating to
-subsidized feeds will be announced three months in advance in order to provide
-integrators with adequate forewarning.
+feeds as business needs dictate. Orcfax has agreed to cover the cost of
+supporting subsidized feeds enabling them to be used in production. Changes to
+services relating to subsidized feeds will be announced three months in advance
+to provide integrators with adequate forewarning.
 
 [showcase]: #showcase-feeds
 
@@ -107,11 +103,10 @@ When an integrator agrees to support a given feed through a heartbeat
 publication subscription, that feed will be designated as a sponsored feed for
 the duration of that agreement.
 
-While the integrator has committed to supporting the sponsored feed, and thereby
-facilitating its publication, projects which are not participating in the feed's
-sponsorship and yet utilize the on-chain data should do so at their own risk;
-feed sponsors may change or remove feed support at their own discretion and are
-not required to communicate these intentions to external parties.
+Sponsored feeds are those supported by an integrator through a subscription
+(e.g. heartbeat or deviation). Projects utilizing sponsored feeds, but are not
+paying for the feed, should do so at their own risk. Sponsors may change or
+remove support at their own discretion.
 
 Orcfax has the following sponsored feeds:
 
@@ -124,26 +119,24 @@ Orcfax has the following sponsored feeds:
 Projects which fail to adhere to subscription agreements risk disruptions to
 their feeds.
 
-Integrators will be given a two week window to come current on balances owing,
-afterwhich unpaid feeds will have publication suspended.
+Orcfax will remove support for sponsored feeds 2 weeks after non-payment where
+there are no subscribed integrators.
 
 ## Showcase feeds
 
-In order to demonstrate the kinds of feeds which integrators can utilize in
-their dApps, Orcfax will periodically select feeds from its catalogue and
-highlight them through publication as showcase feeds. Orcfax sets no minimum or
-maximum number of showcase feeds that it may support.
+To demonstrate the kinds of feeds which integrators can utilize in their dApps,
+Orcfax will periodically select feeds from its catalogue and highlight them
+through publication as showcase feeds.
 
 Feeds being published and not currently listed as subsidized or sponsored are
 showcase feeds.
 
 :::warning
 
-Unless otherwise specified, Orcfax makes no guarantees as to how long showcase
-feeds will be offered in this capacity; Orcfax may change or remove support for
-showcase feeds at its discretion and may do so without notice. Integrators who
-would like to take advantage of these feeds or are interested in learning more
-about our services should contact us via [Discord][discord] or [email][email].
+Orcfax may change or remove support for showcase feeds at its discretion and may
+do so without notice. Integrators who would like to take advantage of these
+feeds or are interested in learning more about our services should contact us
+via [Discord][discord] or [email][email].
 
 :::
 
