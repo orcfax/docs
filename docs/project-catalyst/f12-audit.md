@@ -54,6 +54,8 @@ successfully signed a contract for services in August of 2024.
 -   Announcement on [X][m1-2]
 -   Announcement on [Discord][m1-3]
 
+![Discord announcement](/img/2024-08-27--audit-txpipe-announcement.png)
+
 [m1-1]: https://txpipe.io/
 [m1-2]: https://x.com/orcfax/status/1828499168609837088
 [m1-3]:
@@ -75,6 +77,8 @@ successfully signed a contract for services in September of 2024.
 
 -   Announcement on [X][m1-5]
 -   Announcement on [Discord][m1-6]
+
+![Discord announcement](/img/2024-09-30--audit-blink-announcement.png)
 
 [m1-4]: https://blinklabs.io/
 [m1-5]: https://x.com/orcfax/status/1840374361695404438
