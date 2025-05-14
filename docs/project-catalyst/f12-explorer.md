@@ -158,3 +158,15 @@ looking to better understand the upgrades within the context of the explorer UI.
 [m4-7]: https://github.com/orcfax/explorer.orcfax.io/milestone/4?closed=1
 
 ## Final Milestone
+
+On April 2, 2025 Orcfax submitted the final milestone for the _Orcfax Explorer:
+Improving "Trust But Verify_ Catalyst project.
+
+The pdf of the Close Out Report, which unpacks key insights and future
+development, can be found below.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://drive.google.com/file/d/1d0Hl9ekTo-wtQgMNfBDG5tLfHUDj9glv/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
