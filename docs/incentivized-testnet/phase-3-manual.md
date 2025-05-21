@@ -1,6 +1,6 @@
 ---
 id: phase 3 manual
-sidebar_position: 4
+sidebar_position: 5
 slug: /phase-3-manual
 ---
 
