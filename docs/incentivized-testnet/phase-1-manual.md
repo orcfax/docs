@@ -358,3 +358,51 @@ halts entirely (not partially) although some output might be interesting to
 observe and learn from.
 
 :::
+
+### Regenerating node-identity.json
+
+Users can wrap the crontab commands in a shell script and run the shell script
+instead, e.g. given a shell-script:
+
+```sh
+#! /usr/bin/bash
+
+export ORCFAX_VALIDATOR=wss://itn.0.orcfax.io/ws/node
+export NODE_IDENTITY_LOC=/tmp/.node-identity.json
+export NODE_SIGNING_KEY=/home/orcfax/signing-key/payment.skey
+export GOFER=/home/orcfax/gofer/gofer
+export CNT_DB_NAME=/var/tmp/notused.db
+export OGMIOS_URL=ws://example.com/ogmios
+
+/home/orcfax/collector/venv/bin/collector-node --feeds /home/orcfax/collector/cer-feeds.json
+```
+
+The cron can be initiated with:
+
+```cron
+* * * * * /path/to/orcfax-shell-script.sh 2>&1 | logger -t orcfax_collector
+```
+
+This affords users the opportunity to add additional commands to their node
+improving their reliability, e..g the ability to regenerate `node-identity.json`
+if needed.
+
+Via the validator [A4EVR][a4evr-1]:
+
+```sh
+# Check if .node-identity.json exists in /tmp
+if [ ! -f "$NODE_IDENTITY_LOC" ]; then
+    echo "creating .node-identity.json..."
+    # Run gofer to generate the .node-identity.json if it doesn't exist
+    "$GOFER" data ADA/USD -o orcfax
+else
+    echo ".node-identity.json already exists."
+fi
+```
+
+A4EVR's script is just one example how to do this. Users may take inspiration
+from this or go their own way to achieve the same result. You may need to take a
+couple of attempts to ensure that the script and crontab work as expected.
+
+[a4evr-1]:
+    https://github.com/A4EVR/A4EVR-Pool/blob/fcd44611cc269b98d9291ef4675be73ba84df75d/orcfax/node-suite/orcfax_node_suite.sh
