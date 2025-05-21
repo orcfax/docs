@@ -11,5 +11,8 @@ spell:          ## Run pre-commit spelling check
 markdown:       ## Run pre-commit makdown-lint
 	pre-commit run markdownlint --all-files
 
+serve-local:    ## Run the docs server
+	npm start
+
 help:           ## Print this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
