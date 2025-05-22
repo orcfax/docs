@@ -8,7 +8,7 @@ slug: /phase-1-upgrade-period-8
 
 :::info
 
-Period 8 sees the introduction of more feeds. This requires that upgrade of the
+Period 8 sees the introduction of more feeds. This requires the upgrade of the
 cex collector software and the feed runner file. Details are provided below.
 
 :::
