@@ -37,7 +37,7 @@ request quotes for each.
 Once identified, Orcfax will finalize a Contract for Services with the selected
 audit firms.
 
-### On-chain
+### M1 On-chain
 
 Orcfax contacted several auditing firms in order to receive quotes for
 performing an audit of its on-chain components.
@@ -61,7 +61,7 @@ successfully signed a contract for services in August of 2024.
 [m1-3]:
     https://discord.com/channels/918870284331802674/1082742450268942386/1278059047571951738
 
-### Off-chain
+### M1 Off-chain
 
 Orcfax contacted several auditing firms in order to receive quotes for
 performing an audit of its off-chain architecture.
@@ -87,8 +87,65 @@ successfully signed a contract for services in September of 2024.
 
 ## Milestone 2
 
-Auditors will release feedback relating to the first review round; this feedback
-will be formatted into an audit status report.
+After contract finalization, auditors were given access to Orcfax systems. The
+following constitutes the feedback received from each.
+
+### M2 On-chain
+
+TxPipe provided the following interim report:
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://drive.google.com/file/d/1AqjBhChi3SVA4jW6ymMbPnnchXKbiaSW/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+After review of the report, the Orcfax team acknowledged the identified
+info-level finding. However, as this does not constitute an issue with the
+on-chain code, Orcfax has decided not to resolve the finding at this time. It is
+our opinion that this is, at worst, a tooling concern.
+
+The finding can be simplified as follows: When using a chain indexer, if an
+integrator filters on address, they may miss utxos that have different stake
+credentials. This is correct.
+
+However, integrators can just as easily filter on the payment credential, which
+is the preferred method as this ensures the use of a valid FS as publication is
+permissionless.
+
+:::info["INFO" as defined by TxPipe]
+
+Info are not issues. These are just pieces of information that are beneficial to
+the dApp creator. These are not necessarily acted on or have a resolution, they
+are logged for the completeness of the audit. (Audit Report, 18)
+
+:::
+
+### M2 Off-chain
+
+For the off-chain audit, BlinkLabs came back after an initial review of relevant
+components and discussed the value of a SOC2 audit; upon agreement, BlinkLabs
+requested that Orcfax provide evidence demonstrating its ability to meet each of
+the SOC2 requirements.
+
+These requirements are provided below.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://docs.google.com/spreadsheets/d/1ksfblvhATokoGXIcQhPONistjunvJvoo/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+This request for additional access and materials amounts to nearly 200 items.
+
+Orcfax developed the following strategy for accommodating this request: the
+Orcfax team will divide these requests into 3 batches of deliverables based on
+their category, and volume of requests, with a 4th dedicated to the development
+of policies. The latter will be incrementally worked on in conjunction with the
+other batches so that the batch 3 & 4 are submitted to BlinkLabs together.
+
+We believe that by dividing the work into these deliverables we will increase
+efficiency when responding to any feedback received after batch submission.
 
 ## Milestone 3
 
