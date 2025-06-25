@@ -136,13 +136,16 @@ These requirements are provided below.
 
 <!-- markdownlint-enable MD013 -->
 
-This request for additional access and materials amounts to nearly 200 items.
+This request for additional access and materials amounts to nearly 200 items,
+some of which (such as policies) must be drafted or amended to meet SOC2
+requirements.
 
 Orcfax developed the following strategy for accommodating this request: the
 Orcfax team will divide these requests into 3 batches of deliverables based on
 their category, and volume of requests, with a 4th dedicated to the development
 of policies. The latter will be incrementally worked on in conjunction with the
-other batches so that the batch 3 & 4 are submitted to BlinkLabs together.
+other batches so that the batch 3 & 4 are submitted to BlinkLabs together; this
+deliverable schedule aligns with the remaining milestones for the project.
 
 We believe that by dividing the work into these deliverables we will increase
 efficiency when responding to any feedback received after batch submission.
