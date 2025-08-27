@@ -79,6 +79,33 @@ A per-FSP breakdown is documented below.
 
 <br/>
 
+### v1: Preprod
+
+A summary of preprod deployments is listed below.
+
+| Status | FSP                                                        | FS                                                         | C                                                          | Arweave Hash |
+| ------ | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | ------------ |
+| Active | `f4c6dcd7cf4ad371db15e2883811d489c4bd82c55a0d16ea73688e2e` | `fa0f8722df2372ccbb3649a23e3c541ad7e4f8218b3500d0c0b505f7` | `cc4f77eae0f135b86b734e18ea20901da54b0a3bb19144fae743c54d` | TBA          |
+
+<br/>
+
+#### Preprod detailed overview
+
+A per-FSP breakdown is documented below.
+
+|                  | Details                                                            |
+| ---------------- | ------------------------------------------------------------------ |
+| FSP              | `f4c6dcd7cf4ad371db15e2883811d489c4bd82c55a0d16ea73688e2e`         |
+| Arweave Hash     | TBA                                                                |
+| First appearance | 2025&#x2011;08&#x2011;20                                           |
+| Slot no.         | 100,010,991                                                        |
+| Block            | `8ab8545832fff1110b3446b36130edbf50b24ab2b3d82a19300ed07ac09e9fbc` |
+| Last appearance  | -                                                                  |
+| Slot no.         | -                                                                  |
+| Block            | -                                                                  |
+
+<br/>
+
 ## v0
 
 Orcfax V0 used a series of scripts built in collaboration with MLabs, the
