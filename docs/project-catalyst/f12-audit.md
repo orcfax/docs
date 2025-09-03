@@ -152,11 +152,91 @@ efficiency when responding to any feedback received after batch submission.
 
 ## Milestone 3
 
-Orcfax will respond to feedback with code pull requests for software fixes and
-enhancements that address any concerns highlighted in the audit feedback.
+After acknowledging initial feedback and providing the additional access
+described in the previous milestone, the auditors continued their work. The
+following constitutes the feedback received from each.
 
-Auditors will execute a secondary review of Orcfax architecture once the above
-changes are committed.
+### M3 On-chain
+
+TxPipe provided the following Final audit report:
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://drive.google.com/file/d/16UrMHDOQWAy5t09f1ICM6Wqx73avC7VM/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+The report lists four Info-level findings which the Orcfax team has
+acknowledged. However, as these do not constitute issues with the on-chain code,
+Orcfax has decided not to resolve them at this time. This decision has been made
+because resolution would result in a disruption of service for integrators; if
+or when an update to the Orcfax on-chain service is needed, these findings will
+be reevaluated. This business decision balances reliability and responsibility
+given that these info-level findings constitute, at worst, tooling concerns.
+
+The findings can be simplified as follows:
+
+**ORC-301**: When using a chain indexer, if an integrator filters on address,
+they may miss utxos that have different stake credentials.
+
+-   This is correct. However, integrators can just as easily filter on the
+    payment credential, which is the preferred method as this ensures the use of
+    a valid FS as publication is permissionless.
+
+**ORC-302**: The frequent use of acronyms in the documentation added some
+difficulty in navigation as readers may need to reference explanations
+elsewhere.
+
+-   Readers are expected to take care when reviewing technical documentation.
+    Additionally, the use of acronyms is advantageous in code.
+
+**ORC-303**:
+
+**ORC-304**: A potential inefficiency was found in the FS UTxO spending; in a
+collect transaction, for each UTxO being spent, the inputs list is traversed to
+look for the own script hash. A potential solution was proposed wherein the own
+script hash is stored in the FS datum during FS UTxO creation in the FsMint
+redeemer and verify its correctness against the script hash from the Mint
+purpose. this way, during FS UTxO spending, the datum field can be read instead
+of traversing the inputs list.
+
+-   Our team was interested in this proposal. However, without additional
+    testing it'sa difficult to know whether the proposal would result in a
+    decrease to the cost of collect but at the cost of increasing the tx size of
+    publish (and so decrease max number of outputs). Unfortunately, the scope of
+    TxPipe's work did not include tests of this type.
+
+:::info["INFO" as defined by TxPipe]
+
+Info are not issues. These are just pieces of information that are beneficial to
+the dApp creator. These are not necessarily acted on or have a resolution, they
+are logged for the completeness of the audit. (Audit Report, 18)
+
+:::
+
+### M3 Off-chain
+
+In accordance with the delivery schedule outlined in the last milestone, Orcfax
+provided BlinkLabs with the first batch of records to demonstrate infrastructure
+adherence to SOC2 standards.
+
+Batch one requirements can be found below.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://docs.google.com/spreadsheets/d/1ksfblvhATokoGXIcQhPONistjunvJvoo/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+Each of these has been accepted by BlinkLabs as satisfactory, and a letter
+evidencing progress was provided by their staff. The letter includes notes where
+BlinkLabs requested, and received, to meet specific requirements within the
+batch.
+
+![BlinkLabs Confirmation](/img/2025-01-08--batch-1-audit-progress.png)
+
+Future milestones will address the remaining batches per the schedule outlined
+in Milestone 2.
 
 ## Milestone 4
 
