@@ -166,13 +166,16 @@ TxPipe provided the following Final audit report:
 
 <!-- markdownlint-enable MD013 -->
 
-The report lists four Info-level findings which the Orcfax team has
-acknowledged. However, as these do not constitute issues with the on-chain code,
-Orcfax has decided not to resolve them at this time. This decision has been made
-because resolution would result in a disruption of service for integrators; if
-or when an update to the Orcfax on-chain service is needed, these findings will
-be reevaluated. This business decision balances reliability and responsibility
-given that these info-level findings constitute, at worst, tooling concerns.
+The report lists four Info-level (i.e. advisory) findings which the Orcfax team
+has acknowledged. However, as these do not constitute issues with the on-chain
+code, Orcfax has decided not to resolve them at this time. This decision has
+been made because resolution would result in a disruption of service for
+integrators, and the potential improvements are outweighed by the possible cost
+of remediation (e.g. the possibility of making new mistakes by renaming or
+refactoring code); if or when an update to the Orcfax on-chain service is
+needed, this decision will be reevaluated. This business decision balances
+reliability and responsibility given that these info-level findings in some
+cases constitute, at worst, tooling concerns.
 
 The findings can be simplified as follows:
 
@@ -190,7 +193,13 @@ elsewhere.
 -   Readers are expected to take care when reviewing technical documentation.
     Additionally, the use of acronyms is advantageous in code.
 
-**ORC-303**:
+**ORC-303**: The auditor questioned the need for the FSP to be included within
+its current repository, and therefore its inclusion within the scope of the
+audit.
+
+-   While the suggestion is not without merit, we disagree. Ultimately, the FSP
+    is quite simplistic. It is underpinned by a single key and is thereby
+    entirely controlled by a single entity.
 
 **ORC-304**: A potential inefficiency was found in the FS UTxO spending; in a
 collect transaction, for each UTxO being spent, the inputs list is traversed to
@@ -230,8 +239,8 @@ Batch one requirements can be found below.
 
 Each of these has been accepted by BlinkLabs as satisfactory, and a letter
 evidencing progress was provided by their staff. The letter includes notes where
-BlinkLabs requested, and received, to meet specific requirements within the
-batch.
+BlinkLabs requested, and received, additional evidence to meet specific
+requirements within the batch.
 
 ![BlinkLabs Confirmation](/img/2025-01-08--batch-1-audit-progress.png)
 
