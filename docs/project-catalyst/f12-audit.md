@@ -197,9 +197,13 @@ elsewhere.
 its current repository, and therefore its inclusion within the scope of the
 audit.
 
--   While the suggestion is not without merit, we disagree. Ultimately, the FSP
-    is quite simplistic. It is underpinned by a single key and is thereby
-    entirely controlled by a single entity.
+-   While the suggestion is not without merit, we disagree as the FSP is an
+    integral part of the current design. Ultimately, the FSP is quite
+    simplistic; t is underpinned by a single key and is thereby entirely
+    controlled by a single entity. As Orcfax continues to decentralize its
+    processes, we hope that this component will be subsumed by a decentralized
+    model, where the FSP and other components are controlled by the network not
+    single entity.
 
 **ORC-304**: A potential inefficiency was found in the FS UTxO spending; in a
 collect transaction, for each UTxO being spent, the inputs list is traversed to
@@ -233,7 +237,7 @@ Batch one requirements can be found below.
 
 <!-- markdownlint-disable MD013 -->
 
-<iframe src="https://docs.google.com/spreadsheets/d/1ksfblvhATokoGXIcQhPONistjunvJvoo/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1Vdh2nhreVkGP570KCTfuBhWaAzFnWzjg/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <!-- markdownlint-enable MD013 -->
 
