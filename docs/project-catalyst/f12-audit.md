@@ -253,14 +253,38 @@ in Milestone 2.
 
 ## Milestone 4
 
-If Orcfax has passed its Audit, then proceed to final milestone, otherwise
+After accepting the audit material in the previous milestone, the audit
+continued, following the batch delivery schedule outlined in milestone 2. The
+following constitutes feedback received from each auditor.
 
-Orcfax will review secondary review feedback from auditors, formatted into an
-audit status report, which assessed changes made in response to the previous
-feedback.
+### M4 On-chain
 
-If necessary, Orcfax will complete code pull requests for software fixes and
-enhancements that address audit concerns in feedback.
+TxPipe provided their final report in milestone three; this portion of the
+Orcfax audit is complete.
+
+### M4 Off-chain
+
+In accordance with the delivery schedule outlined in the milestone two, Orcfax
+provided BlinkLabs with the second batch of records to demonstrate
+infrastructure adherence to SOC2 standards.
+
+Batch two requirements can be found below.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://docs.google.com/spreadsheets/d/1Sf_U4QYYzyywKI-nnNprMZ1Nz14nIzY9/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+Each of these has been accepted by BlinkLabs as satisfactory, and a letter
+evidencing progress was provided by their staff. The letter includes notes where
+BlinkLabs requested, and received, additional evidence to meet specific
+requirements within the batch.
+
+![BlinkLabs Confirmation](/img/2025-12-30--batch-2-audit-progress.png)
+
+Future milestones will address the remaining batches per the schedule outlined
+in Milestone 2.
 
 ## Milestone 5
 

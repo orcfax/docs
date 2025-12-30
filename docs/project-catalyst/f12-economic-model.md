@@ -4,6 +4,10 @@ sidebar_class_name: hidden
 
 # EchoNet: considerations for the economy of a decentralized network
 
+Dominic Wallis Ph.d, Christian Koch M.A.
+
+## Abstract
+
 The following will seek to assess the economic implications for Orcfax as it
 continues research and development into maturing its decentralized network of
 validator nodes, known as EchoNet, through the integration of staking and
