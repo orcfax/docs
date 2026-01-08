@@ -87,10 +87,10 @@ cardano-cli address key-hash \
 
 At this point, you should have the following files in your working directory:
 
--   `payment.addr`
--   `payment.skey`
--   `payment.vkey`
--   `payment.hash`
+- `payment.addr`
+- `payment.skey`
+- `payment.vkey`
+- `payment.hash`
 
 :::
 
@@ -124,9 +124,9 @@ The transaction **must** be constructed as follows:
 The metadata label must be `"674"` and must have the following 3 fields in
 order:
 
--   `"REGISTER"`
--   `"ITN"`
--   `"<YOUR_PAYMENT_HASH>"`
+- `"REGISTER"`
+- `"ITN"`
+- `"<YOUR_PAYMENT_HASH>"`
 
 :::info[N.B.]
 
@@ -136,9 +136,9 @@ Cardano metadata character limit (max-length: 64 bytes).
 For more information, refer to the following Cardano transaction metadata
 specifications:
 
--   [CIP-20][md-1]
--   [Schema][md-2]
--   [JSON Conversion][md-3]
+- [CIP-20][md-1]
+- [Schema][md-2]
+- [JSON Conversion][md-3]
 
 :::
 

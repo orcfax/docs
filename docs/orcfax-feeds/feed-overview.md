@@ -29,9 +29,9 @@ For a feed of type CER, the naming convention is
 
 :::note[Examples:]
 
--   crypto-fiat: ADA-USD
--   crypto-stable: ADA-iUSD
--   crypto and another native asset: FACT-ADA
+- crypto-fiat: ADA-USD
+- crypto-stable: ADA-iUSD
+- crypto and another native asset: FACT-ADA
 
 :::
 

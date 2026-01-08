@@ -89,13 +89,13 @@ Orcfax Validators will be expected to execute a number of tasks, many of which
 require consensus. A non-exhaustive list of the tasks that validators must do
 includes:
 
--   running the existing data collectors and feeds
--   ensuring maintenance of existing code base
--   ensuring health of data sources / definitions of feeds
--   sunsetting and discontinuing underused feeds
--   defining and developing new feeds
--   ensuring the health of the network (removing bad validators and collectors)
--   maintaining optimal remuneration parameters
+- running the existing data collectors and feeds
+- ensuring maintenance of existing code base
+- ensuring health of data sources / definitions of feeds
+- sunsetting and discontinuing underused feeds
+- defining and developing new feeds
+- ensuring the health of the network (removing bad validators and collectors)
+- maintaining optimal remuneration parameters
 
 In the present proposal we are mostly concerned with consensus as it is involved
 in the running of existing feeds. We hope that the underlying techniques can be
@@ -165,10 +165,10 @@ how and over precisely what.
 The framing of the requirements is partly based on assumptions on the form of
 the output.
 
--   The software is, or mimics, a service on a computer.
--   Each participant is running an instance of the software.
--   State must be communicated between participants.
--   If relevant, assume participants can communicate via TCP or UDP based.
+- The software is, or mimics, a service on a computer.
+- Each participant is running an instance of the software.
+- State must be communicated between participants.
+- If relevant, assume participants can communicate via TCP or UDP based.
 
 Given these, Orcfax has identified the following as a preliminary list of Must
 Have requirements (parameters outlined below):
@@ -187,10 +187,10 @@ Have requirements (parameters outlined below):
 
 Parameters:
 
--   N = number of nodes in the network: 100
--   K = number of malicious or incompetent nodes: 30
--   T = time of delivery: 60s
--   V = velocity of statements: 10 tps
+- N = number of nodes in the network: 100
+- K = number of malicious or incompetent nodes: 30
+- T = time of delivery: 60s
+- V = velocity of statements: 10 tps
 
 :::info[\*]
 
@@ -652,15 +652,15 @@ requirements identified by Orcfax, none of the reviewed consensus protocols
 fully meets all of Orcfax's needs out-of-the-box. The most protocol that seems
 to best align with the requirements is Cosmos's CometBFT. In particular:
 
--   Simplicity-(ish). Limiting the participants to 180 nodes allowed
-    Cosmos/CometBFT to be simpler, than some of the alternatives. EchoNet is
-    targeting only 100 nodes.
--   Built as SDK. What for other solutions maybe considered "internal APIs", are
-    external for CometBFT. This means the code and the ideas behind the code are
-    much more accessible.
--   Synergies. The development of the IBC by the Cardano Foundation provides a
-    hope that there will be other tooling that we can take advantage of and
-    contribute to.
+- Simplicity-(ish). Limiting the participants to 180 nodes allowed
+  Cosmos/CometBFT to be simpler, than some of the alternatives. EchoNet is
+  targeting only 100 nodes.
+- Built as SDK. What for other solutions maybe considered "internal APIs", are
+  external for CometBFT. This means the code and the ideas behind the code are
+  much more accessible.
+- Synergies. The development of the IBC by the Cardano Foundation provides a
+  hope that there will be other tooling that we can take advantage of and
+  contribute to.
 
 ### 4.1 Limitations
 
@@ -682,14 +682,14 @@ became clear.
 The most interesting lines of inquiry are with the CometBFT implementation of
 the Cosmos consensus protocol.
 
--   CometBFT meets requirements on node count; it demonstrably handles at least
-    180 nodes which is more than enough as EchoNet will accommodate 100
-    Validators with licenses.
--   Finality is faster than Ouroboros and exceeds our current understanding of
-    EchoNet requirements.
--   The tooling lacks the significant complexity that would impair an Orcfax
-    implementation of another solution; this makes CometBFT a much more feasible
-    starting point given time constraints.
+- CometBFT meets requirements on node count; it demonstrably handles at least
+  180 nodes which is more than enough as EchoNet will accommodate 100 Validators
+  with licenses.
+- Finality is faster than Ouroboros and exceeds our current understanding of
+  EchoNet requirements.
+- The tooling lacks the significant complexity that would impair an Orcfax
+  implementation of another solution; this makes CometBFT a much more feasible
+  starting point given time constraints.
 
 An Orcfax implementation of a Cosmos consensus solution could make future
 Cardano-IBC tooling from the Cardano Foundation available and relevant to

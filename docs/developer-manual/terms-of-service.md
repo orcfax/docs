@@ -204,10 +204,11 @@ These Terms shall be governed by and construed in accordance with the laws of
 the British Virgin Islands, without regard to its conflict of law principles.
 Any dispute arising out of or relating to these Terms or the Services shall be
 resolved exclusively through binding arbitration in the British Virgin Islands
-under the rules of [e.g., the International Chamber of Commerce], and you waive any
-right to participate in class actions or representative proceedings. Judgment on
-the award may be entered in any court having jurisdiction." This channels disputes
-to a favorable, low-cost forum and waives class actions to limit mass claims.
+under the rules of [e.g., the International Chamber of Commerce], and you waive
+any right to participate in class actions or representative proceedings.
+Judgment on the award may be entered in any court having jurisdiction." This
+channels disputes to a favorable, low-cost forum and waives class actions to
+limit mass claims.
 
 ## Miscellaneous
 
