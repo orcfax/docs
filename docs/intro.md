@@ -22,7 +22,7 @@ will expand to report on diverse types of other real-world facts as oracle use
 cases, and their importance beyond blockchain domains, becomes more important to
 society at large.
 
-[oracle-1]: oracle-basics#what-is-a-blockchain-oracle
+[oracle-1]: http://example.com
 [cardano-1]: https://medium.com/coinmonks/why-cardano-in-2023-b481846028bc
 [smart-1]: oracle-basics#what-is-a-smart-contract
 
