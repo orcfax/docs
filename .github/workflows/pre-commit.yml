@@ -4,21 +4,22 @@ on:
     pull_request:
     push:
         branches: [main]
-
 jobs:
     pre-commit:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
-            - uses: actions/setup-python@v3
-            - uses: actions/setup-node@v3
+            - uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.14'
+            - uses: actions/setup-node@v4
               with:
                   node-version: ">=18.0"
-
             - name: Install dependencies
               run: npm install
-
             - uses: pre-commit/action@v3.0.0
-
             - name: Run eslint and prettier linting checks
-              run: npm run lint
+              run: |
+                npm cache clean --force
+                prettier --version
+                npm run lint
