@@ -51,8 +51,8 @@ successfully signed a contract for services in August of 2024.
 
 <!-- markdownlint-enable MD013 -->
 
--   Announcement on [X][m1-2]
--   Announcement on [Discord][m1-3]
+- Announcement on [X][m1-2]
+- Announcement on [Discord][m1-3]
 
 ![Discord announcement](/img/2024-08-27--audit-txpipe-announcement.png)
 
@@ -75,8 +75,8 @@ successfully signed a contract for services in September of 2024.
 
 <!-- markdownlint-enable MD013 -->
 
--   Announcement on [X][m1-5]
--   Announcement on [Discord][m1-6]
+- Announcement on [X][m1-5]
+- Announcement on [Discord][m1-6]
 
 ![Discord announcement](/img/2024-09-30--audit-blink-announcement.png)
 
@@ -182,28 +182,27 @@ The findings can be simplified as follows:
 **ORC-301**: When using a chain indexer, if an integrator filters on address,
 they may miss utxos that have different stake credentials.
 
--   This is correct. However, integrators can just as easily filter on the
-    payment credential, which is the preferred method as this ensures the use of
-    a valid FS as publication is permissionless.
+- This is correct. However, integrators can just as easily filter on the payment
+  credential, which is the preferred method as this ensures the use of a valid
+  FS as publication is permissionless.
 
 **ORC-302**: The frequent use of acronyms in the documentation added some
 difficulty in navigation as readers may need to reference explanations
 elsewhere.
 
--   Readers are expected to take care when reviewing technical documentation.
-    Additionally, the use of acronyms is advantageous in code.
+- Readers are expected to take care when reviewing technical documentation.
+  Additionally, the use of acronyms is advantageous in code.
 
 **ORC-303**: The auditor questioned the need for the FSP to be included within
 its current repository, and therefore its inclusion within the scope of the
 audit.
 
--   While the suggestion is not without merit, we disagree as the FSP is an
-    integral part of the current design. Ultimately, the FSP is quite
-    simplistic; t is underpinned by a single key and is thereby entirely
-    controlled by a single entity. As Orcfax continues to decentralize its
-    processes, we hope that this component will be subsumed by a decentralized
-    model, where the FSP and other components are controlled by the network not
-    single entity.
+- While the suggestion is not without merit, we disagree as the FSP is an
+  integral part of the current design. Ultimately, the FSP is quite simplistic;
+  t is underpinned by a single key and is thereby entirely controlled by a
+  single entity. As Orcfax continues to decentralize its processes, we hope that
+  this component will be subsumed by a decentralized model, where the FSP and
+  other components are controlled by the network not single entity.
 
 **ORC-304**: A potential inefficiency was found in the FS UTxO spending; in a
 collect transaction, for each UTxO being spent, the inputs list is traversed to
@@ -213,11 +212,11 @@ redeemer and verify its correctness against the script hash from the Mint
 purpose. this way, during FS UTxO spending, the datum field can be read instead
 of traversing the inputs list.
 
--   Our team was interested in this proposal. However, without additional
-    testing it'sa difficult to know whether the proposal would result in a
-    decrease to the cost of collect but at the cost of increasing the tx size of
-    publish (and so decrease max number of outputs). Unfortunately, the scope of
-    TxPipe's work did not include tests of this type.
+- Our team was interested in this proposal. However, without additional testing
+  it'sa difficult to know whether the proposal would result in a decrease to the
+  cost of collect but at the cost of increasing the tx size of publish (and so
+  decrease max number of outputs). Unfortunately, the scope of TxPipe's work did
+  not include tests of this type.
 
 :::info["INFO" as defined by TxPipe]
 

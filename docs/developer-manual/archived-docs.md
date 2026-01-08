@@ -73,11 +73,11 @@ those sent by others to the same address.
 Users were required to use the following information to identify the latest
 Facts published.
 
--   Minting policy ID.
--   Datum format, including:
-    -   Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
-        largest POSIX timestamp compared to other Fact Statement datum,
-    -   Feed name, e.g. "ADA-USD".
+- Minting policy ID.
+- Datum format, including:
+    - Most recent (`ValueReference -> PropertyValue[1] -> value)`, i.e. the
+      largest POSIX timestamp compared to other Fact Statement datum,
+    - Feed name, e.g. "ADA-USD".
 
 :::note
 

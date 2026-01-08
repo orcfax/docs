@@ -11,20 +11,20 @@ All acronyms capitalized unless never capitalized.
 
 > Examples:
 >
-> -   CER
-> -   ID
-> -   eUTXO
+> - CER
+> - ID
+> - eUTXO
 >
 > Exceptions:
 >
-> -   dApp
-> -   DeFi
+> - dApp
+> - DeFi
 
 Rules regarding acronyms extends to currencies.
 
 > Example:
 >
-> -   ADA-USD
+> - ADA-USD
 
 ### Titles
 
@@ -44,8 +44,8 @@ numbers, or to illustrate a range.
 
 > Example:
 >
-> -   on-chain
-> -   between 1-10
+> - on-chain
+> - between 1-10
 
 Usage Example: This is an example of a PhoneGap client – which uses the Big
 Widget to run – and does x, y, and z.
@@ -171,9 +171,9 @@ being: a, b, c, and d.
 
 Bulleted lists should use a single dash and follow the following convention:
 
--   The first
--   The second
--   And so on
+- The first
+- The second
+- And so on
 
 If the items within a bulleted list are complete sentences, use appropriate
 punctuation.
@@ -193,11 +193,11 @@ consumed bit by bit.
 
 Documents that fall within this style are:
 
--   Specs
--   Glossary
--   Editorial guide
--   Integrator communications
--   Third party solicitations
+- Specs
+- Glossary
+- Editorial guide
+- Integrator communications
+- Third party solicitations
 
 The narrative style is intended for aggregate documents which can be read and
 understood as one document, to be read in parts or in whole. While a reader may
@@ -206,9 +206,9 @@ in fuller understanding.
 
 Documents that fall within this style are:
 
--   Orcfax updates
--   Orcfax docs content
--   Other Orcfax public relations documents
+- Orcfax updates
+- Orcfax docs content
+- Other Orcfax public relations documents
 
 These two styles are further styled by their intended purpose.
 
@@ -240,9 +240,9 @@ should also include the name of the technical component being introduced.
 
 Good page titles are:
 
--   Understanding Orcfax validation
--   Orcfax update # -- The subject of the update
--   Orcfax architecture overview
+- Understanding Orcfax validation
+- Orcfax update # -- The subject of the update
+- Orcfax architecture overview
 
 > Sample
 >
@@ -316,7 +316,7 @@ keep titles shorter by leaving off extraneous language such as "how to".
 
 Good examples for page titles for instructive documentation are:
 
--   Consuming Orcfax Statements
+- Consuming Orcfax Statements
 
 > Sample
 >
@@ -383,16 +383,15 @@ should not need to know anything about its implementation.
 
 ## General styling
 
--   If a max line length is stipulated in a repositories config, then
-    contributors should ensure their adherence.
+- If a max line length is stipulated in a repositories config, then contributors
+  should ensure their adherence.
 
 ## Resources
 
 This guide has been informed by the following editorial guides:
 
--   [Adobe style guide][res-1]
--   [Diátaxis][res-2]: A semantical approach to technical documentation
-    authoring
+- [Adobe style guide][res-1]
+- [Diátaxis][res-2]: A semantical approach to technical documentation authoring
 
 [res-1]:
     https://raw.githubusercontent.com/adobeio/styleguide/master/opensource/doc-style.md

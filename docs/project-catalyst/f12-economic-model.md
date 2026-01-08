@@ -105,8 +105,8 @@ Orcfax is an aspiring decentralized Oracle service. To participate within the
 network, a participant must be in possession of two types of Cardano native
 assets:
 
--   One Orcfax Validator License, one of 100 NFTs
--   At least 500,000 \$FACT
+- One Orcfax Validator License, one of 100 NFTs
+- At least 500,000 \$FACT
 
 Participants are strongly discouraged from behaving badly through the use of
 slashing. A participant must first put 'at stake' some asset(s). If the
@@ -119,10 +119,10 @@ their good service.
 However, when balancing incentives and penalties for participants, care must be
 taken. The wrong incentive structure may either:
 
--   cause a race to the top. Rewards only go to a few participants. Eventually
-    this leads to centralization which degrades robustness.
--   cause a race to the bottom. Participants are rewarded even if they are poor
-    service providers.
+- cause a race to the top. Rewards only go to a few participants. Eventually
+  this leads to centralization which degrades robustness.
+- cause a race to the bottom. Participants are rewarded even if they are poor
+  service providers.
 
 Both are bad for the long term health of the service.
 
@@ -323,8 +323,8 @@ $r$ from $n$. In the specific use case of Orcfax, $r$ represents the number of
 ways to choose 10 individuals from the 100 total nodes ($n$) without regard to
 order.
 
--   $n = 100$
--   $r = 10$
+- $n = 100$
+- $r = 10$
 
 This can be represented as:
 

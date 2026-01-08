@@ -37,16 +37,16 @@ What follows is a mapping of <u>what was promised</u> for Milestone 1 to the
 <u>newly integrated explorer features</u>. Links will direct readers to
 additional context and the relevant code enhancements for each.
 
--   Orcfax feed price charts
-    -   [Feeds list page][m1-1]
-    -   [Feed details page][m1-2]
-    -   [Feed price charts][m1-3]
--   State change timelines
-    -   [Show calculation details on UI][m1-4]
--   Data provenance
-    -   [Display sources][m1-5]
-    -   [Show collection details on UI][m1-6]
-    -   [Show validation details on UI][m1-7]
+- Orcfax feed price charts
+    - [Feeds list page][m1-1]
+    - [Feed details page][m1-2]
+    - [Feed price charts][m1-3]
+- State change timelines
+    - [Show calculation details on UI][m1-4]
+- Data provenance
+    - [Display sources][m1-5]
+    - [Show collection details on UI][m1-6]
+    - [Show validation details on UI][m1-7]
 
 These Orcfax Explorer upgrades give users an enhanced ability to verify the
 authenticity and provenance of the collected data. While this information has
@@ -103,12 +103,12 @@ it now displays information about Orcfax network activity in real time.
 
 The new feature set for the explorer brings the following changes:
 
--   The dashboard now has a section which dynamically displays statistics
-    relating to node participation
-    -   Identifies when each node last published.
-    -   Identifies the feed each node last published to.
-    -   Identifies the total number of publications (i.e. Facts) for each node.
-    -   Provides the status/health of each node.
+- The dashboard now has a section which dynamically displays statistics relating
+  to node participation
+    - Identifies when each node last published.
+    - Identifies the feed each node last published to.
+    - Identifies the total number of publications (i.e. Facts) for each node.
+    - Provides the status/health of each node.
 
 The upgrades which enable this functionality are now included in the public
 github explorer [repo][m3-1] along with additional context.
@@ -132,12 +132,12 @@ reports during network events.
 
 The new feature set for the explorer brings the following changes:
 
--   Adds a [landing page to a Status Dashboard with key statistics][m4-1]
--   Adds [“Incidents” to Status Dashboard][m4-2]
--   Adds [“Network Updates” to Status Dashboard][m4-3]
--   Adds an [RSS Feed Url Builder to Status Dashboard][m4-4]
-    -   Allows Orcfax to [Serve Orcfax RSS Feed from Status App][m4-5]
--   Provides an [index of Sources for the Orcfax RSS Feed][m4-6]
+- Adds a [landing page to a Status Dashboard with key statistics][m4-1]
+- Adds [“Incidents” to Status Dashboard][m4-2]
+- Adds [“Network Updates” to Status Dashboard][m4-3]
+- Adds an [RSS Feed Url Builder to Status Dashboard][m4-4]
+    - Allows Orcfax to [Serve Orcfax RSS Feed from Status App][m4-5]
+- Provides an [index of Sources for the Orcfax RSS Feed][m4-6]
 
 These new features are now included in the public github [explorer repo][m4-7]
 where we provide additional context and the relevant code enhancements for each.

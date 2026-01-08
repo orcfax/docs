@@ -22,10 +22,10 @@ with Orcfax.
 The ITN will progress through four phases, each adding additional layers of
 validator node functionality; these phases, and their manuals, are listed below:
 
--   [Phase 1](phase-1-manual): Data collection for CEXes
--   [Phase 2](phase-2-manual): Incorporating DEX data
--   [Phase 3](phase-3-manual): Decentralized validator protocol
--   [Phase 4](phase-4-manual): Decentralized publication & Mainnet soft launch
+- [Phase 1](phase-1-manual): Data collection for CEXes
+- [Phase 2](phase-2-manual): Incorporating DEX data
+- [Phase 3](phase-3-manual): Decentralized validator protocol
+- [Phase 4](phase-4-manual): Decentralized publication & Mainnet soft launch
 
 ## Joining the ITN
 
