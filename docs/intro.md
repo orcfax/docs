@@ -51,9 +51,9 @@ have about Orcfax or oracles in general.
 
 ## Stay updated
 
-- Follow our [Medium][med-1] for project and community updates
-- Subscribe to our [RSS Feed][rss-1] for important network status alerts
-- Join our [Discord][Discord-1] to engage directly with the team and community
+-   Follow our [Medium][med-1] for project and community updates
+-   Subscribe to our [RSS Feed][rss-1] for important network status alerts
+-   Join our [Discord][Discord-1] to engage directly with the team and community
 
 [med-1]: https://medium.com/@orcfax
 [Discord-1]: https://dsc.gg/orcfax

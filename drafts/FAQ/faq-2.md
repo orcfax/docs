@@ -33,11 +33,11 @@ blockchain transaction are irreversible by their very design.
 
 For example:
 
-- A change in the Bitcoin to ADA price may trigger a limit order in a DeFi smart
-  contract.
-- The final score in a sports event may trigger a payout in a betting dApp smart
-  contract.
-- An extreme weather event may trigger a payout for a crop insurance smart
-  contract.
-- The words spoken in a political speech and authenticated via blockchain
-  notarization may trigger policy changes or protests.
+-   A change in the Bitcoin to ADA price may trigger a limit order in a DeFi
+    smart contract.
+-   The final score in a sports event may trigger a payout in a betting dApp
+    smart contract.
+-   An extreme weather event may trigger a payout for a crop insurance smart
+    contract.
+-   The words spoken in a political speech and authenticated via blockchain
+    notarization may trigger policy changes or protests.

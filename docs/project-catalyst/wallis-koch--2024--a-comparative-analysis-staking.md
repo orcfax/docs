@@ -148,8 +148,8 @@ through its staking mechanism.
 In order for network operators to participate, Orcfax requires each to stake the
 following:
 
-- Orcfax Validator License: One of 100 NFTs.
-- Minimum stake: 500,000 FACT tokens.
+-   Orcfax Validator License: One of 100 NFTs.
+-   Minimum stake: 500,000 FACT tokens.
 
 ### 2.3 System components
 
@@ -185,13 +185,13 @@ Orcfax has identified the following as staking protocol Must haves:
 In addition to this initial draft of system requirements, each staking mechanism
 assessed within this paper will be evaluated against Orcfax priorities for:
 
-- Security: to what degree is it apparent that the design choices for each
-  staking mechanism impact the overall security of the network?
-- Participation: to what degree does the staking mechanism provide opportunities
-  for equitable participation within the network?
-- Decentralization: Given the previous two, to what degree do choices
-  influencing network security and participation have on the degree of
-  decentralization or any risks towards centralization of the network?
+-   Security: to what degree is it apparent that the design choices for each
+    staking mechanism impact the overall security of the network?
+-   Participation: to what degree does the staking mechanism provide
+    opportunities for equitable participation within the network?
+-   Decentralization: Given the previous two, to what degree do choices
+    influencing network security and participation have on the degree of
+    decentralization or any risks towards centralization of the network?
 
 ## 3. Overview of staking Protocols
 
@@ -556,10 +556,10 @@ do not have the ability to delegate to validators for a share in rewards, as
 some of the other chains in this paper allow, participants have multiple methods
 by which they may operate validator nodes:
 
-- as an independent (i.e. Home staking)
-- by leveraging cloud compute (i.e. Staking as a Service)
-- by pooling (which allows multiple holders to mutually participate)
-- or by staking through a CEX (i.e. Centralized Exchange)
+-   as an independent (i.e. Home staking)
+-   by leveraging cloud compute (i.e. Staking as a Service)
+-   by pooling (which allows multiple holders to mutually participate)
+-   or by staking through a CEX (i.e. Centralized Exchange)
 
 [source][eth-1]
 
@@ -678,14 +678,14 @@ choices affect key design goals will be crucial for network success.
 From the staking protocols reviewed, each exhibited unique strengths and
 weaknesses when measured against the Orcfax Staking Protocol Requirements.
 
-- **Algorand and Avalanche** struggle with incentives and security, limiting
-  their appeal and robustness.
-- **Bitcoin Lightning's** complexity and potential removal of penalties may
-  hinder user engagement.
-- **Cardano and Cosmos** offer accessible models but vary in terms of risk,
-  particularly regarding slashing.
-- **Ethereum's** comprehensive incentive and security structure are commendable,
-  though its high entry barrier remains a concern.
+-   **Algorand and Avalanche** struggle with incentives and security, limiting
+    their appeal and robustness.
+-   **Bitcoin Lightning's** complexity and potential removal of penalties may
+    hinder user engagement.
+-   **Cardano and Cosmos** offer accessible models but vary in terms of risk,
+    particularly regarding slashing.
+-   **Ethereum's** comprehensive incentive and security structure are
+    commendable, though its high entry barrier remains a concern.
 
 Ultimately, the protocol used by Orcfax must balance accessibility, security,
 and incentives to meet the evolving needs of staking participants.

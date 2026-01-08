@@ -26,8 +26,8 @@ During this phase of the ITN, the hardware requirements will be minimal to
 handle the tasks involved. Participants should expect to meet the following
 minimum requirements:
 
-- 2GB of RAM
-- A single CPU
+-   2GB of RAM
+-   A single CPU
 
 ### Logging issues
 
@@ -63,9 +63,9 @@ guide [here][alias-1].
 There are three components needed for Phase 1 of the ITN. You will need the
 latest versions of each.
 
-- [collector-node][collector-1]
-- [cex collector (gofer)][collector-2]
-- [cer-feeds.json][collector-3]
+-   [collector-node][collector-1]
+-   [cex collector (gofer)][collector-2]
+-   [cer-feeds.json][collector-3]
 
 :::info[KEEPING UP TO DATE]
 

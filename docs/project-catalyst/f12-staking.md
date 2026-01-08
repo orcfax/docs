@@ -63,8 +63,8 @@ and diagrams where appropriate.
 Orcfax will produce software code that demonstrates how a validator node
 operator can:
 
-- deposit testFACT stake
-- receive testFACT rewards
-- have testFACT slashed for non-conformant behaviour
+-   deposit testFACT stake
+-   receive testFACT rewards
+-   have testFACT slashed for non-conformant behaviour
 
 ## Final Milestone

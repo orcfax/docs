@@ -37,9 +37,9 @@ Orcfax conducted limited research which investigates a sample set of consensus
 protocols. This research was executed with a limited initial understanding of
 the consensus landscape, but covers topics such as:
 
-- what might be Orcfax requirements for staking?
-- what consensus resources exist for Cardano developers?
-- how do these resources map to Orcfax requirements?
+-   what might be Orcfax requirements for staking?
+-   what consensus resources exist for Cardano developers?
+-   how do these resources map to Orcfax requirements?
 
 This research and its findings are made available in _A Comparative Analysis of
 Consensus Protocols used in Blockchain Networks_ [(Wallis &
@@ -67,9 +67,9 @@ diagrams where appropriate.
 Orcfax will produce software code that demonstrates how a validator node
 operator can:
 
-- receive external source data
-- apply validation logic
-- compare results with other nodes in the L2 network
-- arrive at consensus on datum value
+-   receive external source data
+-   apply validation logic
+-   compare results with other nodes in the L2 network
+-   arrive at consensus on datum value
 
 ## Final Milestone

@@ -22,9 +22,9 @@ publisher.
 During this phase of the ITN, participants should expect to meet the following
 minimum requirements\*:
 
-- 32 GB RAM
-- 8 CPU
-- 600 GB disk
+-   32 GB RAM
+-   8 CPU
+-   600 GB disk
 
 \* Specs are based on the minimal viable digital ocean servers operated by
 Orcfax.

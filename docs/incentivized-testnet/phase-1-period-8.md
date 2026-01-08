@@ -17,8 +17,8 @@ cex collector software and the feed runner file. Details are provided below.
 
 Period 8 requires the upgrade of two components:
 
-- gofer (cex collector).
-- cer-feeds.json (collector runner).
+-   gofer (cex collector).
+-   cer-feeds.json (collector runner).
 
 ITN participants will need to upgrade these components so as to collect enough
 information to be able to claim rewards.
