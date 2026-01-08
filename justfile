@@ -20,6 +20,14 @@ markdown:
 serve-local:
  npm start
 
+# Lint all
+lint-all:
+ npm run lint && pre-commit run --all-files
+
+# CI linting
+npm-lint:
+ npm run lint
+
 # Commit no verify
 commit-no-verify:
  git commit --no-verify
