@@ -237,29 +237,26 @@ type RationalDatum {
 Some example hex encoded CBOR:
 
 ```sample
-D87982D879834E4345522F464143542D4144412F331B0000019012C8CCD3D879821981951A000F4
-240D879821B0000019012C90F89581C694F647F6C6FEE725EAF731938613059AC560E573D9FA656
-0850EAB0
+d8799fd8799f4e4345522f43424c502d4144412f331b0000019bf6f0a165d8799f19d41d1a4a817
+c80ffffd8799f581c3c12f6735ef87655c5b27bced3f828d857d0a27fd20f2cda18ebf2fbffff
 ```
 
-Which can be deserialized as:
+Which can be deserialized as (in CBOR diagnostic notation):
 
 ```cbor
-121([
-  121([
-    "CER/FACT-ADA/3",
-    1718302067923,
-    121([
-      33173,
-      1000000
-    ])
+121_0([_
+    121_0([_
+        h'4345522f43424c502d4144412f33',
+        1769374523749_3,
+        121_0([_ 54301_1, 1250000000_2]),
     ]),
-  121([
-    1718302085001,
-    h'694F647F6C6FEE725EAF731938613059AC560E573D9FA6560850EAB0'
-  ])
+    121_0([_
+        h'3c12f6735ef87655c5b27bced3f828d857d0a27fd20f2cda18ebf2fb',
+    ]),
 ])
 ```
+
+The feed id decodes to `CER/FACT-ADA/3`.
 
 ## Deployments
 
