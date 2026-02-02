@@ -6,13 +6,12 @@ slug: /feed-overview
 
 # Available feeds
 
-Currently, Orcfax provides support for CER type feeds. Integrators may review
-the full list of available feeds for both [mainnet][mainnet] and
-[preview][preview].
+Currently, Orcfax provides support for Current Exchange Rate (CER) type feeds.
+Integrators may review the full list of available [cer-feeds][cer]; feed
+activity for [mainnet][mainnet] and [preview][preview] may be monitored through
+the Orcfax Explorer.
 
-<!-- we should also consider where we might point integrators to if available
-feeds becomes different from what is being showcased or subsidized -->
-
+[cer]: https://github.com/orcfax/cer-feeds
 [mainnet]:
     https://github.com/orcfax/cer-feeds/blob/main/feeds/mainnet/cer-feeds.json
 [preview]:
@@ -60,25 +59,15 @@ standard adopted by Orcfax.
 
 ## Subsidized feeds
 
-There are feeds which Orcfax has identified for their broad utility across
-Cardano projects and has therefore committed to supporting their publication in
-order to aid in development initiatives. These feeds have been selected in an
-effort to provide developers with opportunities to design their solutions from
-the beginning with authentic and verifiable data as a foundation.
+Orcfax may periodically identify feeds which it will commit to supporting
+through subsidized publication. These feeds will be designated as `Subsidized`
+on the Explorer, and are provided so developers have opportunities to design
+their solutions from the beginning with authentic and verifiable data as a
+foundation.
 
-A subsidized feed is one which Orcfax has committed to maintaining even without
-a sponsor.
-
-Orcfax is currently offering the following subsidized feeds:
-
-| Feed name | Start Date                 | End date |
-| --------- | -------------------------- | -------- |
-| ADA-USD   | Sep 12th 2024 17:01:24 UTC | TBA      |
-| FACT-ADA  | Sep 12th 2024 17:01:24 UTC | TBA      |
-
-when an integrator activates a subscription for a subsidized feed it will no
-longer be identified as such and will instead be labeled a
-[sponsored][sponsored] feed.
+when an integrator activates a subscription for a feed which had previously
+published as a subsidized feed it will no longer be identified as such and will
+instead be labeled a [sponsored][sponsored] feed.
 
 [sponsored]: #sponsored-feeds
 
@@ -90,46 +79,35 @@ production because Orcfax has agreed to cover the cost of their support.
 While Orcfax has committed to maintaining access to these feeds, integrators who
 wish to utilize these feeds without a subscription should do so at their own
 risk; Orcfax still reserves the right to adjust or remove support for these
-feeds as business needs dictate. Orcfax has agreed to cover the cost of
-supporting subsidized feeds enabling them to be used in production. Changes to
-services relating to subsidized feeds will be announced three months in advance
-to provide integrators with adequate forewarning.
+feeds as business needs dictate. Changes to services relating to subsidized
+feeds will be announced three months in advance to provide integrators with
+adequate forewarning.
 
 [showcase]: #showcase-feeds
 
 ## Sponsored feeds
 
-When an integrator agrees to support a given feed through a heartbeat
-publication subscription, that feed will be designated as a sponsored feed for
-the duration of that agreement.
+When an integrator agrees to financially support a given feed, it will be
+designated as a `Sponsored` feed on the Explorer for the duration of that
+agreement.
 
 Sponsored feeds are those supported by an integrator through a subscription
 (e.g. heartbeat or deviation). Projects utilizing sponsored feeds, but are not
 paying for the feed, should do so at their own risk. Sponsors may change or
 remove support at their own discretion.
 
-Orcfax has the following sponsored feeds:
-
-| Feed name | Start Date |
-| --------- | ---------- |
-| TBA       | TBA        |
-
 ## Sunsetting sponsored feeds
 
 Projects which fail to adhere to subscription agreements risk disruptions to
-their feeds.
-
-Orcfax will remove support for sponsored feeds 2 weeks after non-payment where
-there are no subscribed integrators.
+their feeds; Orcfax maintains the right to halt feed publication for
+non-payment.
 
 ## Showcase feeds
 
 To demonstrate the kinds of feeds which integrators can utilize in their dApps,
-Orcfax will periodically select feeds from its catalogue and highlight them
-through publication as showcase feeds.
-
-Feeds being published and not currently listed as subsidized or sponsored are
-showcase feeds.
+Orcfax may periodically select feeds from its catalogue and highlight them
+through publication on productions and/or preproduction networks. These feeds
+will be designated as `Sponsored` on the Explorer.
 
 :::warning
 
