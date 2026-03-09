@@ -1,13 +1,13 @@
 ---
-id: Available feeds
+id: feed overview
 sidebar_position: 1
 slug: /feed-overview
 ---
 
-# Available feeds
+# Overview
 
-Currently, Orcfax provides support for Current Exchange Rate (CER) type feeds.
-Integrators may review the full list of available [cer-feeds][cer]; feed
+Currently, Orcfax provides support for Current Exchange Rate ([CER][cer-1]) type
+feeds. Integrators may review the full list of available [cer-feeds][cer]; feed
 activity for [mainnet][mainnet] and [preview][preview] may be monitored through
 the Orcfax Explorer.
 
@@ -19,9 +19,8 @@ the Orcfax Explorer.
 
 ## Current Exchange Rate feeds
 
-Current Exchange Rate ([CER][cer-1]) feeds publish statements relating to the
-current price of a given currency against another. Feeds of this type include
-ADA-USD and FACT-ADA.
+CER feeds publish statements relating to the current price of a given currency
+against another. Feeds of this type include ADA-USD and FACT-ADA.
 
 For a feed of type CER, the naming convention is
 [\{\{base-currency\}\}-\{\{quote-currency\}\}][cer-2].
@@ -44,8 +43,13 @@ exchanges.
 
 :::info
 
-The [Glossary][glossary] provides more information on the terminology and
-standard adopted by Orcfax.
+Additional details on the form of CER feeds, their published datum, and archived
+records depend on whether their data is sourced from a CEX or DEX; we have
+separated design documents for each respectively.
+
+[CEX][cex-form]
+
+[DEX][dex-form]
 
 :::
 
@@ -55,6 +59,8 @@ standard adopted by Orcfax.
 [dex-1]: https://glossary.orcfax.io/#dex
 [cex-2]: https://en.wikipedia.org/wiki/ISO_4217
 [cex-3]: https://tradenation.com/articles/base-currency-and-quote-currency/
+[cex-form]: available-feeds/CER/CEX/fact-statement.mdx
+[dex-form]: available-feeds/CER/DEX/fact-statement.mdx
 [glossary]: https://glossary.orcfax.io
 
 ## Subsidized feeds
