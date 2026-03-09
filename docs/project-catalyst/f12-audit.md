@@ -237,7 +237,7 @@ Batch one requirements can be found below.
 
 <!-- markdownlint-disable MD013 -->
 
-<iframe src="https://docs.google.com/spreadsheets/d/1Vdh2nhreVkGP570KCTfuBhWaAzFnWzjg/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1CXx4XSN7NZbZIK6D4_YGVmL2RawXtYhU/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <!-- markdownlint-enable MD013 -->
 
@@ -288,7 +288,45 @@ in Milestone 2.
 
 ## Milestone 5
 
-A final report containing auditor findings, recommendations, and summary of
-Orcfax team remediation actions in response to audit.
+With the acceptance of material relating to the off-chain audit, both Orcfax
+audits have now concluded successfully. The following constitutes the feedback
+received and the Orcfax strategy for addressing auditor feedback/additional
+requests.
+
+### M5 On-chain
+
+TxPipe provided their final report in milestone three; this portion of the
+Orcfax audit is complete.
+
+### M5 Off-chain
+
+In accordance with the delivery schedule outlined in milestone 2, Orcfax has
+incrementally provided BlinkLabs with the requested materials for audit. Since
+the last milestone, Orcfax has provided the third and final batch of records to
+demonstrate infrastructure adherence to SOC2 standards.
+
+Batch three requirements can be found below.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://docs.google.com/spreadsheets/d/13sJQS_VMXQHc_kVseEEMFYv3xks7-aMw/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+Each of these has been accepted by BlinkLabs as satisfactory, and a letter
+evidencing final batch completion was provided by their staff. The letter
+includes notes where BlinkLabs requested, and received, additional evidence to
+meet specific requirements within the batch.
+
+![BlinkLabs Confirmation](/img/2026-02-19--batch-3-audit-progress.png)
+
+Additionally, this work culminated in a system description as required under
+ReqID 2990.
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://docs.google.com/document/d/1Oghee9S1iX_3eo2ZTtO62wJ-lNN6v0R9w7Ke7Oa-i1U/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<!-- markdownlint-enable MD013 -->
 
 ## Final Milestone
