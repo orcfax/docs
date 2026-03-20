@@ -61,7 +61,6 @@ separated design documents for each respectively.
 [cex-3]: https://tradenation.com/articles/base-currency-and-quote-currency/
 [cex-form]: available-feeds/CER/CEX/fact-statement.mdx
 [dex-form]: available-feeds/CER/DEX/fact-statement.mdx
-[glossary]: https://glossary.orcfax.io
 
 ## Subsidized feeds
 
