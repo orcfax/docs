@@ -1,6 +1,6 @@
 ---
 id: terms of service
-sidebar_position: 5
+sidebar_position: 3
 slug: /terms-of-service
 ---
 

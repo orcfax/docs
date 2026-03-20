@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "type": "Message",
+    "name": "ADA-USD",
+    "isBasedOn": {
+        "@type": "MediaObject",
+        "name": "Exchange data",
+        "additionalType": "Central Exchange Data",
+        "description": "the raw information received by an Orcfax collector from a central exchange (CEX) API"
+    },
+    "sender": "https://api.pro.coinbase.com/products/ADA-USD/ticker",
+    "recipient": "coinbase.tick_generic_jq.0.4.0-rc.4.b637b854f875a71de2ce18a57a8e576cff1d468e",
+    "identifier": "urn:orcfax:e4e54362-4c14-49f6-9d80-08617d81243e",
+    "dateReceived": "2024-08-28T16:20:20Z",
+    "messageAttachment": {
+        "encoding": "application/json;base64",
+        "text": "eyJyZXF1ZXN0X3VybCI6ICJodHRwczovL2FwaS5wcm8uY29pbmJhc2UuY29tL3Byb2R1Y3RzL0FEQS1VU0QvdGlja2VyIiwgInJlc3BvbnNlIjogeyJib2R5IjogeyJhc2siOiAiMC4zNDIyIiwgImJpZCI6ICIwLjM0MjEiLCAicHJpY2UiOiAiMC4zNDIzIiwgInJmcV92b2x1bWUiOiAiMTQ3MDcyNS4zMzYwNTAiLCAic2l6ZSI6ICI3Ny4yOTU2NjA4OCIsICJ0aW1lIjogIjIwMjQtMDgtMjhUMTY6MjA6MjAuNjQ4MTg2WiIsICJ0cmFkZV9pZCI6IDExMDM4MzE5NSwgInZvbHVtZSI6ICIyNDE0ODA1Ni42OTI2OTkzMyJ9LCAiaGVhZGVycyI6IHsiQWNjZXB0LVJhbmdlcyI6IFsiYnl0ZXMiXSwgIkFjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMiOiBbIkNvbnRlbnQtVHlwZSwgQWNjZXB0LCBjYi1zZXNzaW9uLCBjYi1mcCwgY2ItZm9ybS1mYWN0b3IiXSwgIkFjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMiOiBbIkdFVCxQT1NULERFTEVURSxQVVQiXSwgIkFjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbiI6IFsiKiJdLCAiQWNjZXNzLUNvbnRyb2wtRXhwb3NlLUhlYWRlcnMiOiBbImNiLWJlZm9yZSwgY2ItYWZ0ZXIsIGNiLWdkcHIiXSwgIkFjY2Vzcy1Db250cm9sLU1heC1BZ2UiOiBbIjcyMDAiXSwgIkNhY2hlLUNvbnRyb2wiOiBbInB1YmxpYywgbWF4LWFnZT0xLCBtdXN0LXJldmFsaWRhdGUiXSwgIkNmLUNhY2hlLVN0YXR1cyI6IFsiSElUIl0sICJDZi1SYXkiOiBbIjhiYTVhMGVmYWQ2YjYzZTktTEhSIl0sICJDb250ZW50LVR5cGUiOiBbImFwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLTgiXSwgIkRhdGUiOiBbIldlZCwgMjggQXVnIDIwMjQgMTY6MjA6MjYgR01UIl0sICJFdGFnIjogWyJXL1wiYTEtNGtPdHdKc0VPY29DMGViKzRtV3B4dys0bnBvXCIiXSwgIlNlcnZlciI6IFsiY2xvdWRmbGFyZSJdLCAiU2V0LUNvb2tpZSI6IFsiX19jZl9ibT1aeklRV185bWhjWjFyaE1JWG9lcXBvMF8zd1lqcXRHT205ZVFjZ1ROT2F3LTE3MjQ4NjIwMjYtMS4wLjEuMS1CeDJjTFBQQVllYWtsOS5VT3NldndGRGZDd3JNbE1LMXZmVkE0aVJvNTFMRDdBRmZtSUNPSzJ2NEZqWS5VQThOT3dHRHdXZm5RbktXemgwSTltdk9zQTsgcGF0aD0vOyBleHBpcmVzPVdlZCwgMjgtQXVnLTI0IDE2OjUwOjI2IEdNVDsgZG9tYWluPS5wcm8uY29pbmJhc2UuY29tOyBIdHRwT25seTsgU2VjdXJlOyBTYW1lU2l0ZT1Ob25lIl0sICJTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5IjogWyJtYXgtYWdlPTE1NTUyMDAwOyBpbmNsdWRlU3ViRG9tYWlucyJdLCAiVmFyeSI6IFsiQWNjZXB0LUVuY29kaW5nIl0sICJYLUNvbnRlbnQtVHlwZS1PcHRpb25zIjogWyJub3NuaWZmIl0sICJYLURucy1QcmVmZXRjaC1Db250cm9sIjogWyJvZmYiXSwgIlgtRG93bmxvYWQtT3B0aW9ucyI6IFsibm9vcGVuIl0sICJYLUZyYW1lLU9wdGlvbnMiOiBbIlNBTUVPUklHSU4iXSwgIlgtWHNzLVByb3RlY3Rpb24iOiBbIjE7IG1vZGU9YmxvY2siXX19fQ=="
+    }
+}
